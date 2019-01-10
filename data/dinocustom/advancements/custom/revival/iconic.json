@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_dye"
+        },
+        "title": "Iconic Four",
+        "description": "Create the four famous raptors from the Jurassic World franchise",
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/hybridization",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

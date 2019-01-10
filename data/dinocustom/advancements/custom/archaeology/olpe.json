@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe",
+			"nbt": "{Damage:11}"
+        },
+        "title": "Olpe",
+        "description": "Restore a ancient Olpe!",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/archaeology/pottery",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

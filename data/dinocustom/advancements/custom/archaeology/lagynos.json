@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe",
+			"nbt": "{Damage:6}"
+        },
+        "title": "Lagynos",
+        "description": "Restore a ancient Lagynos!",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/archaeology/pottery",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

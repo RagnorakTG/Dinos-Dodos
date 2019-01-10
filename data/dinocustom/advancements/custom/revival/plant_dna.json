@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lime_dye"
+        },
+        "title": "Plant? DNA?",
+        "description": "Extract your first piece of Plant DNA!"
+    },
+    "parent": "dinocustom:custom/revival/extraction",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+			"nbt": "{Damage:16}"
+        },
+        "title": "The Tiny",
+        "description": "Create and hatch a Compsognathus",
+    "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/baby_steps",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

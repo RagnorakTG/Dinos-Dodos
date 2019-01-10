@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe",
+			"nbt": "{Damage:3}"
+        },
+        "title": "Epichyses",
+        "description": "Restore a ancient Epichyses!",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/archaeology/pottery",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

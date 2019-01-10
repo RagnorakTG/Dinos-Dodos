@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe",
+			"nbt": "{Damage:9}"
+        },
+        "title": "Mastos",
+        "description": "Restore a ancient Mastos!",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/archaeology/pottery",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

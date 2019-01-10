@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block"
+        },
+        "title": "Paleontology",
+        "description": "Reviving dinosaurs hard? I think not!",
+        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

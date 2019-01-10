@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe",
+			"nbt": "{Damage:12}"
+        },
+        "title": "Ovoid Amphora",
+        "description": "Restore a ancient Ovoid Amphora!",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/archaeology/pottery",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_gray_dye"
+        },
+        "title": "Prehistoric DNA",
+        "description": "Extract your first piece of Prehistoric DNA!"
+    },
+    "parent": "dinocustom:custom/revival/extraction",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}
