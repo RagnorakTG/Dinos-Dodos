@@ -10,7 +10,6 @@
 
 execute at @a run fill ~5 1 ~5 ~-5 1 ~-5 bedrock
 execute at @e[type=minecraft:armor_stand,tag=generate_fossil] unless block ~ 0 ~ minecraft:petrified_oak_slab[type=top] run fill ~15 0 ~15 ~-15 0 ~-15 minecraft:petrified_oak_slab[type=top]
-scoreboard objectives add generate_y dummy
 scoreboard players add where generate_y 1
 execute if score where generate_y matches 32.. run scoreboard players set where generate_y 0
 scoreboard objectives add petrified_drop minecraft.dropped:minecraft.petrified_oak_slab
