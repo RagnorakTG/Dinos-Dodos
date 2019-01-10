@@ -10,7 +10,7 @@ scoreboard objectives add Needs dummy
 scoreboard objectives add Reproduction dummy
 scoreboard objectives add Sleep dummy
 scoreboard objectives add Thirst dummy
-scoreboard objective set Grow Toggles 2
+scoreboard objectives set Grow Toggles 2
 scoreboard players set Eggs Toggles 2
 scoreboard players set Excrete Toggles 2
 scoreboard players set Happiness Toggles 2
