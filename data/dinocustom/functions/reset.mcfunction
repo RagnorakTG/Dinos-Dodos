@@ -43,3 +43,11 @@ scoreboard objectives add EggAmmount dummy
 scoreboard objectives add Tired dummy
 scoreboard objectives add Rest dummy
 scoreboard objectives add Reproduce dummy
+# - install
+tellraw @p ["",{"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}]
+tellraw @p ["",{"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}]
+tellraw @p ["",{"text":"Dev Team:","color":"aqua"}]
+tellraw @p ["",{"text":"_Ragnorak_ [Lead Developer]","color":"red"}]
+tellraw @p ["",{"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}]
+tellraw @p ["",{"text":"iNkoR_the_2nd [Artist]","color":"yellow"}]
+tellraw @p ["",{"text":"TheNuclearNexus [Coder]","color":"gold"}]
