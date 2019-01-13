@@ -1,33 +1,40 @@
+# - Misc.
+scoreboard objectives add Facing dummy
 # - Toggles
-scoreboard objectives add Eggs dummy
-scoreboard objectives add Excrete dummy
-scoreboard objectives add Happiness dummy
-scoreboard objectives add Hunger dummy
-scoreboard objectives add Hunting dummy
-scoreboard objectives add Illness dummy
-scoreboard objectives add Life dummy
-scoreboard objectives add Needs dummy
-scoreboard objectives add Reproduction dummy
-scoreboard objectives add Sleep dummy
-scoreboard objectives add Thirst dummy
-scoreboard objectives add Grow dummy
-scoreboard players set Eggs Toggles 2
-scoreboard players set Excrete Toggles 2
-scoreboard players set Happiness Toggles 2
-scoreboard players set Hunger Toggles 2
-scoreboard players set Hunting Toggles 2
-scoreboard players set Illness Toggles 2
-scoreboard players set Life Toggles 2
-scoreboard players set Needs Toggles 2
-scoreboard players set Reproduction Toggles 2
-scoreboard players set Sleep Toggles 2
-scoreboard players set Thirst Toggles 2
-scoreboard players set Grow Toggles 2
+scoreboard objectives add Egg_Toggle dummy
+scoreboard objectives add Excrete_Toggle dummy
+scoreboard objectives add Happiness_Toggle dummy
+scoreboard objectives add Hunger_Toggle dummy
+scoreboard objectives add Hunting_Toggle dummy
+scoreboard objectives add Ill_Toggle dummy
+scoreboard objectives add Life_Toggle dummy
+scoreboard objectives add Needs_Toggle dummy
+scoreboard objectives add Reproduct_Toggle dummy
+scoreboard objectives add Sleep_Toggle dummy
+scoreboard objectives add Thirst_Toggle dummy
+scoreboard objectives add Grow_Toggle dummy
+scoreboard players set Egg_Toggle Toggles 2
+scoreboard players set Excrete_Toggle Toggles 2
+scoreboard players set Happiness_Toggle Toggles 2
+scoreboard players set Hunger_Toggle Toggles 2
+scoreboard players set Hunting_Toggle Toggles 2
+scoreboard players set Ill_Toggle Toggles 2
+scoreboard players set Life_Toggle Toggles 2
+scoreboard players set Needs_Toggle Toggles 2
+scoreboard players set Reproduct_Toggle Toggles 2
+scoreboard players set Sleep_Toggle Toggles 2
+scoreboard players set Thirst_Toggle Toggles 2
+scoreboard players set Grow_Toggle Toggles 2
 # - Ore Gen
 scoreboard objectives add generate_y dummy
 # - Crafting
-
+scoreboard objectives add Milk_Supply dummy
+scoreboard objectives add FishTrough dummy
+scoreboard objectives add MeatTrough dummy
+scoreboard objectives add PlantTrough dummy
 # - AI's
+scoreboard objectives add Time dummy
+scoreboard objectives add Age dummy
 scoreboard objectives add Hunger dummy
 scoreboard objectives add Hungry dummy
 scoreboard objectives add Eat dummy
