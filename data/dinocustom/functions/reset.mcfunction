@@ -1,5 +1,8 @@
 # - Misc.
 scoreboard objectives add Facing dummy
+scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
+scoreboard objectives add math_rng dummy
+
 # - Toggles
 scoreboard objectives add Egg_Toggle dummy
 scoreboard objectives add Excrete_Toggle dummy
@@ -38,6 +41,7 @@ scoreboard objectives add Age dummy
 scoreboard objectives add Hunger dummy
 scoreboard objectives add Hungry dummy
 scoreboard objectives add Eat dummy
+scoreboard objectives add WantHunt dummy
 scoreboard objectives add Hunt dummy
 scoreboard objectives add Ill dummy
 scoreboard objectives add Walk dummy
@@ -50,11 +54,18 @@ scoreboard objectives add EggAmmount dummy
 scoreboard objectives add Tired dummy
 scoreboard objectives add Rest dummy
 scoreboard objectives add Reproduce dummy
+scoreboard objectives add WalkHome dummy
+scoreboard objectives add GiveUp dummy
+scoreboard objectives add Size dummy
+scoreboard objectives add Happiness dummy
+scoreboard objectives add Gain_Happiness dummy
+scoreboard objectives add Sleeping dummy
+scoreboard objectives add Actual_Sleep dummy
 # - install
-tellraw @p ["",{"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}]
-tellraw @p ["",{"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}]
-tellraw @p ["",{"text":"Dev Team:","color":"aqua"}]
-tellraw @p ["",{"text":"_Ragnorak_ [Lead Developer]","color":"red"}]
-tellraw @p ["",{"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}]
-tellraw @p ["",{"text":"iNkoR_the_2nd [Artist]","color":"yellow"}]
-tellraw @p ["",{"text":"TheNuclearNexus [Coder]","color":"gold"}]
+tellraw @a ["",{"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}]
+tellraw @a ["",{"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}]
+tellraw @a ["",{"text":"Dev Team:","color":"aqua"}]
+tellraw @a ["",{"text":"_Ragnorak_ [Lead Developer]","color":"red"}]
+tellraw @a ["",{"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}]
+tellraw @a ["",{"text":"iNkoR_the_2nd [Artist]","color":"yellow"}]
+tellraw @a ["",{"text":"TheNuclearNexus [Coder]","color":"gold"}]
