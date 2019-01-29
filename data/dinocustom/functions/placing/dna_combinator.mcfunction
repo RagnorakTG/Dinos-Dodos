@@ -1,4 +1,4 @@
-execute as @s[name="DNA Combinator"] run setblock ~ ~ ~ dispenser[facing=up]{CustomName:"{\"text\":\"DNA Combinator\"}"}
+execute as @s[name="DNA Combinator"] run setblock ~ ~ ~ barrel[facing=up]{CustomName:"{\"text\":\"DNA Combinator\"}"}
 execute as @s[name="DNA Combinator"] if entity @p[distance=..5,scores={Facing=1..1}] run summon armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["dna_combinator","north"]}
 execute as @s[name="DNA Combinator"] if entity @p[distance=..5,scores={Facing=2..2}] run summon armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["dna_combinator","east"]}
 execute as @s[name="DNA Combinator"] if entity @p[distance=..5,scores={Facing=3..3}] run summon armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["dna_combinator","south"]}
