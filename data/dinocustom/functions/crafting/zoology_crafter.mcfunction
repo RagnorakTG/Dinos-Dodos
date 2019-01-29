@@ -17,7 +17,6 @@ execute as @s[tag=zoology_crafter] if block ~ ~ ~ air run kill @s
 
 #GUI
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.0 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:7}
-execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.18 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:8}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.4 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.5 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.6 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
@@ -28,6 +27,7 @@ execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem b
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.14 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.16 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.17 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
+execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.18 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:8}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.22 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.23 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.24 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
