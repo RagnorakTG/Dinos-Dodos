@@ -6,7 +6,7 @@ execute as @s[tag=dna_extractor] if block ~ ~ ~ air run summon item ~ ~1 ~ {Cust
 execute as @s[tag=dna_extractor] if block ~ ~ ~ air run kill @s
 
 #GUI
-execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.0 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:11}
+execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.0 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:15}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.1 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.2 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.3 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
@@ -22,7 +22,7 @@ execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem blo
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.14 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.16 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.17 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
-execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.18 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:12}
+execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.18 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:16}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.19 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.20 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[tag=dna_extractor] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.21 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
