@@ -1,3 +1,5 @@
+#DNA Extractor
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 1b, id: "minecraft:iron_ingot", Count: 1b}, {Slot: 2b, id: "minecraft:redstone", Count: 1b}, {Slot: 3b, id: "minecraft:iron_ingot", Count: 1b}, {Slot: 10b, id: "minecraft:redstone", Count: 1b}, {Slot: 11b, id: "minecraft:green_stained_glass", Count: 1b}, {Slot: 12b, id: "minecraft:redstone", Count: 1b}, {Slot: 19b, id: "minecraft:iron_ingot", Count: 1b}, {Slot: 20b, id: "minecraft:redstone", Count: 1b}, {Slot: 21b, id: "minecraft:iron_ingot", Count: 1b}], id: "minecraft:barrel"} run data merge block ~ ~ ~ {CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 15b, id: "minecraft:armor_stand", Count: 1b, tag: {CustomModelData: 7, display: {Name: "{\"text\":\"DNA Extractor\",\"color\":\"white\",\"italic\":\"false\"}"}, EntityTag: {NoGravity: 1b, CustomName: "{\"text\":\"DNA Extractor\",\"color\":\"white\",\"italic\":\"false\"}", Invulnerable: 1b, Invisible: 1b, CustomNameVisible: 1b}}}], id: "minecraft:barrel"}
 #Advanced DNA Combinator
 execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
 #Analyzer
@@ -13,8 +15,6 @@ execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"Zoology Crafte
 execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
 #DNA Combinator
 execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-#DNA Extractor
-execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 1b, id: "minecraft:iron_ingot", Count: 1b}, {Slot: 2b, id: "minecraft:redstone", Count: 1b}, {Slot: 3b, id: "minecraft:iron_ingot", Count: 1b}, {Slot: 10b, id: "minecraft:redstone", Count: 1b}, {Slot: 11b, id: "minecraft:green_stained_glass", Count: 1b}, {Slot: 12b, id: "minecraft:redstone", Count: 1b}, {Slot: 19b, id: "minecraft:iron_ingot", Count: 1b}, {Slot: 20b, id: "minecraft:redstone", Count: 1b}, {Slot: 21b, id: "minecraft:iron_ingot", Count: 1b}], id: "minecraft:barrel"} run data merge block ~ ~ ~ {CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 15b, id: "minecraft:armor_stand", Count: 1b, tag: {CustomModelData: 7, display: {Name: "{\"text\":\"DNA Extractor\",\"color\":\"white\",\"italic\":\"false\"}"}, EntityTag: {NoGravity: 1b, CustomName: "{\"text\":\"DNA Extractor\",\"color\":\"white\",\"italic\":\"false\"}", Invulnerable: 1b, Invisible: 1b, CustomNameVisible: 1b}}}], id: "minecraft:barrel"}
 #Food Trough
 execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
 execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
