@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Amurosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Anylosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Ankylosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:5}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Apatosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:5}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Apatosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:6}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Arambourgiania Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:6}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Arambourgiania Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:7}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Argentinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:7}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Archaeopteryx Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:8}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Austroraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:8}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Argentinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:9}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Balaur Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:9}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Austroraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:10}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Baryonyx Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:10}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Balaur Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:11}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carchardontosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:11}"
             }
           ]
         },
@@ -131,7 +131,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Baryonyx Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:12}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carnotsaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:12}"
             }
           ]
         },
@@ -142,7 +142,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Brachiosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:13}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Ceratosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:13}"
             }
           ]
         },
@@ -153,7 +153,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carchardontosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:14}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Compsognathus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:14}"
             }
           ]
         },
@@ -164,7 +164,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carnotaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:15}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Concavenator Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:15}"
             }
           ]
         },
@@ -175,7 +175,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Ceratosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:16}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Confuciusornis Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:16}"
             }
           ]
         },
@@ -186,7 +186,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Compsognathus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:17}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Corythosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:17}"
             }
           ]
         },
@@ -197,7 +197,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Concavenator Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:18}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Deinonychus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:18}"
             }
           ]
         },
@@ -208,7 +208,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Confuciusornis Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:19}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dilophosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:19}"
             }
           ]
         },
@@ -219,7 +219,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Corythosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:20}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dimorphodon Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:20}"
             }
           ]
         },
@@ -230,7 +230,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Deinonychus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:21}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Diplodocus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:21}"
             }
           ]
         },
@@ -241,7 +241,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dilophosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:22}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dracorex Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:22}"
             }
           ]
         },
@@ -252,7 +252,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dimorphodon Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:23}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dreadnoughtus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:23}"
             }
           ]
         },
@@ -263,7 +263,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Diplodocus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:24}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dryosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:24}"
             }
           ]
         },
@@ -274,7 +274,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dracorex Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:25}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Edmontosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:25}"
             }
           ]
         },
@@ -285,7 +285,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dryosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:26}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gallimimus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:26}"
             }
           ]
         },
@@ -296,7 +296,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Edmontosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:27}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gastonia Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:27}"
             }
           ]
         },
@@ -307,7 +307,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Elaphrosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:28}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giganotosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:28}"
             }
           ]
         },
@@ -318,7 +318,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gallimimus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:29}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giraffatitan Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:29}"
             }
           ]
         },
@@ -329,7 +329,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gastonia Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:30}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Herrerasaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:30}"
             }
           ]
         },
@@ -340,7 +340,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giganotosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:31}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Kentrosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:31}"
             }
           ]
         },
@@ -351,7 +351,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giraffatitan Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:32}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Koolasuchus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:32}"
             }
           ]
         },
@@ -362,7 +362,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gorgosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:33}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Maiasaura Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:33}"
             }
           ]
         },
@@ -373,7 +373,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Herrerasaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:34}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Megapnosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:34}"
             }
           ]
         },
@@ -384,7 +384,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Koolasuchus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:35}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Microraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:35}"
             }
           ]
         },
@@ -395,7 +395,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Maiasaura Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:36}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Monolophosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:36}"
             }
           ]
         },
@@ -406,7 +406,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Megapnosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:37}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Nasutoceratops Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:37}"
             }
           ]
         },
@@ -417,7 +417,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Microraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:38}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Nigersaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:38}"
             }
           ]
         },
@@ -428,7 +428,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Monolophosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:39}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Olorotitan Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:39}"
             }
           ]
         },
@@ -439,7 +439,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Nasutoceratops Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:40}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oviraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:40}"
             }
           ]
         },
@@ -450,7 +450,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Nigersaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:41}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pachycephalosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:41}"
             }
           ]
         },
@@ -461,7 +461,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oviraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:42}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pachyrhinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:42}"
             }
           ]
         },
@@ -472,7 +472,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pachycephalosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:43}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Parasaurolophus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:43}"
             }
           ]
         },
@@ -483,7 +483,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pachyrhinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:44}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Protoceratops Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:44}"
             }
           ]
         },
@@ -494,7 +494,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Parasaurolophus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:45}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pteranodon Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:45}"
             }
           ]
         },
@@ -505,7 +505,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Protoceratops Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:46}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Quetzalcoatlus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:46}"
             }
           ]
         },
@@ -516,7 +516,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pteranodon Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:47}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Rajasaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:47}"
             }
           ]
         },
@@ -527,7 +527,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Quetzalcoatlus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:48}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sarchosuchus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:48}"
             }
           ]
         },
@@ -538,7 +538,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sarchosuchus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:49}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Segisaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:49}"
             }
           ]
         },
@@ -549,7 +549,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Segisaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:50}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Spinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:50}"
             }
           ]
         },
@@ -560,7 +560,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Spinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:51}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Stegosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:51}"
             }
           ]
         },
@@ -571,7 +571,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Stegosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:52}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Stygimoloch Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:52}"
             }
           ]
         },
@@ -582,7 +582,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Stygimoloch Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:53}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Suchomimus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:53}"
             }
           ]
         },
@@ -593,7 +593,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Suchomimus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:54}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tapejara Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:54}"
             }
           ]
         },
@@ -604,7 +604,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tapejara Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:55}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Therizinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:55}"
             }
           ]
         },
@@ -615,7 +615,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Therizinosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:56}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Triceratops Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:56}"
             }
           ]
         },
@@ -626,7 +626,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Triceratops Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:57}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tsintaosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:57}"
             }
           ]
         },
@@ -637,7 +637,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tsintaosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:58}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tyrannosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:58}"
             }
           ]
         },
@@ -648,7 +648,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tyrannosaurus Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:59}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Utahraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:59}"
             }
           ]
         },
@@ -659,18 +659,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Utahraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:60}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Velociraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:61}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Velociraptor Bone\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:60}"
             }
           ]
         },
