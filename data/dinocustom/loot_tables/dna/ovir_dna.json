@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oviraptor DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:39}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oviraptor DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:40}"
             }
           ]
         },

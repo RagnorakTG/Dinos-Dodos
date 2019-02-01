@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Therizinosaurus DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:54}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Therizinosaurus DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:55}"
             }
           ]
         },

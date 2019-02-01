@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Protoceratops DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:43}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Protoceratops DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:44}"
             }
           ]
         },
