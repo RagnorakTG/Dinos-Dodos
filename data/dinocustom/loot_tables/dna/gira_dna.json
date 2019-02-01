@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giraffatitan DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:32}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giraffatitan DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:28}"
             }
           ]
         },

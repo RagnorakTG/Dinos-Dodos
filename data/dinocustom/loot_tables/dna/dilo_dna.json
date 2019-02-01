@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dilophosaurus DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:22}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dilophosaurus DNA\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:18}"
             }
           ]
         },
