@@ -13,4 +13,4 @@ execute as @e[tag=velociraptor] run function dinocustom:ai/velociraptor/velo_nee
 execute as @e[tag=velociraptor] run function dinocustom:ai/velociraptor/velo_reproduction
 
 #Size
-execute as @e[tag=velociraptor] run scoreboard players set @s Size 2
+execute as @e[tag=velociraptor] run scoreboard players set @s Size 10
