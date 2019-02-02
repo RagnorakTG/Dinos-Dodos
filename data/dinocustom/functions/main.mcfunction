@@ -28,7 +28,7 @@ scoreboard players reset @a[scores={Use_ArmSta=1..}] Use_ArmSta
 
 execute as @a store result score @s SelItemSlot run data get entity @s SelectedItemSlot
 
-# - You shouldnt have this
+# - Clear
 clear @a barrier{CustomModelData:1}
 clear @a beacon{CustomModelData:1}
 clear @a beacon{CustomModelData:2}

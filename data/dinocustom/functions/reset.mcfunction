@@ -2,6 +2,7 @@
 scoreboard objectives add Facing dummy
 scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add math_rng dummy
+scoreboard objectives add spawn_ore dummy
 
 # - Toggles
 scoreboard objectives add Egg_Toggle dummy
