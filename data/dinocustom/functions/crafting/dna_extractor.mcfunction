@@ -1,6 +1,7 @@
 
 execute as @s[tag=dna_extractor,tag=!replaced] run replaceitem entity @s armor.head minecraft:armor_stand{CustomModelData:7}
 execute as @s[tag=dna_extractor,tag=!replaced] run tag @s add replaced
+execute as @s[tag=dna_extractor] at @s run function dinocustom:crafting/recipes/dna_extractor
 execute as @s[tag=dna_extractor] if block ~ ~ ~ air run kill @e[type=item,distance=..0.9,nbt={Item:{id:"minecraft:barrel",Count:1b}}]
 execute as @s[tag=dna_extractor] if block ~ ~ ~ air run kill @e[type=item,distance=..0.9,nbt={Item:{id:"minecraft:beacon",Count:1b}}]
 execute as @s[tag=dna_extractor] if block ~ ~ ~ air run kill @e[type=item,distance=..0.9,nbt={Item:{id:"minecraft:barrier",Count:1b}}]

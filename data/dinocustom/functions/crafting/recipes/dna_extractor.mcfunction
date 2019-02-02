@@ -3,19 +3,24 @@
 #Acrocanthosaurus
 execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 1, display: {Name: "{\"translate\":\"Acrocanthosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/acro_dna
 execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 1, display: {Name: "{\"translate\":\"Acrocanthosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
-
 #Allosaurus
-
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 2, display: {Name: "{\"translate\":\"Allosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/allo_dna
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 2, display: {Name: "{\"translate\":\"Allosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
 #Amargosaurus
-
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 3, display: {Name: "{\"translate\":\"Amargosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/amar_dna
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 3, display: {Name: "{\"translate\":\"Amargosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
 #Ankylosaurus
-
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 4, display: {Name: "{\"translate\":\"Ankylosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/anky_dna
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 4, display: {Name: "{\"translate\":\"Ankylosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
 #Apatosaurus
-
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 5, display: {Name: "{\"translate\":\"Apatosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/apat_dna
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 5, display: {Name: "{\"translate\":\"Apatosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
 #Arambourgiania
-
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 6, display: {Name: "{\"translate\":\"Arambourgiania Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/aram_dna
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 6, display: {Name: "{\"translate\":\"Arambourgiania Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
 #Argentinosaurus
-
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 7, display: {Name: "{\"translate\":\"Argentinosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run loot replace block ~ ~ ~ container.15 loot dinocustom:dna/arge_dna
+execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"DNA Extractor\"}", Items: [{Slot: 11b, id: "minecraft:bone", Count: 1b, tag: {CustomModelData: 7, display: {Name: "{\"translate\":\"Argentinosaurus Bone\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"} run replaceitem block ~ ~ ~ container.11 air
 #Austroraptor
 
 #Balaur
