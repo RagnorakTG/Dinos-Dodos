@@ -2,31 +2,6 @@
 scoreboard objectives add Facing dummy
 scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add math_rng dummy
-# - Toggles
-scoreboard objectives add Egg_Toggle dummy
-scoreboard objectives add Excrete_Toggle dummy
-scoreboard objectives add Happiness_Toggle dummy
-scoreboard objectives add Hunger_Toggle dummy
-scoreboard objectives add Hunting_Toggle dummy
-scoreboard objectives add Ill_Toggle dummy
-scoreboard objectives add Life_Toggle dummy
-scoreboard objectives add Needs_Toggle dummy
-scoreboard objectives add Reproduct_Toggle dummy
-scoreboard objectives add Sleep_Toggle dummy
-scoreboard objectives add Thirst_Toggle dummy
-scoreboard objectives add Grow_Toggle dummy
-scoreboard players set Egg_Toggle Toggles 2
-scoreboard players set Excrete_Toggle Toggles 2
-scoreboard players set Happiness_Toggle Toggles 2
-scoreboard players set Hunger_Toggle Toggles 2
-scoreboard players set Hunting_Toggle Toggles 2
-scoreboard players set Ill_Toggle Toggles 2
-scoreboard players set Life_Toggle Toggles 2
-scoreboard players set Needs_Toggle Toggles 2
-scoreboard players set Reproduct_Toggle Toggles 2
-scoreboard players set Sleep_Toggle Toggles 2
-scoreboard players set Thirst_Toggle Toggles 2
-scoreboard players set Grow_Toggle Toggles 2
 # - Ore Gen
 scoreboard objectives add spawn_ore dummy
 # - Crafting
