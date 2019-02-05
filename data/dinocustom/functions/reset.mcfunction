@@ -37,6 +37,8 @@ scoreboard objectives add Food_Ammount dummy
 scoreboard objectives add Max_Bordem dummy
 scoreboard objectives add Current_Bored dummy
 scoreboard objectives add Current_Happines dummy
+scoreboard objectives add Multipliers dummy
+scoreboard objectives add Speed dummy
 # - install
 tellraw @a ["",{"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}]
 tellraw @a ["",{"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}]
