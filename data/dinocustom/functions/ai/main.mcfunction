@@ -32,5 +32,5 @@ scoreboard players set @e[tag=velociraptor] Height 1
 scoreboard players set @e[tag=velociraptor] Length 3
 scoreboard players set @e[tag=velociraptor] Width 1
 scoreboard players set @e[tag=velociraptor] Head_Height 1
-scoreboard players set @e[tag=giraffatitan] Max_Group 6
-scoreboard players set @e[tag=giraffatitan] Min_Group 3
+scoreboard players set @e[tag=velociraptor] Max_Group 6
+scoreboard players set @e[tag=velociraptor] Min_Group 3
