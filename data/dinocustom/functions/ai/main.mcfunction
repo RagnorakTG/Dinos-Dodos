@@ -8,7 +8,7 @@
 #                  #
 ####################
 
-execute as @e[tag=dinosaur] at @s run function dinocustom:at/ai_compnenets/ai_calculations
+execute as @e[tag=dinosaur] at @s run function dinocustom:ai/ai_compnenets/ai_calculations
 # - Time System
 execute store result score Time Time run time query daytime
 # - Age System
