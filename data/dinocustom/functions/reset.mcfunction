@@ -37,31 +37,32 @@ scoreboard objectives add FishTrough dummy
 scoreboard objectives add MeatTrough dummy
 scoreboard objectives add PlantTrough dummy
 # - AI's
-scoreboard objectives add Time dummy
-scoreboard objectives add Age dummy
-scoreboard objectives add Hunger dummy
-scoreboard objectives add Hungry dummy
-scoreboard objectives add Eat dummy
-scoreboard objectives add WantHunt dummy
-scoreboard objectives add Hunt dummy
-scoreboard objectives add Ill dummy
-scoreboard objectives add Walk dummy
-scoreboard objectives add ShouldWalk dummy
-scoreboard objectives add Rotate dummy
-scoreboard objectives add Excrete dummy
-scoreboard objectives add Toggles dummy
-scoreboard objectives add HatchEggs dummy
-scoreboard objectives add EggAmmount dummy
-scoreboard objectives add Tired dummy
-scoreboard objectives add Rest dummy
+scoreboard objectives add Height dummy
+scoreboard objectives add Length dummy
+scoreboard objectives add Width dummy
+scoreboard objectives add Weight dummy
+scoreboard objectives add Temperament dummy
+scoreboard objectives add Head_Height dummy
+scoreboard objectives add Immune_System dummy
+scoreboard objectives add Food_Source dummy
 scoreboard objectives add Reproduce dummy
-scoreboard objectives add WalkHome dummy
-scoreboard objectives add GiveUp dummy
-scoreboard objectives add Size dummy
-scoreboard objectives add Happiness dummy
-scoreboard objectives add Gain_Happiness dummy
-scoreboard objectives add Sleeping dummy
-scoreboard objectives add Actual_Sleep dummy
+scoreboard objectives add Max_Group dummy
+scoreboard objectives add Min_Group dummy
+scoreboard objectives add Max_Food dummy
+scoreboard objectives add Current_Food dummy
+scoreboard objectives add Max_Speed dummy
+scoreboard objectives add Min_Speed dummy
+scoreboard objectives add Max_Call dummy
+scoreboard objectives add Current_Call dummy
+scoreboard objectives add Sleep dummy
+scoreboard objectives add In_Grounds dummy
+scoreboard objectives add Grounds_Size dummy
+scoreboard objectives add Dinosaur_Health dummy
+scoreboard objectives add Is_Food dummy
+scoreboard objectives add Food_Ammount dummy
+scoreboard objectives add Max_Bordem dummy
+scoreboard objectives add Current_Bored dummy
+scoreboard objectives add Current_Happines dummy
 # - install
 tellraw @a ["",{"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}]
 tellraw @a ["",{"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}]
