@@ -2,8 +2,6 @@
 scoreboard objectives add Facing dummy
 scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add math_rng dummy
-scoreboard objectives add spawn_ore dummy
-
 # - Toggles
 scoreboard objectives add Egg_Toggle dummy
 scoreboard objectives add Excrete_Toggle dummy
@@ -30,12 +28,13 @@ scoreboard players set Sleep_Toggle Toggles 2
 scoreboard players set Thirst_Toggle Toggles 2
 scoreboard players set Grow_Toggle Toggles 2
 # - Ore Gen
-scoreboard objectives add generate_y dummy
+scoreboard objectives add spawn_ore dummy
 # - Crafting
 scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy
 scoreboard objectives add MeatTrough dummy
 scoreboard objectives add PlantTrough dummy
+scoreboard objectives add Facing dummy
 # - AI's
 scoreboard objectives add Height dummy
 scoreboard objectives add Length dummy
