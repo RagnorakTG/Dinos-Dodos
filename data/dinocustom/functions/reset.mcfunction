@@ -15,7 +15,6 @@ scoreboard objectives add Height dummy
 scoreboard objectives add Length dummy
 scoreboard objectives add Width dummy
 scoreboard objectives add Weight dummy
-scoreboard objectives add Weight_Biproduct dummy
 scoreboard objectives add Temperament dummy
 scoreboard objectives add Head_Height dummy
 scoreboard objectives add Immune_System dummy
