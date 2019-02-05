@@ -8,6 +8,7 @@
 #                  #
 ####################
 
+execute as @e[tag=dinosaur] at @s run function dinocustom:at/ai_compnenets/ai_calculations
 # - Time System
 execute store result score Time Time run time query daytime
 # - Age System
@@ -21,4 +22,7 @@ function dinocustom:ai/giraffatitan
 # - Spinosaurus
 function dinocustom:ai/spinosaurus
 # - Velociraptor
-function dinocustom:ai/velociraptor/velo_main
+scoreboard players set @e[tag=velociraptor] Height 1
+scoreboard players set @e[tag=velociraptor] Length 3
+scoreboard players set @e[tag=velociraptor] Width 1
+scoreboard players set @e[tag=velociraptor] Head_Height 1
