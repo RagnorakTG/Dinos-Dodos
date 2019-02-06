@@ -10,6 +10,7 @@ scoreboard players set Weight_Multiply Multipliers 2
 scoreboard players set @s[tag=dinosaur] Max_Food 0
 execute store result score @s[tag=dinosaur] Max_Food run scoreboard players get @s[tag=dinosaur] Weight
 scoreboard players operation @s[tag=dinosaur] Max_Food *= Weight_Multiply Multipliers
+execute if score @s[tag=dinosaur] Current_Food > @s Max_Food store result score @s Current_Food run scoreboard players get @s Max_Food
 #Walking Calculations
 execute if score @s[tag=dinosaur] Weight matches 1..5 run scoreboard players set @s Max_Speed 3
 execute if score @s[tag=dinosaur] Weight matches 6..10 run scoreboard players set @s Max_Speed 4
@@ -36,3 +37,6 @@ scoreboard players set Group_Multiply Multipliers 3
 #Happiness
 scoreboard players set @s[tag=dinosaur,scores={Current_Happines=100..}] Current_Happines 0
 #Assign ID
+
+#Hitbox
+execute as @s[tag=dinosaur] run function dinocustom:ai/ai_components/hitbox_ai

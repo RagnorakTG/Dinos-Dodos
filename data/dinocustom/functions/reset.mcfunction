@@ -42,6 +42,13 @@ scoreboard objectives add Speed dummy
 scoreboard objectives add Walk dummy
 scoreboard objectives add Rotate dummy
 scoreboard objectives add ShouldWalk dummy
+scoreboard objectives add Half_Length dummy
+scoreboard objectives add Half_Width dummy
+scoreboard objectives add Touch_front dummy
+scoreboard objectives add Touch_back dummy
+scoreboard objectives add Touch_left dummy
+scoreboard objectives add Touch_right dummy
+scoreboard objectives add Touch_top dummy
 scoreboard objectives add Dinosaur_ID dummy
 # - Vehicles
 scoreboard objectives add jeep.id dummy
