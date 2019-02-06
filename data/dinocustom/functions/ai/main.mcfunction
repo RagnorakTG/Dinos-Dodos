@@ -18,6 +18,8 @@ execute if score Time Time matches 1000 run scoreboard players add @e[tag=dinosa
 
 # - Giraffatitan
 execute as @e[tag=giraffatitan] run tag @s add dinosaur
+execute as @e[tag=giraffatitan] run tag @s add herbivore
+execute as @e[tag=giraffatitan] run tag @s add passive
 scoreboard players set @e[tag=giraffatitan] Height 16
 scoreboard players set @e[tag=giraffatitan] Length 16
 scoreboard players set @e[tag=giraffatitan] Width 5
@@ -28,6 +30,8 @@ scoreboard players set @e[tag=giraffatitan] Min_Group 3
 function dinocustom:ai/spinosaurus
 # - Velociraptor
 execute as @e[tag=velociraptor] run tag @s add dinosaur
+execute as @e[tag=velociraptor] run tag @s add carnivore
+execute as @e[tag=velociraptor] run tag @s add social
 scoreboard players set @e[tag=velociraptor] Height 1
 scoreboard players set @e[tag=velociraptor] Length 3
 scoreboard players set @e[tag=velociraptor] Width 1

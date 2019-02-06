@@ -42,6 +42,7 @@ scoreboard objectives add Speed dummy
 scoreboard objectives add Walk dummy
 scoreboard objectives add Rotate dummy
 scoreboard objectives add ShouldWalk dummy
+scoreboard objectives add Dinosaur_ID dummy
 # - Vehicles
 scoreboard objectives add jeep.id dummy
 scoreboard objectives add jeep.trunk_id dummy
