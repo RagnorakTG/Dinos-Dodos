@@ -49,6 +49,8 @@ scoreboard objectives add Touch_back dummy
 scoreboard objectives add Touch_left dummy
 scoreboard objectives add Touch_right dummy
 scoreboard objectives add Touch_top dummy
+scoreboard objectives add Schedule dummy
+scoreboard objectives add SleepTime dummy
 scoreboard objectives add Dinosaur_ID dummy
 # - Vehicles
 scoreboard objectives add jeep.id dummy

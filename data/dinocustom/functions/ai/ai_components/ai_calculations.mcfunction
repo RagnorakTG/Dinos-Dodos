@@ -37,6 +37,3 @@ scoreboard players set Group_Multiply Multipliers 3
 #Happiness
 scoreboard players set @s[tag=dinosaur,scores={Current_Happines=100..}] Current_Happines 0
 #Assign ID
-
-#Hitbox
-execute as @s[tag=dinosaur] run function dinocustom:ai/ai_components/hitbox_ai

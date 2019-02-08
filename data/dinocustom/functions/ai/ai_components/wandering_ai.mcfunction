@@ -51,3 +51,5 @@ execute as @s[tag=dinosaur,scores={Rotate=91..100}] at @s run tp @s ~ ~ ~ ~0 0
 #Reset
 tag @s[tag=dinosaur] remove walk
 tag @s[tag=dinosaur] remove rotate
+
+#Stop
