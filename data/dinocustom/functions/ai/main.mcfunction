@@ -23,6 +23,7 @@ execute if score Time Time matches 1000 run scoreboard players add @e[tag=dinosa
 execute as @e[tag=giraffatitan] run tag @s add dinosaur
 execute as @e[tag=giraffatitan] run tag @s add herbivore
 execute as @e[tag=giraffatitan] run tag @s add passive
+execute as @e[tag=giraffatitan] run tag @s add terrestrial
 scoreboard players set @e[tag=giraffatitan] Height 16
 scoreboard players set @e[tag=giraffatitan] Length 16
 scoreboard players set @e[tag=giraffatitan] Width 5
@@ -34,11 +35,21 @@ scoreboard players set @e[tag=giraffatitan] Min_Group 3
 # - Pachycephalosaurus
 
 # - Spinosaurus
-
+execute as @e[tag=spinosaurus] run tag @s add dinosaur
+execute as @e[tag=spinosaurus] run tag @s add piscivore
+execute as @e[tag=spinosaurus] run tag @s add aggresive
+execute as @e[tag=spinosaurus] run tag @s add semi-aquatic
+scoreboard players set @e[tag=spinosaurus] Height 5
+scoreboard players set @e[tag=spinosaurus] Length 13
+scoreboard players set @e[tag=spinosaurus] Width 3
+scoreboard players set @e[tag=spinosaurus] Head_Height 2
+scoreboard players set @e[tag=spinosaurus] Max_Group 3
+scoreboard players set @e[tag=spinosaurus] Min_Group 1
 # - Velociraptor
 execute as @e[tag=velociraptor] run tag @s add dinosaur
 execute as @e[tag=velociraptor] run tag @s add carnivore
 execute as @e[tag=velociraptor] run tag @s add social
+execute as @e[tag=velociraptor] run tag @s add terrestrial
 scoreboard players set @e[tag=velociraptor] Height 1
 scoreboard players set @e[tag=velociraptor] Length 3
 scoreboard players set @e[tag=velociraptor] Width 1
