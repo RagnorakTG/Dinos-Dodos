@@ -1,7 +1,3 @@
-#Invisible
-effect give @s[tag=dinosaur] minecraft:invisibility 1000000 1 true
-#Facing
-execute as @s[tag=dinosaur] at @s run tp @s ~ ~ ~ ~ 0
 #InBlock?
 execute as @s[tag=dinosaur] at @s unless block ~ ~ ~ #minecraft:move_through unless block ~ ~ ~ #minecraft:float run tp @s ~ ~0.1 ~
 #Walking
@@ -51,5 +47,3 @@ execute as @s[tag=dinosaur,scores={Rotate=91..100}] at @s run tp @s ~ ~ ~ ~0 0
 #Reset
 tag @s[tag=dinosaur] remove walk
 tag @s[tag=dinosaur] remove rotate
-
-#Stop

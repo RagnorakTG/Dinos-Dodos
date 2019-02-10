@@ -52,6 +52,8 @@ scoreboard objectives add Touch_top dummy
 scoreboard objectives add Schedule dummy
 scoreboard objectives add SleepTime dummy
 scoreboard objectives add Dinosaur_ID dummy
+scoreboard objectives add Hatch_Time dummy
+scoreboard objectives add Nest_Ammount dummy
 # - Vehicles
 scoreboard objectives add jeep.id dummy
 scoreboard objectives add jeep.trunk_id dummy

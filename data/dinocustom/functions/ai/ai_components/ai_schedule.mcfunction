@@ -9,3 +9,6 @@ execute as @s[tag=dinosaur] at @s if score @s[tag=dinosaur] Schedule matches 2 r
 execute as @s[tag=dinosaur] at @s if score @s[tag=dinosaur] Schedule matches 3 run function dinocustom:ai/ai_components/eating_ai
 #Hunt
 execute as @s[tag=dinosaur] at @s if score @s[tag=dinosaur] Schedule matches 4 run function dinocustom:ai/ai_components/hunting_ai
+#Constant
+execute as @s[tag=dinosaur] at @s run function dinocustom:ai/ai_components/ai_calculations
+execute as @s[tag=dinosaur] at @s run function dinocustom:ai/ai_components/ai_hitbox
