@@ -4,6 +4,9 @@ scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add math_rng dummy
 # - Fossil Gen
 scoreboard objectives add Spawn_Fossil dummy
+scoreboard objectives add Dinosaur_fossil dummy
+scoreboard objectives add Fossil_damage
+scoreboard objectives add Plaster_chance
 # - Crafting
 scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy

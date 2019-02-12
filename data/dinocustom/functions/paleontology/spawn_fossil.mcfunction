@@ -1,18 +1,24 @@
-#spawn fossil
-execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
-execute as @s[type=armor_stand,tag=fossil_formation,tag=!random] at @s run spreadplayers ~ ~ 5 100 false @s
-execute as @s[type=armor_stand,tag=fossil_formation,tag=!random] run tag @s add random
-#randomize fossil
-execute as @s[tag=fossil_formation] run scoreboard players reset out_0 math_rng
-execute as @s[tag=fossil_formation] run scoreboard players set in_0 math_rng 3
-execute as @s[tag=fossil_formation] run function dinocustom:ai/rng
-execute as @s[tag=fossil_formation] run execute store result score @s Spawn_Fossil run scoreboard players get out_0 math_rng
-execute as @s[tag=fossil_formation,tag=!spawned,tag=random,scores={Spawn_Fossil=1}] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil\"}"}
-execute as @s[tag=fossil_formation,tag=!spawned,tag=random,scores={Spawn_Fossil=2}] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil\"}"}
-execute as @s[tag=fossil_formation,tag=!spawned,tag=random,scores={Spawn_Fossil=2}] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil\"}"}
-execute as @s[tag=fossil_formation,tag=!spawned,tag=random,scores={Spawn_Fossil=3}] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil\"}"}
-execute as @s[tag=fossil_formation,tag=!spawned,tag=random,scores={Spawn_Fossil=3}] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil\"}"}
-execute as @s[tag=fossil_formation,tag=!spawned,tag=random,scores={Spawn_Fossil=3}] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil\"}"}
-execute as @s[tag=fossil_formation,tag=!spawned] run tag @s add spawned
-execute as @e[type=armor_stand,tag=fossil,tag=!chosen] at @s run spreadplayers ~ ~ 5 15 false @s
-tag @e[tag=fossil] add chosen
+#spread
+execute as @s[tag=fossil,tag=!random] at @s run spreadplayers ~ ~ 5 15 false @s
+#Determin Dinosaur
+execute as @s[tag=fossil,tag=!randomized] run scoreboard players reset out_0 math_rng
+execute as @s[tag=fossil,tag=!randomized] run scoreboard players set in_0 math_rng 6
+execute as @s[tag=fossil,tag=!randomized] run function dinocustom:ai/rng
+execute as @s[tag=fossil,tag=!randomized] run execute store result score @s Dinosaur_fossil run scoreboard players get out_0 math_rng
+#Ankylosaurus
+execute as @s[tag=fossil,tag=!replaced,scores={Dinosaur_fossil=0}] run replaceitem entity @s armor.head bone_block{CustomModelData:11} 1
+#Giraffatitan
+execute as @s[tag=fossil,tag=!replaced,scores={Dinosaur_fossil=1}] run replaceitem entity @s armor.head bone_block{CustomModelData:83} 1
+#Koolasuchus
+execute as @s[tag=fossil,tag=!replaced,scores={Dinosaur_fossil=2}] run replaceitem entity @s armor.head bone_block{CustomModelData:92} 1
+#Pachycephalosaurus
+execute as @s[tag=fossil,tag=!replaced,scores={Dinosaur_fossil=3}] run replaceitem entity @s armor.head bone_block{CustomModelData:122} 1
+#Spinosaurus
+execute as @s[tag=fossil,tag=!replaced,scores={Dinosaur_fossil=4}] run replaceitem entity @s armor.head bone_block{CustomModelData:149} 1
+#Velociraptor
+execute as @s[tag=fossil,tag=!replaced,scores={Dinosaur_fossil=5}] run replaceitem entity @s armor.head bone_block{CustomModelData:182} 1
+#Tags
+tag @s[tag=fossil,tag=!replaced] add replaced
+execute as @s[tag=fossil,tag=!randomized] run tag @s add randomized
+tag @s[tag=fossil,tag=!random] add random
+effect give @s invisibility 1000000 1 true
