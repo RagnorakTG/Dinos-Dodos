@@ -13,6 +13,7 @@ function dinocustom:ore_generation/main
 function dinocustom:crafting/main
 function dinocustom:ai/main
 function dinocustom:paleontology/main
+function dinocustom:timer
 execute as @e[tag=DnD_Jeep,type=armor_stand] at @s run function dinocustom:transport/main
 execute as @e[name="Spawn Jeep",type=armor_stand] at @s run function dinocustom:transport/jeep_placing
 execute as @e[tag=DnD_Jeep.honk] at @s run function dinocustom:transport/honk

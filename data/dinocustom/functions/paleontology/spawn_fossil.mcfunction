@@ -1,3 +1,4 @@
+
 #spread
 execute as @s[tag=fossil,tag=!random] at @s run spreadplayers ~ ~ 5 15 false @s
 #Determin Dinosaur
