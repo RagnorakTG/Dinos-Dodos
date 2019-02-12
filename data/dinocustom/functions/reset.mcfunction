@@ -7,6 +7,11 @@ scoreboard objectives add Spawn_Fossil dummy
 scoreboard objectives add Dinosaur_fossil dummy
 scoreboard objectives add Fossil_damage
 scoreboard objectives add Plaster_chance
+scoreboard objectives add Player_Walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add Player_Ran minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add Player_Horse minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add Player_Pig minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add Player_Jump minecraft.custom:minecraft.jump
 # - Crafting
 scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy
