@@ -23,3 +23,8 @@ tag @s[tag=fossil,tag=!replaced] add replaced
 execute as @s[tag=fossil,tag=!randomized] run tag @s add randomized
 tag @s[tag=fossil,tag=!random] add random
 effect give @s invisibility 1000000 1 true
+#Gounderground
+execute as @s[tag=fossil,tag=!on_earth] at @s if block ~ ~-1 ~ #minecraft:move_through_heavy run tp @s ~ ~-1 ~
+execute as @s[tag=fossil,tag=!on_earth] at @s unless block ~ ~-1 ~ #minecraft:move_through_heavy run tag @s add on_earth
+execute as @s[tag=fossil,tag=on_earth,tag=!in_earth] at @s unless block ~ ~-1 ~ #minecraft:move_through_heavy run tp @s ~ ~-1 ~
+execute as @s[tag=fossil,tag=on_earth,tag=!in_earth] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tag @s add in_earth 
