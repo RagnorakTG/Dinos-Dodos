@@ -1,6 +1,6 @@
 ##Plaster
 #Detect
-execute as @s[tag=fossil,tag=!plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run clear @s paper{CustomModelData:1} 1
+execute as @s[tag=fossil,tag=!plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run clear @a[distance=.5] paper{CustomModelData:1} 1
 execute as @s[tag=fossil,tag=!plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run scoreboard players reset out_0 math_rng
 execute as @s[tag=fossil,tag=!plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run scoreboard players set in_0 math_rng 100
 execute as @s[tag=fossil,tag=!plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run function dinocustom:ai/rng
