@@ -1,2 +1,2 @@
-# Dinos-Dodos
+# Dinos & Dodos
 Dinos &amp; Dodos
