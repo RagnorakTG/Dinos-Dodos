@@ -1,5 +1,5 @@
 # - Misc.
-scoreboard objectives add Facing dummy
+scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add math_rng dummy
 scoreboard objectives add Timer dummy
@@ -27,7 +27,6 @@ scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy
 scoreboard objectives add MeatTrough dummy
 scoreboard objectives add PlantTrough dummy
-scoreboard objectives add Facing dummy
 # - AI's
 scoreboard objectives add Height dummy
 scoreboard objectives add Length dummy
