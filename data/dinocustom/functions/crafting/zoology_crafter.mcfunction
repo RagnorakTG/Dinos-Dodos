@@ -16,6 +16,10 @@ execute as @s[tag=zoology_crafter] if block ~ ~ ~ air run kill @e[type=item,dist
 execute as @s[tag=zoology_crafter] if block ~ ~ ~ air run kill @e[type=item,distance=..0.9,nbt={Item:{id:"minecraft:beacon",Count:1b}}]
 execute as @s[tag=zoology_crafter] if block ~ ~ ~ air run summon item ~ ~1 ~ {CustomName:"{\"text\":\"Toy Crafter\",\"color\":\"white\",\"italic\":\"false\"}",Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:"{\"text\":\"Zoology Crafter\",\"color\":\"white\",\"italic\":\"false\"}"},CustomModelData:9,EntityTag:{CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,CustomName:"{\"text\":\"Zoology Crafter\",\"color\":\"white\",\"italic\":\"false\"}"}}}}
 execute as @s[tag=zoology_crafter] if block ~ ~ ~ air run kill @s
+execute as @s[tag=zoology_crafter,tag=east] run tp @s ~ ~ ~ 90 0
+execute as @s[tag=zoology_crafter,tag=west] run tp @s ~ ~ ~ -90 0
+execute as @s[tag=zoology_crafter,tag=south] run tp @s ~ ~ ~ 180 0
+execute as @s[tag=zoology_crafter,tag=north] run tp @s ~ ~ ~ 0 0
 
 #GUI
 execute as @s[tag=zoology_crafter] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 beacon{display:{Name:"{\"text\":\"\"}"},CustomModelData:7}

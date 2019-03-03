@@ -17,6 +17,6 @@ execute as @s[tag=dna_combinator] if block ~ ~ ~ air run summon item ~ ~1 ~ {Cus
 execute as @s[tag=dna_combinator] if block ~ ~ ~ air run kill @s
 execute as @s[tag=dna_combinator,tag=east] run tp @s ~ ~ ~ 90 0
 execute as @s[tag=dna_combinator,tag=west] run tp @s ~ ~ ~ -90 0
-execute as @s[tag=dna_combinator,tag=south] run tp @s ~ ~ ~ -180 0
+execute as @s[tag=dna_combinator,tag=south] run tp @s ~ ~ ~ 180 0
 execute as @s[tag=dna_combinator,tag=north] run tp @s ~ ~ ~ 0 0
 execute as @s[tag=dna_combinator] at @s unless block ~ ~ ~ chest[type=left] run setblock ~ ~ ~ chest[type=left]
