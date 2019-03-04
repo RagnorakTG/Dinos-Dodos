@@ -86,5 +86,6 @@ tellraw @a ["",{"text":"_Ragnorak_ [Lead Developer]","color":"red"}]
 tellraw @a ["",{"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}]
 tellraw @a ["",{"text":"iNkoR_the_2nd [Artist]","color":"yellow"}]
 tellraw @a ["",{"text":"TheNuclearNexus [Coder]","color":"gold"}]
+tellraw @a ["",{"text":"JordenEatsCereal [Coder, Artist]","color":"red"}]
 # - Start up fossil system
 execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
