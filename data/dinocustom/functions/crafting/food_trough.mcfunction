@@ -1,14 +1,5 @@
-####################
-#                  #
-#                  #
-#                  #
-# Made by Ragnorak #
-#                  #
-#                  #
-#                  #
-####################
-
 # - Place
+tag @s add crafting_station
 execute as @s[tag=food_trough,tag=east] run tp @s ~ ~ ~ 90 0
 execute as @s[tag=food_trough,tag=west] run tp @s ~ ~ ~ -90 0
 execute as @s[tag=food_trough,tag=south] run tp @s ~ ~ ~ -180 0

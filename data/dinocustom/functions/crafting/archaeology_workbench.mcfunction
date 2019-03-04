@@ -1,13 +1,5 @@
-####################
-#                  #
-#                  #
-#                  #
-# Made by Ragnorak #
-#                  #
-#                  #
-#                  #
-####################
-
+#Stuff
+tag @s add crafting_station
 execute as @s[tag=archaeology_workbench,tag=!replaced] run replaceitem entity @s armor.head minecraft:armor_stand{CustomModelData:1}
 execute as @s[tag=archaeology_workbench,tag=!replaced] run tag @s add replaced
 execute as @s[tag=archaeology_workbench] if block ~ ~ ~ air run kill @e[type=item,distance=..0.9,nbt={Item:{id:"minecraft:chest",Count:1b}}]

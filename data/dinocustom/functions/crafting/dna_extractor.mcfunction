@@ -1,4 +1,5 @@
-
+#Stuff
+tag @s add crafting_station
 execute as @s[tag=dna_extractor,tag=!replaced] run replaceitem entity @s armor.head minecraft:armor_stand{CustomModelData:7}
 execute as @s[tag=dna_extractor,tag=!replaced] run tag @s add replaced
 execute as @s[tag=dna_extractor] at @s run function dinocustom:crafting/recipes/dna_extractor

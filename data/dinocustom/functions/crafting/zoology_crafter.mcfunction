@@ -1,13 +1,5 @@
-####################
-#                  #
-#                  #
-#                  #
-# Made by Ragnorak #
-#                  #
-#                  #
-#                  #
-####################
-
+#Stuff
+tag @s add crafting_station
 execute as @s[tag=zoology_crafter,tag=!replaced] run replaceitem entity @s armor.head minecraft:armor_stand{CustomModelData:9}
 execute as @s[tag=zoology_crafter,tag=!replaced] run tag @s add replaced
 execute as @s[tag=zoology_crafter] at @s run function dinocustom:crafting/recipes/zoology_crafter
