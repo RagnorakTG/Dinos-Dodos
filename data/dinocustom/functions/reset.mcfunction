@@ -1,6 +1,7 @@
 # - Misc.
 scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
+scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add Timer dummy
 # - Fossil Gen
