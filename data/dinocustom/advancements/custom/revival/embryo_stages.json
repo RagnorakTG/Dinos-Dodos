@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+			"nbt": "{Damage:4}"
+        },
+        "title": "Embryonic Stages",
+        "description": "Create a Culture Vat to extract embryos with"
+    },
+    "parent": "dinocustom:custom/revival/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

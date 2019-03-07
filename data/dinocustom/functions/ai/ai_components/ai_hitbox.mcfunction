@@ -1,0 +1,132 @@
+##Create Hitbox
+#Length
+execute store result score @s[tag=dinosaur] Half_Length run scoreboard players get @s[tag=dinosaur] Length
+scoreboard players operation @s[tag=dinosaur] Half_Length /= Weight_Multiply Multipliers
+execute as @s[tag=dinosaur,scores={Half_Length=1..1}] at @s unless block ^ ^ ^1 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..1}] at @s if block ^ ^ ^1 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..2}] at @s unless block ^ ^ ^2 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..2}] at @s if block ^ ^ ^2 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..3}] at @s unless block ^ ^ ^3 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..3}] at @s if block ^ ^ ^3 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..4}] at @s unless block ^ ^ ^4 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..4}] at @s if block ^ ^ ^4 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..5}] at @s unless block ^ ^ ^5 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..5}] at @s if block ^ ^ ^5 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..6}] at @s unless block ^ ^ ^6 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..6}] at @s if block ^ ^ ^6 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..7}] at @s unless block ^ ^ ^7 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..7}] at @s if block ^ ^ ^7 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..8}] at @s unless block ^ ^ ^8 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..8}] at @s if block ^ ^ ^8 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..9}] at @s unless block ^ ^ ^9 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..9}] at @s if block ^ ^ ^9 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..10}] at @s unless block ^ ^ ^10 #minecraft:move_through run scoreboard players set @s Touch_front 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..10}] at @s if block ^ ^ ^10 #minecraft:move_through run scoreboard players set @s Touch_front 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..1}] at @s if block ^ ^ ^-1 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..1}] at @s unless block ^ ^ ^-1 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..2}] at @s unless block ^ ^ ^-2 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..2}] at @s if block ^ ^ ^-2 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..3}] at @s unless block ^ ^ ^-3 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..3}] at @s if block ^ ^ ^-3 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..4}] at @s unless block ^ ^ ^-4 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..4}] at @s if block ^ ^ ^-4 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..5}] at @s unless block ^ ^ ^-5 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..5}] at @s if block ^ ^ ^-5 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..6}] at @s unless block ^ ^ ^-6 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..6}] at @s if block ^ ^ ^-6 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..7}] at @s unless block ^ ^ ^-7 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..7}] at @s if block ^ ^ ^-7 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..8}] at @s unless block ^ ^ ^-8 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..8}] at @s if block ^ ^ ^-8 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..9}] at @s unless block ^ ^ ^-9 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..9}] at @s if block ^ ^ ^-9 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Half_Length=1..10}] at @s unless block ^ ^ ^-10 #minecraft:move_through run scoreboard players set @s Touch_back 1
+execute as @s[tag=dinosaur,scores={Half_Length=1..10}] at @s if block ^ ^ ^-10 #minecraft:move_through run scoreboard players set @s Touch_back 0
+execute as @s[tag=dinosaur,scores={Touch_front=1}] at @s run tp @s ^ ^ ^-0.1
+execute as @s[tag=dinosaur,scores={Touch_back=1}] at @s run tp @s ^ ^ ^0.1
+#Width
+execute store result score @s[tag=dinosaur] Half_Width run scoreboard players get @s[tag=dinosaur] Width
+scoreboard players operation @s[tag=dinosaur] Half_Width /= Weight_Multiply Multipliers
+execute as @s[tag=dinosaur,scores={Half_Width=1..1}] at @s unless block ^ ^ ^1 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..1}] at @s if block ^ ^ ^1 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..2}] at @s unless block ^ ^ ^2 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..2}] at @s if block ^ ^ ^2 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..3}] at @s unless block ^ ^ ^3 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..3}] at @s if block ^ ^ ^3 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..4}] at @s unless block ^ ^ ^4 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..4}] at @s if block ^ ^ ^4 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..5}] at @s unless block ^ ^ ^5 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..5}] at @s if block ^ ^ ^5 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..6}] at @s unless block ^ ^ ^6 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..6}] at @s if block ^ ^ ^6 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..7}] at @s unless block ^ ^ ^7 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..7}] at @s if block ^ ^ ^7 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..8}] at @s unless block ^ ^ ^8 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..8}] at @s if block ^ ^ ^8 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..9}] at @s unless block ^ ^ ^9 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..9}] at @s if block ^ ^ ^9 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..10}] at @s unless block ^ ^ ^10 #minecraft:move_through run scoreboard players set @s Touch_left 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..10}] at @s if block ^ ^ ^10 #minecraft:move_through run scoreboard players set @s Touch_left 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..1}] at @s unless block ^ ^ ^-1 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..1}] at @s if block ^ ^ ^-1 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..2}] at @s unless block ^ ^ ^-2 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..2}] at @s if block ^ ^ ^-2 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..3}] at @s unless block ^ ^ ^-3 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..3}] at @s if block ^ ^ ^-3 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..4}] at @s unless block ^ ^ ^-4 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..4}] at @s if block ^ ^ ^-4 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..5}] at @s unless block ^ ^ ^-5 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..5}] at @s if block ^ ^ ^-5 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..6}] at @s unless block ^ ^ ^-6 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..6}] at @s if block ^ ^ ^-6 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..7}] at @s unless block ^ ^ ^-7 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..7}] at @s if block ^ ^ ^-7 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..8}] at @s unless block ^ ^ ^-8 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..8}] at @s if block ^ ^ ^-8 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..9}] at @s unless block ^ ^ ^-9 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..9}] at @s if block ^ ^ ^-9 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Half_Width=1..10}] at @s unless block ^ ^ ^-10 #minecraft:move_through run scoreboard players set @s Touch_right 1
+execute as @s[tag=dinosaur,scores={Half_Width=1..10}] at @s if block ^ ^ ^-10 #minecraft:move_through run scoreboard players set @s Touch_right 0
+execute as @s[tag=dinosaur,scores={Touch_right=1}] at @s run tp @s ^0.1 ^ ^
+execute as @s[tag=dinosaur,scores={Touch_left=1}] at @s run tp @s ^-0.1 ^ ^
+#Height
+execute as @s[tag=dinosaur,scores={Height=1..1}] at @s unless block ^ ^1 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..1}] at @s if block ^ ^1 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..2}] at @s unless block ^ ^2 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..2}] at @s if block ^ ^2 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..3}] at @s unless block ^ ^3 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..3}] at @s if block ^ ^3 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..4}] at @s unless block ^ ^4 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..4}] at @s if block ^ ^4 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..5}] at @s unless block ^ ^5 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..5}] at @s if block ^ ^5 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..6}] at @s unless block ^ ^6 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..6}] at @s if block ^ ^6 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..7}] at @s if block ^ ^7 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..7}] at @s unless block ^ ^7 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..8}] at @s unless block ^ ^8 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..8}] at @s if block ^ ^8 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..9}] at @s unless block ^ ^9 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..9}] at @s if block ^ ^9 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..10}] at @s unless block ^ ^10 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..10}] at @s if block ^ ^10 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..11}] at @s unless block ^ ^11 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..11}] at @s if block ^ ^11 ^ #minecraft:move_through run scoreboard players set @s Toucht_right 0
+execute as @s[tag=dinosaur,scores={Height=1..12}] at @s unless block ^ ^12 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..12}] at @s if block ^ ^12 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..13}] at @s unless block ^ ^13 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..13}] at @s if block ^ ^13 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..14}] at @s unless block ^ ^14 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..14}] at @s if block ^ ^14 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..15}] at @s unless block ^ ^15 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..15}] at @s if block ^ ^15 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..16}] at @s unless block ^ ^16 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..16}] at @s if block ^ ^16 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..17}] at @s unless block ^ ^17 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..17}] at @s if block ^ ^17 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..18}] at @s unless block ^ ^18 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..18}] at @s if block ^ ^18 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..19}] at @s unless block ^ ^19 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..19}] at @s if block ^ ^19 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0
+execute as @s[tag=dinosaur,scores={Height=1..20}] at @s unless block ^ ^20 ^ #minecraft:move_through run scoreboard players set @s Touch_top 1
+execute as @s[tag=dinosaur,scores={Height=1..20}] at @s if block ^ ^20 ^ #minecraft:move_through run scoreboard players set @s Touch_top 0

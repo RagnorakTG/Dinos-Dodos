@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_spawn_egg"
+        },
+        "title": "The Medium",
+        "description": "Create and hatch a Utah Raptor",
+    "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/the_tiny",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

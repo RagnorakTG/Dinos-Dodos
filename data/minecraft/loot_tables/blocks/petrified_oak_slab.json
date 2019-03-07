@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Conjoined Fossil\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:1}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:command_block",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Dinosaur Fossil\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:2}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:command_block",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Leaf Fossil\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:3}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:command_block",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Seed Fossil\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:command_block",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Aquatic Fossil\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:5}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 22
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone",
+          "weight": 22
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cobblestone",
+          "weight": 22
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": "Jade",
+        "description": "Find a piece of Jade in a Mayan Temple"
+    },
+    "parent": "dinocustom:custom/archaeology/mayan_finding",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

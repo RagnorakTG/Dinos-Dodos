@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_cobblestone"
+        },
+        "title": "Mayan Findings",
+        "description": "Find a piece of ancient Mayan Architecture"
+    },
+    "parent": "dinocustom:custom/archaeology/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}
