@@ -10,18 +10,12 @@ scoreboard objectives add Dinosaur_fossil dummy
 scoreboard objectives add Fossil_damage dummy
 scoreboard objectives add Plaster_chance dummy
 scoreboard objectives add Did_Plaster dummy
+scoreboard objectives add Kill_Fossil dummy
 scoreboard objectives add Player_Walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add Player_Ran minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add Player_Horse minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add Player_Pig minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add Player_Jump minecraft.custom:minecraft.jump
-scoreboard objectives add Break_Dirt minecraft.broken:minecraft.dirt
-scoreboard objectives add Break_Gravel minecraft.broken:minecraft.gravel
-scoreboard objectives add Break_Sand minecraft.broken:minecraft.sand
-scoreboard objectives add Break_Stone minecraft.broken:minecraft.stone
-scoreboard objectives add Break_Diorite minecraft.broken:minecraft.diorite
-scoreboard objectives add Break_Andesite minecraft.broken:minecraft.andesite
-scoreboard objectives add Break_Granite minecraft.broken:minecraft.granite
 scoreboard objectives add R_Click_Fossil minecraft.custom:minecraft.talked_to_villager
 # - Crafting
 scoreboard objectives add Milk_Supply dummy
