@@ -1,7 +1,7 @@
 #Stuff
 tag @s add crafting_station
 #Destruction of the block
-execute as @e[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ air run summon item ~ ~ ~ {Tags:["CustomBlock0"],Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Toy Crafter\",\"italic\":false}"},CustomModelData:8,CustomBlock0:1b}}}
+execute as @e[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ air run summon item ~ ~ ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Toy Crafter\",\"italic\":false}"},CustomModelData:8,CustomBlock0:1b,Fireworks:{}}}}
 execute as @e[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:beacon",tag:{CustomModelData:3}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:beacon",tag:{CustomModelData:4}}}]
@@ -27,4 +27,4 @@ execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ chest run 
 execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.26 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.27 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 
-execute as @s[type=armor_stand,tag=CustomBlock0] at @s unless block ~ ~ ~ chest[type=left] unless block ~ ~ ~ air run setblock ~ ~ ~ chest[type=left]
+execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~1 ~ ~ chest[type=right] run setblock ~ ~ ~ chest
