@@ -14,7 +14,6 @@ function dinocustom:crafting/main
 function dinocustom:ai/main
 function dinocustom:paleontology/main
 function dinocustom:timer
-function dinocustom:placing/toy_crafter
 
 # - Run Commands
 
