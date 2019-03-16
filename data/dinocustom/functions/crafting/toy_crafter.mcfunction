@@ -23,4 +23,4 @@ execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ chest run 
 execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.27 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 
 execute as @s[type=armor_stand,tag=CustomBlock0] at @s unless block ~ ~ ~ chest[type=left] unless block ~ ~ ~ air run setblock ~ ~ ~ chest[type=left]
-execute as @e[type=armor_stand,tag=CustomBlock0] at @s if block ~1 ~ ~ chest[type=right] run setblock ~ ~ ~ chest[type=left]
+execute as @s[type=armor_stand,tag=CustomBlock0] at @s if block ~1 ~ ~ chest[type=right] run setblock ~ ~ ~ chest[type=left]
