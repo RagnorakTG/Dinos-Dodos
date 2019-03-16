@@ -14,7 +14,7 @@ execute as @e[type=armor_stand,tag=archaeology_workbench] at @s run function din
 execute as @e[type=armor_stand,tag=culture_vat] at @s run function dinocustom:crafting/culture_vat
 execute as @e[type=armor_stand,tag=dna_combinator] at @s run function dinocustom:crafting/dna_combinator
 execute as @e[type=armor_stand,tag=dna_extractor] at @s run function dinocustom:crafting/dna_extractor
-execute as @e[type=armor_stand,tag=toy_crafter] at @s run function dinocustom:crafting/toy_crafter
+execute as @e[type=armor_stand,tag=CustomBlock0] at @s run function dinocustom:crafting/toy_crafter
 execute as @e[type=armor_stand,tag=zoology_crafter] at @s run function dinocustom:crafting/zoology_crafter
 execute as @e[type=armor_stand,tag=food_trough] at @s run function dinocustom:crafting/food_trough
 
@@ -25,7 +25,6 @@ execute as @e[type=armor_stand,tag=culture_vat] run data merge entity @s {Fire:1
 execute as @e[type=armor_stand,tag=dna_combinator] run data merge entity @s {Fire:100s}
 execute as @e[type=armor_stand,tag=dna_extractor] run data merge entity @s {Fire:100s}
 execute as @e[type=armor_stand,tag=food_trough] run data merge entity @s {Fire:100s}
-execute as @e[type=armor_stand,tag=toy_crafter] run data merge entity @s {Fire:100s}
 execute as @e[type=armor_stand,tag=zoology_crafter] run data merge entity @s {Fire:100s}
 
 #Zoology Crafter
