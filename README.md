@@ -1,4 +1,4 @@
-How to install DnD.
+##How to install DnD.
 
 Step 1) Download both the datapack and resource pack branches. 
 Step 2) extract them both.
