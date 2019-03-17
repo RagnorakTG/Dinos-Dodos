@@ -32,9 +32,9 @@ execute as @s[type=armor_stand,tag=CustomBlock1] at @s if block ~ ~ ~ chest run 
 execute as @s[type=armor_stand,tag=CustomBlock1] at @s unless block ~1 ~ ~ air run tag @s remove AirEast
 execute as @s[type=armor_stand,tag=CustomBlock1] at @s if block ~1 ~ ~ air run tag @s remove chestEast
 execute as @s[type=armor_stand,tag=CustomBlock1,tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ ~ ~ air destroy
-execute as @s[type=armor_stand,tag=CustomBlock1,tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"toy_crafter\"}"} destroy
+execute as @s[type=armor_stand,tag=CustomBlock1,tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"zoology_crafter\"}"} destroy
 execute as @s[type=armor_stand,tag=CustomBlock1] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run tag @s add notAirEast
 execute as @s[type=armor_stand,tag=CustomBlock1] at @s if block ~1 ~ ~ air run tag @s remove notAirEast
 execute as @s[type=armor_stand,tag=CustomBlock1,tag=!AirEast] at @s if block ~1 ~ ~ air run setblock ~ ~ ~ air destroy
-execute as @s[type=armor_stand,tag=CustomBlock1,tag=!AirEast] at @s if block ~1 ~ ~ air run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"toy_crafter\"}"} destroy
+execute as @s[type=armor_stand,tag=CustomBlock1,tag=!AirEast] at @s if block ~1 ~ ~ air run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"zoology_crafter\"}"} destroy
 execute as @s[type=armor_stand,tag=CustomBlock1] at @s if block ~1 ~ ~ air run tag @s add AirEast
