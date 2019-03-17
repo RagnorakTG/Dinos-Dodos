@@ -1,10 +1,10 @@
 #Stuff
 tag @s add crafting_station
 #Destruction of the block
-execute as @e[type=armor_stand,tag=CustomBlock1] at @s if block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Zoology Crafter\",\"italic\":false}"},CustomModelData:8,CustomBlock1:1b,Fireworks:{}}}}
+execute as @e[type=armor_stand,tag=CustomBlock1] at @s if block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Zoology Crafter\",\"italic\":false}"},CustomModelData:9,CustomBlock1:1b,Fireworks:{}}}}
 execute as @e[type=armor_stand,tag=CustomBlock1] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:3}}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:4}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:2}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:1}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"zoology_crafter"}'}}}}]
 
