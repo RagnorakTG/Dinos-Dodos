@@ -24,7 +24,7 @@ scoreboard players reset @a[scores={Use_Firework=1..}] Use_Firework
 execute as @a store result score @s SelItemSlot run data get entity @s SelectedItemSlot
 
 # - Clear
-clear @a barrier{CustomModelData:1}\
+clear @a barrier{CustomModelData:1}
 clear @a barrier{CustomModelData:2}
 clear @a barrier{CustomModelData:3}
 clear @a barrier{CustomModelData:4}
