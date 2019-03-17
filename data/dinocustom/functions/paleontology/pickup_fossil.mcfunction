@@ -31,5 +31,5 @@ execute as @s[tag=fossil,tag=plastered,scores={Dinosaur_fossil=5,Fossil_damage=7
 #Reset
 execute as @s[tag=fossil,tag=plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run scoreboard players set @s Kill_Fossil 1
 execute as @s[tag=fossil,tag=plastered] at @s if entity @a[distance=..5,scores={R_Click_Fossil=1..}] run scoreboard players set @a[distance=..5] R_Click_Fossil 0
-execute if score @s Kill_Fossil matches 1 run tp @s ~ ~-666 ~
+execute if score @s Kill_Fossil matches 1 run kill @s
 execute as @a unless entity @e[tag=fossil,distance=..5] run scoreboard players set @s R_Click_Fossil 0
