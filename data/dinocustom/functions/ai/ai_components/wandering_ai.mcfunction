@@ -35,6 +35,7 @@ execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=7}] run tp @s ~ ~ ~ ~36 ~0
 execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=8}] run tp @s ~ ~ ~ ~-36 ~0
 execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=9}] run tp @s ~ ~ ~ ~72 ~0
 execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=10}] run tp @s ~ ~ ~ ~-72 ~0
+execute as @s[tag=dinosaur,tag=rotate] run scoreboard players set @s Rotate 0
 execute as @s[tag=dinosaur,tag=rotate] run tag @s remove rotate
 # Determine Noise
 
