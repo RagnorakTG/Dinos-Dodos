@@ -25,16 +25,16 @@ execute as @s[tag=dinosaur,tag=walk] run tag @s remove walk
 execute as @s[tag=dinosaur,scores={Rotate=0..}] run tag @s add rotate
 execute as @s[tag=dinosaur,tag=rotate] run tag @s remove do.rotate
 execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=0}] run tp @s ~ ~ ~ ~0 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=1}] run tp @s ~ ~ ~ ~0 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=2}] run tp @s ~ ~ ~ ~0 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=3}] run tp @s ~ ~ ~ ~0 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=4}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=1}] run tp @s ~ ~ ~ ~36 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=2}] run tp @s ~ ~ ~ ~-36 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=3}] run tp @s ~ ~ ~ ~72 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=4}] run tp @s ~ ~ ~ ~-72 ~0
 execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=5}] run tp @s ~ ~ ~ ~0 ~0
 execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=6}] run tp @s ~ ~ ~ ~0 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=7}] run tp @s ~ ~ ~ ~36 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=8}] run tp @s ~ ~ ~ ~-36 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=9}] run tp @s ~ ~ ~ ~72 ~0
-execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=10}] run tp @s ~ ~ ~ ~-72 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=7}] run tp @s ~ ~ ~ ~108 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=8}] run tp @s ~ ~ ~ ~-108 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=9}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=10}] run tp @s ~ ~ ~ ~0 ~0
 execute as @s[tag=dinosaur,tag=rotate] run scoreboard players set @s Rotate 0
 execute as @s[tag=dinosaur,tag=rotate] run tag @s remove rotate
 # Determine Noise
