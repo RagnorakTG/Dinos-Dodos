@@ -61,5 +61,5 @@ execute if score @s[tag=dinosaur,tag=!aged] Weight matches 81.. run function din
 execute if score @s[tag=dinosaur,tag=!aged] Weight matches 81.. run execute store result score @s Max_Age run scoreboard players get out_0 math_rng
 execute if score @s[tag=dinosaur,tag=!aged] Max_Age matches ..29 run scoreboard players set @s Max_Age 30
 execute if score @s[tag=dinosaur,tag=!aged] Max_Age matches 1.. run tag @s add aged
-execute if score @s[tag=dinosaur,tag=aged] Current_Age > @s[tag=dinosaur,tag=aged] Max_Age run tag @s add kill
+execute if score @s[tag=dinosaur,tag=aged] Current_Age > @s[tag=dinosaur,tag=aged] Max_Age run tag @s add corpse
 #Assign ID
