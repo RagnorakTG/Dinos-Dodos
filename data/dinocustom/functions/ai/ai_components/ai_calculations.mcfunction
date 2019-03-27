@@ -39,10 +39,10 @@ scoreboard players set @s[tag=dinosaur,scores={Current_Happines=100..}] Current_
 # Ageing
 execute store result score Time Time run time query daytime
 execute if score Time Time matches 1000 run scoreboard players add @s[tag=dinosaur] Current_Age 1
-execute if score @s[tag=dinosaur,tag=!aged] Weight matches ..20 run scoreboard players reset out_0 math_rng
-execute if score @s[tag=dinosaur,tag=!aged] Weight matches ..20 run scoreboard players set in_0 math_rng 50
-execute if score @s[tag=dinosaur,tag=!aged] Weight matches ..20 run function dinocustom:ai/rng
-execute if score @s[tag=dinosaur,tag=!aged] Weight matches ..20 run execute store result score @s Max_Age run scoreboard players get out_0 math_rng
+execute if score @s[tag=dinosaur,tag=!aged] Weight matches 0..20 run scoreboard players reset out_0 math_rng
+execute if score @s[tag=dinosaur,tag=!aged] Weight matches 0..20 run scoreboard players set in_0 math_rng 50
+execute if score @s[tag=dinosaur,tag=!aged] Weight matches 0..20 run function dinocustom:ai/rng
+execute if score @s[tag=dinosaur,tag=!aged] Weight matches 0..20 run execute store result score @s Max_Age run scoreboard players get out_0 math_rng
 execute if score @s[tag=dinosaur,tag=!aged] Weight matches 21..40 run scoreboard players reset out_0 math_rng
 execute if score @s[tag=dinosaur,tag=!aged] Weight matches 21..40 run scoreboard players set in_0 math_rng 80
 execute if score @s[tag=dinosaur,tag=!aged] Weight matches 21..40 run function dinocustom:ai/rng
