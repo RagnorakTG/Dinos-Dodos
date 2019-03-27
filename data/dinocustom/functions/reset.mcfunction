@@ -39,6 +39,8 @@ scoreboard objectives add Current_Food dummy
 scoreboard objectives add Max_Speed dummy
 scoreboard objectives add Min_Speed dummy
 scoreboard objectives add Max_Call dummy
+scoreboard objectives add Max_Age dummy
+scoreboard objectives add Current_Age dummy
 scoreboard objectives add Current_Call dummy
 scoreboard objectives add Sleep dummy
 scoreboard objectives add In_Grounds dummy
@@ -69,6 +71,7 @@ scoreboard objectives add Hatch_Time dummy
 scoreboard objectives add Nest_Ammount dummy
 scoreboard objectives add MakeSound dummy
 scoreboard objectives add Sound dummy
+scoreboard objectives add Time dummy
 # - Vehicles
 scoreboard objectives add jeep.id dummy
 scoreboard objectives add jeep.trunk_id dummy
