@@ -53,7 +53,7 @@ scoreboard objectives add Multipliers dummy
 scoreboard objectives add Speed dummy
 scoreboard objectives add Walk dummy
 scoreboard objectives add Rotate dummy
-scoreboard objectives add ShouldWalk dummy
+scoreboard objectives add ShouldWander dummy
 scoreboard objectives add Half_Length dummy
 scoreboard objectives add Half_Width dummy
 scoreboard objectives add Touch_front dummy
@@ -61,11 +61,14 @@ scoreboard objectives add Touch_back dummy
 scoreboard objectives add Touch_left dummy
 scoreboard objectives add Touch_right dummy
 scoreboard objectives add Touch_top dummy
+scoreboard objectives add Touch dummy
 scoreboard objectives add Schedule dummy
 scoreboard objectives add SleepTime dummy
 scoreboard objectives add Dinosaur_ID dummy
 scoreboard objectives add Hatch_Time dummy
 scoreboard objectives add Nest_Ammount dummy
+scoreboard objectives add MakeSound dummy
+scoreboard objectives add Sound dummy
 # - Vehicles
 scoreboard objectives add jeep.id dummy
 scoreboard objectives add jeep.trunk_id dummy

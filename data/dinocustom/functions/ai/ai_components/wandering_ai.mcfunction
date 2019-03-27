@@ -1,49 +1,45 @@
-#InBlock?
-execute as @s[tag=dinosaur] at @s unless block ~ ~ ~ #minecraft:move_through unless block ~ ~ ~ #minecraft:float run tp @s ~ ~0.1 ~
-#Walking
-scoreboard players add @s[tag=dinosaur] ShouldWalk 1
-execute as @s[tag=dinosaur,scores={ShouldWalk=19}] at @s run tag @s add rotate
-execute as @s[tag=dinosaur,scores={ShouldWalk=39..}] at @s run tag @s add rotate
-execute as @s[tag=dinosaur,scores={ShouldWalk=39..}] at @s run tag @s add walk
-execute as @s[tag=dinosaur,scores={ShouldWalk=39..}] at @s if block ^ ^ ^1.2 #minecraft:move_through if block ^ ^1 ^1.2 #minecraft:move_through unless score @s Hunger matches 3.. run tag @s add walk
-execute as @s[tag=dinosaur,scores={ShouldWalk=40..}] run scoreboard players set @s ShouldWalk 0
+## Wandering AI
+# Determine
+scoreboard players add @s[tag=dinosaur,tag=baby] ShouldWander 5
+scoreboard players add @s[tag=dinosaur,tag=teen] ShouldWander 4
+scoreboard players add @s[tag=dinosaur,tag=adult] ShouldWander 3
+scoreboard players add @s[tag=dinosaur,tag=elder] ShouldWander 1
+execute as @s[tag=dinosaur,scores={ShouldWander=50}] at @s run tag @s add do.rotate
+execute as @s[tag=dinosaur,scores={ShouldWander=100}] at @s run tag @s add do.rotate
+execute as @s[tag=dinosaur,scores={ShouldWander=100}] at @s run tag @s add do.walk
+execute as @s[tag=dinosaur,scores={ShouldWander=150}] run scoreboard players set @s ShouldWander 0
+execute as @s[tag=dinosaur,tag=do.rotate] run scoreboard players reset out_0 math_rng
+execute as @s[tag=dinosaur,tag=do.rotate] run scoreboard players set in_0 math_rng 10
+execute as @s[tag=dinosaur,tag=do.rotate] run function dinocustom:ai/rng
+execute as @s[tag=dinosaur,tag=do.rotate] run execute store result score @s Rotate run scoreboard players get out_0 math_rng
+execute as @s[tag=dinosaur,tag=do.walk] run scoreboard players reset out_0 math_rng
+execute as @s[tag=dinosaur,tag=do.walk] run scoreboard players set in_0 math_rng 100
+execute as @s[tag=dinosaur,tag=do.walk] run function dinocustom:ai/rng
+execute as @s[tag=dinosaur,tag=do.walk] run execute store result score @s Walk run scoreboard players get out_0 math_rng
+# Wander
+execute as @s[tag=dinosaur,scores={Walk=..15}] run tag @s add walk
+execute as @s[tag=dinosaur,tag=walk] run tag @s remove do.walk
 
-#rng
-##reset
-scoreboard players set @s[scores={Rotate=1..}] Rotate 0
-##Walk
-execute as @s[tag=dinosaur,tag=walk] run scoreboard players reset out_0 math_rng
-execute as @s[tag=dinosaur,tag=walk] run scoreboard players set in_0 math_rng 100
-execute as @s[tag=dinosaur,tag=walk] run function dinocustom:ai/rng
-execute as @s[tag=dinosaur,tag=walk] run execute store result score @s Walk run scoreboard players get out_0 math_rng
+execute as @s[tag=dinosaur,tag=walk] run tag @s remove walk
+# Rotate
+execute as @s[tag=dinosaur,scores={Rotate=0..}] run tag @s add rotate
+execute as @s[tag=dinosaur,tag=rotate] run tag @s remove do.rotate
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=0}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=1}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=2}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=3}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=4}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=5}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=6}] run tp @s ~ ~ ~ ~0 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=7}] run tp @s ~ ~ ~ ~36 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=8}] run tp @s ~ ~ ~ ~-36 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=9}] run tp @s ~ ~ ~ ~72 ~0
+execute as @s[tag=dinosaur,tag=rotate,scores={Rotate=10}] run tp @s ~ ~ ~ ~-72 ~0
+execute as @s[tag=dinosaur,tag=rotate] run tag @s remove rotate
+# Determine Noise
 
-##Rotate
-execute as @s[tag=dinosaur,tag=rotate] run scoreboard players reset out_0 math_rng
-execute as @s[tag=dinosaur,tag=rotate] run scoreboard players set in_0 math_rng 100
-execute as @s[tag=dinosaur,tag=rotate] run function dinocustom:ai/rng
-execute as @s[tag=dinosaur,tag=rotate] run execute store result score @s Rotate run scoreboard players get out_0 math_rng
-
-#Move
-execute as @s[tag=dinosaur,scores={Walk=51..}] at @s if block ^ ^ ^1.2 #minecraft:move_through if block ^ ^1 ^1.2 #minecraft:move_through run tp @s ^ ^ ^0.2
-execute as @s[tag=dinosaur,scores={Walk=51..}] at @s if block ^ ^ ^1.2 #minecraft:move_through if block ^ ^1 ^1.2 #minecraft:move_through run tp @s ^ ^ ^0
-
-execute as @s[tag=dinosaur] at @s unless block ^ ^ ^1.2 #minecraft:move_through if block ^ ^1 ^1.2 #minecraft:move_through run tp @s ^ ^1 ^0.5
-execute as @s[tag=dinosaur] at @s if block ~ ~-0.1 ~ #minecraft:move_through run tp @s ^ ^-0.5 ^
-execute as @s[tag=dinosaur] at @s if block ~ ~-0.5 ~ #minecraft:float run tp @s ^ ^-0.2 ^
-execute as @s[tag=dinosaur] at @s if block ~ ~ ~ #minecraft:float run tp @s ^ ^0.3 ^
-execute as @s[tag=dinosaur] at @s unless block ^ ^ ^0.5 #minecraft:move_through run tp @s ~ ~ ~ ~90 0
-
-#Rotate
-execute as @s[tag=dinosaur,scores={Rotate=0..10}] at @s run tp @s ~ ~ ~ ~0 0
-execute as @s[tag=dinosaur,scores={Rotate=11..20}] at @s run tp @s ~ ~ ~ ~-11 0
-execute as @s[tag=dinosaur,scores={Rotate=21..30}] at @s run tp @s ~ ~ ~ ~11 0
-execute as @s[tag=dinosaur,scores={Rotate=31..40}] at @s run tp @s ~ ~ ~ ~-22 0
-execute as @s[tag=dinosaur,scores={Rotate=41..50}] at @s run tp @s ~ ~ ~ ~22 0
-execute as @s[tag=dinosaur,scores={Rotate=51..60}] at @s run tp @s ~ ~ ~ ~33 0
-execute as @s[tag=dinosaur,scores={Rotate=61..70}] at @s run tp @s ~ ~ ~ ~-33 0
-execute as @s[tag=dinosaur,scores={Rotate=71..80}] at @s run tp @s ~ ~ ~ ~44 0
-execute as @s[tag=dinosaur,scores={Rotate=81..90}] at @s run tp @s ~ ~ ~ ~-44 0
-execute as @s[tag=dinosaur,scores={Rotate=91..100}] at @s run tp @s ~ ~ ~ ~0 0
-#Reset
-tag @s[tag=dinosaur] remove walk
-tag @s[tag=dinosaur] remove rotate
+# Noise
+execute as @s[tag=dinosaur,tag=baby] run scoreboard players add @s MakeSound 1
+execute as @s[tag=dinosaur,tag=teen] run scoreboard players add @s MakeSound 2
+execute as @s[tag=dinosaur,tag=adult] run scoreboard players add @s MakeSound 3
+execute as @s[tag=dinosaur,tag=elder] run scoreboard players add @s MakeSound 4
