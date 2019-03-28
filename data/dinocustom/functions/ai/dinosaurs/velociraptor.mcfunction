@@ -8,3 +8,4 @@ scoreboard players set @s[tag=velociraptor] Width 1
 scoreboard players set @s[tag=velociraptor] Head_Height 1
 scoreboard players set @s[tag=velociraptor] Max_Group 6
 scoreboard players set @s[tag=velociraptor] Min_Group 3
+scoreboard players set @s[tag=velociraptor] Max_Age 60

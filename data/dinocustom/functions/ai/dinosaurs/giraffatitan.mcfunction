@@ -8,3 +8,4 @@ scoreboard players set @s[tag=giraffatitan] Width 5
 scoreboard players set @s[tag=giraffatitan] Head_Height 15
 scoreboard players set @s[tag=giraffatitan] Max_Group 8
 scoreboard players set @s[tag=giraffatitan] Min_Group 3
+scoreboard players set @s[tag=velociraptor] Max_Age 432

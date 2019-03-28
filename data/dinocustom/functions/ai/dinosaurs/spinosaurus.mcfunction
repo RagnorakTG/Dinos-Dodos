@@ -8,3 +8,4 @@ scoreboard players set @s[tag=spinosaurus] Width 3
 scoreboard players set @s[tag=spinosaurus] Head_Height 2
 scoreboard players set @s[tag=spinosaurus] Max_Group 3
 scoreboard players set @s[tag=spinosaurus] Min_Group 1
+scoreboard players set @s[tag=velociraptor] Max_Age 252
