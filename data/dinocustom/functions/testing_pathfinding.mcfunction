@@ -13,11 +13,13 @@ execute as @e[tag=find] at @s if block ~ ~-0.1 ~ #minecraft:move_through_heavy i
 execute as @e[tag=find] at @s unless block ~ ~1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run kill @s
 execute as @e[tag=find] at @s unless block ~ ~0.1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run tp @s ~ ~1 ~
 execute as @e[tag=find] at @s unless block ~ ~1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run kill @s
-execute as @a at @s run execute as @e[tag=find,tag=!pathfind,limit=1,sort=nearest] if score Time Pathfinding_time matches 6 run tag @s add pathfind
+execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!pathfind,limit=1,sort=nearest] if score Time Pathfinding_time matches 6 run tag @s add pathfind
 execute as @e[tag=find] if score Time Pathfinding_time matches 6 run scoreboard players add @s Pathfinding_time 1
-execute as @e[tag=find,tag=!done,scores={Pathfinding_time=2}] if score Time Pathfinding_time matches 7 run tag @s add done
+execute as @e[tag=find,tag=!done,scores={Pathfinding_time=3}] if score Time Pathfinding_time matches 7 run tag @s add done
+execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!done,distance=..0.5] if score Time Pathfinding_time matches 7 run tag @s add finished
 execute as @e[tag=find,tag=!pathfind] at @s if score Time Pathfinding_time matches 7 run kill @s
-tp @e[tag=teleport] @e[tag=find,sort=nearest,limit=1,scores={Pathfinding_time=3}]
-execute as @e[tag=teleport] at @s run kill @e[tag=find,sort=nearest,limit=1,scores={Pathfinding_time=3}]
+execute if score Time Pathfinding_time matches 7 run replaceitem entity @e[tag=done] armor.head redstone_block
+execute if entity @e[tag=finished] run tp @e[tag=teleport] @e[tag=find,sort=nearest,limit=1]
+execute if entity @e[tag=finished] run execute as @e[tag=teleport] at @s run kill @e[tag=find,sort=nearest,limit=1]
 execute as @e[tag=teleport] at @s if score Time Pathfinding_time matches 8 run tag @e[tag=teleport] add done
 execute if score Time Pathfinding_time matches 8.. run scoreboard players set Time Pathfinding_time 0
