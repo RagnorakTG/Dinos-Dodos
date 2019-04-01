@@ -77,6 +77,7 @@ tellraw @a ["",{"text":"Dev Team:","color":"aqua"}]
 tellraw @a ["",{"text":"_Ragnorak_ [Lead Developer]","color":"red"}]
 tellraw @a ["",{"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}]
 tellraw @a ["",{"text":"iNkoR_the_2nd [Artist]","color":"yellow"}]
+tellraw @a ["",{"text":"Seba244c [Coder]","color":"green"}]
 tellraw @a ["",{"text":"TheNuclearNexus [Coder]","color":"gold"}]
 tellraw @a ["",{"text":"JordenEatsCereal [Coder, Artist]","color":"red"}]
 # Start up fossil system
