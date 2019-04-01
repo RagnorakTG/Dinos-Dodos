@@ -28,7 +28,7 @@ execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.2
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.26 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.27 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 
-#fixing shit
+#fixing shit East
 execute as @s at @s unless block ~1 ~ ~ air run tag @s remove AirEast
 execute as @s at @s if block ~1 ~ ~ air run tag @s remove chestEast
 execute as @s[tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ 255 ~ chest

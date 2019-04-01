@@ -1,3 +1,3 @@
 execute as @e[type=firework_rocket,nbt={FireworksItem:{id:"minecraft:firework_rocket",tag:{CustomModelData:8,CustomBlock0:1b}}}] run function dinocustom:placing/toy_crafter
 execute as @e[type=firework_rocket,nbt={FireworksItem:{id:"minecraft:firework_rocket",tag:{CustomModelData:9,CustomBlock1:1b}}}] run function dinocustom:placing/zoology_crafter
-execute as @e[type=firework_rocket,nbt={FireworksItem:{id:"minecraft:firework_rocket",tag:{CustomModelData:1,CustomBlock2:1b}}}] run function dinocustom:placing/archaeology_workbench
+execute as @e[type=firework_rocket,nbt={FireworksItem:{id:"minecraft:firework_rocket",tag:{CustomModelData:4,CustomBlock2:1b}}}] run function dinocustom:placing/analyzer
