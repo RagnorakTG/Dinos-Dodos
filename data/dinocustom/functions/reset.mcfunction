@@ -71,14 +71,14 @@ scoreboard objectives add jeep.seat_id dummy
 scoreboard objectives add jeep.honk_dam dummy
 scoreboard objectives add SelItemSlot dummy
 # install
-tellraw @a ["",{"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}]
-tellraw @a ["",{"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}]
-tellraw @a ["",{"text":"Dev Team:","color":"aqua"}]
-tellraw @a ["",{"text":"_Ragnorak_ [Lead Developer]","color":"red"}]
-tellraw @a ["",{"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}]
-tellraw @a ["",{"text":"iNkoR_the_2nd [Artist]","color":"yellow"}]
-tellraw @a ["",{"text":"Seba244c [Coder]","color":"green"}]
-tellraw @a ["",{"text":"TheNuclearNexus [Coder]","color":"gold"}]
-tellraw @a ["",{"text":"JordenEatsCereal [Coder, Artist]","color":"red"}]
+tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
+tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}
+tellraw @a {"text":"Dev Team:","color":"aqua"}
+tellraw @a {"text":"_Ragnorak_ [Lead Developer]","color":"red"}
+tellraw @a {"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}
+tellraw @a {"text":"iNkoR_the_2nd [Artist]","color":"yellow"}
+tellraw @a {"text":"Seba244c [Coder]","color":"green"}
+tellraw @a {"text":"TheNuclearNexus [Coder]","color":"gold"}
+tellraw @a {"text":"JordenEatsCereal [Coder, Artist]","color":"red"}
 # Start up fossil system
 execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
