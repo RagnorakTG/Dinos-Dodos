@@ -1,13 +1,3 @@
-####################
-#                  #
-#                  #
-#                  #
-# Made by Ragnorak #
-#                  #
-#                  #
-#                  #
-####################
-
 # - AI
 execute as @e[tag=dinosaur] at @s run function dinocustom:ai/ai_components/ai_schedule
 execute as @e[tag=dinosaur] at @s run function dinocustom:ai/dinosaurs/main

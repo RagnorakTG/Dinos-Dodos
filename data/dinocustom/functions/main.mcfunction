@@ -1,15 +1,4 @@
-####################
-#                  #
-#                  #
-#                  #
-# Made by Ragnorak #
-#                  #
-#                  #
-#                  #
-####################
-
 # - Run Functions
-function dinocustom:ore_generation/main
 function dinocustom:crafting/main
 function dinocustom:ai/main
 function dinocustom:paleontology/main
