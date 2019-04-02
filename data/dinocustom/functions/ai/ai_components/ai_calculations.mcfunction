@@ -1,3 +1,8 @@
+#Assign ID
+execute if entity @s[tag=!dinoHasId] run scoreboard players operation @s Dinosaur_ID = $idGiver Dinosaur_ID
+execute if entity @s[tag=!dinoHasId] run scoreboard players add $idGiver Dinosaur_ID 1
+execute if entity @s[tag=!dinoHasId] run tag @s add dinoHasId
+
 ##Calculations
 # Weight
 scoreboard players set @s[tag=dinosaur] Weight 0
@@ -47,8 +52,3 @@ execute if score Time Time matches 1000 run scoreboard players add @s[tag=dinosa
 
 # Death
 execute if score @s[tag=dinosaur] Current_Age > @s[tag=dinosaur] Max_Age run tag @s add corpse
-
-#Assign ID
-execute if entity @s[tag=!dinoHasId] run scoreboard players operation @s Dinosaur_ID = $idGiver Dinosaur_ID
-execute if entity @s[tag=!dinoHasId] run scoreboard players add $idGiver Dinosaur_ID 1
-execute if entity @s[tag=!dinoHasId] run tag @s add dinoHasId
