@@ -4,6 +4,7 @@ scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add Timer dummy
+
 # Fossil Gen
 scoreboard objectives add Spawn_Fossil dummy
 scoreboard objectives add Dinosaur_fossil dummy
@@ -17,12 +18,14 @@ scoreboard objectives add Player_Horse minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add Player_Pig minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add Player_Jump minecraft.custom:minecraft.jump
 scoreboard objectives add R_Click_Fossil minecraft.custom:minecraft.talked_to_villager
+
 # Crafting
 scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy
 scoreboard objectives add MeatTrough dummy
 scoreboard objectives add PlantTrough dummy
-## AI
+
+# AI
 scoreboard objectives add Height dummy
 scoreboard objectives add Length dummy
 scoreboard objectives add Width dummy
@@ -63,6 +66,7 @@ scoreboard objectives add Dinosaur_ID dummy
 scoreboard objectives add MakeSound dummy
 scoreboard objectives add Sound dummy
 scoreboard objectives add Time dummy
+
 # Vehicles
 scoreboard objectives add jeep.id dummy
 scoreboard objectives add jeep.trunk_id dummy
@@ -70,7 +74,8 @@ scoreboard objectives add jeep.honk_id dummy
 scoreboard objectives add jeep.seat_id dummy
 scoreboard objectives add jeep.honk_dam dummy
 scoreboard objectives add SelItemSlot dummy
-# install
+
+# Install message and gamrule
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
 tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}
 tellraw @a {"text":"Dev Team:","color":"aqua"}
@@ -80,5 +85,13 @@ tellraw @a {"text":"iNkoR_the_2nd [Artist]","color":"yellow"}
 tellraw @a {"text":"Seba244c [Coder]","color":"green"}
 tellraw @a {"text":"TheNuclearNexus [Coder]","color":"gold"}
 tellraw @a {"text":"JordenEatsCereal [Coder, Artist]","color":"red"}
+gamerule sendCommandFeedback false
+execute if entity JordenAteCereal run gamerule sendCommandFeedback true
+execute if entity Seba244c run gamerule sendCommandFeedback true
+execute if entity TheNuclearNexus run gamerule sendCommandFeedback true
+execute if entity _Ragnorak_ run gamerule sendCommandFeedback true
+execute if entity Mr_Birdasaur run gamerule sendCommandFeedback true
+execute if entity iNkoR_the_2nd run gamerule sendCommandFeedback true
+
 # Start up fossil system
 execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {CustomNameVisible:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
