@@ -6,11 +6,13 @@ scoreboard players operation @s[tag=dinosaur] Weight += @s[tag=dinosaur] Length
 scoreboard players operation @s[tag=dinosaur] Weight += @s[tag=dinosaur] Width
 scoreboard players operation @s[tag=dinosaur] Weight *= Weight_Multiply Multipliers
 scoreboard players set Weight_Multiply Multipliers 2
+
 # Max_Food
 scoreboard players set @s[tag=dinosaur] Max_Food 0
 execute store result score @s[tag=dinosaur] Max_Food run scoreboard players get @s[tag=dinosaur] Weight
 scoreboard players operation @s[tag=dinosaur] Max_Food *= Weight_Multiply Multipliers
 execute if score @s[tag=dinosaur] Current_Food > @s Max_Food store result score @s Current_Food run scoreboard players get @s Max_Food
+
 # Max_Speed
 execute if score @s[tag=dinosaur] Weight matches ..5 run scoreboard players set @s Max_Speed 3
 execute if score @s[tag=dinosaur] Weight matches 6..10 run scoreboard players set @s Max_Speed 4
@@ -24,10 +26,12 @@ execute if score @s[tag=dinosaur] Weight matches 61..70 run scoreboard players s
 execute if score @s[tag=dinosaur] Weight matches 71..80 run scoreboard players set @s Max_Speed 8
 execute if score @s[tag=dinosaur] Weight matches 81..90 run scoreboard players set @s Max_Speed 7
 execute if score @s[tag=dinosaur] Weight matches 91.. run scoreboard players set @s Max_Speed 6
+
 # Immune_System
 scoreboard players set @s[tag=dinosaur] Immune_System 0
 scoreboard players operation @s[tag=dinosaur] Immune_System += @s[tag=dinosaur] Weight
 scoreboard players operation @s[tag=dinosaur] Immune_System /= Weight_Multiply Multipliers
+
 # Grounds_Size
 scoreboard players set @s[tag=dinosaur] Grounds_Size 1
 scoreboard players operation @s[tag=dinosaur] Grounds_Size *= @s[tag=dinosaur] Weight
@@ -36,9 +40,15 @@ scoreboard players operation @s[tag=dinosaur] Grounds_Size *= Group_Multiply Mul
 scoreboard players set Group_Multiply Multipliers 3
 # Current_Happiness
 scoreboard players set @s[tag=dinosaur,scores={Current_Happines=100..}] Current_Happines 100
+
 # Current_Age
 execute store result score Time Time run time query daytime
 execute if score Time Time matches 1000 run scoreboard players add @s[tag=dinosaur] Current_Age 1
+
 # Death
 execute if score @s[tag=dinosaur] Current_Age > @s[tag=dinosaur] Max_Age run tag @s add corpse
+
 #Assign ID
+execute if entity @s[tag=!dinoHasId] run scoreboard players operation @s Dinosaur_ID = $idGiver Dinosaur_ID
+execute if entity @s[tag=!dinoHasId] run scoreboard players add $idGiver Dinosaur_ID 1
+execute if entity @s[tag=!dinoHasId] run tag @s add dinoHasId
