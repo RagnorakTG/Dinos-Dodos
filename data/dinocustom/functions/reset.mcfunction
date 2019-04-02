@@ -1,6 +1,5 @@
 # Misc.
 scoreboard objectives add y_rotation dummy
-scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add Timer dummy
@@ -66,14 +65,6 @@ scoreboard objectives add Dinosaur_ID dummy
 scoreboard objectives add MakeSound dummy
 scoreboard objectives add Sound dummy
 scoreboard objectives add Time dummy
-
-# Vehicles
-scoreboard objectives add jeep.id dummy
-scoreboard objectives add jeep.trunk_id dummy
-scoreboard objectives add jeep.honk_id dummy
-scoreboard objectives add jeep.seat_id dummy
-scoreboard objectives add jeep.honk_dam dummy
-scoreboard objectives add SelItemSlot dummy
 
 # Install message and gamrule
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}

@@ -10,3 +10,4 @@ execute as @s[tag=pachycephalosaurus] run function dinocustom:ai/dinosaurs/pachy
 execute as @s[tag=spinosaurus] run function dinocustom:ai/dinosaurs/spinosaurus
 # - Velociraptor
 execute as @s[tag=velociraptor] run function dinocustom:ai/dinosaurs/velociraptor
+tag @s add hasBSetup
