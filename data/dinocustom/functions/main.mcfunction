@@ -3,6 +3,19 @@ function dinocustom:crafting/main
 function dinocustom:ai/main
 function dinocustom:paleontology/main
 function dinocustom:timer
+function dinocustom:monorail/main
+execute as @a at @s run function dinocystom:ore/main
+
+#vehicle
+#helicopter
+execute as @e[tag=DnD_vehicle.helicopter.core] at @s run function dinocustom:vehicles/helicopter/helicopter_vehiclesystem/coptervehicle
+#jeep
+function dinocustom:vehicles/jeep/jeep_vehiclesystem/jeepvehicle
+function dinocustom:vehicles/jeep/jeep_drivingsystem/jeepmotion
+function dinocustom:vehicles/wasddetect
+function dinocustom:vehicles/jeep/jeep_drivingsystem/jeepclimbing
+function dinocustom:vehicles/jeep/jeep_soundsystem/jeepsounds
+function dinocustom:vehicles/jeep/jeep_soundsystem/jeephonk
 
 # - Run Commands
 execute if entity @a[scores={Use_ArmSta=1..},limit=1] as @e[type=armor_stand] at @s run function #dinocustom:as_place
