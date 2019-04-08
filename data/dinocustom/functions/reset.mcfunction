@@ -66,6 +66,29 @@ scoreboard objectives add MakeSound dummy
 scoreboard objectives add Sound dummy
 scoreboard objectives add Time dummy
 
+# Vehicles
+team add noCollision
+team modify noCollision collisionRule never
+scoreboard objectives add wsDetect dummy
+scoreboard objectives add wsDetect2 dummy
+scoreboard objectives add vehicleWASD dummy
+scoreboard objectives add vehicleWASD2 dummy
+scoreboard objectives add vehicleIdleSound dummy
+scoreboard objectives add jeepHonk dummy
+scoreboard objectives add vehicleId dummy
+scoreboard objectives add vehicleSeatId dummy
+scoreboard objectives add vehicleTrunkId dummy
+scoreboard objectives add vehicleHonkId dummy
+scoreboard objectives add vehicleModelId dummy
+scoreboard objectives add jeepWASD dummy
+scoreboard objectives add jeepWASD2 dummy
+scoreboard objectives add jeepIdleSound dummy
+scoreboard objectives add jeepHonk dummy
+scoreboard objectives add jeepId dummy
+scoreboard objectives add jeepSeatId dummy
+scoreboard objectives add jeepTrunkId dummy
+scoreboard objectives add jeepHonkId dummy
+
 # Install message and gamrule
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
 tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}
@@ -76,7 +99,6 @@ tellraw @a {"text":"iNkoR_the_2nd [Artist]","color":"yellow"}
 tellraw @a {"text":"Seba244c [Coder]","color":"green"}
 tellraw @a {"text":"TheNuclearNexus [Coder]","color":"gold"}
 tellraw @a {"text":"JordenEatsCereal [Coder, Artist]","color":"red"}
-gamerule sendCommandFeedback false
 execute if entity JordenAteCereal run gamerule sendCommandFeedback true
 execute if entity Seba244c run gamerule sendCommandFeedback true
 execute if entity TheNuclearNexus run gamerule sendCommandFeedback true
