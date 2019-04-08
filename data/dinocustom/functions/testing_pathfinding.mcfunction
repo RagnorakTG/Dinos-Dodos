@@ -19,7 +19,10 @@ execute as @e[tag=find,tag=!done,scores={Pathfinding_time=3}] if score Time Path
 execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!done,distance=..0.5] if score Time Pathfinding_time matches 7 run tag @s add finished
 execute as @e[tag=find,tag=!pathfind] at @s if score Time Pathfinding_time matches 7 run kill @s
 execute if score Time Pathfinding_time matches 7 run replaceitem entity @e[tag=done] armor.head redstone_block
-execute if entity @e[tag=finished] run tp @e[tag=teleport] @e[tag=find,sort=nearest,limit=1]
+execute as @e[tag=teleport] at @s if entity @e[tag=finished] run tp @e[tag=teleport] @e[tag=find,sort=nearest,limit=1]
 execute if entity @e[tag=finished] run execute as @e[tag=teleport] at @s run kill @e[tag=find,sort=nearest,limit=1]
 execute as @e[tag=teleport] at @s if score Time Pathfinding_time matches 8 run tag @e[tag=teleport] add done
 execute if score Time Pathfinding_time matches 8.. run scoreboard players set Time Pathfinding_time 0
+execute as @e[tag=teleport] at @s if entity @e[tag=finished,distance=..1] run kill @e[tag=find,distance=2..]
+execute as @e[tag=teleport] at @s if entity @e[tag=follow,distance=..1] run kill @e[tag=find]
+execute at @e[tag=follow] run execute if score @e[tag=find,limit=1,sort=furthest] Pathfinding_time matches 15.. run tag @e[tag=pathfind,limit=1,sort=nearest] add finished

@@ -1,6 +1,5 @@
 # Misc.
 scoreboard objectives add y_rotation dummy
-scoreboard objectives add Use_ArmSta minecraft.used:minecraft.armor_stand
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add Timer dummy
@@ -67,6 +66,7 @@ scoreboard objectives add MakeSound dummy
 scoreboard objectives add Sound dummy
 scoreboard objectives add Time dummy
 
+<<<<<<< HEAD
 # Vehicles
 team add noCollision
 team modify noCollision collisionRule never
@@ -81,6 +81,8 @@ scoreboard objectives add jeepSeatId dummy
 scoreboard objectives add jeepTrunkId dummy
 scoreboard objectives add jeepHonkId dummy
 
+=======
+>>>>>>> 109066fd350e680e824fc40a1c38d066c10432cb
 # Install message and gamrule
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
 tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}
