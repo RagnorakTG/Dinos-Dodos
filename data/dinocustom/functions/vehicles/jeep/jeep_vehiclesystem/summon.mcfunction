@@ -16,3 +16,9 @@ execute as @e[tag=jeepCore] at @s run scoreboard players operation @e[tag=jeepSe
 execute as @e[tag=jeepCore] at @s run scoreboard players operation @e[tag=jeepUpdater,distance=..2,sort=nearest,limit=1] jeepModelId = @s jeepId
 execute as @e[tag=jeepCore] at @s run scoreboard players operation @e[tag=jeepTrunk,distance=..4,sort=nearest,limit=1] jeepTrunkId = @s jeepId
 execute as @e[tag=jeepCore] at @s run scoreboard players operation @e[tag=jeepHonk,distance=..2,sort=nearest,limit=1] jeepHonkId = @s jeepId
+execute as @e[tag=jeepCore] run scoreboard players operation @e[tag=jeepSeat0Up,distance=..2,sort=nearest,limit=1] jeepSeatId = @s jeepId
+execute as @e[tag=jeepCore] run scoreboard players operation @e[tag=jeepSeat1Up,distance=..2,sort=nearest,limit=1] jeepSeatId = @s jeepId
+execute as @e[tag=jeepCore] run scoreboard players operation @e[tag=jeepSeat2Up,distance=..2,sort=nearest,limit=1] jeepSeatId = @s jeepId
+execute as @e[tag=jeepCore] run scoreboard players operation @e[tag=jeepSeat3Up,distance=..2,sort=nearest,limit=1] jeepSeatId = @s jeepId
+execute as @e[tag=jeepCore] run scoreboard players operation @e[tag=jeepTrunk,distance=..4,sort=nearest,limit=1] jeepTrunkId = @s jeepId
+execute as @e[tag=jeepCore] run scoreboard players operation @e[tag=jeepHonk,distance=..2,sort=nearest,limit=1] jeepHonkId = @s jeepId

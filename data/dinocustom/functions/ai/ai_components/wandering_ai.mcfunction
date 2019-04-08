@@ -10,8 +10,10 @@ execute as @s[tag=dinosaur,tag=walk,scores={ShouldWander=100}] run tag @s remove
 execute as @s[tag=dinosaur,scores={ShouldWander=100}] at @s run tag @s add do.walk
 execute as @s[tag=dinosaur,scores={ShouldWander=150}] run scoreboard players set @s ShouldWander 0
 execute as @s[tag=dinosaur,tag=do.rotate] run scoreboard players reset out_0 math_rng
+#Input for rng
 execute as @s[tag=dinosaur,tag=do.rotate] run scoreboard players set in_0 math_rng 10
 execute as @s[tag=dinosaur,tag=do.rotate] run function dinocustom:ai/rng
+#Output for rng
 execute as @s[tag=dinosaur,tag=do.rotate] run execute store result score @s Rotate run scoreboard players get out_0 math_rng
 execute as @s[tag=dinosaur,tag=do.walk] run scoreboard players reset out_0 math_rng
 execute as @s[tag=dinosaur,tag=do.walk] run scoreboard players set in_0 math_rng 100

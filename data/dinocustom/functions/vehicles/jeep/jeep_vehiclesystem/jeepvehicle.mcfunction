@@ -13,6 +13,10 @@ execute as @e[tag=jeepUpdater,limit=1,sort=nearest] at @e[tag=jeepCore,limit=1] 
 
 #tp chest into place
 execute as @e[tag=jeepTrunk,limit=1,sort=nearest] at @e[tag=jeepCore,limit=1] if score @s jeepTrunkId = @e[tag=jeepCore,limit=1] jeepId run tp @s ^ ^.5 ^-2.15
+execute as @e[tag=jeepUpdater,limit=1,sort=nearest] at @e[tag=jeepCore,limit=1] if score @s jeepSeatId = @e[tag=jeepCore,limit=1] jeepId run tp @s ~ ~-.5 ~
+
+#tp chest into place
+execute as @e[tag=jeepTrunk,limit=1,sort=nearest] at @e[tag=jeepCore,limit=1] if score @s jeepSeatId = @e[tag=jeepCore,limit=1] jeepId run tp @s ^ ^.5 ^-2.15
 
 #make the jeep rotate when there is a player in a driver seat
 execute as @a[nbt={RootVehicle:{Entity:{id:"minecraft:area_effect_cloud",Tags:["jeepSeat0Up"]}}}] positioned as @e[tag=jeepSeat0,sort=nearest,limit=1] if entity @s[distance=..1,tag=forwardsInput] store result entity @e[tag=jeepCore,limit=1,sort=nearest] Rotation[0] float 1 run data get entity @s Rotation[0]
