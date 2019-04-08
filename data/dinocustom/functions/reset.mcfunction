@@ -68,12 +68,18 @@ scoreboard objectives add Sound dummy
 scoreboard objectives add Time dummy
 
 # Vehicles
-scoreboard objectives add jeep.id dummy
-scoreboard objectives add jeep.trunk_id dummy
-scoreboard objectives add jeep.honk_id dummy
-scoreboard objectives add jeep.seat_id dummy
-scoreboard objectives add jeep.honk_dam dummy
-scoreboard objectives add SelItemSlot dummy
+team add noCollision
+team modify noCollision collisionRule never
+scoreboard objectives add wsDetect dummy
+scoreboard objectives add wsDetect2 dummy
+scoreboard objectives add jeepWASD dummy
+scoreboard objectives add jeepWASD2 dummy
+scoreboard objectives add jeepIdleSound dummy
+scoreboard objectives add jeepHonk dummy
+scoreboard objectives add jeepId dummy
+scoreboard objectives add jeepSeatId dummy
+scoreboard objectives add jeepTrunkId dummy
+scoreboard objectives add jeepHonkId dummy
 
 # Install message and gamrule
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
