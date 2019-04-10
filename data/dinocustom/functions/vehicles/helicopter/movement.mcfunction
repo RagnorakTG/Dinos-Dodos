@@ -12,3 +12,4 @@ execute if entity @p[tag=backwardsInput,tag=rHp] at @p[distance=..2] store resul
 execute if entity @p[tag=forwardsInput,tag=rHp] as @e[tag=DnD_vehicle.helicopter.core,sort=nearest,limit=1] at @s if block ^ ^ ^1 #move_through_heavy run tp @s ^ ^ ^0.342
 execute if entity @p[tag=backwardsInput,tag=rHp] as @e[tag=DnD_vehicle.helicopter.core,sort=nearest,limit=1] at @s if block ^ ^ ^-1 #move_through_heavy run tp @s ^ ^ ^-0.342
 execute if entity @p[tag=rightInput,tag=rHp] as @e[tag=DnD_vehicle.helicopter.core,sort=nearest,limit=1] at @s if block ^-1 ^1 ^ #move_through_heavy run tp @s ^-0.342 ^ ^
+execute if entity @p[tag=leftInput,tag=rHp] as @e[tag=DnD_vehicle.helicopter.core,sort=nearest,limit=1] at @s if block ^1 ^1 ^ #move_through_heavy run tp @s ^0.342 ^ ^

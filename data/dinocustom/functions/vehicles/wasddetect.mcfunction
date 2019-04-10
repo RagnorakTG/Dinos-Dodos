@@ -267,6 +267,89 @@ execute as @a[y_rotation=-20.0..-18.1] unless score @s wsDetect2 matches 0 run t
 execute as @a[y_rotation=-18.0..-0.0] unless score @s wsDetect matches -2 unless score @s wsDetect2 matches 0 run tag @s remove rightInput
 execute as @a[y_rotation=-18.0..-0.0] unless score @s wsDetect matches -2 run tag @s remove rightInput
 execute as @a[y_rotation=-18.0..-0.0] unless score @s wsDetect2 matches 0 run tag @s remove rightInput
+#Detecting A input and giving the player a tag that tells the car to move right
+execute as @a[y_rotation=0.0..34.9] if score @s wsDetect matches 1 if score @s wsDetect2 matches 0 run tag @s add leftInput
+execute as @a[y_rotation=34.9..55.1] if score @s wsDetect matches 1 if score @s wsDetect2 matches 1 run tag @s add leftInput
+execute as @a[y_rotation=55.1..77.0] if score @s wsDetect matches 0 if score @s wsDetect2 matches 1 run tag @s add leftInput
+execute as @a[y_rotation=77.0..79.0] if score @s wsDetect matches 0 if score @s wsDetect2 matches 1 run tag @s add leftInput
+execute as @a[y_rotation=79.0..90.0] if score @s wsDetect matches 0 if score @s wsDetect2 matches 1 run tag @s add leftInput
+execute as @a[y_rotation=90..124.8] if score @s wsDetect matches -1 if score @s wsDetect2 matches 1 run tag @s add leftInput
+execute as @a[y_rotation=124.9..145.1] if score @s wsDetect matches -2 if score @s wsDetect2 matches 1 run tag @s add leftInput
+execute as @a[y_rotation=145.1..180.0] if score @s wsDetect matches -2 if score @s wsDetect2 matches 0 run tag @s add leftInput
+execute as @a[y_rotation=-180..-145.1] if score @s wsDetect matches -2 if score @s wsDetect2 matches -1 run tag @s add leftInput
+execute as @a[y_rotation=-145.1..-124.9] if score @s wsDetect matches -2 if score @s wsDetect2 matches -2 run tag @s add leftInput
+execute as @a[y_rotation=-124.9..-90.0] if score @s wsDetect matches -1 if score @s wsDetect2 matches -2 run tag @s add leftInput
+execute as @a[y_rotation=-90.0..-55.1] if score @s wsDetect matches 0 if score @s wsDetect2 matches -2 run tag @s add leftInput
+execute as @a[y_rotation=-55.1..-34.9] if score @s wsDetect matches 1 if score @s wsDetect2 matches -2 run tag @s add leftInput
+execute as @a[y_rotation=-34.9..-20.0] if score @s wsDetect matches 1 if score @s wsDetect2 matches -1 run tag @s add leftInput
+execute as @a[y_rotation=-20.0..-18.1] if score @s wsDetect matches 1 if score @s wsDetect2 matches -1 run tag @s add leftInput
+execute as @a[y_rotation=-18.0..-0.0] if score @s wsDetect matches 1 if score @s wsDetect2 matches -1 run tag @s add leftInput
+#Detecting A and blocking W and S / removing the tag when there is no motion/wrong motion
+execute if score @s wsDetect matches 0 if score @s wsDetect matches 0 run tag @p remove leftInput
+#
+execute as @a[y_rotation=0.0..34.9] unless score @s wsDetect matches 1 unless score @s wsDetect2 matches 0 run tag @s remove leftInput
+execute as @a[y_rotation=0.0..34.9] unless score @s wsDetect matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=0.0..34.9] unless score @s wsDetect2 matches 0 run tag @s remove leftInput
+#105
+execute as @a[y_rotation=34.9..55.1] unless score @s wsDetect matches 1 unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=34.9..55.1] unless score @s wsDetect matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=34.9..55.1] unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+#106
+execute as @a[y_rotation=55.1..77.0] unless score @s wsDetect matches 0 unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=55.1..77.0] unless score @s wsDetect matches 0 run tag @s remove leftInput
+execute as @a[y_rotation=55.1..77.0] unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+#107
+execute as @a[y_rotation=77.0..79.0] unless score @s wsDetect matches 0 unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=77.0..79.0] unless score @s wsDetect matches 0 run tag @s remove leftInput
+execute as @a[y_rotation=77.0..79.0] unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+#108
+execute as @a[y_rotation=79.0..90.0] unless score @s wsDetect matches 0 unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=79.0..90.0] unless score @s wsDetect matches 0 run tag @s remove leftInput
+execute as @a[y_rotation=79.0..90.0] unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+#109
+execute as @a[y_rotation=90..124.8] unless score @s wsDetect matches -1 unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=90..124.8] unless score @s wsDetect matches -1 run tag @s remove leftInput
+execute as @a[y_rotation=90..124.8] unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+#110
+execute as @a[y_rotation=124.9..145.1] unless score @s wsDetect matches -2 unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=124.9..145.1] unless score @s wsDetect matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=124.9..145.1] unless score @s wsDetect2 matches 1 run tag @s remove leftInput
+#111
+execute as @a[y_rotation=145.1..180.0] unless score @s wsDetect matches -2 unless score @s wsDetect2 matches 0 run tag @s remove leftInput
+execute as @a[y_rotation=145.1..180.0] unless score @s wsDetect matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=145.1..180.0] unless score @s wsDetect2 matches 0 run tag @s remove leftInput
+#112
+execute as @a[y_rotation=-180..-145.1] unless score @s wsDetect matches -2 unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+execute as @a[y_rotation=-180..-145.1] unless score @s wsDetect matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=-180..-145.1] unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+#113
+execute as @a[y_rotation=-145.1..-124.9] unless score @s wsDetect matches -2 unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=-145.1..-124.9] unless score @s wsDetect matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=-145.1..-124.9] unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+#114
+execute as @a[y_rotation=-124.9..-90.0] unless score @s wsDetect matches -1 unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=-124.9..-90.0] unless score @s wsDetect matches -1 run tag @s remove leftInput
+execute as @a[y_rotation=-124.9..-90.0] unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+#115
+execute as @a[y_rotation=-90.0..-55.1] unless score @s wsDetect matches 0 unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=-90.0..-55.1] unless score @s wsDetect matches 0 run tag @s remove leftInput
+execute as @a[y_rotation=-90.0..-55.1] unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+#116
+execute as @a[y_rotation=-55.1..-34.9] unless score @s wsDetect matches 1 unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+execute as @a[y_rotation=-55.1..-34.9] unless score @s wsDetect matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=-55.1..-34.9] unless score @s wsDetect2 matches -2 run tag @s remove leftInput
+#117
+execute as @a[y_rotation=-34.9..-20.0] unless score @s wsDetect matches 1 unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+execute as @a[y_rotation=-34.9..-20.0] unless score @s wsDetect matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=-34.9..-20.0] unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+#118
+execute as @a[y_rotation=-20.0..-18.1] unless score @s wsDetect matches 1 unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+execute as @a[y_rotation=-20.0..-18.1] unless score @s wsDetect matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=-20.0..-18.1] unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+#119
+execute as @a[y_rotation=-18.0..-0.0] unless score @s wsDetect matches 1 unless score @s wsDetect2 matches -1 run tag @s remove leftInput
+execute as @a[y_rotation=-18.0..-0.0] unless score @s wsDetect matches 1 run tag @s remove leftInput
+execute as @a[y_rotation=-18.0..-0.0] unless score @s wsDetect2 matches -1 run tag @s remove leftInput
 
 
 
