@@ -8,3 +8,5 @@ execute at @e[tag=DnD_vehicle.helicopter.seatUpdater0,sort=nearest,limit=1] if s
 execute as @e[tag=DnD_vehicle.helicopter.seatUpdater,distance=..15] if score @e[sort=nearest,limit=1] vehicleId = @s vehicleSeatId run tp @s ~ ~ ~ ~ ~
 execute at @s run tp @e[tag=DnD_vehicle.helicopter.seatUpdater0,sort=nearest,limit=1] ^ ^-1 ^
 
+effect give @e[tag=DnD_vehicle.helicopter.seat] invisibility 10000 1 true
+
