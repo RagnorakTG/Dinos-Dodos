@@ -13,7 +13,7 @@ execute as @s at @s if block ~ ~ ~ #minecraft:stairs if block ~ ~ ~0.35 air run 
 execute as @s at @s if block ~ ~ ~ #minecraft:stairs if block ~ ~-0.35 ~ air run tp @s ~ ~-0.6 ~
 execute as @s at @s if block ~ ~ ~ #minecraft:stairs if block ~ ~0.5 ~ air run tp @s ~ ~0.6 ~
 #moar
-execute as @s at @s unless block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"DNA Extractor\",\"italic\":false}"},CustomModelData:8,CustomBlock0:1b,Fireworks:{}}}}
+execute as @s at @s unless block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"DNA Extractor\",\"italic\":false}"},CustomModelData:7,CustomBlock3:1b,Fireworks:{}}}}
 #setting a block at the centered postion of the firework entity/summoning an armor stand at the centered position of the firework entity
 execute as @s[type=minecraft:firework_rocket] store result entity @s Rotation[0] float 1 run data get entity @p Rotation[0] 1
 execute as @s at @s unless entity @e[type=!firework_rocket,type=!item,distance=..0.1] align xyz if block ~ ~ ~ air unless block ~1 ~ ~ chest positioned ~.5 ~ ~.5 run setblock ~ ~ ~ minecraft:chest[type=left]{CustomName:"{\"text\":\"dna_extractor\"}"}
