@@ -10,8 +10,7 @@ execute if block ~ ~ ~ chest run data merge block ~ ~ ~
 execute if block ~ ~ ~ chest run data merge block ~ ~ ~
 
 #Analyzer
-execute if block ~ ~ ~ chest run data merge block ~ ~ ~
-
+execute if block ~ ~ ~ chest{Items:[{Slot:1b,id:"minecraft:iron_ingot",Count:1b},{Slot:2b,id:"minecraft:iron_ingot",Count:1b},{Slot:3b,id:"minecraft:light_blue_stained_glass",Count:1b},{Slot:10b,id:"minecraft:iron_ingot",Count:1b},{Slot:11b,id:"minecraft:command_block",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Computer Chip","color":"white","italic":false}'}}},{Slot:12b,id:"minecraft:light_blue_stained_glass",Count:1b},{Slot:19b,id:"minecraft:iron_ingot",Count:1b},{Slot:20b,id:"minecraft:redstone",Count:1b},{Slot:21b,id:"minecraft:iron_ingot",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:15b,id:"minecraft:firework_rocket",Count:1b,tag:{CustomModelData:4,CustomBlock2:1b,display:{Name:'{"text":"Analyzer","italic":false}'},Fireworks:{}}}]}
 #Archaeology Workbench
 execute if block ~ ~ ~ chest run data merge block ~ ~ ~
 
