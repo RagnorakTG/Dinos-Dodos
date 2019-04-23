@@ -23,6 +23,9 @@ scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy
 scoreboard objectives add MeatTrough dummy
 scoreboard objectives add PlantTrough dummy
+scoreboard objectives add combinatorBar dummy
+scoreboard objectives add analyzerBarTimer dummy
+scoreboard objectives add extractorBar dummy
 
 # AI
 scoreboard objectives add Height dummy
