@@ -1,7 +1,7 @@
 ##Fossil Formation
 #spawn fossil
 execute as @s[tag=fossil_formation] at @s run tp @s ~ 25 ~
-execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100,y=25] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959}
+execute at @a unless block ~ 64 ~ water unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100,y=25] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959}
 execute as @s[type=armor_stand,tag=fossil_formation,tag=!random] at @s run spreadplayers ~ ~ 5 100 false @s
 #Should Generate?
 execute as @s[tag=fossil_formation,tag=!randomized] run scoreboard players reset out_0 math_rng
