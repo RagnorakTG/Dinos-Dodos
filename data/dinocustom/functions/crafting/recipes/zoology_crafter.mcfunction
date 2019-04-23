@@ -1,39 +1,20 @@
-#Electrical Chip
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+#Computer Chip
+execute if block ~ ~ ~ chest{Items:[{Slot:1b,id:"minecraft:iron_ingot",Count:1b},{Slot:2b,id:"minecraft:redstone",Count:1b},{Slot:10b,id:"minecraft:diamond",Count:1b},{Slot:11b,id:"minecraft:gold_ingot",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:15b,id:"minecraft:command_block",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Computer Chip","color":"white","italic":false}'}}}]}
 #DNA Extractor
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #Advanced DNA Combinator
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #Analyzer
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #Archaeology Workbench
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #Culture Vat
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #DNA Combinator
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #Food Trough
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #Toy Crafter
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
-execute if block ~ ~ ~ barrel[facing=up] run data merge block ~ ~ ~
+
 #paleontology
-execute if block ~ ~ ~ barrel[facing=up]{CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 1b, id: "minecraft:clay_ball", Count: 1b}, {Slot: 2b, id: "minecraft:paper", Count: 1b}, {Slot: 3b, id: "minecraft:clay_ball", Count: 1b}, {Slot: 10b, id: "minecraft:paper", Count: 1b}, {Slot: 11b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water"}}, {Slot: 12b, id: "minecraft:paper", Count: 1b}, {Slot: 19b, id: "minecraft:clay_ball", Count: 1b}, {Slot: 20b, id: "minecraft:paper", Count: 1b}, {Slot: 21b, id: "minecraft:clay_ball", Count: 1b}], id: "minecraft:barrel"} run data merge block ~ ~ ~ {CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 15b, id: "minecraft:paper", Count: 8b, tag: {CustomModelData: 1, display: {Name: "{\"text\":\"Cloth Plaster\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:barrel"}
+execute if block ~ ~ ~ chest{CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 1b, id: "minecraft:clay_ball", Count: 1b}, {Slot: 2b, id: "minecraft:paper", Count: 1b}, {Slot: 3b, id: "minecraft:clay_ball", Count: 1b}, {Slot: 10b, id: "minecraft:paper", Count: 1b}, {Slot: 11b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water"}}, {Slot: 12b, id: "minecraft:paper", Count: 1b}, {Slot: 19b, id: "minecraft:clay_ball", Count: 1b}, {Slot: 20b, id: "minecraft:paper", Count: 1b}, {Slot: 21b, id: "minecraft:clay_ball", Count: 1b}], id: "minecraft:chest"} run data merge block ~ ~ ~ {CustomName: "{\"text\":\"Zoology Crafter\"}", Items: [{Slot: 15b, id: "minecraft:paper", Count: 8b, tag: {CustomModelData: 1, display: {Name: "{\"text\":\"Cloth Plaster\",\"color\":\"white\",\"italic\":false}"}}}], id: "minecraft:chest"}

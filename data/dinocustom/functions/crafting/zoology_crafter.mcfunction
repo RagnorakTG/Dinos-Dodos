@@ -7,7 +7,8 @@ kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:3}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:2}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier",tag:{CustomModelData:1}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"zoology_crafter"}'}}}}]
-
+#crafting
+execute as @s at @s run function dinocustom:crafting/recipes/zoology_crafter
 #GUI
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:2}
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.4 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
