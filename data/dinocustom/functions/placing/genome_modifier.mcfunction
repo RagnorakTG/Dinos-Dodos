@@ -28,4 +28,4 @@ execute as @s[y_rotation=45.1..135] at @s unless entity @e[type=!firework_rocket
 execute as @s at @s run playsound minecraft:block.metal.place block @a[distance=..20] ~ ~ ~ 3 1
 #killing the firework
 kill @s
-tag @s add crafting_station
+tag @e[tag=CustomBlock5] add crafting_station
