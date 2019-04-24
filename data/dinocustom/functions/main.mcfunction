@@ -1,7 +1,8 @@
 # - Run Functions
-function dinocustom:crafting/main
+execute as @e[tag=crafting_station] run function dinocustom:crafting/main
 function dinocustom:ai/main
-function dinocustom:paleontology/main
+execute as @e[tag=fossil] run function dinocustom:paleontology/main
+execute as @e[tag=fossil_formation] run function dinocustom:paleontology/main
 function dinocustom:timer
 function dinocustom:monorail/main
 execute as @a at @s run function dinocystom:ore/main
@@ -30,23 +31,4 @@ scoreboard players reset @a[scores={Use_Firework=1..}] Use_Firework
 execute as @a store result score @s SelItemSlot run data get entity @s SelectedItemSlot
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
 # - Clear
-clear @a barrier{CustomModelData:1}
-clear @a barrier{CustomModelData:2}
-clear @a barrier{CustomModelData:3}
-clear @a barrier{CustomModelData:4}
-clear @a barrier{CustomModelData:5}
-clear @a barrier{CustomModelData:6}
-clear @a barrier{CustomModelData:7}
-clear @a barrier{CustomModelData:8}
-clear @a barrier{CustomModelData:9}
-clear @a barrier{CustomModelData:10}
-clear @a barrier{CustomModelData:11}
-clear @a barrier{CustomModelData:12}
-clear @a barrier{CustomModelData:13}
-clear @a barrier{CustomModelData:14}
-clear @a barrier{CustomModelData:15}
-clear @a barrier{CustomModelData:16}
-clear @a barrier{CustomModelData:17}
-clear @a barrier{CustomModelData:18}
-clear @a barrier{CustomModelData:19}
-clear @a barrier{CustomModelData:20}
+execute as @a run function dinocustom:clear

@@ -2,7 +2,6 @@
 tag @s add crafting_station
 #Destruction of the block
 execute as @s at @s if block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"DNA Extractor\",\"italic\":false}"},CustomModelData:7,CustomBlock3:1b,Fireworks:{}}}}
-kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:barrier"}}]
 execute as @s at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"dna_extractor"}'}}}}]
 #Crafting
