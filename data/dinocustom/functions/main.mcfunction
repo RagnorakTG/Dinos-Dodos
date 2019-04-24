@@ -31,4 +31,4 @@ scoreboard players reset @a[scores={Use_Firework=1..}] Use_Firework
 execute as @a store result score @s SelItemSlot run data get entity @s SelectedItemSlot
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
 # - Clear
-execute as @a run function dinocustom:clear
+clear @a barrier
