@@ -54,7 +54,7 @@ execute as @s at @s if block ~1 ~ ~ air run tag @s add AirEast
 #bar system
 execute as @s[tag=barMoving] at @s run scoreboard players add @s extractorBar 1
 execute as @s[tag=barMoving,scores={extractorBar=1300}] run tag @s remove barMoving
-scoreboard players reset @e[scores={extractorBar=1300}] extractorBar
+scoreboard players reset @s[scores={extractorBar=1300}] extractorBar
 #changing the gui bar
 execute as @s[tag=barMoving,scores={extractorBar=100}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:65}
 execute as @s[tag=barMoving,scores={extractorBar=200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:66}

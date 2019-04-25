@@ -54,7 +54,7 @@ execute as @s at @s if block ~1 ~ ~ air run tag @s add AirEast
 #bar system
 execute as @s[tag=barMoving] at @s run scoreboard players add @s combinatorBar 1
 execute as @s[tag=barMoving,scores={combinatorBar=2900}] run tag @s remove barMoving
-scoreboard players reset @e[scores={combinatorBar=2900}] combinatorBar
+scoreboard players reset @s[scores={combinatorBar=2900}] combinatorBar
 #changing the gui bar
 execute as @s[tag=barMoving,scores={combinatorBar=100}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:35}
 execute as @s[tag=barMoving,scores={combinatorBar=200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:36}

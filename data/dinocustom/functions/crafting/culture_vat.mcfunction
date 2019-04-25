@@ -12,7 +12,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"c
 execute as @s at @s run function dinocustom:crafting/recipes/culture_vat
 
 #TopGUI
-execute as @s[tag=!BottombarMoving] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:77}
+execute as @s[tag=!TopbarMoving] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:77}
 execute as @s at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.2 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.3 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
 execute as @s at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.4 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
@@ -82,37 +82,37 @@ execute as @s[tag=!AirEast] at @s run setblock ~ 255 ~ air
 execute as @s at @s if block ~1 ~ ~ air run tag @s add AirEast
 
 #bar system bottom
-execute as @s[tag=BottombarMoving] at @s run scoreboard players add @s CultureBarBottom 1
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=24000}] run tag @s remove BottombarMoving
-scoreboard players reset @e[scores={CultureBarBottom=24000}] CultureBarBottom
+execute as @s[tag=BottombarMoving] at @s run scoreboard players add @s cultureBarBottom 1
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=2600}] run tag @s remove BottombarMoving
+scoreboard players reset @s[scores={cultureBarBottom=2600}] cultureBarBottom
 #changing the gui bar
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:91}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=400}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:92}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=600}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:93}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=800}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:94}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=1000}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:95}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=1200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:96}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=1400}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:97}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=1600}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:98}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=1800}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:99}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=20000}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:100}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=22000}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:111}
-execute as @s[tag=BottombarMoving,scores={CultureBarBottom=24000}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:112}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:91}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=400}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:92}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=600}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:93}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=800}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:94}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=1000}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:95}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=1200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:96}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=1400}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:97}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=1600}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:98}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=1800}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:99}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=2000}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:100}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=2200}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:111}
+execute as @s[tag=BottombarMoving,scores={cultureBarBottom=2400}] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:112}
 
 #bar system top
-execute as @s[tag=TopbarMoving] at @s run scoreboard players add @s CultureBarTop 1
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=24000}] run tag @s remove TopbarMoving
-scoreboard players reset @e[scores={CultureBarTop=24000}] CultureBarTop
+execute as @s[tag=TopbarMoving] at @s run scoreboard players add @s cultureBarTop 1
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=2600}] run tag @s remove TopbarMoving
+scoreboard players reset @s[scores={cultureBarTop=2600}] cultureBarTop
 #changing the gui bar
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=200}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:78}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=400}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:79}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=600}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:80}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=800}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:81}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=1000}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:82}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=1200}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:83}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=1400}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:84}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=1600}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:85}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=1800}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:86}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=20000}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:87}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=22000}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:88}
-execute as @s[tag=TopbarMoving,scores={CultureBarTop=24000}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:89}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=200}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:78}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=400}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:79}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=600}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:80}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=800}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:81}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=1000}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:82}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=1200}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:83}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=1400}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:84}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=1600}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:85}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=1800}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:86}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=2000}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:87}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=2200}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:88}
+execute as @s[tag=TopbarMoving,scores={cultureBarTop=2400}] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:89}
