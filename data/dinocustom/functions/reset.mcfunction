@@ -26,6 +26,8 @@ scoreboard objectives add PlantTrough dummy
 scoreboard objectives add combinatorBar dummy
 scoreboard objectives add analyzerBarTimer dummy
 scoreboard objectives add extractorBar dummy
+scoreboard objectives add cultureBarTop dummy
+scoreboard objectives add cultureBarBottom dummy
 
 # AI
 scoreboard objectives add Height dummy
