@@ -5,3 +5,4 @@ execute as @e[type=armor_stand,tag=CustomBlock2] run function dinocustom:craftin
 execute as @e[type=armor_stand,tag=CustomBlock3] run function dinocustom:crafting/dna_extractor
 execute as @e[type=armor_stand,tag=CustomBlock4] run function dinocustom:crafting/dna_combinator
 execute as @e[type=armor_stand,tag=CustomBlock5] run function dinocustom:crafting/genome_modifier
+execute as @e[type=armor_stand,tag=CustomBlock6] run function dinocustom:crafting/culture_vat
