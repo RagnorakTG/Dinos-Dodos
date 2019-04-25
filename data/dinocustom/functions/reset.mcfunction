@@ -70,6 +70,9 @@ scoreboard objectives add Dinosaur_ID dummy
 scoreboard objectives add MakeSound dummy
 scoreboard objectives add Sound dummy
 scoreboard objectives add Time dummy
+scoreboard objectives add Hatch_Time dummy
+scoreboard objectives add Egg_Ammount dummy
+scoreboard objectives add Egg_ID dummy
 
 # Vehicles
 team add noCollision
