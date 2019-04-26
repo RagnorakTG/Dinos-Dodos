@@ -25,5 +25,4 @@ execute as @s[tag=amphibian_egg,tag=egg_nest,tag=!swaped2,scores={Egg_Ammount=5.
 
 #Hatching
 execute as @s[tag=egg] at @s run scoreboard players add @s Hatch_Time 1
-execute as @s[tag=egg,scores={Hatch_Time=2400}] at @s run scoreboard players remove @s Egg_Ammount 1
-execute as @s[tag=egg,scores={Hatch_Time=2400}] at @s run tag @s add hatch
+execute as @s[tag=egg,scores={Hatch_Time=200}] at @s run tag @s add hatch
