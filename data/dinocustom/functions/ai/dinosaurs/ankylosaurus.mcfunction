@@ -3,6 +3,7 @@ execute as @s[tag=ankylosaurus] run tag @s add dinosaur
 execute as @s[tag=ankylosaurus] run tag @s add herbivore
 execute as @s[tag=ankylosaurus] run tag @s add passive
 execute as @s[tag=ankylosaurus] run tag @s add terrestrial
+execute as @s[tag=ankylosaurus] run tag @s add diurnal
 execute as @s[tag=ankylosaurus,tag=adult] run scoreboard players set @s Temp_Width 2
 execute as @s[tag=ankylosaurus,tag=adult] run scoreboard players set @s Temp_Height 2
 execute as @s[tag=ankylosaurus,tag=adult] run scoreboard players set @s Temp_Length 6

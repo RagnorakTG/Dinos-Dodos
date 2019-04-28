@@ -3,6 +3,7 @@ execute as @s[tag=velociraptor] run tag @s add dinosaur
 execute as @s[tag=velociraptor] run tag @s add carnivore
 execute as @s[tag=velociraptor] run tag @s add aggressive
 execute as @s[tag=velociraptor] run tag @s add terrestrial
+execute as @s[tag=velociraptor] run tag @s add nocturnal
 execute as @s[tag=velociraptor,tag=adult] run scoreboard players set @s Temp_Width 1
 execute as @s[tag=velociraptor,tag=adult] run scoreboard players set @s Temp_Height 1
 execute as @s[tag=velociraptor,tag=adult] run scoreboard players set @s Temp_Length 3
