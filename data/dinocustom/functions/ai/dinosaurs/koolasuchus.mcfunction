@@ -1,9 +1,19 @@
+#Info
 execute as @s[tag=koolasuchus] run tag @s add amphibian
 execute as @s[tag=koolasuchus] run tag @s add carnivore
 execute as @s[tag=koolasuchus] run tag @s add passive
 execute as @s[tag=koolasuchus] run tag @s add semi-aquatic
-
-execute as @s[tag=koolasuchus_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["koolasuchus"],Attributes:[{Name:generic.maxHealth,Base:10}]}
+execute as @s[tag=koolasuchus,tag=adult] run scoreboard players set @s Temp_Width 1
+execute as @s[tag=koolasuchus,tag=adult] run scoreboard players set @s Temp_Height 1
+execute as @s[tag=koolasuchus,tag=adult] run scoreboard players set @s Temp_Length 5
+execute as @s[tag=koolasuchus,tag=teen] run scoreboard players set @s Temp_Width 1
+execute as @s[tag=koolasuchus,tag=teen] run scoreboard players set @s Temp_Height 1
+execute as @s[tag=koolasuchus,tag=teen] run scoreboard players set @s Temp_Length 3
+execute as @s[tag=koolasuchus,tag=baby] run scoreboard players set @s Temp_Width 1
+execute as @s[tag=koolasuchus,tag=baby] run scoreboard players set @s Temp_Height 1
+execute as @s[tag=koolasuchus,tag=baby] run scoreboard players set @s Temp_Length 1
+#Egg
+execute as @s[tag=koolasuchus_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["koolasuchus","amphibian"],Attributes:[{Name:generic.maxHealth,Base:10}]}
 execute as @s[tag=koolasuchus_egg,tag=hatch] at @s run scoreboard players remove @s Egg_Ammount 1
 execute as @s[tag=koolasuchus_egg,tag=hatch] at @s run scoreboard players set @s Hatch_Time 1
 execute as @s[tag=koolasuchus_egg,tag=hatch,scores={Egg_Ammount=0}] run kill @s

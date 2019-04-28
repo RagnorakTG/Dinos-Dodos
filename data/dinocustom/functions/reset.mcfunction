@@ -30,9 +30,9 @@ scoreboard objectives add cultureBarTop dummy
 scoreboard objectives add cultureBarBottom dummy
 
 # AI
-scoreboard objectives add Height dummy
-scoreboard objectives add Length dummy
-scoreboard objectives add Width dummy
+scoreboard objectives add Temp_Height dummy
+scoreboard objectives add Temp_Length dummy
+scoreboard objectives add Temp_Width dummy
 scoreboard objectives add Weight dummy
 scoreboard objectives add Immune_System dummy
 scoreboard objectives add Max_Group dummy

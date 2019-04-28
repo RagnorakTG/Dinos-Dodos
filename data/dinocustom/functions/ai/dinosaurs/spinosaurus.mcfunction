@@ -1,9 +1,19 @@
+#Info
 execute as @s[tag=spinosaurus] run tag @s add dinosaur
 execute as @s[tag=spinosaurus] run tag @s add piscivore
 execute as @s[tag=spinosaurus] run tag @s add aggressive
 execute as @s[tag=spinosaurus] run tag @s add semi-aquatic
-
-execute as @s[tag=spinosaurus_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["spinosaurus"],Attributes:[{Name:generic.maxHealth,Base:10}]}
+execute as @s[tag=spinosaurus,tag=adult] run scoreboard players set @s Temp_Width 2
+execute as @s[tag=spinosaurus,tag=adult] run scoreboard players set @s Temp_Height 4
+execute as @s[tag=spinosaurus,tag=adult] run scoreboard players set @s Temp_Length 11
+execute as @s[tag=spinosaurus,tag=teen] run scoreboard players set @s Temp_Width 1
+execute as @s[tag=spinosaurus,tag=teen] run scoreboard players set @s Temp_Height 2
+execute as @s[tag=spinosaurus,tag=teen] run scoreboard players set @s Temp_Length 7
+execute as @s[tag=spinosaurus,tag=baby] run scoreboard players set @s Temp_Width 1
+execute as @s[tag=spinosaurus,tag=baby] run scoreboard players set @s Temp_Height 1
+execute as @s[tag=spinosaurus,tag=baby] run scoreboard players set @s Temp_Length 1
+#Egg
+execute as @s[tag=spinosaurus_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["spinosaurus","dinosaur"],Attributes:[{Name:generic.maxHealth,Base:10}]}
 execute as @s[tag=spinosaurus_egg,tag=hatch] at @s run scoreboard players remove @s Egg_Ammount 1
 execute as @s[tag=spinosaurus_egg,tag=hatch] at @s run scoreboard players set @s Hatch_Time 1
 execute as @s[tag=spinosaurus_egg,tag=hatch,scores={Egg_Ammount=0}] run kill @s
