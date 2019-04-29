@@ -11,4 +11,3 @@ execute as @e[tag=aquatic,tag=corpse] at @s run function dinocustom:at/ai_compon
 #Replace
 
 #AI
-execute as @e[tag=]

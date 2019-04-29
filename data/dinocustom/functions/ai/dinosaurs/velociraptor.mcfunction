@@ -14,11 +14,13 @@ execute as @s[tag=velociraptor,tag=baby] run scoreboard players set @s Temp_Widt
 execute as @s[tag=velociraptor,tag=baby] run scoreboard players set @s Temp_Height 1
 execute as @s[tag=velociraptor,tag=baby] run scoreboard players set @s Temp_Length 1
 #Egg
-execute as @s[tag=velociraptor_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["velociraptor","dinosaur"],Attributes:[{Name:generic.maxHealth,Base:10}]}
+execute as @s[tag=velociraptor_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["velociraptor","dinosaur","prepare"],Attributes:[{Name:generic.maxHealth,Base:10}]}
 execute as @s[tag=velociraptor_egg,tag=hatch] at @s run scoreboard players remove @s Egg_Ammount 1
 execute as @s[tag=velociraptor_egg,tag=hatch] at @s run scoreboard players set @s Hatch_Time 1
 execute as @s[tag=velociraptor_egg,tag=hatch,scores={Egg_Ammount=0}] run kill @s
 execute as @s[tag=velociraptor_egg,tag=hatch] run tag @s remove hatch
+execute as @s[tag=velociraptor,tag=prepare] run scoreboard players set @s Current_Food 2000
+execute as @s[tag=velociraptor,tag=prepare] run tag @s remove prepare
 #adult
 execute as @s[tag=velociraptor,tag=adult,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:121}
 execute as @s[tag=velociraptor,tag=adult,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:122}
