@@ -65,6 +65,7 @@ scoreboard objectives add Hatch_Time dummy
 scoreboard objectives add Egg_Ammount dummy
 scoreboard objectives add Egg_ID dummy
 scoreboard objectives add Y-level dummy
+scoreboard objectives add Age dummy
 
 # Vehicles
 team add noCollision
