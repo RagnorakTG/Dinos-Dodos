@@ -32,6 +32,8 @@
 	"minecraft:cobweb",
 	"minecraft:red_mushroom",
 	"minecraft:brown_mushroom",
-	"minecraft:torch"
+	"minecraft:torch",
+  "minecraft:water",
+  "minecraft:lava"
   ]
 }

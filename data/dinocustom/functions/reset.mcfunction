@@ -34,38 +34,19 @@ scoreboard objectives add Temp_Height dummy
 scoreboard objectives add Temp_Length dummy
 scoreboard objectives add Temp_Width dummy
 scoreboard objectives add Weight dummy
-scoreboard objectives add Head_Height dummy
+scoreboard objectives add Age dummy
 scoreboard objectives add Immune_System dummy
+scoreboard objectives add Multipliers dummy
 scoreboard objectives add Max_Group dummy
 scoreboard objectives add Current_Group dummy
-scoreboard objectives add Min_Group dummy
-scoreboard objectives add Max_Food dummy
-scoreboard objectives add Current_Food dummy
-scoreboard objectives add Max_Speed dummy
-scoreboard objectives add Current_Speed dummy
-scoreboard objectives add Max_Call dummy
-scoreboard objectives add Current_Call dummy
-scoreboard objectives add Min_Call dummy
-scoreboard objectives add Max_Health dummy
-scoreboard objectives add Current_Health dummy
-scoreboard objectives add Max_Happiness dummy
-scoreboard objectives add Current_Happiness dummy
-scoreboard objectives add Death dummy
-scoreboard objectives add Grounds_Size dummy
-scoreboard objectives add Food_Ammount dummy
-scoreboard objectives add Multipliers dummy
+scoreboard objectives add Max_Grounds dummy
 scoreboard objectives add Walk dummy
 scoreboard objectives add Rotate dummy
-scoreboard objectives add ShouldWander dummy
-scoreboard objectives add Schedule dummy
-scoreboard objectives add Dinosaur_ID dummy
-scoreboard objectives add MakeSound dummy
-scoreboard objectives add Time dummy
+scoreboard objectives add Rotate_ammount dummy
 scoreboard objectives add Hatch_Time dummy
 scoreboard objectives add Egg_Ammount dummy
-scoreboard objectives add Egg_ID dummy
-scoreboard objectives add Y-level dummy
-scoreboard objectives add Age dummy
+scoreboard objectives add Float dummy
+scoreboard objectives add Sink dummy
 
 # Vehicles
 team add noCollision
