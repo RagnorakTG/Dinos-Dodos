@@ -6,7 +6,7 @@ execute as @s[tag=egg,tag=!replaced] at @s run tag @s add replaced
 
 #Amphibian Eggs
 execute as @s[tag=amphibian_egg] at @s if block ~ ~ ~ water run tp @s ~ ~.1 ~
-execute as @s[tag=amphibian_egg] at @s if block ~ ~ ~ #minecraft:move_through_heavy unless block ~ ~-0.5 ~ water run kill @s
+execute as @s[tag=amphibian_egg] at @s unless block ~ ~-0.2 ~ water run kill @s
 
 #CreateNest
 execute as @s[tag=egg,tag=!egg_fixed] at @s run scoreboard players set @s Egg_Ammount 1

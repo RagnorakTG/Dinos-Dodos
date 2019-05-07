@@ -47,6 +47,12 @@ scoreboard objectives add Hatch_Time dummy
 scoreboard objectives add Egg_Ammount dummy
 scoreboard objectives add Float dummy
 scoreboard objectives add Sink dummy
+scoreboard objectives add Time dummy
+scoreboard objectives add Gain_Happiness dummy
+scoreboard objectives add Current_Happines dummy
+scoreboard objectives add Gain_Boredom dummy
+scoreboard objectives add Current_Boredom dummy
+scoreboard objectives add Max_Age dummy
 
 # Vehicles
 team add noCollision
