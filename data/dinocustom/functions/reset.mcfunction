@@ -53,6 +53,7 @@ scoreboard objectives add Current_Happines dummy
 scoreboard objectives add Gain_Boredom dummy
 scoreboard objectives add Current_Boredom dummy
 scoreboard objectives add Max_Age dummy
+scoreboard objectives add Dinosaur_ID dummy
 
 # Vehicles
 team add noCollision
