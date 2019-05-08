@@ -14,6 +14,8 @@
 	"#minecraft:banners",
   "#minecraft:leaves",
 	"minecraft:air",
+	"minecraft:cave_air",
+	"minecraft:void_air",
 	"minecraft:sugar_cane",
 	"minecraft:lily_pad",
 	"minecraft:tripwire",

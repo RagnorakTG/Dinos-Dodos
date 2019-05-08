@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cat",
+    "minecraft:chicken",
+    "minecraft:cow",
+    "minecraft:creeper",
+    "minecraft:donkey",
+    "minecraft:evoker",
+    "minecraft:fox",
+    "minecraft:horse",
+    "minecraft:llama",
+    "minecraft:mooshroom",
+    "minecraft:mule",
+    "minecraft:ocelot",
+    "minecraft:panda",
+    "minecraft:pig",
+    "minecraft:pillager",
+    "minecraft:polar_bear",
+    "minecraft:rabbit",
+    "minecraft:ravager",
+    "minecraft:sheep",
+    "minecraft:spider",
+    "minecraft:trader_llama",
+    "minecraft:villager",
+    "minecraft:vindicator",
+    "minecraft:wandering_trader",
+    "minecraft:witch",
+    "minecraft:wolf",
+    "minecraft:player"
+  ]
+}
