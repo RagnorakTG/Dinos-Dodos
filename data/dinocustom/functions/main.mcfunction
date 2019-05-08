@@ -1,5 +1,5 @@
 # - Run Functions
-execute as @e[tag=crafting_station] at @s run function dinocustom:crafting/main
+function dinocustom:crafting/main
 execute as @e[tag=dinosaur] run function dinocustom:ai/main
 execute as @e[tag=amphibian] run function dinocustom:ai/main
 execute as @e[tag=aquatic] run function dinocustom:ai/main
