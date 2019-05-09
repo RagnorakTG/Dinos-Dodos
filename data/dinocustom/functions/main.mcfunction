@@ -8,7 +8,6 @@ execute as @e[tag=egg] run function dinocustom:ai/main
 execute as @e[tag=fossil] run function dinocustom:paleontology/main
 execute as @e[tag=fossil_formation] run function dinocustom:paleontology/main
 function dinocustom:timer
-function dinocustom:monorail/main
 
 # - Vehicles
 # Helicopter
