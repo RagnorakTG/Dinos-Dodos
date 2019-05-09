@@ -15,12 +15,21 @@ execute as @s[tag=aquatic,tag=corpse] at @s run function dinocustom:ai/ai_compon
 #Replace
 
 #AI
-execute as @s[tag=dinosaur,tag=!corpse,tag=diurnal] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=amphibian,tag=!corpse,tag=diurnal] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=aquatic,tag=!corpse,tag=diurnal] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=dinosaur,tag=!corpse,tag=nocturnal] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=amphibian,tag=!corpse,tag=nocturnal] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=aquatic,tag=!corpse,tag=nocturnal] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=dinosaur,tag=!corpse,tag=crepuscular] at @s run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=amphibian,tag=!corpse,tag=crepuscular] at @s run function dinocustom:ai/ai_components/wandering_ai
-execute as @s[tag=aquatic,tag=!corpse,tag=crepuscular] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=dinosaur,tag=!corpse,tag=diurnal,scores={Current_Happines=30..}] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=amphibian,tag=!corpse,tag=diurnal,scores={Current_Happines=30..}] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=aquatic,tag=!corpse,tag=diurnal,scores={Current_Happines=30..}] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=dinosaur,tag=!corpse,tag=nocturnal,scores={Current_Happines=30..}] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=amphibian,tag=!corpse,tag=nocturnal,scores={Current_Happines=30..}] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=aquatic,tag=!corpse,tag=nocturnal,scores={Current_Happines=30..}] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=dinosaur,tag=!corpse,tag=crepuscular,scores={Current_Happines=30..}] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=amphibian,tag=!corpse,tag=crepuscular,scores={Current_Happines=30..}] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=aquatic,tag=!corpse,tag=crepuscular,scores={Current_Happines=30..}] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=dinosaur,tag=!corpse,tag=diurnal,scores={Current_Happines=..29}] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=amphibian,tag=!corpse,tag=diurnal,scores={Current_Happines=..29}] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=aquatic,tag=!corpse,tag=diurnal,scores={Current_Happines=..29}] at @s if score Time Time matches 1500..12500 run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=dinosaur,tag=!corpse,tag=nocturnal,scores={Current_Happines=..29}] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=amphibian,tag=!corpse,tag=nocturnal,scores={Current_Happines=..29}] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=aquatic,tag=!corpse,tag=nocturnal,scores={Current_Happines=..29}] at @s if score Time Time matches 13500..24000 run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=dinosaur,tag=!corpse,tag=crepuscular,scores={Current_Happines=..29}] at @s run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=amphibian,tag=!corpse,tag=crepuscular,scores={Current_Happines=..29}] at @s run function dinocustom:ai/ai_components/hunt_ai
+execute as @s[tag=aquatic,tag=!corpse,tag=crepuscular,scores={Current_Happines=..29}] at @s run function dinocustom:ai/ai_components/hunt_ai
