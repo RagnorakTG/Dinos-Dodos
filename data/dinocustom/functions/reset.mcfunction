@@ -90,6 +90,7 @@ tellraw @a {"text":"iNkoR_the_2nd [Artist]","color":"yellow"}
 tellraw @a {"text":"Seba244c [Coder]","color":"green"}
 tellraw @a {"text":"TheNuclearNexus [Coder]","color":"gold"}
 tellraw @a {"text":"JordenEatsCereal [Coder, Artist]","color":"red"}
+gamerule sendCommandFeedback false
 execute if entity JordenAteCereal run gamerule sendCommandFeedback true
 execute if entity Seba244c run gamerule sendCommandFeedback true
 execute if entity TheNuclearNexus run gamerule sendCommandFeedback true
