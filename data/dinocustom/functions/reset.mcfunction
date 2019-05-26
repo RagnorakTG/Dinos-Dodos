@@ -41,6 +41,8 @@ scoreboard objectives add Max_Group dummy
 scoreboard objectives add Current_Group dummy
 scoreboard objectives add Max_Grounds dummy
 scoreboard objectives add Walk dummy
+scoreboard objectives add Walk_time dummy
+scoreboard objectives add Walk_stop
 scoreboard objectives add Rotate dummy
 scoreboard objectives add Rotate_ammount dummy
 scoreboard objectives add Hatch_Time dummy
