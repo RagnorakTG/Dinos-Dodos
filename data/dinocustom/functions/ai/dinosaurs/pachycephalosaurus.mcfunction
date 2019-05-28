@@ -15,6 +15,7 @@ execute as @s[tag=pachycephalosaurus,tag=baby] run scoreboard players set @s Tem
 execute as @s[tag=pachycephalosaurus,tag=baby] run scoreboard players set @s Temp_Length 1
 #Egg
 execute as @s[tag=pachycephalosaurus_egg,tag=hatch] run summon drowned ~ ~ ~ {NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Health:10f,Tags:["pachycephalosaurus","dinosaur","prepare"],Attributes:[{Name:generic.maxHealth,Base:10}]}
+execute as @s[tag=pachycephalosaurus_egg,tag=hatch] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["pachycephalosaurus_grounds","grounds"]}
 execute as @s[tag=pachycephalosaurus_egg,tag=hatch] at @s run scoreboard players remove @s Egg_Ammount 1
 execute as @s[tag=pachycephalosaurus_egg,tag=hatch] at @s run scoreboard players set @s Hatch_Time 1
 execute as @s[tag=pachycephalosaurus_egg,tag=hatch,scores={Egg_Ammount=0}] run kill @s
