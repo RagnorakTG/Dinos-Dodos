@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:wall_corals",
+	"#minecraft:coral_plants",
+	"minecraft:lily_pad",
+  "minecraft:water",
+  "minecraft:seagrass"
+  ]
+}

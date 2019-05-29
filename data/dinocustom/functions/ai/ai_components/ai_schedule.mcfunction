@@ -35,6 +35,7 @@ execute as @s[tag=nocturnal,tag=!corpse,scores={Current_Tired=..3}] run scoreboa
 # Wandering
 execute as @s[tag=diurnal,tag=!corpse] at @s if score Time Time matches 0..13000 run scoreboard players set @s Active 1
 execute as @s[tag=nocturnal,tag=!corpse] at @s if score Time Time matches 12500..23500 run scoreboard players set @s Active 1
+execute as @s[tag=crepuscular,tag=!corpse] at @s run scoreboard players set @s Active 1
 
 
 

@@ -57,8 +57,10 @@ scoreboard objectives add Current_Boredom dummy
 scoreboard objectives add Max_Age dummy
 scoreboard objectives add Dinosaur_ID dummy
 scoreboard objectives add Active dummy
-scoreboard objectives add Gain_Tired
-scoreboard objectives add Current_Tired
+scoreboard objectives add Gain_Tired dummy
+scoreboard objectives add Current_Tired dummy
+scoreboard objectives add Gain_Health
+scoreboard objectives add Current_Health
 
 # Vehicles
 team add noCollision
