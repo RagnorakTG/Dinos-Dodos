@@ -59,8 +59,10 @@ scoreboard objectives add Dinosaur_ID dummy
 scoreboard objectives add Active dummy
 scoreboard objectives add Gain_Tired dummy
 scoreboard objectives add Current_Tired dummy
-scoreboard objectives add Gain_Health
-scoreboard objectives add Current_Health
+scoreboard objectives add Gain_Health dummy
+scoreboard objectives add Current_Health dummy
+scoreboard objectives add Should_Fly dummy
+scoreboard objectives add Stop_flying dummy
 
 # Vehicles
 team add noCollision

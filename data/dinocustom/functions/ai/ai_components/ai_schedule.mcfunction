@@ -42,22 +42,28 @@ execute as @s[tag=crepuscular,tag=!corpse] at @s run scoreboard players set @s A
 ## Activate AI
 # Sleeping
 execute as @s[tag=dinosaur,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
+execute as @s[tag=pterosaur,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=amphibian,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=aquatic,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=dinosaur,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
+execute as @s[tag=pterosaur,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=amphibian,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=aquatic,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=dinosaur,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
+execute as @s[tag=pterosaur,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=amphibian,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 execute as @s[tag=aquatic,tag=!corpse,scores={Active=0}] at @s run function dinocustom:ai/ai_components/sleeping_ai
 # Wandering
 execute as @s[tag=dinosaur,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=pterosaur,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=amphibian,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=aquatic,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=dinosaur,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=pterosaur,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=amphibian,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=aquatic,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=dinosaur,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
+execute as @s[tag=pterosaur,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=amphibian,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 execute as @s[tag=aquatic,tag=!corpse,scores={Active=1}] at @s run function dinocustom:ai/ai_components/wandering_ai
 # Resting

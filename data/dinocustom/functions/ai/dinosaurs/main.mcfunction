@@ -13,6 +13,9 @@ execute as @s[tag=pachycephalosaurus_egg] at @s run function dinocustom:ai/dinos
 # - Spinosaurus
 execute as @s[tag=spinosaurus] run function dinocustom:ai/dinosaurs/spinosaurus
 execute as @s[tag=spinosaurus_egg] at @s run function dinocustom:ai/dinosaurs/spinosaurus
+# - Tupandactylus
+execute as @s[tag=tupandactylus] run function dinocustom:ai/dinosaurs/tupandactylus
+execute as @s[tag=tupandactylus_egg] at @s run function dinocustom:ai/dinosaurs/tupandactylus
 # - Velociraptor
 execute as @s[tag=velociraptor] run function dinocustom:ai/dinosaurs/velociraptor
 execute as @s[tag=velociraptor_egg] at @s run function dinocustom:ai/dinosaurs/velociraptor

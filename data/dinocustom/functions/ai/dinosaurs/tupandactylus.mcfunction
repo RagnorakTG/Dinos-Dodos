@@ -1,5 +1,5 @@
 #Info
-execute as @s[tag=tupandactylus] run tag @s add pterasaur
+execute as @s[tag=tupandactylus] run tag @s add pterosaur
 execute as @s[tag=tupandactylus] run tag @s add piscivore
 execute as @s[tag=tupandactylus] run tag @s add passive
 execute as @s[tag=tupandactylus] run tag @s add flying
