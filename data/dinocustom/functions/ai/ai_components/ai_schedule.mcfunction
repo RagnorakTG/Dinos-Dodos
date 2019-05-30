@@ -4,6 +4,8 @@ execute as @s[tag=dinosaur,tag=!corpse] at @s run function dinocustom:ai/ai_comp
 execute as @s[tag=pterosaur,tag=!corpse] at @s run function dinocustom:ai/ai_components/ai_age
 execute as @s[tag=amphibian,tag=!corpse] at @s run function dinocustom:ai/ai_components/ai_age
 execute as @s[tag=aquatic,tag=!corpse] at @s run function dinocustom:ai/ai_components/ai_age
+#Grounds
+execute as @s[tag=grounds] at @s run function dinocustom:ai/ai_components/ai_grounds
 #Egg
 execute as @s[tag=egg] at @s run function dinocustom:ai/ai_components/egg_ai
 #Constant

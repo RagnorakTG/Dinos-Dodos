@@ -63,6 +63,8 @@ scoreboard objectives add Gain_Health dummy
 scoreboard objectives add Current_Health dummy
 scoreboard objectives add Should_Fly dummy
 scoreboard objectives add Stop_flying dummy
+scoreboard objectives add Grounds_ID dummy
+scoreboard objectives add Grounds_Dis dummy
 
 # Vehicles
 team add noCollision

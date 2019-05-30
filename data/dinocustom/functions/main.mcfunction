@@ -3,8 +3,9 @@ function dinocustom:placing/main
 function dinocustom:crafting/main
 execute as @e[tag=dinosaur] run function dinocustom:ai/main
 execute as @e[tag=pterosaur] run function dinocustom:ai/main
-execute as @e[tag=amphibian] run function dinocustom:ai/main
 execute as @e[tag=aquatic] run function dinocustom:ai/main
+execute as @e[tag=amphibian] run function dinocustom:ai/main
+execute as @e[tag=grounds] run function dinocustom:ai/main
 execute as @e[tag=egg] run function dinocustom:ai/main
 execute as @e[tag=fossil] run function dinocustom:paleontology/main
 execute as @e[tag=fossil_formation] run function dinocustom:paleontology/main
