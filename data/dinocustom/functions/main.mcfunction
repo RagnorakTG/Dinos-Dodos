@@ -1,43 +1,26 @@
-# - Run Functions
+## Run Functions
+# Custom Blocks
 function dinocustom:placing/main
 function dinocustom:crafting/main
-execute as @e[tag=dinosaur] run function dinocustom:ai/main
-execute as @e[tag=pterosaur] run function dinocustom:ai/main
-execute as @e[tag=aquatic] run function dinocustom:ai/main
-execute as @e[tag=amphibian] run function dinocustom:ai/main
-execute as @e[tag=grounds] run function dinocustom:ai/main
-execute as @e[tag=egg] run function dinocustom:ai/main
-execute as @e[tag=fossil] run function dinocustom:paleontology/main
-execute as @e[tag=fossil_formation] run function dinocustom:paleontology/main
+# Others
+execute as @e[type=#minecraft:execute_as] run function dinocustom:run_functions
 function dinocustom:timer
-
-# - Vehicles
-# Helicopter
-execute as @e[tag=DnD_vehicle.helicopter.core] at @s run function dinocustom:vehicles/helicopter/helicopter_vehiclesystem/coptervehicle
 # Jeep
-function dinocustom:vehicles/jeep/jeep_vehiclesystem/jeepvehicle
-function dinocustom:vehicles/jeep/jeep_drivingsystem/jeepmotion
-function dinocustom:vehicles/wasddetect
-function dinocustom:vehicles/jeep/jeep_vehiclesystem/jeepvehicle
-function dinocustom:vehicles/jeep/jeep_drivingsystem/jeepmotion
-function dinocustom:vehicles/jeep/jeep_drivingsystem/jeepws
-function dinocustom:vehicles/jeep/jeep_drivingsystem/jeepclimbing
-function dinocustom:vehicles/jeep/jeep_soundsystem/jeepsounds
-function dinocustom:vehicles/jeep/jeep_soundsystem/jeephonk
+function dinocustom:vehicles/jeep/main
 
-# - Run Commands
+
+
+## Run Commands
+# Custom Blocks
 execute if entity @a[scores={Use_Firework=1..},limit=1] as @e[type=firework_rocket] at @s run function #dinocustom:as_place
 scoreboard players reset @a[scores={Use_Firework=1..}] Use_Firework
-
+# Selected Slot
 execute as @a store result score @s SelItemSlot run data get entity @s SelectedItemSlot
+# Barriers
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
-
-# - Clear
 clear @a barrier
-
-# - Crafting
-execute as @e[type=armor_stand] at @s if block ~ ~-1 ~ dispenser[facing=up]{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b},{Slot:1b,id:"minecraft:redstone",Count:1b},{Slot:2b,id:"minecraft:iron_ingot",Count:1b},{Slot:3b,id:"minecraft:iron_ingot",Count:1b},{Slot:5b,id:"minecraft:iron_ingot",Count:1b},{Slot:6b,id:"minecraft:iron_ingot",Count:1b},{Slot:8b,id:"minecraft:iron_ingot",Count:1b}]} run data merge block ~ ~-1 ~ {Items:[{Slot:4b,id:"minecraft:firework_rocket",Count:1b,tag:{CustomModelData:9,CustomBlock1:1b,display:{Name:'{"text":"Zoology Crafter","italic":false}'},Fireworks:{}}}]}
-
 #Tag Food Sources
 execute as @e[type=#minecraft:terrestrial_food] at @s run tag @s add terrestrial_food
 execute as @e[type=#minecraft:aquatic_food] at @s run tag @s add aquatic_food
+# Gamerule
+gamerule sendCommandFeedback true

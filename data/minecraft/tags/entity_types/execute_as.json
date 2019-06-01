@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:drowned",
+    "minecraft:armor_stand",
+    "minecraft:cow",
+    "minecraft:salmon",
+    "minecraft:tropical_fish",
+    "minecraft:villager"
+  ]
+}

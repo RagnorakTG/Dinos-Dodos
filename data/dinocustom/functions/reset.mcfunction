@@ -1,10 +1,10 @@
-# Misc.
+### Scoreboards
+## Misc.
 scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add Timer dummy
-
-# Fossil Gen
+## Fossil Gen
 scoreboard objectives add Spawn_Fossil dummy
 scoreboard objectives add Dinosaur_fossil dummy
 scoreboard objectives add Fossil_damage dummy
@@ -17,8 +17,7 @@ scoreboard objectives add Player_Horse minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add Player_Pig minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add Player_Jump minecraft.custom:minecraft.jump
 scoreboard objectives add R_Click_Fossil minecraft.custom:minecraft.talked_to_villager
-
-# Crafting
+## Crafting
 scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add FishTrough dummy
 scoreboard objectives add MeatTrough dummy
@@ -28,8 +27,7 @@ scoreboard objectives add analyzerBarTimer dummy
 scoreboard objectives add extractorBar dummy
 scoreboard objectives add cultureBarTop dummy
 scoreboard objectives add cultureBarBottom dummy
-
-# AI
+## AI
 scoreboard objectives add Temp_Height dummy
 scoreboard objectives add Temp_Length dummy
 scoreboard objectives add Temp_Width dummy
@@ -65,8 +63,8 @@ scoreboard objectives add Should_Fly dummy
 scoreboard objectives add Stop_flying dummy
 scoreboard objectives add Grounds_ID dummy
 scoreboard objectives add Grounds_Dis dummy
-
-# Vehicles
+scoreboard objectives add Ground_Find dummy
+## Vehicles
 team add noCollision
 team modify noCollision collisionRule never
 scoreboard objectives add wsDetect dummy
@@ -89,24 +87,24 @@ scoreboard objectives add jeepSeatId dummy
 scoreboard objectives add jeepTrunkId dummy
 scoreboard objectives add jeepHonkId dummy
 
-# Install message and gamrule
+
+
+### Misc.
+## Install Message
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
-tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/9PR9QG8"}}
+tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/qawUwZK"}}
 tellraw @a {"text":"Dev Team:","color":"aqua"}
 tellraw @a {"text":"_Ragnorak_ [Lead Developer]","color":"red"}
 tellraw @a {"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}
 tellraw @a {"text":"iNkoR_the_2nd [Artist]","color":"yellow"}
-tellraw @a {"text":"Seba244c [Coder]","color":"green"}
 tellraw @a {"text":"TheNuclearNexus [Coder]","color":"gold"}
 tellraw @a {"text":"JordenEatsCereal [Coder, Artist]","color":"red"}
-gamerule sendCommandFeedback false
-execute if entity JordenAteCereal run gamerule sendCommandFeedback true
-execute if entity Seba244c run gamerule sendCommandFeedback true
-execute if entity TheNuclearNexus run gamerule sendCommandFeedback true
-execute if entity _Ragnorak_ run gamerule sendCommandFeedback true
-execute if entity Mr_Birdasaur run gamerule sendCommandFeedback true
-execute if entity iNkoR_the_2nd run gamerule sendCommandFeedback true
-
-# Other
+tellraw @a {"text":"Seba244c [Coder]","color":"gold"}
+tellraw @a {"text":"","color":"aqua"}
+tellraw @a {"text":"Special Thanks:","color":"aqua"}
+tellraw @a {"text":"Thanks to the MCS Community for sponsoring out project!","color":"yellow"}
+## Gamerule
+gamerule sendCommandFeedback true
+## Create Formation
 execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
 execute unless score $idGiver Dinosaur_ID matches 1.. run scoreboard players set $idGiver Dinosaur_ID 1
