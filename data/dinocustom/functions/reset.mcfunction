@@ -3,6 +3,7 @@
 scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
+scoreboard objectives add math_sqrt dummy
 scoreboard objectives add Timer dummy
 ## Fossil Gen
 scoreboard objectives add Spawn_Fossil dummy
@@ -64,6 +65,12 @@ scoreboard objectives add Stop_flying dummy
 scoreboard objectives add Grounds_ID dummy
 scoreboard objectives add Grounds_Dis dummy
 scoreboard objectives add Ground_Find dummy
+scoreboard objectives add Grounds_Age dummy
+scoreboard objectives add X_cords dummy
+scoreboard objectives add Z_cords dummy
+scoreboard objectives add Distance_X dummy
+scoreboard objectives add Distance_Z dummy
+scoreboard objectives add Distance dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never
