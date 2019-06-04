@@ -1,4 +1,4 @@
-scoreboard players add counter temp 1
+scoreboard players add counter math_sqrt 1
 scoreboard players operation temp math_sqrt = input math_sqrt
 scoreboard players operation temp math_sqrt /= return math_sqrt
 scoreboard players operation temp math_sqrt += return math_sqrt
