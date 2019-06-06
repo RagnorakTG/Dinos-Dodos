@@ -27,16 +27,17 @@ execute as @s[tag=!walking,tag=terrestrial,scores={Walk=..0}] run execute store 
 # Walk
 execute as @s[tag=terrestrial,scores={Walk=60..}] run tag @s add walking
 execute as @s[tag=terrestrial,scores={Walk=60..}] run tag @s remove idle
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 ~
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.1 ~15 ~
+execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
+execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
+execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
+execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.1 ~15 0
+execute as @s[tag=walking,tag=terrestrial,scores={Distance=50..}] run tp @s ^ ^ ^0.2 ~15 0
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s add idle
 # Gravity
-execute as @s[tag=terrestrial] if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~
+execute as @s[tag=terrestrial] if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~ ~ ~
 # In block
-execute as @s[tag=terrestrial] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~
+execute as @s[tag=terrestrial] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~ ~ ~
 # Should Rotate
 execute as @s[tag=!rotate,tag=walking,tag=terrestrial] run scoreboard players set in_0 math_rng 10
 execute as @s[tag=!rotate,tag=walking,tag=terrestrial] run function dinocustom:ai/rng
@@ -72,15 +73,17 @@ execute as @s[tag=!walking,tag=semi-aquatic,scores={Walk=..0}] run execute store
 # Walk
 execute as @s[tag=semi-aquatic,scores={Walk=60..}] run tag @s add walking
 execute as @s[tag=semi-aquatic,scores={Walk=60..}] run tag @s remove idle
-execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08
-execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2
-execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 ~
+execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
+execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
+execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
+execute as @s[tag=walking,tag=semi-aquatic,scores={Distance=50..}] run tp @s ^ ^ ^0.2 facing entity @e[tag=grounds,limit=1,sort=nearest]
+execute as @s[tag=walking,tag=semi-aquatic,scores={Distance=50..}] run tp @s ^ ^ ^ ~ 0
 execute as @s[tag=semi-aquatic,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=semi-aquatic,scores={Walk=..59}] run tag @s add idle
 # Gravity
-execute as @s[tag=semi-aquatic] if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~
+execute as @s[tag=semi-aquatic] if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~ ~ ~
 # In block
-execute as @s[tag=semi-aquatic] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~
+execute as @s[tag=semi-aquatic] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~ ~ ~
 # Should Rotate
 execute as @s[tag=!rotate,tag=walking,tag=semi-aquatic] run scoreboard players set in_0 math_rng 10
 execute as @s[tag=!rotate,tag=walking,tag=semi-aquatic] run function dinocustom:ai/rng
@@ -185,41 +188,44 @@ execute as @s[tag=sink] run tag @s remove sink
 #        #
 ##########
 ## Should Walk
-execute as @s[tag=!swimming,tag=flying] run scoreboard players remove @s Walk 1
-execute as @s[tag=!swimming,tag=!walk_yet,tag=flying] run scoreboard players set @s Walk 0
-execute as @s[tag=!swimming,tag=!walk_yet,tag=flying] run tag @s add walk_yet
-execute as @s[tag=!swimming,tag=!walking,tag=flying,scores={Walk=..0}] run scoreboard players set in_0 math_rng 200
-execute as @s[tag=!swimming,tag=!walking,tag=flying,scores={Walk=..0}] run function dinocustom:ai/rng
-execute as @s[tag=!swimming,tag=!walking,tag=flying,scores={Walk=..0}] run execute store result score @s Walk run scoreboard players get out_0 math_rng
+# Should Walk
+execute as @s[tag=flying] run scoreboard players remove @s Walk 1
+execute as @s[tag=!walk_yet,tag=flying] run scoreboard players set @s Walk 0
+execute as @s[tag=!walk_yet,tag=flying] run tag @s add walk_yet
+execute as @s[tag=!walking,tag=flying,scores={Walk=..0}] run scoreboard players set in_0 math_rng 200
+execute as @s[tag=!walking,tag=flying,scores={Walk=..0}] run function dinocustom:ai/rng
+execute as @s[tag=!walking,tag=flying,scores={Walk=..0}] run execute store result score @s Walk run scoreboard players get out_0 math_rng
 # Walk
-execute as @s[tag=!swimming,tag=flying,scores={Walk=60..}] run tag @s add walking
-execute as @s[tag=!swimming,tag=flying,scores={Walk=60..}] run tag @s remove idle
-execute as @s[tag=!swimming,tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
-execute as @s[tag=!swimming,tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
-execute as @s[tag=!swimming,tag=walking,tag=flying,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
-execute as @s[tag=!swimming,tag=flying,scores={Walk=..59}] run tag @s remove walking
-execute as @s[tag=!swimming,tag=flying,scores={Walk=..59}] run tag @s add idle
+execute as @s[tag=flying,scores={Walk=60..}] run tag @s add walking
+execute as @s[tag=flying,scores={Walk=60..}] run tag @s remove idle
+execute as @s[tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
+execute as @s[tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
+execute as @s[tag=walking,tag=flying,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
+execute as @s[tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.1 ~15 0
+execute as @s[tag=walking,tag=flying,scores={Distance=50..}] run tp @s ^ ^ ^0.2 ~15 0
+execute as @s[tag=flying,scores={Walk=..59}] run tag @s remove walking
+execute as @s[tag=flying,scores={Walk=..59}] run tag @s add idle
 # Gravity
-execute as @s[tag=!swimming,tag=flying] if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~ ~ 0
+execute as @s[tag=flying] if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~ ~ ~
 # In block
-execute as @s[tag=!swimming,tag=flying] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~ ~ 0
+execute as @s[tag=flying] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~ ~ ~
 # Should Rotate
-execute as @s[tag=!swimming,tag=!rotate,tag=walking,tag=flying] run scoreboard players set in_0 math_rng 10
-execute as @s[tag=!swimming,tag=!rotate,tag=walking,tag=flying] run function dinocustom:ai/rng
-execute as @s[tag=!swimming,tag=!rotate,tag=walking,tag=flying] run execute store result score @s Rotate run scoreboard players get out_0 math_rng
+execute as @s[tag=!rotate,tag=walking,tag=flying] run scoreboard players set in_0 math_rng 10
+execute as @s[tag=!rotate,tag=walking,tag=flying] run function dinocustom:ai/rng
+execute as @s[tag=!rotate,tag=walking,tag=flying] run execute store result score @s Rotate run scoreboard players get out_0 math_rng
 # Rotate
-execute as @s[tag=!swimming,tag=rotate,tag=!walking,tag=flying] run tag @s remove rotate
-execute as @s[tag=!swimming,tag=!rotate,tag=flying,scores={Rotate=1..3}] run tag @s add rotate
-execute as @s[tag=!swimming,tag=rotate,tag=flying] run scoreboard players set in_0 math_rng 6
-execute as @s[tag=!swimming,tag=rotate,tag=flying] run function dinocustom:ai/rng
-execute as @s[tag=!swimming,tag=rotate,tag=flying] run execute store result score @s Rotate_ammount run scoreboard players get out_0 math_rng
-execute as @s[tag=!swimming,tag=rotate,tag=flying,scores={Rotate_ammount=1}] run tp @s ~ ~ ~ ~5 0
-execute as @s[tag=!swimming,tag=rotate,tag=flying,scores={Rotate_ammount=2}] run tp @s ~ ~ ~ ~-5 0
-execute as @s[tag=!swimming,tag=rotate,tag=flying,scores={Rotate_ammount=3}] run tp @s ~ ~ ~ ~3 0
-execute as @s[tag=!swimming,tag=rotate,tag=flying,scores={Rotate_ammount=4}] run tp @s ~ ~ ~ ~-3 0
-execute as @s[tag=!swimming,tag=rotate,tag=flying,scores={Rotate_ammount=5}] run tp @s ~ ~ ~ ~1 0
-execute as @s[tag=!swimming,tag=rotate,tag=flying,scores={Rotate_ammount=6}] run tp @s ~ ~ ~ ~-1 0
-execute as @s[tag=!swimming,tag=rotate,tag=flying] run tag @s remove rotate
+execute as @s[tag=rotate,tag=!walking,tag=flying] run tag @s remove rotate
+execute as @s[tag=!rotate,tag=flying,scores={Rotate=1..3}] run tag @s add rotate
+execute as @s[tag=rotate,tag=flying] run scoreboard players set in_0 math_rng 6
+execute as @s[tag=rotate,tag=flying] run function dinocustom:ai/rng
+execute as @s[tag=rotate,tag=flying] run execute store result score @s Rotate_ammount run scoreboard players get out_0 math_rng
+execute as @s[tag=rotate,tag=flying,scores={Rotate_ammount=1}] run tp @s ~ ~ ~ ~5 ~
+execute as @s[tag=rotate,tag=flying,scores={Rotate_ammount=2}] run tp @s ~ ~ ~ ~-5 ~
+execute as @s[tag=rotate,tag=flying,scores={Rotate_ammount=3}] run tp @s ~ ~ ~ ~3 ~
+execute as @s[tag=rotate,tag=flying,scores={Rotate_ammount=4}] run tp @s ~ ~ ~ ~-3 ~
+execute as @s[tag=rotate,tag=flying,scores={Rotate_ammount=5}] run tp @s ~ ~ ~ ~1 ~
+execute as @s[tag=rotate,tag=flying,scores={Rotate_ammount=6}] run tp @s ~ ~ ~ ~-1 ~
+execute as @s[tag=rotate,tag=flying] run tag @s remove rotate
 
 ## Should Fly
 execute as @s[tag=!swimming,tag=flying] run scoreboard players set in_0 math_rng 5000

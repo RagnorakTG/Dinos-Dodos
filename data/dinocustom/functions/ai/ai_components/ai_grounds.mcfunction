@@ -25,12 +25,19 @@ execute as @s[tag=grounds] at @s store result score @s Z_cords run data get enti
 execute as @s[tag=piscivore] at @s run scoreboard players set @s Distance_X 0
 execute as @s[tag=piscivore] at @s run scoreboard players operation @s Distance_X = @s X_cords
 execute as @s[tag=piscivore] at @s if score @s[tag=piscivore] Grounds_ID = @e[tag=piscivorous_grounds,limit=1,sort=nearest] Grounds_ID run scoreboard players operation @s[tag=piscivore] Distance_X -= @e[tag=piscivorous_grounds,limit=1,sort=nearest] X_cords
+execute as @s[tag=piscivore] at @s store result score input math_sqrt run scoreboard players get @s X_cords
+execute as @s[tag=piscivore] at @s run function dinocustom:ai/sqrt
+execute as @s[tag=piscivore] at @s store result score @s X_cords run scoreboard players get output math_sqrt
 execute as @s[tag=piscivore] at @s run scoreboard players set @s Distance_Z 0
 execute as @s[tag=piscivore] at @s run scoreboard players operation @s Distance_Z = @s Z_cords
 execute as @s[tag=piscivore] at @s if score @s[tag=piscivore] Grounds_ID = @e[tag=piscivorous_grounds,limit=1,sort=nearest] Grounds_ID run scoreboard players operation @s[tag=piscivore] Distance_Z -= @e[tag=piscivorous_grounds,limit=1,sort=nearest] Z_cords
+execute as @s[tag=piscivore] at @s store result score input math_sqrt run scoreboard players get @s Z_cords
+execute as @s[tag=piscivore] at @s run function dinocustom:ai/sqrt
+execute as @s[tag=piscivore] at @s store result score @s Z_cords run scoreboard players get output math_sqrt
 execute as @s[tag=piscivore] at @s run scoreboard players set @s Distance 0
-execute as @s[tag=piscivore] at @s run scoreboard players operation @s Distance += @s X_cords
-execute as @s[tag=piscivore] at @s run scoreboard players operation @s Distance += @s Z_cords
+execute as @s[tag=piscivore] at @s run scoreboard players operation @s Distance += @s Distance_X
+execute as @s[tag=piscivore] at @s run scoreboard players operation @s Distance += @s Distance_Z
+execute as @s[tag=piscivore,scores={Distance=..0}] at @s run scoreboard players operation @s Distance *= Immune_Multiply Multipliers
 
 
 
