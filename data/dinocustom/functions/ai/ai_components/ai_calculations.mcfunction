@@ -56,8 +56,3 @@ execute as @s[tag=boredom,scores={Gain_Boredom=..-1200}] run scoreboard players 
 execute as @s[tag=boredom,scores={Gain_Boredom=1200..}] run scoreboard players add @s Current_Boredom 1
 execute as @s[tag=boredom,scores={Gain_Boredom=..-1200}] run scoreboard players set @s Gain_Boredom 0
 execute as @s[tag=boredom,scores={Gain_Boredom=1200..}] run scoreboard players set @s Gain_Boredom 0
-## Grab XYZ
-#Grab X of Dinosaur
-execute as @s at @s store result score @s X_cords run data get entity @s Pos[0] 1
-#Grab Z of Dinosaur
-execute as @s at @s store result score @s Z_cords run data get entity @s Pos[2] 1

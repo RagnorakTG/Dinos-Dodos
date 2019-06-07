@@ -31,7 +31,6 @@ execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^ ^0.9 
 execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
 execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
 execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.1 ~15 0
-execute as @s[tag=walking,tag=terrestrial,scores={Distance=50..}] run tp @s ^ ^ ^0.2 ~15 0
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s add idle
 # Gravity
@@ -76,8 +75,6 @@ execute as @s[tag=semi-aquatic,scores={Walk=60..}] run tag @s remove idle
 execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
 execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
 execute as @s[tag=walking,tag=semi-aquatic,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
-execute as @s[tag=walking,tag=semi-aquatic,scores={Distance=50..}] run tp @s ^ ^ ^0.2 facing entity @e[tag=grounds,limit=1,sort=nearest]
-execute as @s[tag=walking,tag=semi-aquatic,scores={Distance=50..}] run tp @s ^ ^ ^ ~ 0
 execute as @s[tag=semi-aquatic,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=semi-aquatic,scores={Walk=..59}] run tag @s add idle
 # Gravity
@@ -114,14 +111,14 @@ execute as @s[tag=!float,tag=semi-aquatic] run scoreboard players set in_0 math_
 execute as @s[tag=!float,tag=semi-aquatic] run function dinocustom:ai/rng
 execute as @s[tag=!float,tag=semi-aquatic] run execute store result score @s Float run scoreboard players get out_0 math_rng
 execute as @s[tag=!float,tag=semi-aquatic,scores={Float=..10}] run tag @s add float
-execute as @s[tag=float] if block ^ ^0.5 ^ water run tp @s ^ ^0.3 ^ ~ -25
+execute as @s[tag=float] if block ^ ^0.5 ^ water run tp @s ^ ^0.3 ^ ~ -5
 execute as @s[tag=float] run tag @s remove float
 # Sink
 execute as @s[tag=!sink,tag=semi-aquatic] run scoreboard players set in_0 math_rng 1000
 execute as @s[tag=!sink,tag=semi-aquatic] run function dinocustom:ai/rng
 execute as @s[tag=!sink,tag=semi-aquatic] run execute store result score @s Sink run scoreboard players get out_0 math_rng
 execute as @s[tag=!sink,tag=semi-aquatic,scores={Sink=..10}] run tag @s add sink
-execute as @s[tag=sink] if block ^ ^-0.5 ^ water run tp @s ^ ^-0.3 ^ ~ 25
+execute as @s[tag=sink] if block ^ ^-0.5 ^ water run tp @s ^ ^-0.3 ^ ~ 5
 execute as @s[tag=sink] run tag @s remove sink
 
 
@@ -170,14 +167,14 @@ execute as @s[tag=!float,tag=!grounded,tag=aquatic] run scoreboard players set i
 execute as @s[tag=!float,tag=!grounded,tag=aquatic] run function dinocustom:ai/rng
 execute as @s[tag=!float,tag=aquatic] run execute store result score @s Float run scoreboard players get out_0 math_rng
 execute as @s[tag=!float,tag=aquatic,scores={Float=..7}] run tag @s add float
-execute as @s[tag=float] if block ^ ^0.5 ^ water run tp @s ^ ^0.3 ^ ~ -25
+execute as @s[tag=float] if block ^ ^0.5 ^ water run tp @s ^ ^0.3 ^ ~ -5
 execute as @s[tag=float] run tag @s remove float
 # Sink
 execute as @s[tag=!sink,tag=!grounded,tag=aquatic] run scoreboard players set in_0 math_rng 1000
 execute as @s[tag=!sink,tag=!grounded,tag=aquatic] run function dinocustom:ai/rng
 execute as @s[tag=!sink,tag=aquatic] run execute store result score @s Sink run scoreboard players get out_0 math_rng
 execute as @s[tag=!sink,tag=aquatic,scores={Sink=..7}] run tag @s add sink
-execute as @s[tag=sink] if block ^ ^-0.5 ^ water run tp @s ^ ^-0.3 ^ ~ 25
+execute as @s[tag=sink] if block ^ ^-0.5 ^ water run tp @s ^ ^-0.3 ^ ~ 5
 execute as @s[tag=sink] run tag @s remove sink
 
 
@@ -202,7 +199,6 @@ execute as @s[tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^ ^0.9 #mine
 execute as @s[tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
 execute as @s[tag=walking,tag=flying,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
 execute as @s[tag=walking,tag=flying,scores={Walk=60..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.1 ~15 0
-execute as @s[tag=walking,tag=flying,scores={Distance=50..}] run tp @s ^ ^ ^0.2 ~15 0
 execute as @s[tag=flying,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=flying,scores={Walk=..59}] run tag @s add idle
 # Gravity
