@@ -1,4 +1,4 @@
-execute as @s[tag=fossil_formation] run function dinocustom:paleontology/create_formation
+execute as @s[tag=fossil_formation,tag=fuck] run function dinocustom:paleontology/create_formation
 execute as @s[tag=fossil] at @s run function dinocustom:paleontology/spawn_fossil
 execute as @s[tag=fossil] at @s run function dinocustom:paleontology/harm_fossil
 execute as @s[tag=fossil] at @s run function dinocustom:paleontology/plaster_fossil
