@@ -11,14 +11,15 @@ execute as @s[tag=fossil,tag=!random_diet] run execute store result score @s Din
 execute as @s[tag=fossil,tag=!random_diet,scores={Dinosaur_fossil=0..5}] run tag @s add herbivore
 execute as @s[tag=fossil,tag=!random_diet,scores={Dinosaur_fossil=6..8}] run tag @s add carnivore
 execute as @s[tag=fossil,tag=!random_diet,scores={Dinosaur_fossil=9..10}] run tag @s add piscivore
+execute as @s[tag=fossil,tag=!random_diet] run tag @s add random_diet 
 # Determine Dinosaur
 execute as @s[tag=fossil,tag=!random_dino,tag=herbivore] run scoreboard players set in_0 math_rng 3
 execute as @s[tag=fossil,tag=!random_dino,tag=carnivore] run scoreboard players set in_0 math_rng 2
 execute as @s[tag=fossil,tag=!random_dino,tag=piscivore] run scoreboard players set in_0 math_rng 1
 execute as @s[tag=fossil,tag=!random_dino] run function dinocustom:ai/rng
 execute as @s[tag=fossil,tag=!random_dino] run execute store result score @s Dinosaur_fossil run scoreboard players get out_0 math_rng
-execute as @s[tag=fossil,tag=!random_dino] run tag @s add random_dino
 execute as @s[tag=fossil,tag=!random_dino,scores={Dinosaur_fossil=0}] run kill @s
+execute as @s[tag=fossil,tag=!random_dino] run tag @s add random_dino
 
 
 
