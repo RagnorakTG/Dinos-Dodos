@@ -12,7 +12,7 @@ execute as @s[tag=fossil,tag=!plastered] at @s if entity @p[distance=..10] run s
 execute as @s[tag=fossil,tag=!plastered] at @s if entity @p[distance=..5,scores={Player_Pig=1..}] run scoreboard players add @s Fossil_damage 8
 execute as @s[tag=fossil,tag=!plastered] at @s if entity @p[distance=..10] run scoreboard players set @p Player_Pig 0
 #Jumping
-execute as @s[tag=fossil,tag=!plastered] at @s if entity @p[distance=..5,scores={Player_Jump=1..}] run scoreboard players add @s Fossil_damage 25
+execute as @s[tag=fossil,tag=!plastered] at @s if entity @p[distance=..5,scores={Player_Jump=1..}] run scoreboard players add @s Fossil_damage 50
 execute as @s[tag=fossil,tag=!plastered] at @s if entity @p[distance=..10] run scoreboard players set @p Player_Jump 0
 #Destroy Fossil
 execute as @s[tag=fossil,tag=!plastered,scores={Fossil_damage=101..}] at @s run particle minecraft:campfire_cosy_smoke ~ ~2 ~ 1 1 1 0 8 force
