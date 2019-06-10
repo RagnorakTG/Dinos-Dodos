@@ -4,7 +4,8 @@ tag @s add crafting_station
 execute as @s at @s if block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Toy Crafter\",\"italic\":false}"},CustomModelData:8,CustomBlock0:1b,Fireworks:{}}}}
 execute as @s at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"toy_crafter"}'}}}}]
-
+# Crafting
+execute as @s at @s run function dinocustom:crafting/recipes/toy_crafter
 #GUI
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:4}
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.4 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1}
