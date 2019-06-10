@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket",
+			      "nbt": "{CustomModelData:49}"
+        },
+        "title": "Toy Mechanist",
+        "description": "What meat eating monstrous creature wouldnt want a harmless plushy?"
+    },
+    "parent": "dinocustom:custom/revival/toy-crafter",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

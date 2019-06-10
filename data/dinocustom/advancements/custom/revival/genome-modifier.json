@@ -2,12 +2,12 @@
     "display": {
         "icon": {
             "item": "minecraft:firework_rocket",
-			      "nbt": "{CustomModelData:38}"
+			      "nbt": "{CustomModelData:5}"
         },
-        "title": "Revival",
-        "description": "Life, um... Finds a way.",
-        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+        "title": "Genome Modifier",
+        "description": "Acquire and place a Genome Modifier."
     },
+    "parent": "dinocustom:custom/revival/zoology",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

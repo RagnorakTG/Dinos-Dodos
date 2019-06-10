@@ -2,16 +2,16 @@
     "display": {
         "icon": {
             "item": "minecraft:golden_hoe",
-			"nbt": "{Damage:15}"
+			      "nbt": "{Damage:1}"
         },
-        "title": "Rhyton",
-        "description": "Restore a ancient Rhyton!",
+        "title": "Amphora",
+        "description": "Restore a ancient Amphora!",
         "hidden": "true"
     },
     "parent": "dinocustom:custom/archaeology/pottery",
     "criteria": {
         "impossible": {
-            "trigger": "minecraft:impossible" 
+            "trigger": "minecraft:impossible"
         }
     }
 }

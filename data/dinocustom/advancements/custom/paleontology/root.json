@@ -1,10 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:repeating_command_block"
+            "item": "minecraft:bone",
+			      "nbt": "{CustomModelData:5}"
         },
-        "title": "Archaeology",
-        "description": "Reviving, ancient artifacts hard? Probably...",
+        "title": "Paleontology",
+        "description": "According to google this is a well paying job.",
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
     "criteria": {
