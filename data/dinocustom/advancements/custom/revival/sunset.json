@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void",
+			      "nbt": "{CustomModelData:1}"
+        },
+        "title": "What a Sunset",
+        "description": "Watch as two dinosaurs mate in front of the setting sun of a African savanna.",
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/hatch",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

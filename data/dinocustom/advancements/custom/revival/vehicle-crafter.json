@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_terracotta"
+        },
+        "title": "Automotives",
+        "description": "Aquire and place a Vehicle Lift.",
+        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+    },
+    "parent": "dinocustom:custom/revival/zoology",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

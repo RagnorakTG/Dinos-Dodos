@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_wool"
+        },
+        "title": "Child's Play",
+        "description": "We're friends 'til the end, remember?",
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/toy-crafter",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "title": "Complete Catalogue-Carnivores",
+        "description": "Hatch at least one of every carnivore.",
+        "frame": "goal"
+    },
+    "parent": "dinocustom:custom/revival/complete",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": "Frozen Catalogue",
+        "description": "Bring back at least one of every ancient mammalian.",
+        "frame": "challenge"
+    },
+    "parent": "dinocustom:custom/revival/impregnate",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

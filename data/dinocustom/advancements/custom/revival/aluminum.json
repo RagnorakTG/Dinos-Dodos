@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_terracotta"
+        },
+        "title": "Plating",
+        "description": "Aquire some Aluminum Plating, needed for your vehicles.",
+        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+    },
+    "parent": "dinocustom:custom/revival/vehicle-crafter",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

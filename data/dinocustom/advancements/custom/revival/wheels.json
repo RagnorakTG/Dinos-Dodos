@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_terracotta"
+        },
+        "title": "Wheelies!",
+        "description": "Aquire some wheels, the fundamental to all your vehicles.",
+        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+    },
+    "parent": "dinocustom:custom/revival/vehicle-crafter",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "title": "Complete Catalogue-Herbivores",
+        "description": "Hatch at least one of every herbivore.",
+        "frame": "goal"
+    },
+    "parent": "dinocustom:custom/revival/complete",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
