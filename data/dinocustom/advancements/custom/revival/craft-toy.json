@@ -5,7 +5,7 @@
 			      "nbt": "{CustomModelData:55}"
         },
         "title": "Toy Mechanist",
-        "description": "What meat eating monstrous creature wouldnt want a harmless toy?"
+        "description": "Aquire and place any toy."
     },
     "parent": "dinocustom:custom/revival/toy-crafter",
     "criteria": {

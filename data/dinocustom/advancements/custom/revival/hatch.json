@@ -2,12 +2,13 @@
     "display": {
         "icon": {
             "item": "minecraft:firework_rocket",
-			      "nbt": "{CustomModelData:3}"
+			      "nbt": "{CustomModelData:34}"
         },
-        "title": "DNA Combination",
-        "description": "Acquire and place a DNA Combinator."
+        "title": "Baby Steps",
+        "description": "Hatch your first dinosaur.",
+        "frame": "goal"
     },
-    "parent": "dinocustom:custom/revival/genome-modifier",
+    "parent": "dinocustom:custom/revival/cultivate",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket",
+			      "nbt": "{CustomModelData:42}"
+        },
+        "title": "Blue Balls",
+        "description": "Thats just a tad bit inappropriate",
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/craft-toy",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

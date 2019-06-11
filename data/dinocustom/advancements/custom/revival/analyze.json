@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:firework_rocket",
-			      "nbt": "{CustomModelData:7}"
+            "item": "minecraft:bone",
+			      "nbt": "{CustomModelData:5}"
         },
-        "title": "DNA Extraction",
-        "description": "Acquire and place a DNA Extractor."
+        "title": "This isnt DNA!?",
+        "description": "Analyze a dinosaur fossil."
     },
     "parent": "dinocustom:custom/revival/analyzer",
     "criteria": {

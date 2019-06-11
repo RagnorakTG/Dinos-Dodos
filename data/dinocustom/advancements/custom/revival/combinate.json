@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:firework_rocket",
+            "item": "minecraft:command_block",
 			      "nbt": "{CustomModelData:2}"
         },
-        "title": "Cultivation",
-        "description": "Acquire and place a Culture Vat."
+        "title": "Combinator Extraordinaire",
+        "description": "Combine two pieces of DNA."
     },
     "parent": "dinocustom:custom/revival/dna-combinator",
     "criteria": {

@@ -4,7 +4,7 @@
             "item": "minecraft:firework_rocket",
 			      "nbt": "{CustomModelData:8}"
         },
-        "title": "Toy Crafter",
+        "title": "The Toy Craft",
         "description": "Acquire and place a Toy Crafter."
     },
     "parent": "dinocustom:custom/revival/zoology",

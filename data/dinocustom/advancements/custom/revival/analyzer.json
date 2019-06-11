@@ -4,7 +4,7 @@
             "item": "minecraft:firework_rocket",
 			      "nbt": "{CustomModelData:4}"
         },
-        "title": "Analyzer",
+        "title": "Analogy",
         "description": "Acquire and place a Analyzer."
     },
     "parent": "dinocustom:custom/revival/zoology",

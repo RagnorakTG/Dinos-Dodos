@@ -4,7 +4,7 @@
             "item": "minecraft:firework_rocket",
 			      "nbt": "{CustomModelData:1}"
         },
-        "title": "Archaeology Workbench",
+        "title": "Archaeology",
         "description": "Acquire and place a Archaeology Workbench."
     },
     "parent": "dinocustom:custom/revival/zoology",

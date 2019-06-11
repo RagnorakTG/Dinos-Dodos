@@ -2,12 +2,12 @@
     "display": {
         "icon": {
             "item": "minecraft:firework_rocket",
-			      "nbt": "{CustomModelData:3}"
+			      "nbt": "{CustomModelData:37}"
         },
-        "title": "DNA Combination",
-        "description": "Acquire and place a DNA Combinator."
+        "title": "Final Creation",
+        "description": "Cultivate a piece of DNA into an egg or needle."
     },
-    "parent": "dinocustom:custom/revival/genome-modifier",
+    "parent": "dinocustom:custom/revival/culture-vat",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

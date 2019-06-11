@@ -1,11 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:firework_rocket",
-			      "nbt": "{CustomModelData:5}"
+            "item": "minecraft:chicken"
         },
-        "title": "Genome Modification",
-        "description": "Acquire and place a Genome Modifier."
+        "title": "Now Were Getting Closer!",
+        "description": "Extract a piece of DNA."
     },
     "parent": "dinocustom:custom/revival/dna-extractor",
     "criteria": {

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block",
+			      "nbt": "{CustomModelData:5}"
+        },
+        "title": "Belly Burster",
+        "description": "Impregnate a Mammal With a Needle.",
+        "frame": "goal"
+    },
+    "parent": "dinocustom:custom/revival/cultivate",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

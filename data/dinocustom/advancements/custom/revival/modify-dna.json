@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:firework_rocket",
-			      "nbt": "{CustomModelData:3}"
+            "item": "minecraft:command_block",
+			      "nbt": "{CustomModelData:2}"
         },
-        "title": "DNA Combination",
-        "description": "Acquire and place a DNA Combinator."
+        "title": "From Chicken to Dinosaur",
+        "description": "Modify some genomes."
     },
     "parent": "dinocustom:custom/revival/genome-modifier",
     "criteria": {

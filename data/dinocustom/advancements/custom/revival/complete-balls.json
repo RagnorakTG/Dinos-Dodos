@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket",
+			      "nbt": "{CustomModelData:48}"
+        },
+        "title": "Glory Holes",
+        "description": "Complete your catalogue of balls.",
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/craft-toy",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
