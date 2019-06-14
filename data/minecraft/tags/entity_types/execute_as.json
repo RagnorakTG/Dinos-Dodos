@@ -6,6 +6,7 @@
     "minecraft:cow",
     "minecraft:salmon",
     "minecraft:tropical_fish",
-    "minecraft:villager"
+    "minecraft:villager",
+    "minecraft:player"
   ]
 }

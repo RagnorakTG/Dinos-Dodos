@@ -56,3 +56,12 @@ execute as @s[tag=boredom,scores={Gain_Boredom=..-1200}] run scoreboard players 
 execute as @s[tag=boredom,scores={Gain_Boredom=1200..}] run scoreboard players add @s Current_Boredom 1
 execute as @s[tag=boredom,scores={Gain_Boredom=..-1200}] run scoreboard players set @s Gain_Boredom 0
 execute as @s[tag=boredom,scores={Gain_Boredom=1200..}] run scoreboard players set @s Gain_Boredom 0
+##Current_Boredom
+execute as @s[tag=!tired] run scoreboard players set @s Current_Tired 0
+execute as @s[tag=!tired] run tag @s add tired
+execute as @s[tag=tired] run scoreboard players set @s[scores={Current_Tired=101..}] Current_Tired 100
+execute as @s[tag=tired] run scoreboard players set @s[scores={Current_Tired=..-1}] Current_Tired 0
+execute as @s[tag=tired,scores={Gain_Tired=..-1200}] run scoreboard players remove @s Current_Tired 1
+execute as @s[tag=tired,scores={Gain_Tired=1200..}] run scoreboard players add @s Current_Tired 1
+execute as @s[tag=tired,scores={Gain_Tired=..-1200}] run scoreboard players set @s Gain_Tired 0
+execute as @s[tag=tired,scores={Gain_Tired=1200..}] run scoreboard players set @s Gain_Tired 0

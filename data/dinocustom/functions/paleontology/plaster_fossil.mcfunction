@@ -14,10 +14,10 @@ execute as @s[tag=fossil,tag=!plastered,tag=!plaster_sound] at @s if score @s[ta
 execute as @s[tag=fossil,tag=!plastered] at @s if score @s[tag=fossil] Plaster_chance > @s[tag=fossil] Did_Plaster run tag @s add plaster_sound
 execute as @s[tag=fossil,tag=!plastered] at @s if score @s[tag=fossil] Plaster_chance > @s[tag=fossil] Did_Plaster run tag @s add plastered
 #Replace
-execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,scores={Dinosaur_fossil=0}] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:3}
-execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,scores={Dinosaur_fossil=1}] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:6}
-execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,scores={Dinosaur_fossil=2}] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:9}
-execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,scores={Dinosaur_fossil=3}] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:12}
-execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,scores={Dinosaur_fossil=4}] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:15}
-execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,scores={Dinosaur_fossil=5}] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:18}
+execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,tag=ankylosaurus] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:3}
+execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,tag=giraffatitan] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:6}
+execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,tag=koolasuchus] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:9}
+execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,tag=pachycephalosaurus] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:12}
+execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,tag=spinosaurus] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:15}
+execute as @s[tag=fossil,tag=plastered,tag=!replaced_again,tag=velociraptor] at @s run replaceitem entity @s armor.head bone_block{CustomModelData:18}
 execute as @s[tag=fossil,tag=plastered,tag=!replaced_again] run tag @s add replaced_again
