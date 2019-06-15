@@ -21,4 +21,3 @@ execute as @s[tag=aquatic] run data merge entity @s {ArmorDropChances:[0.0F,0.0F
 
 #Toys
 execute as @s[tag=ball] at @s run function dinocustom:ai/toys/balls
-say hi
