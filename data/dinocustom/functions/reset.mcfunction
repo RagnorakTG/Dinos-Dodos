@@ -62,6 +62,8 @@ scoreboard objectives add Gain_Health dummy
 scoreboard objectives add Current_Health dummy
 scoreboard objectives add Should_Fly dummy
 scoreboard objectives add Stop_flying dummy
+scoreboard objectives add Max_Damage dummy
+scoreboard objectives add Damage dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never

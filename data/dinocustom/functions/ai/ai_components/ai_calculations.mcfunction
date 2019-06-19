@@ -38,6 +38,10 @@ execute as @s run scoreboard players operation @s Max_Grounds *= Weight_Multiply
 execute as @s run scoreboard players set @s Max_Age 0
 execute as @s run scoreboard players operation @s Max_Age += @s Weight
 execute as @s run scoreboard players operation @s Max_Age *= Weight_Multiply Multipliers
+## Damage
+execute as @s run scoreboard players set @s Max_Damage 0
+execute as @s run scoreboard players operation @s Max_Damage += @s Weight
+execute as @s run scoreboard players operation @s Max_Damage /= Weight_Multiply Multipliers
 ## Current_Happiness
 execute as @s[tag=!happiness] run scoreboard players set @s Current_Happines 100
 execute as @s[tag=!happiness] run tag @s add happiness
