@@ -64,6 +64,8 @@ scoreboard objectives add Should_Fly dummy
 scoreboard objectives add Stop_flying dummy
 scoreboard objectives add Max_Damage dummy
 scoreboard objectives add Damage dummy
+scoreboard objectives add Pathfind_ID
+scoreboard objectives add pathfinding_time
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never

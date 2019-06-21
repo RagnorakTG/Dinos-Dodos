@@ -1,28 +1,36 @@
-scoreboard objectives add Pathfinding_time dummy
-scoreboard players add Time Pathfinding_time 1
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~1 ~ ~ unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 1 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~-1 ~ ~ unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 1 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~ ~ ~1 unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 2 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~ ~ ~-1 unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 2 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~1 ~ ~1 unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 3 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~1 ~ ~-1 unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 3 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~-1 ~ ~1 unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 4 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=pathfind,tag=!done] at @s run execute positioned ~-1 ~ ~-1 unless entity @e[tag=pathfind,distance=..0.5] if score Time Pathfinding_time matches 4 run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
-execute as @e[tag=find] at @s if block ~ ~-1.5 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run kill @s
-execute as @e[tag=find] at @s if block ~ ~-0.1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run tp @s ~ ~-0.2 ~
-execute as @e[tag=find] at @s unless block ~ ~1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run kill @s
-execute as @e[tag=find] at @s unless block ~ ~0.1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run tp @s ~ ~1 ~
-execute as @e[tag=find] at @s unless block ~ ~1 ~ #minecraft:move_through_heavy if score Time Pathfinding_time matches 5 run kill @s
-execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!pathfind,limit=1,sort=nearest] if score Time Pathfinding_time matches 6 run tag @s add pathfind
-execute as @e[tag=find] if score Time Pathfinding_time matches 6 run scoreboard players add @s Pathfinding_time 1
-execute as @e[tag=find,tag=!done,scores={Pathfinding_time=3}] if score Time Pathfinding_time matches 7 run tag @s add done
-execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!done,distance=..0.5] if score Time Pathfinding_time matches 7 run tag @s add finished
-execute as @e[tag=find,tag=!pathfind] at @s if score Time Pathfinding_time matches 7 run kill @s
-execute if score Time Pathfinding_time matches 7 run replaceitem entity @e[tag=done] armor.head redstone_block
-execute as @e[tag=teleport] at @s if entity @e[tag=finished] run tp @e[tag=teleport] @e[tag=find,sort=nearest,limit=1]
-execute if entity @e[tag=finished] run execute as @e[tag=teleport] at @s run kill @e[tag=find,sort=nearest,limit=1]
-execute as @e[tag=teleport] at @s if score Time Pathfinding_time matches 8 run tag @e[tag=teleport] add done
-execute if score Time Pathfinding_time matches 8.. run scoreboard players set Time Pathfinding_time 0
-execute as @e[tag=teleport] at @s if entity @e[tag=finished,distance=..1] run kill @e[tag=find,distance=2..]
-execute as @e[tag=teleport] at @s if entity @e[tag=follow,distance=..1] run kill @e[tag=find]
-execute at @e[tag=follow] run execute if score @e[tag=find,limit=1,sort=furthest] Pathfinding_time matches 15.. run tag @e[tag=pathfind,limit=1,sort=nearest] add finished
+### pathfinding
+## Prepare
+# Add to scoreboard
+scoreboard players add Time pathfinding_time 1
+
+## Create Path
+# Step 1 (Create Path Prt.1)
+execute if score Time pathfinding_time matches 1 run execute as @e[tag=pathfinding,tag=!done] at @s unless entity @e[tag=teleport] run execute positioned ~1 ~ ~ unless entity @e[tag=pathfinding,distance=..0.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
+execute if score Time pathfinding_time matches 1 run execute as @e[tag=pathfinding,tag=!done] at @s unless entity @e[tag=teleport] run execute positioned ~-1 ~ ~ unless entity @e[tag=pathfinding,distance=..0.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
+execute if score Time pathfinding_time matches 1 run execute as @e[tag=pathfinding,tag=!done] at @s unless entity @e[tag=teleport] run execute positioned ~ ~ ~1 unless entity @e[tag=pathfinding,distance=..0.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
+execute if score Time pathfinding_time matches 1 run execute as @e[tag=pathfinding,tag=!done] at @s unless entity @e[tag=teleport] run execute positioned ~ ~ ~-1 unless entity @e[tag=pathfinding,distance=..0.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["find"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:black_wool",Count:1b}]}
+# Step 3 (Detect for blocks)
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=find] at @s unless block ~ ~1 ~ #minecraft:move_through_heavy run kill @s
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=find] at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~1 ~
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=find] at @s if block ~ ~-2 ~ #minecraft:move_through_heavy if block ~ ~-1 ~ #minecraft:move_through_heavy run kill @s
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=find] at @s if block ~ ~-1 ~ #minecraft:move_through_heavy unless block ~ ~-2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.5 ~
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=find] at @s unless block ~ ~1 ~ #minecraft:move_through_heavy run kill @s
+# Step 4 (Detect closest to ending)
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!pathfinding,limit=1,sort=nearest] run tag @s add pathfinding
+execute if score Time pathfinding_time matches 2 run execute as @e[tag=find] unless entity @e[tag=teleport] run scoreboard players add @s pathfinding_time 1
+# Step 5 (Detect if Finished?)
+execute if score Time pathfinding_time matches 3 run execute as @e[tag=find,tag=!done,scores={pathfinding_time=3}] run tag @s add done
+execute if score Time pathfinding_time matches 3 run execute as @e[tag=follow] at @s run execute as @e[tag=find,tag=!done,distance=..0.5] run tag @s add finished
+execute if score Time pathfinding_time matches 3 run execute as @e[tag=find,tag=!pathfinding] at @s run kill @s
+execute if score Time pathfinding_time matches 3 run replaceitem entity @e[tag=done] armor.head redstone_block
+# Step 6 (Teleport pathfindinger to Ending)
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=follow] at @s if score @e[tag=find,limit=1,sort=furthest] pathfinding_time matches 50.. run tag @e[tag=find,limit=1,sort=nearest] add finished
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=follow] at @s if entity @e[tag=finished,distance=..2] run tag @e[tag=pathfinding,limit=1,tag=og,sort=nearest] add teleport
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=teleport] at @s run tp @e[tag=teleport] ~ ~ ~ facing entity @e[tag=find,sort=nearest,limit=1,distance=..5]
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=teleport] at @s if entity @e[tag=find,sort=nearest,limit=1,distance=..5] run tp @e[tag=teleport] ^ ^ ^0.8
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=teleport] at @s if entity @e[tag=find,sort=nearest,limit=1,distance=..5] run tp @e[tag=teleport] ~ ~ ~ ~ 0
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=teleport] at @s run kill @e[tag=find,sort=nearest,limit=1,distance=..0.5]
+execute if score Time pathfinding_time matches 4 run execute as @e[tag=teleport] at @s run tag @e[tag=teleport] add done
+# Step 7 (Finish Process)
+execute if score Time pathfinding_time matches 5 run execute as @e[tag=teleport] at @s if entity @e[tag=follow,distance=..2] run kill @e[tag=find]
+execute if score Time pathfinding_time matches 5.. run scoreboard players set Time pathfinding_time 0
