@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:drowned",
+    "minecraft:zombie",
     "minecraft:armor_stand",
     "minecraft:cow",
     "minecraft:salmon",

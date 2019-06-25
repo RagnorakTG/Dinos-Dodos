@@ -21,3 +21,6 @@ execute as @s[tag=aquatic] run data merge entity @s {ArmorDropChances:[0.0F,0.0F
 
 #Toys
 execute as @s[tag=ball] at @s run function dinocustom:ai/toys/balls
+
+# The Mighty One
+execute as @s[tag=the-mighty-one] at @s run function dinocustom:ai/the-mighty-one/main
