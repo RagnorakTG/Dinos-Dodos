@@ -4,6 +4,7 @@ execute as @s[tag=giraffatitan] run tag @s add herbivore
 execute as @s[tag=giraffatitan] run tag @s add passive
 execute as @s[tag=giraffatitan] run tag @s add terrestrial
 execute as @s[tag=giraffatitan] run tag @s add diurnal
+execute as @s[tag=giraffatitan] run tag @s add dnd-mob
 execute as @s[tag=giraffatitan,tag=adult] run scoreboard players set @s Temp_Width 4
 execute as @s[tag=giraffatitan,tag=adult] run scoreboard players set @s Temp_Height 13
 execute as @s[tag=giraffatitan,tag=adult] run scoreboard players set @s Temp_Length 17

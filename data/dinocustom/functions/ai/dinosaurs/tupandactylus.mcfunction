@@ -4,6 +4,7 @@ execute as @s[tag=tupandactylus] run tag @s add piscivore
 execute as @s[tag=tupandactylus] run tag @s add passive
 execute as @s[tag=tupandactylus] run tag @s add flying
 execute as @s[tag=tupandactylus] run tag @s add crepuscular
+execute as @s[tag=tupandactylus] run tag @s add dnd-mob
 execute as @s[tag=tupandactylus,tag=adult] run scoreboard players set @s Temp_Width 1
 execute as @s[tag=tupandactylus,tag=adult] run scoreboard players set @s Temp_Height 1
 execute as @s[tag=tupandactylus,tag=adult] run scoreboard players set @s Temp_Length 3

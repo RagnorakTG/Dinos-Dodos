@@ -42,6 +42,7 @@ scoreboard objectives add Max_Grounds dummy
 scoreboard objectives add Walk dummy
 scoreboard objectives add Walk_time dummy
 scoreboard objectives add Walk_stop
+scoreboard objectives add Should_rotate dummy
 scoreboard objectives add Rotate dummy
 scoreboard objectives add Rotate_ammount dummy
 scoreboard objectives add Hatch_Time dummy
@@ -68,6 +69,7 @@ scoreboard objectives add Pathfind_ID dummy
 scoreboard objectives add pathfinding_time dummy
 scoreboard objectives add Speed dummy
 scoreboard objectives add Speed_Calculate dummy
+scoreboard objectives add Compar_Weight dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never

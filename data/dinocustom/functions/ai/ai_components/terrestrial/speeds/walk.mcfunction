@@ -49,12 +49,12 @@ execute as @s[tag=terrestrial,scores={Speed=10}] if block ^ ^1 ^0.9 #minecraft:m
 execute as @s[tag=terrestrial,scores={Speed=10}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.06 ~45 0
 execute as @s[tag=terrestrial,scores={Speed=10}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.06 ~15 0
 # Speed 11
-execute as @s[tag=terrestrial,scores={Speed=11}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.05 ~ 0
-execute as @s[tag=terrestrial,scores={Speed=11}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.05 ~ 0
-execute as @s[tag=terrestrial,scores={Speed=11}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.05 ~45 0
-execute as @s[tag=terrestrial,scores={Speed=11}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.05 ~15 0
+execute as @s[tag=terrestrial,scores={Speed=11}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.07 ~ 0
+execute as @s[tag=terrestrial,scores={Speed=11}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.07 ~ 0
+execute as @s[tag=terrestrial,scores={Speed=11}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.07 ~45 0
+execute as @s[tag=terrestrial,scores={Speed=11}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.07 ~15 0
 # Speed 12
-execute as @s[tag=terrestrial,scores={Speed=12..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.04 ~ 0
-execute as @s[tag=terrestrial,scores={Speed=12..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.04 ~ 0
-execute as @s[tag=terrestrial,scores={Speed=12..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.04 ~45 0
-execute as @s[tag=terrestrial,scores={Speed=12..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.04 ~15 0
+execute as @s[tag=terrestrial,scores={Speed=12..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
+execute as @s[tag=terrestrial,scores={Speed=12..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.08 ~ 0
+execute as @s[tag=terrestrial,scores={Speed=12..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.08 ~45 0
+execute as @s[tag=terrestrial,scores={Speed=12..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.08 ~15 0

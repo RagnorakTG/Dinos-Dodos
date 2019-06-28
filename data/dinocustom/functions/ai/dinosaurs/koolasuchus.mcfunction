@@ -7,6 +7,7 @@ execute as @s[tag=koolasuchus,tag=baby] run tag @s remove semi-aquatic
 execute as @s[tag=koolasuchus,tag=!baby] run tag @s remove aquatic
 execute as @s[tag=koolasuchus,tag=!baby] run tag @s add semi-aquatic
 execute as @s[tag=koolasuchus] run tag @s add crepuscular
+execute as @s[tag=koolasuchus] run tag @s add dnd-mob
 execute as @s[tag=koolasuchus,tag=adult] run scoreboard players set @s Temp_Width 1
 execute as @s[tag=koolasuchus,tag=adult] run scoreboard players set @s Temp_Height 1
 execute as @s[tag=koolasuchus,tag=adult] run scoreboard players set @s Temp_Length 5

@@ -4,6 +4,7 @@ execute as @s[tag=spinosaurus] run tag @s add piscivore
 execute as @s[tag=spinosaurus] run tag @s add aggressive
 execute as @s[tag=spinosaurus] run tag @s add semi-aquatic
 execute as @s[tag=spinosaurus] run tag @s add crepuscular
+execute as @s[tag=spinosaurus] run tag @s add dnd-mob
 execute as @s[tag=spinosaurus,tag=adult] run scoreboard players set @s Temp_Width 2
 execute as @s[tag=spinosaurus,tag=adult] run scoreboard players set @s Temp_Height 4
 execute as @s[tag=spinosaurus,tag=adult] run scoreboard players set @s Temp_Length 11
