@@ -1,6 +1,8 @@
 #Calculations
 scoreboard players set Weight_Multiply Multipliers 2
-scoreboard players set Speed_Multiply Multipliers 10
+scoreboard players set Percent_Multiply Multipliers 15
+scoreboard players set Thousand_Num Multipliers 1000
+scoreboard players set Ten_Multiply Multipliers 10
 scoreboard players set Speed_Divide Multipliers 50
 scoreboard players set Immune_Multiply Multipliers -1
 scoreboard players set Group_Multiply Multipliers -11
@@ -28,7 +30,7 @@ execute as @s run scoreboard players operation @s Max_Group += @s Weight
 execute as @s run scoreboard players operation @s Max_Group *= Group_Multiply Multipliers
 execute as @s run scoreboard players operation @s Max_Group += Group_Add Multipliers
 execute as @s run scoreboard players operation @s Max_Group /= Speed_Add Multipliers
-execute as @s run scoreboard players operation @s Max_Group /= Speed_Multiply Multipliers
+execute as @s run scoreboard players operation @s Max_Group /= Ten_Multiply Multipliers
 ## Max_Grounds      T x G x 2 = G2
 execute as @s run scoreboard players set @s Max_Grounds 0
 execute as @s run scoreboard players operation @s Max_Grounds += @s Weight
@@ -42,6 +44,17 @@ execute as @s run scoreboard players operation @s Max_Age *= Weight_Multiply Mul
 execute as @s run scoreboard players set @s Max_Damage 0
 execute as @s run scoreboard players operation @s Max_Damage += @s Weight
 execute as @s run scoreboard players operation @s Max_Damage /= Weight_Multiply Multipliers
+## Speed Calculate  (T^2)+(T x .15) = S
+execute as @s run scoreboard players set @s Speed 0
+execute as @s store result score @s Speed run scoreboard players get @s Weight
+execute as @s store result score input math_sqrt run scoreboard players get @s Speed
+execute as @s run function dinocustom:ai/sqrt
+execute as @s run scoreboard players operation @s Speed = output math_sqrt
+execute as @s run scoreboard players operation @s Speed_Calculate = @s Weight
+execute as @s run scoreboard players operation @s Speed_Calculate *= Ten_Multiply Multipliers
+execute as @s run scoreboard players operation @s Speed_Calculate *= Percent_Multiply Multipliers
+execute as @s run scoreboard players operation @s Speed_Calculate /= Thousand_Num Multipliers
+execute as @s run scoreboard players operation @s Speed += @s Speed_Calculate
 ## Current_Happiness
 execute as @s[tag=!happiness] run scoreboard players set @s Current_Happines 100
 execute as @s[tag=!happiness] run tag @s add happiness

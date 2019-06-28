@@ -47,10 +47,7 @@ execute as @s[tag=!walking,tag=terrestrial,scores={Walk=..0}] run execute store 
 # Walk
 execute as @s[tag=terrestrial,scores={Walk=60..}] run tag @s add walking
 execute as @s[tag=terrestrial,scores={Walk=60..}] run tag @s remove idle
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^ ^0.9 #minecraft:move_through_heavy if block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^0.08 ~ 0
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^1 ^0.9 #minecraft:move_through_heavy unless block ^ ^ ^0.9 #minecraft:move_through_heavy run tp @s ^ ^0.5 ^0.2 ~ 0
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] unless block ^ ^ ^0.9 #minecraft:move_through_heavy unless block ^ ^1 ^0.9 #minecraft:move_through_heavy run tp @s ^ ^ ^-0.1 ~45 0
-execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] if block ^ ^-1 ^0.9 minecraft:water if block ^ ^0 ^0.9 minecraft:water run tp @s ^ ^ ^-0.1 ~15 0
+execute as @s[tag=walking,tag=terrestrial,scores={Walk=60..}] run function dinocustom:ai/ai_components/terrestrial/walk
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s add idle
 # Gravity

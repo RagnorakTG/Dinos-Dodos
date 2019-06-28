@@ -66,6 +66,8 @@ scoreboard objectives add Max_Damage dummy
 scoreboard objectives add Damage dummy
 scoreboard objectives add Pathfind_ID dummy
 scoreboard objectives add pathfinding_time dummy
+scoreboard objectives add Speed dummy
+scoreboard objectives add Speed_Calculate dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never
