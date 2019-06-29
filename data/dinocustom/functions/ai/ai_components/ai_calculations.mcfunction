@@ -60,25 +60,34 @@ execute as @s[tag=!happiness] run scoreboard players set @s Current_Happines 100
 execute as @s[tag=!happiness] run tag @s add happiness
 execute as @s[tag=happiness] run scoreboard players set @s[scores={Current_Happines=101..}] Current_Happines 100
 execute as @s[tag=happiness] run scoreboard players set @s[scores={Current_Happines=..-1}] Current_Happines 0
-execute as @s[tag=happiness,scores={Gain_Happiness=..-1200}] run scoreboard players remove @s Current_Happines 1
-execute as @s[tag=happiness,scores={Gain_Happiness=1200..}] run scoreboard players add @s Current_Happines 1
-execute as @s[tag=happiness,scores={Gain_Happiness=..-1200}] run scoreboard players set @s Gain_Happiness 0
-execute as @s[tag=happiness,scores={Gain_Happiness=1200..}] run scoreboard players set @s Gain_Happiness 0
+execute as @s[tag=happiness,scores={Gain_Happiness=..-1000}] run scoreboard players remove @s Current_Happines 1
+execute as @s[tag=happiness,scores={Gain_Happiness=1000..}] run scoreboard players add @s Current_Happines 1
+execute as @s[tag=happiness,scores={Gain_Happiness=..-1000}] run scoreboard players set @s Gain_Happiness 0
+execute as @s[tag=happiness,scores={Gain_Happiness=1000..}] run scoreboard players set @s Gain_Happiness 0
 ##Current_Boredom
 execute as @s[tag=!boredom] run scoreboard players set @s Current_Boredom 0
 execute as @s[tag=!boredom] run tag @s add boredom
 execute as @s[tag=boredom] run scoreboard players set @s[scores={Current_Boredom=101..}] Current_Boredom 100
 execute as @s[tag=boredom] run scoreboard players set @s[scores={Current_Boredom=..-1}] Current_Boredom 0
-execute as @s[tag=boredom,scores={Gain_Boredom=..-1200}] run scoreboard players remove @s Current_Boredom 1
-execute as @s[tag=boredom,scores={Gain_Boredom=1200..}] run scoreboard players add @s Current_Boredom 1
-execute as @s[tag=boredom,scores={Gain_Boredom=..-1200}] run scoreboard players set @s Gain_Boredom 0
-execute as @s[tag=boredom,scores={Gain_Boredom=1200..}] run scoreboard players set @s Gain_Boredom 0
-##Current_Boredom
+execute as @s[tag=boredom,scores={Gain_Boredom=..-1000}] run scoreboard players remove @s Current_Boredom 1
+execute as @s[tag=boredom,scores={Gain_Boredom=1000..}] run scoreboard players add @s Current_Boredom 1
+execute as @s[tag=boredom,scores={Gain_Boredom=..-1000}] run scoreboard players set @s Gain_Boredom 0
+execute as @s[tag=boredom,scores={Gain_Boredom=1000..}] run scoreboard players set @s Gain_Boredom 0
+##Current_Tired
 execute as @s[tag=!tired] run scoreboard players set @s Current_Tired 0
 execute as @s[tag=!tired] run tag @s add tired
 execute as @s[tag=tired] run scoreboard players set @s[scores={Current_Tired=101..}] Current_Tired 100
 execute as @s[tag=tired] run scoreboard players set @s[scores={Current_Tired=..-1}] Current_Tired 0
-execute as @s[tag=tired,scores={Gain_Tired=..-1200}] run scoreboard players remove @s Current_Tired 1
-execute as @s[tag=tired,scores={Gain_Tired=1200..}] run scoreboard players add @s Current_Tired 1
-execute as @s[tag=tired,scores={Gain_Tired=..-1200}] run scoreboard players set @s Gain_Tired 0
-execute as @s[tag=tired,scores={Gain_Tired=1200..}] run scoreboard players set @s Gain_Tired 0
+execute as @s[tag=tired,scores={Gain_Tired=..-1000}] run scoreboard players remove @s Current_Tired 1
+execute as @s[tag=tired,scores={Gain_Tired=1000..}] run scoreboard players add @s Current_Tired 1
+execute as @s[tag=tired,scores={Gain_Tired=..-1000}] run scoreboard players set @s Gain_Tired 0
+execute as @s[tag=tired,scores={Gain_Tired=1000..}] run scoreboard players set @s Gain_Tired 0
+##Current_Rep
+execute as @s[tag=!rep] run scoreboard players set @s Current_Rep 0
+execute as @s[tag=!rep] run tag @s add Rep
+execute as @s[tag=rep] run scoreboard players set @s[scores={Current_rep=101..}] Current_Rep 100
+execute as @s[tag=rep] run scoreboard players set @s[scores={Current_rep=..-1}] Current_Rep 0
+execute as @s[tag=rep,scores={Gain_rep=..-1000}] run scoreboard players remove @s Current_Rep 1
+execute as @s[tag=rep,scores={Gain_rep=1000..}] run scoreboard players add @s Current_Rep 1
+execute as @s[tag=rep,scores={Gain_rep=..-1000}] run scoreboard players set @s Gain_Rep 0
+execute as @s[tag=rep,scores={Gain_rep=1000..}] run scoreboard players set @s Gain_Rep 0

@@ -9,9 +9,9 @@ execute as @s[tag=!aquatic,tag=diurnal,tag=!corpse,tag=!sleeping,tag=!resting] a
 execute as @s[tag=!aquatic,tag=nocturnal,tag=!corpse,tag=!sleeping,tag=!resting] at @s if score Time Time matches 12500..23500 run scoreboard players set @s Active 1
 execute as @s[tag=!aquatic,tag=crepuscular,tag=!corpse,tag=!sleeping,tag=!resting] at @s if score Time Time matches 1000..23000 run scoreboard players set @s Active 1
 # Resting
-execute as @s[tag=!aquatic,tag=dirunal,tag=!corpse,scores={Current_Tired=70..}] run scoreboard players set @s Active 2
-execute as @s[tag=!aquatic,tag=nocturnal,tag=!corpse,scores={Current_Tired=80..}] run scoreboard players set @s Active 2
-execute as @s[tag=!aquatic,tag=crepuscular,tag=!corpse,scores={Current_Tired=60..}] run scoreboard players set @s Active 2
+execute as @s[tag=!aquatic,tag=dirunal,tag=!corpse,scores={Current_Tired=50..}] run scoreboard players set @s Active 2
+execute as @s[tag=!aquatic,tag=nocturnal,tag=!corpse,scores={Current_Tired=60..}] run scoreboard players set @s Active 2
+execute as @s[tag=!aquatic,tag=crepuscular,tag=!corpse,scores={Current_Tired=70..}] run scoreboard players set @s Active 2
 execute as @s[tag=!aquatic,tag=dirunal,tag=!corpse,tag=resting] run scoreboard players set @s Active 2
 execute as @s[tag=!aquatic,tag=nocturnal,tag=!corpse,tag=resting] run scoreboard players set @s Active 2
 execute as @s[tag=!aquatic,tag=crepuscular,tag=!corpse,tag=resting] run scoreboard players set @s Active 2
