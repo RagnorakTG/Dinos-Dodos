@@ -11,11 +11,12 @@ execute as @s[tag=!walking,scores={Walk=..0}] run execute store result score @s 
 # Walk
 execute as @s[scores={Walk=60..}] run tag @s add walking
 execute as @s[scores={Walk=60..}] run tag @s remove idle
-execute as @s[tag=walking,scores={Walk=60..}] run function dinocustom:ai/ai_components/terrestrial/status/speeds/walk
+execute as @s[scores={Walk=60..},tag=walking] run function dinocustom:ai/ai_components/terrestrial/status/speeds/walk
+execute as @s[scores={Walk=60..},tag=walking] if block ~ ~ ~ water run function dinocustom:ai/ai_components/terrestrial/status/speeds/sneak
 execute as @s[scores={Walk=..59}] run tag @s remove walking
 execute as @s[scores={Walk=..59}] run tag @s add idle
 
-## Rotation
+## Rotating
 # Should Rotate
 execute as @s[tag=!rotate] run scoreboard players add @s Rotate 1
 execute as @s[tag=!rotate,scores={Rotate=60..}] run scoreboard players set in_0 math_rng 10

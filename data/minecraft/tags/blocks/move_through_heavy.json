@@ -64,6 +64,8 @@
   "minecraft:dark_oak_pressure_plate",
   "minecraft:acacia_pressure_plate",
   "minecraft:redstone_torch",
-  "minecraft:redstone_wire"
+  "minecraft:redstone_wire",
+  "minecraft:kelp_plant",
+  "minecraft:tall_seagrass"
   ]
 }

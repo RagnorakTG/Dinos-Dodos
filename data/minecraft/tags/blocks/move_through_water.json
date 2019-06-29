@@ -5,6 +5,8 @@
 	"#minecraft:coral_plants",
 	"minecraft:lily_pad",
   "minecraft:water",
-  "minecraft:seagrass"
+  "minecraft:seagrass",
+  "minecraft:kelp_plant",
+  "minecraft:tall_seagrass"
   ]
 }
