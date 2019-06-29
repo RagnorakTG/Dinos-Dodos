@@ -10,7 +10,6 @@ execute as @s[tag=terrestrial,tag=!walking,scores={Walk=..0}] run execute store 
 execute as @s[tag=terrestrial,scores={Walk=60..}] run tag @s add walking
 execute as @s[tag=terrestrial,scores={Walk=60..}] run tag @s remove idle
 execute as @s[tag=terrestrial,tag=walking,scores={Walk=60..}] run function dinocustom:ai/ai_components/terrestrial/speeds/walk
-execute as @s[tag=terrestrial] store result score @s Campar_Weight run scoreboard players get @e[tag=dnd-mob,limit=1,sort=random,distance=..15] Weight
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s remove walking
 execute as @s[tag=terrestrial,scores={Walk=..59}] run tag @s add idle
 # Gravity
