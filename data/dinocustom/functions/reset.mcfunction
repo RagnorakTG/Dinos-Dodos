@@ -20,9 +20,6 @@ scoreboard objectives add Player_Jump minecraft.custom:minecraft.jump
 scoreboard objectives add R_Click_Fossil minecraft.custom:minecraft.talked_to_villager
 ## Crafting
 scoreboard objectives add Milk_Supply dummy
-scoreboard objectives add FishTrough dummy
-scoreboard objectives add MeatTrough dummy
-scoreboard objectives add PlantTrough dummy
 scoreboard objectives add combinatorBar dummy
 scoreboard objectives add analyzerBarTimer dummy
 scoreboard objectives add extractorBar dummy
@@ -71,6 +68,8 @@ scoreboard objectives add Speed dummy
 scoreboard objectives add Speed_Calculate dummy
 scoreboard objectives add Current_Rep dummy
 scoreboard objectives add Gain_Rep dummy
+scoreboard objectives add Food_Ammount dummy
+scoreboard objectives add Food_Type dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never
