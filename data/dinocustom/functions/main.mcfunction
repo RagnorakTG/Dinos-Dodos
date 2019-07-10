@@ -4,6 +4,7 @@ function dinocustom:placing/main
 function dinocustom:crafting/main
 # Others
 execute as @e[type=#minecraft:execute_as] run function dinocustom:run_functions
+execute as @e[type=#minecraft:natural-mob] run function dinocustom:natural_mobs/main
 function dinocustom:timer
 # Jeep
 function dinocustom:vehicles/jeep/main

@@ -1,4 +1,6 @@
 ### Scoreboards
+## Summoning
+scoreboard objectives add summon_ammount dummy
 ## Misc.
 scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
