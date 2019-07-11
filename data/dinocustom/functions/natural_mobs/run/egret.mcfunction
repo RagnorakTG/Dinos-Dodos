@@ -20,6 +20,7 @@ execute as @s[type=cow,tag=ammount,tag=!summoned] run tag @s add summoned
 # Invisible
 execute as @s[tag=egret] run effect give @s invisibility 10 1 true
 # Replace Item
-execute as @s[tag=egret] run replaceitem entity @s armor.head granite{CustomModelData:6}
+execute as @s[tag=egret] run replaceitem entity @s armor.head granite{CustomModelData:7}
+execute as @s[tag=egret,nbt={Motion:[0.0d, 0.0d, 0.0d]}] run replaceitem entity @s armor.head granite{CustomModelData:6}
 # Make Non-hostile
 execute as @s[tag=egret] run data merge entity @s {armorDropChances:[0.0F,0.0F,0.0F,0.0F],DeathLootTable:"dinocustom:mobs/natural/egret",Anger:-15000,HurtBy:"a",Attributes:[{Name:generic.followRange,Base:2}]}

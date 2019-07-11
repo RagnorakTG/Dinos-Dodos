@@ -7,5 +7,5 @@ execute as @s[tag=fossil] at @s run function dinocustom:paleontology/replace_fos
 
 execute as @s[tag=fossil,tag=!scored] at @s run scoreboard players set @s Fossil_damage 0
 execute as @s[tag=fossil,tag=!scored] at @s run tag @s add scored
-execute as @s[tag=fossil] run data merge entity @s {ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],Motion:[0.0d,0.0d,0.0d]}
+execute as @s[tag=fossil] run data merge entity @s {ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],Motion:[0.0d,0.0d,0.0d],Invulnerable:1b}
 execute as @s[tag=fossil] run data modify entity @s Offers set value {Offers:{}}
