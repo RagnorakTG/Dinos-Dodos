@@ -50,3 +50,5 @@ execute as @s[tag=giraffatitan,tag=baby,tag=sleeping] run replaceitem entity @s 
 execute as @s[tag=giraffatitan,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:46}
 execute as @s[tag=giraffatitan,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:47}
 execute as @s[tag=giraffatitan,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:48}
+# Loot table
+execute as @s[tag=ankylosaurus,tag=baby,tag=walking] run data merge entity @s {DeathLootTable:"dinocustom:mobs/dinosaur/meat/gira_meat"}
