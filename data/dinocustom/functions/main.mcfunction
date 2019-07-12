@@ -18,8 +18,8 @@ scoreboard players reset @a[scores={Use_Firework=1..}] Use_Firework
 # Selected Slot
 execute as @a store result score @s SelItemSlot run data get entity @s SelectedItemSlot
 # Barriers
-kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
-clear @a barrier
+kill @e[type=item,nbt={Item:{id:"minecraft:barrier",Count:1b,tag:{RemoveFromInv:1b}}}]
+clear @a barrier{RemoveFromInv:1b}
 #Tag Food Sources
 execute as @e[type=#minecraft:terrestrial_food] at @s run tag @s add terrestrial_food
 execute as @e[type=#minecraft:aquatic_food] at @s run tag @s add aquatic_food
