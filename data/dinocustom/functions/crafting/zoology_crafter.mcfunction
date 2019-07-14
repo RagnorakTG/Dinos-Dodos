@@ -17,7 +17,7 @@ execute as @s[tag=zoology_crafter,tag=faced] at @s run replaceitem entity @s arm
 # Register Crafting Station
 execute as @s[tag=zoology_crafter,tag=faced] run tag @s add crafting_station
 # Destroy Block
-execute as @s[tag=zoology_crafter,tag=faced] at @s if block ~ ~ ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"Zoology Crafter\",\"color\":\"white\",\"italic\":false}"},CustomModelData:9,zoology_crafter:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"zoology_crafter\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
+execute as @s[tag=zoology_crafter,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/zoology_crafter
 execute as @s[tag=zoology_crafter,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"zoology_crafter"}'}}}}]
 

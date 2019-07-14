@@ -17,7 +17,7 @@ execute as @s[tag=dna_combinator,tag=faced] at @s run replaceitem entity @s armo
 # Register Crafting Station
 execute as @s[tag=dna_combinator,tag=faced] run tag @s add crafting_station
 # Destroy Block
-execute as @s[tag=dna_combinator,tag=faced] at @s if block ~ ~ ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"DNA Combinator\",\"color\":\"white\",\"italic\":false}"},CustomModelData:3,dna_combinator:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"dna_combinator\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
+execute as @s[tag=dna_combinator,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/dna_combinator
 execute as @s[tag=dna_combinator,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"dna_combinator"}'}}}}]
 

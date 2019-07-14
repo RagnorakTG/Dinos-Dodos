@@ -5,6 +5,9 @@ execute as @s[tag=amphibian_egg,tag=!replaced] at @s run replaceitem entity @s a
 execute as @s[tag=aquatic_egg,tag=!replaced] at @s run replaceitem entity @s armor.head egg{CustomModelData:4}
 execute as @s[tag=egg,tag=!replaced] at @s run tag @s add replaced
 
+# Empty block
+execute as @s[tag=egg,tag=!emptied] at @s if block ~ ~ ~ command_block run setblock ~ ~ ~ air
+execute as @s[tag=egg,tag=!emptied] at @s if block ~ ~ ~ air run tag @s add emptied
 # Amphibian Eggs
 execute as @s[tag=amphibian_egg] at @s if block ~ ~.1 ~ water run tp @s ~ ~.05 ~
 execute as @s[tag=amphibian_egg] at @s if block ~ ~ ~ #minecraft:move_through_heavy unless block ~ ~ ~ water run kill @s

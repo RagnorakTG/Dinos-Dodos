@@ -17,7 +17,7 @@ execute as @s[tag=dna_extractor,tag=faced] at @s run replaceitem entity @s armor
 # Register Crafting Station
 execute as @s[tag=dna_extractor,tag=faced] run tag @s add crafting_station
 # Destroy Block
-execute as @s[tag=dna_extractor,tag=faced] at @s if block ~ ~ ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"DNA Extractor\",\"color\":\"white\",\"italic\":false}"},CustomModelData:7,dna_extractor:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"dna_extractor\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
+execute as @s[tag=dna_extractor,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/dna_extractor
 execute as @s[tag=dna_extractor,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"dna_extractor"}'}}}}]
 

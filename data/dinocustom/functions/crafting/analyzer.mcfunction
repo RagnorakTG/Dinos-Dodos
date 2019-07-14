@@ -17,7 +17,7 @@ execute as @s[tag=analyzer,tag=faced] at @s run replaceitem entity @s armor.head
 # Register Crafting Station
 execute as @s[tag=analyzer,tag=faced] run tag @s add crafting_station
 # Destroy Block
-execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"Analyzer\",\"color\":\"white\",\"italic\":false}"},CustomModelData:4,analyzer:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"analyzer\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
+execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/analyzer
 execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"analyzer"}'}}}}]
 

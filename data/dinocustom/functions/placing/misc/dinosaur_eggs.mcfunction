@@ -1,12 +1,12 @@
-#Ankylosaurus
+# Ankylosaurus
 execute as @s at @s run function dinocustom:placing/misc/dinosaur-eggs/ankylosaurus
-#Giraffatitan
+# Giraffatitan
 execute as @s at @s run function dinocustom:placing/misc/dinosaur-eggs/giraffatitan
-#Koolasuchus
+# Koolasuchus
 execute as @s at @s run function dinocustom:placing/misc/dinosaur-eggs/koolasuchus
-#Pachycephalosaurus
+# Pachycephalosaurus
 execute as @s at @s run function dinocustom:placing/misc/dinosaur-eggs/pachycephalosaurus
-#Spinosaurus
+# Spinosaurus
 execute as @s at @s run function dinocustom:placing/misc/dinosaur-eggs/spinosaurus
-#Velociraptor
+# Velociraptor
 execute as @s at @s run function dinocustom:placing/misc/dinosaur-eggs/velociraptor

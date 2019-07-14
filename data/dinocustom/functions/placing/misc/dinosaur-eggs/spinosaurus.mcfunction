@@ -1,3 +1,2 @@
-execute as @s[type=firework_rocket,nbt={FireworksItem:{id:"minecraft:firework_rocket",tag:{DinosaurEgg5:1b}}}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["spinosaurus_egg","dinosaur_egg","egg"]}
-execute as @s[type=firework_rocket,nbt={FireworksItem:{id:"minecraft:firework_rocket",tag:{DinosaurEgg5:1b}}}] at @s run kill @s
-execute as @e[tag=spinosaurus_egg] run scoreboard players set @s Egg_ID 1
+advancement revoke @s only dinocustom:custom/utility/egg
+fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:command_block{Command:"/summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:[\"spinosaurus_egg\",\"dinosaur_egg\",\"egg\"]}",auto:1b,conditionMet:1b} replace minecraft:dispenser{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"spinosaurus_egg\",\"color\":\"white\",\"italic\":false}"}}}]}

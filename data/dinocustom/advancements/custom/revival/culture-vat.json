@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:firework_rocket",
+            "item": "minecraft:dispenser",
 			      "nbt": "{CustomModelData:2}"
         },
         "title": "Cultivation",

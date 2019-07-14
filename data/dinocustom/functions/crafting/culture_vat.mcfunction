@@ -21,8 +21,8 @@ execute as @s[tag=!placed] at @s run setblock ~ ~ ~ chest[type=left]{CustomName:
 execute as @s[tag=!placed] at @s run setblock ~ ~1 ~ chest[type=left]{CustomName:"{\"text\":\"culture_vat\"}"} replace
 execute as @s[tag=!placed] at @s run tag @s add placed
 # Destroy Block
-execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~ ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"Culture Vat\",\"color\":\"white\",\"italic\":false}"},CustomModelData:2,culture_vat:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"culture_vat\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
-execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~1 ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"Culture Vat\",\"color\":\"white\",\"italic\":false}"},CustomModelData:2,culture_vat:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"culture_vat\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
+execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/culture_vat
+execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~1 ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/culture_vat
 execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~ ~ air run setblock ~ ~1 ~ air
 execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~1 ~ air run setblock ~ ~ ~ air
 execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~ ~ air run kill @s
