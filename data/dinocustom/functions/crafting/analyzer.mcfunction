@@ -1,15 +1,30 @@
-#Stuff
-tag @s add crafting_station
-#Destruction of the block
-execute as @s at @s if block ~ ~ ~ air run summon item ~ ~.6 ~ {Item:{id:"minecraft:firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Analyzer\",\"italic\":false}"},CustomModelData:4,CustomBlock2:1b,Fireworks:{}}}}
-kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:barrier"}}]
-execute as @s at @s if block ~ ~ ~ air run kill @s
+### Zoology Crafter
+## Setup
+# Face
+execute as @s[tag=analyzer,tag=!faced] at @s if entity @a[limit=1,sort=nearest,y_rotation=135.1..180] run tag @s add north
+execute as @s[tag=analyzer,tag=!faced] at @s if entity @a[limit=1,sort=nearest,y_rotation=-180..-135.1] run tag @s add north
+execute as @s[tag=analyzer,tag=!faced] at @s if entity @a[limit=1,sort=nearest,y_rotation=-135..-45.1] run tag @s add east
+execute as @s[tag=analyzer,tag=!faced] at @s if entity @a[limit=1,sort=nearest,y_rotation=-45..-0] run tag @s add south
+execute as @s[tag=analyzer,tag=!faced] at @s if entity @a[limit=1,sort=nearest,y_rotation=0..45] run tag @s add south
+execute as @s[tag=analyzer,tag=!faced] at @s if entity @a[limit=1,sort=nearest,y_rotation=45.1..135] run tag @s add west
+execute as @s[tag=analyzer,tag=!faced] at @s run tag @s add faced
+execute as @s[tag=analyzer,tag=faced,tag=north] at @s run tp @s ~ ~ ~ 0 0
+execute as @s[tag=analyzer,tag=faced,tag=south] at @s run tp @s ~ ~ ~ 180 0
+execute as @s[tag=analyzer,tag=faced,tag=east] at @s run tp @s ~ ~ ~ 90 0
+execute as @s[tag=analyzer,tag=faced,tag=west] at @s run tp @s ~ ~ ~ -90 0
+# Replace Head
+execute as @s[tag=analyzer,tag=faced] at @s run replaceitem entity @s armor.head dispenser{CustomModelData:4}
+# Register Crafting Station
+execute as @s[tag=analyzer,tag=faced] run tag @s add crafting_station
+# Destroy Block
+execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:dispenser",Count:1b,tag:{display:{Name:"{\"text\":\"Analyzer\",\"color\":\"white\",\"italic\":false}"},CustomModelData:4,analyzer:1,BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:"{\"text\":\"analyzer\",\"color\":\"white\",\"italic\":false}"}}}]}}}}
+execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"analyzer"}'}}}}]
 
-#crafting
-execute as @s at @s run function dinocustom:crafting/recipes/analyzer
+## Recipes
+execute as @s[tag=analyzer,tag=faced] at @s run function dinocustom:crafting/recipes/analyzer
 
-#GUI
+## GUI
 execute as @s[tag=!barMoving] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:6,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.1 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.3 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
@@ -36,24 +51,9 @@ execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.2
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.26 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.27 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 
-#fixing shit East
-execute as @s at @s unless block ~1 ~ ~ air run tag @s remove AirEast
-execute as @s at @s if block ~1 ~ ~ air run tag @s remove chestEast
-execute as @s[tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ 0 ~ chest
-execute as @s[tag=!notAirEast] at @s run data modify block ~ 0 ~ Items set from block ~ ~ ~ Items
-execute as @s[tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ ~ ~ air replace
-execute as @s[tag=!notAirEast] at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"analyzer\"}"} replace
-execute as @s[tag=!notAirEast] at @s run data modify block ~ ~ ~ Items set from block ~ 0 ~ Items
-execute as @s[tag=!notAirEast] at @s run setblock ~ 0 ~ air
-execute as @s at @s unless block ~1 ~ ~ air unless block ~1 ~ ~ chest run tag @s add notAirEast
-execute as @s at @s if block ~1 ~ ~ air run tag @s remove notAirEast
-execute as @s[tag=!AirEast] at @s if block ~1 ~ ~ air run setblock ~ 0 ~ chest
-execute as @s[tag=!AirEast] at @s run data modify block ~ 0 ~ Items set from block ~ ~ ~ Items
-execute as @s[tag=!AirEast] at @s if block ~1 ~ ~ air run setblock ~ ~ ~ air replace
-execute as @s[tag=!AirEast] at @s if block ~1 ~ ~ air run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"analyzer\"}"} replace
-execute as @s[tag=!AirEast] at @s run data modify block ~ ~ ~ Items set from block ~ 0 ~ Items
-execute as @s[tag=!AirEast] at @s run setblock ~ 0 ~ air
-execute as @s at @s if block ~1 ~ ~ air run tag @s add AirEast
+## Fix Chest
+execute as @s[tag=!placed] at @s run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"analyzer\"}"} replace
+execute as @s[tag=!placed] at @s run tag @s add placed
 
 #bar system
 execute as @s[tag=barMoving] at @s run scoreboard players add @s analyzerBarTimer 1
