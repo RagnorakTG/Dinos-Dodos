@@ -21,8 +21,8 @@ execute as @s[tag=toy_crafter,tag=faced] at @s if block ~ ~ ~ air run loot spawn
 execute as @s[tag=toy_crafter,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"toy_crafter"}'}}}}]
 
-## Recipes
-execute as @s[tag=toy_crafter,tag=faced] at @s run function dinocustom:crafting/recipes/toy_crafter
+## stations
+execute as @s[tag=toy_crafter,tag=faced] at @s run function dinocustom:crafting/stations/toy_crafter
 
 ##GUI
 execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:4,RemoveFromInv:1b}

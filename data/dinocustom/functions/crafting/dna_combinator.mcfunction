@@ -21,8 +21,8 @@ execute as @s[tag=dna_combinator,tag=faced] at @s if block ~ ~ ~ air run loot sp
 execute as @s[tag=dna_combinator,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"dna_combinator"}'}}}}]
 
-## Recipes
-execute as @s[tag=dna_combinator,tag=faced] at @s run function dinocustom:crafting/recipes/dna_combinator
+## stations
+execute as @s[tag=dna_combinator,tag=faced] at @s run function dinocustom:crafting/stations/dna_combinator
 
 ## GUI
 execute as @s[tag=!barMoving] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:34,RemoveFromInv:1b}

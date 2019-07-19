@@ -21,8 +21,8 @@ execute as @s[tag=CustomBlock1,tag=faced] at @s if block ~ ~ ~ air run loot spaw
 execute as @s[tag=CustomBlock1,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"genome_modifier"}'}}}}]
 
-## Recipes
-execute as @s[tag=CustomBlock1,tag=faced] at @s run function dinocustom:crafting/recipes/genome_modifier
+## stations
+execute as @s[tag=CustomBlock1,tag=faced] at @s run function dinocustom:crafting/stations/genome_modifier
 
 ## GUI
 execute as @s[tag=!barMoving] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:64,RemoveFromInv:1b}

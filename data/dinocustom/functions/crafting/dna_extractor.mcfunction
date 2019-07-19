@@ -21,8 +21,8 @@ execute as @s[tag=dna_extractor,tag=faced] at @s if block ~ ~ ~ air run loot spa
 execute as @s[tag=dna_extractor,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"dna_extractor"}'}}}}]
 
-## Recipes
-execute as @s[tag=dna_extractor,tag=faced] at @s run function dinocustom:crafting/recipes/dna_extractor
+## stations
+execute as @s[tag=dna_extractor,tag=faced] at @s run function dinocustom:crafting/stations/dna_extractor
 
 ##GUI
 execute as @s[tag=!barMoving] at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:20,RemoveFromInv:1b}

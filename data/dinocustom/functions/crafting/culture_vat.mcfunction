@@ -30,7 +30,7 @@ execute as @s[tag=culture_vat,tag=faced] at @s if block ~ ~1 ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:chest",tag:{display:{Name:'{"text":"culture_vat"}'}}}}]
 
 #crafting
-execute as @s at @s run function dinocustom:crafting/recipes/culture_vat
+execute as @s at @s run function dinocustom:crafting/stations/culture_vat
 
 #TopGUI
 execute as @s[tag=!TopbarMoving] at @s if block ~ ~1 ~ chest run replaceitem block ~ ~1 ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:77,RemoveFromInv:1b}

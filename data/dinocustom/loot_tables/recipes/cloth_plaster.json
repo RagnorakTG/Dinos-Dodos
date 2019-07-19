@@ -2,7 +2,7 @@
   "type": "minecraft:empty",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 8,
       "entries": [
         {
           "type": "minecraft:item",
