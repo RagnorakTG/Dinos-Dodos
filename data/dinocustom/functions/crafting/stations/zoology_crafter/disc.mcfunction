@@ -1,0 +1,2 @@
+# Disc
+execute if block ~ ~ ~ chest{Items:[{Slot:10b,id:"minecraft:iron_ingot",Count:1b},{Slot:11b,id:"minecraft:gold_ingot",Count:1b},{Slot:12b,id:"minecraft:iron_ingot",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:15b,id:"minecraft:clock",Count:4b,tag:{CustomModelData:2,display:{Lore:['{"text":"Empty","color":"gray","italic":false}'],Name:'{"text":"Disc","color":"white","italic":false}'}}}]}

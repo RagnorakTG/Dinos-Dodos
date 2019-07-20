@@ -1,0 +1,2 @@
+# Needle Plunger
+execute if block ~ ~ ~ chest{Items:[{Slot:2b,id:"minecraft:iron_ingot",Count:1b},{Slot:3b,id:"minecraft:iron_ingot",Count:1b},{Slot:11b,id:"minecraft:iron_ingot",Count:1b},{Slot:12b,id:"minecraft:iron_ingot",Count:1b},{Slot:19b,id:"minecraft:iron_ingot",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:15b,id:"minecraft:clock",Count:8b,tag:{CustomModelData:4,display:{Name:'{"text":"Needle Plunger","color":"white","italic":false}'}}}]}
