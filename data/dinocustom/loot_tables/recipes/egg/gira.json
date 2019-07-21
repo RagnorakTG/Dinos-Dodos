@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dispenser",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:37,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",tag:{display:{Name:'{\"text\":\"giraffatitan_egg\",\"color\":\"white\",\"italic\":false}'}},Count:1b}],id:\"minecraft:dispenser\"},display:{Name:'{\"text\":\"Giraffatitan Egg\",\"color\":\"white\",\"italic\":false}'},dinosaur_egg:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

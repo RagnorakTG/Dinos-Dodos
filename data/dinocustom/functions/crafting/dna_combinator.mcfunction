@@ -53,7 +53,7 @@ execute as @s at @s if block ~ ~ ~ chest run replaceitem block ~ ~ ~ container.2
 
 
 ## Fix Chest
-execute as @s[tag=!placed] at @s run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"dna_combintor\"}"} replace
+execute as @s[tag=!placed] at @s run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"dna_combinator\"}"} replace
 execute as @s[tag=!placed] at @s run tag @s add placed
 
 #bar system

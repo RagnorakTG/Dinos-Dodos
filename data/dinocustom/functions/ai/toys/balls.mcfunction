@@ -1,21 +1,24 @@
 ### Ball AI
+## Replace Command_block
+execute as @s[tag=ball,tag=!broke] at @s if block ~ ~ ~ command_block run setblock ~ ~ ~ air
+execute as @s[tag=ball,tag=!broke] at @s run tag @s add broke
 ## Replace Item
-execute as @s[tag=ball,tag=black,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:41}
-execute as @s[tag=ball,tag=blue,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:42}
-execute as @s[tag=ball,tag=brown,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:43}
-execute as @s[tag=ball,tag=cyan,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:44}
-execute as @s[tag=ball,tag=gray,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:45}
-execute as @s[tag=ball,tag=green,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:46}
-execute as @s[tag=ball,tag=light_blue,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:47}
-execute as @s[tag=ball,tag=light_gray,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:48}
-execute as @s[tag=ball,tag=lime,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:49}
-execute as @s[tag=ball,tag=magenta,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:50}
-execute as @s[tag=ball,tag=orange,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:51}
-execute as @s[tag=ball,tag=pink,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:52}
-execute as @s[tag=ball,tag=purple,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:53}
-execute as @s[tag=ball,tag=red,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:54}
-execute as @s[tag=ball,tag=white,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:55}
-execute as @s[tag=ball,tag=yellow,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:firework_rocket{CustomModelData:56}
+execute as @s[tag=ball,tag=black,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:41}
+execute as @s[tag=ball,tag=blue,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:42}
+execute as @s[tag=ball,tag=brown,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:43}
+execute as @s[tag=ball,tag=cyan,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:44}
+execute as @s[tag=ball,tag=gray,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:45}
+execute as @s[tag=ball,tag=green,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:46}
+execute as @s[tag=ball,tag=light_blue,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:47}
+execute as @s[tag=ball,tag=light_gray,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:48}
+execute as @s[tag=ball,tag=lime,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:49}
+execute as @s[tag=ball,tag=magenta,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:50}
+execute as @s[tag=ball,tag=orange,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:51}
+execute as @s[tag=ball,tag=pink,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:52}
+execute as @s[tag=ball,tag=purple,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:53}
+execute as @s[tag=ball,tag=red,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:54}
+execute as @s[tag=ball,tag=white,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:55}
+execute as @s[tag=ball,tag=yellow,tag=!changed] at @s run replaceitem entity @s armor.head minecraft:dispenser{CustomModelData:56}
 execute as @s[tag=ball,tag=!changed] run tag @s add changed
 ## AI
 execute as @s[tag=ball] run tp @s ~ ~ ~ facing entity @e[type=#minecraft:interactable,distance=0.1..2,limit=1,sort=nearest] feet
