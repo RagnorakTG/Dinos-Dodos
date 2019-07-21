@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dispenser",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:53,normal_ball:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"purple_ball\",\"color\":\"white\",\"italic\":false}'}}}]},display:{Name:'{\"text\":\"Purple Ball\",\"color\":\"white\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
