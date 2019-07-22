@@ -72,6 +72,10 @@ scoreboard objectives add Current_Rep dummy
 scoreboard objectives add Gain_Rep dummy
 scoreboard objectives add Food_Ammount dummy
 scoreboard objectives add Food_Type dummy
+scoreboard objectives add Poop_Time dummy
+scoreboard objectives add Needs_Poop dummy
+scoreboard objectives add Poop_Size
+scoreboard objectives add Deteriorate dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never

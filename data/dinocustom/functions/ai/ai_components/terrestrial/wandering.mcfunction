@@ -40,9 +40,7 @@ execute as @s[tag=rotate,scores={Rotate_ammount=0..}] run tag @s remove rotate
 
 ## Effects
 # Gravity
-execute as @s if block ~ ~-0.2 ~ #minecraft:move_through_heavy run tp @s ~ ~-0.3 ~ ~ ~
-# In block
-execute as @s at @s unless block ~ ~ ~ #minecraft:move_through_heavy run tp @s ~ ~0.5 ~ ~ ~
+execute as @s run function dinocustom:ai/ai_components/terrestrial/status/gravity
 # Happiness
 execute as @s run function dinocustom:ai/ai_components/terrestrial/status/happiness/lose-moderate
 # Tiredness
