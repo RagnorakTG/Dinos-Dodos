@@ -5,7 +5,7 @@ execute as @s[tag=dnd-mob,tag=!corpse] at @s run function dinocustom:ai/ai_compo
 execute as @s[tag=egg] at @s run function dinocustom:ai/ai_components/ai_egg
 # Poop
 execute as @s[tag=terrestrial_poop] at @s run function dinocustom:ai/ai_components/terrestrial/poop
-execute as @s[tag=semi_aquatic_poop] at @s run function dinocustom:ai/ai_components/semi_aquatic/poop
+execute as @s[tag=semi-aquatic_poop] at @s run function dinocustom:ai/ai_components/semi-aquatic/poop
 execute as @s[tag=aquatic_poop] at @s run function dinocustom:ai/ai_components/aquatic/poop
 execute as @s[tag=flying_poop] at @s run function dinocustom:ai/ai_components/flying/poop
 # Constant
