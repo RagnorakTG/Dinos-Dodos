@@ -32,12 +32,26 @@ execute as @s[tag=terrestrial_poop,tag=ill,tag=large,tag=!replaced-large] at @s 
 execute as @s[tag=terrestrial_poop,tag=ill,tag=large,tag=!replaced-large] at @s run tag @s add replaced-large
 # Deteriorate
 execute as @s[tag=terrestrial_poop] at @s run scoreboard players add @s Deteriorate 1
-execute as @s[tag=terrestrial_poop] at @s if block ~ ~ ~ water run scoreboard players add @s Deteriorate 500
-execute as @s[tag=terrestrial_poop,tag=small,scores={Deteriorate=12000..}] at @s run tp @s ~ ~-666 ~
-execute as @s[tag=terrestrial_poop,tag=medium,scores={Deteriorate=12000..}] at @s run tag @s add small
-execute as @s[tag=terrestrial_poop,tag=medium,scores={Deteriorate=12000..}] at @s run tag @s remove medium
-execute as @s[tag=terrestrial_poop,tag=medium,scores={Deteriorate=12000..}] at @s run tag @s remove replaced-medium
-execute as @s[tag=terrestrial_poop,tag=large,scores={Deteriorate=12000..}] at @s run tag @s add medium
-execute as @s[tag=terrestrial_poop,tag=large,scores={Deteriorate=12000..}] at @s run tag @s remove large
-execute as @s[tag=terrestrial_poop,tag=large,scores={Deteriorate=12000..}] at @s run tag @s remove replaced-large
-execute as @s[tag=terrestrial_poop,scores={Deteriorate=12000..}] at @s run scoreboard players reset @s Deteriorate
+execute as @s[tag=terrestrial_poop] at @s if block ~ ~ ~ water run scoreboard players add @s Deteriorate 5000
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=small,scores={Deteriorate=12000..}] at @s run loot spawn ~ ~0.1 ~ loot dinocustom:mobs/dinosaur/normal_poop
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=small,scores={Deteriorate=12000..}] at @s run tp @s ~ ~-666 ~
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=medium,scores={Deteriorate=12000..}] at @s run tag @s add small
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=medium,scores={Deteriorate=12000..}] at @s run tag @s remove replaced-medium
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=medium,scores={Deteriorate=12000..}] at @s run loot spawn ~ ~0.1 ~ loot dinocustom:mobs/dinosaur/normal_poop
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=medium,scores={Deteriorate=12000..}] at @s run tag @s remove medium
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=large,scores={Deteriorate=12000..}] at @s run tag @s add medium
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=large,scores={Deteriorate=12000..}] at @s run tag @s remove replaced-large
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=large,scores={Deteriorate=12000..}] at @s run loot spawn ~ ~0.1 ~ loot dinocustom:mobs/dinosaur/normal_poop
+execute as @s[tag=terrestrial_poop,tag=!ill,tag=large,scores={Deteriorate=12000..}] at @s run tag @s remove large
+execute as @s[tag=terrestrial_poop,tag=!ill,scores={Deteriorate=12000..}] at @s run scoreboard players reset @s Deteriorate
+execute as @s[tag=terrestrial_poop,tag=ill,tag=small,scores={Deteriorate=6000..}] at @s run loot spawn ~ ~0.1 ~ loot dinocustom:mobs/dinosaur/ill_poop
+execute as @s[tag=terrestrial_poop,tag=ill,tag=small,scores={Deteriorate=6000..}] at @s run tp @s ~ ~-666 ~
+execute as @s[tag=terrestrial_poop,tag=ill,tag=medium,scores={Deteriorate=6000..}] at @s run tag @s add small
+execute as @s[tag=terrestrial_poop,tag=ill,tag=medium,scores={Deteriorate=6000..}] at @s run tag @s remove replaced-medium
+execute as @s[tag=terrestrial_poop,tag=ill,tag=medium,scores={Deteriorate=6000..}] at @s run loot spawn ~ ~0.1 ~ loot dinocustom:mobs/dinosaur/ill_poop
+execute as @s[tag=terrestrial_poop,tag=ill,tag=medium,scores={Deteriorate=6000..}] at @s run tag @s remove medium
+execute as @s[tag=terrestrial_poop,tag=ill,tag=large,scores={Deteriorate=6000..}] at @s run tag @s add medium
+execute as @s[tag=terrestrial_poop,tag=ill,tag=large,scores={Deteriorate=6000..}] at @s run tag @s remove replaced-large
+execute as @s[tag=terrestrial_poop,tag=ill,tag=large,scores={Deteriorate=6000..}] at @s run loot spawn ~ ~0.1 ~ loot dinocustom:mobs/dinosaur/ill_poop
+execute as @s[tag=terrestrial_poop,tag=ill,tag=large,scores={Deteriorate=6000..}] at @s run tag @s remove large
+execute as @s[tag=terrestrial_poop,tag=ill,scores={Deteriorate=6000..}] at @s run scoreboard players reset @s Deteriorate
