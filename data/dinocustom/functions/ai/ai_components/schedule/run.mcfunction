@@ -12,8 +12,8 @@ execute as @s[tag=dnd-mob,tag=semi-aquatic,tag=!corpse,scores={Active=1}] at @s 
 execute as @s[tag=dnd-mob,tag=terrestrial,tag=!corpse,scores={Active=2}] at @s run function dinocustom:ai/ai_components/terrestrial/resting
 execute as @s[tag=dnd-mob,tag=semi-aquatic,tag=!corpse,scores={Active=2}] at @s run function dinocustom:ai/ai_components/semi-aquatic/resting
 # Hunting
-execute as @s[tag=dnd-mob,tag=terrestrial,tag=!corpse,scores={Active=3}] at @s run function dinocustom:ai/ai_components/terrestrial/hunting
-execute as @s[tag=dnd-mob,tag=semi-aquatic,tag=!corpse,scores={Active=3}] at @s run function dinocustom:ai/ai_components/semi-aquatic/hunting
+execute as @s[tag=cur-no,tag=dnd-mob,tag=terrestrial,tag=!corpse,scores={Active=3}] at @s run function dinocustom:ai/ai_components/terrestrial/hunting
+execute as @s[tag=cur-no,tag=dnd-mob,tag=semi-aquatic,tag=!corpse,scores={Active=3}] at @s run function dinocustom:ai/ai_components/semi-aquatic/hunting
 # Poop
 execute as @s[tag=dnd-mob,tag=terrestrial,tag=!corpse,scores={Active=1..}] at @s run function dinocustom:ai/ai_components/terrestrial/poop
 execute as @s[tag=dnd-mob,tag=semi-aquatic,tag=!corpse,scores={Active=1..}] at @s run function dinocustom:ai/ai_components/semi-aquatic/poop
