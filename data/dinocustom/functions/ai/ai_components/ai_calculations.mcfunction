@@ -23,7 +23,9 @@ execute as @s run scoreboard players operation @s Weight *= Weight_Multiply Mult
 execute as @s run scoreboard players set @s Immune_System 0
 execute as @s run scoreboard players operation @s Immune_System += @s Weight
 execute as @s run scoreboard players operation @s Immune_System *= Immune_Multiply Multipliers
+execute as @s run scoreboard players operation @s Immune_System += @s Immune_Add
 execute as @s run scoreboard players operation @s Immune_System += Speed_Add Multipliers
+execute as @s run scoreboard players operation @s Immune_System *= Immune_Multiply Multipliers
 ## Max_Group      100Z = -11.T + 1300
 execute as @s run scoreboard players set @s Max_Group 0
 execute as @s run scoreboard players operation @s Max_Group += @s Weight

@@ -76,6 +76,11 @@ scoreboard objectives add Poop_Time dummy
 scoreboard objectives add Needs_Poop dummy
 scoreboard objectives add Poop_Size
 scoreboard objectives add Deteriorate dummy
+scoreboard objectives add Become_Ill dummy
+scoreboard objectives add Ill_Chance dummy
+scoreboard objectives add Immune_Change dummy
+scoreboard objectives add Immune_Add dummy
+scoreboard objectives add Fight_Illness dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never

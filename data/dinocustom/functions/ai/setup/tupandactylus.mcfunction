@@ -50,3 +50,5 @@ execute as @s[tag=tupandactylus,tag=baby,tag=sleeping] run replaceitem entity @s
 execute as @s[tag=tupandactylus,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:142}
 execute as @s[tag=tupandactylus,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:143}
 execute as @s[tag=tupandactylus,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:144}
+# Loot table
+execute as @s[tag=ankylosaurus] run data merge entity @s {DeathLootTable:"dinocustom:mobs/pterosaur/meat/tupa_meat"}

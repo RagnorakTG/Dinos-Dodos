@@ -54,4 +54,4 @@ execute as @s[tag=koolasuchus,tag=baby,tag=swimming] run replaceitem entity @s a
 execute as @s[tag=koolasuchus,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:71}
 execute as @s[tag=koolasuchus,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:72}
 # Loot table
-execute as @s[tag=ankylosaurus,tag=baby,tag=walking] run data merge entity @s {DeathLootTable:"dinocustom:mobs/dinosaur/meat/kool_meat"}
+execute as @s[tag=koolasuchus] run data merge entity @s {DeathLootTable:"dinocustom:mobs/dinosaur/meat/kool_meat"}

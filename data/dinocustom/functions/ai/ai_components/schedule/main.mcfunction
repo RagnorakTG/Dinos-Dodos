@@ -8,6 +8,11 @@ execute as @s[tag=terrestrial_poop] at @s run function dinocustom:ai/ai_componen
 execute as @s[tag=semi-aquatic_poop] at @s run function dinocustom:ai/ai_components/semi-aquatic/poop
 execute as @s[tag=aquatic_poop] at @s run function dinocustom:ai/ai_components/aquatic/poop
 execute as @s[tag=flying_poop] at @s run function dinocustom:ai/ai_components/flying/poop
+# Poop
+execute as @s[tag=terrestrial] at @s run function dinocustom:ai/ai_components/terrestrial/illness
+execute as @s[tag=semi-aquatic] at @s run function dinocustom:ai/ai_components/semi-aquatic/illness
+execute as @s[tag=aquatic] at @s run function dinocustom:ai/ai_components/aquatic/illness
+execute as @s[tag=flying] at @s run function dinocustom:ai/ai_components/flying/illness
 # Constant
 execute as @s[tag=dnd-mob,tag=!corpse] at @s run function dinocustom:ai/ai_components/ai_calculations
 execute as @s[tag=dnd-mob,tag=corpse] at @s run function dinocustom:ai/ai_components/corpse_ai
