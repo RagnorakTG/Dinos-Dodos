@@ -13,7 +13,8 @@ execute as @s[tag=toy_crafter,tag=faced,tag=south] at @s run tp @s ~ ~ ~ 180 0
 execute as @s[tag=toy_crafter,tag=faced,tag=east] at @s run tp @s ~ ~ ~ 90 0
 execute as @s[tag=toy_crafter,tag=faced,tag=west] at @s run tp @s ~ ~ ~ -90 0
 # Replace Head
-execute as @s[tag=toy_crafter,tag=faced] at @s run replaceitem entity @s armor.head dispenser{CustomModelData:8}
+execute as @s[tag=toy_crafter,tag=faced,tag=!replaced] at @s run replaceitem entity @s armor.head dispenser{CustomModelData:8}
+execute as @s[tag=toy_crafter,tag=!replaced] at @s run tag @s add replaced
 # Register Crafting Station
 execute as @s[tag=toy_crafter,tag=faced] run tag @s add crafting_station
 # Destroy Block
