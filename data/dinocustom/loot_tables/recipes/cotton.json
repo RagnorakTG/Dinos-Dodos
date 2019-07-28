@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:clock",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Lore:['{\"text\":\"Empty\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Needle\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:13,display:{Name:'{\"text\":\"Cotton\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }
