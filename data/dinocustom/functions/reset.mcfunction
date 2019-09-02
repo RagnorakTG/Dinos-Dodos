@@ -82,6 +82,9 @@ scoreboard objectives add Immune_Change dummy
 scoreboard objectives add Immune_Add dummy
 scoreboard objectives add Fight_Illness dummy
 scoreboard objectives add Play_Sound dummy
+scoreboard objectives add Should_Sound dummy
+scoreboard objectives add Sound_timer dummy
+scoreboard objectives add True_Sound dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never

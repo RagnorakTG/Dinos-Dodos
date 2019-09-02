@@ -38,6 +38,24 @@ execute as @s[tag=rotate,scores={Rotate_ammount=10..}] run tp @s ~ ~ ~ ~-5 ~
 execute as @s[tag=rotate,scores={Rotate_ammount=0..}] run scoreboard players set @s Rotate_ammount 0
 execute as @s[tag=rotate,scores={Rotate_ammount=0..}] run tag @s remove rotate
 
+## Sounds
+# Should Play
+execute as @s[tag=!sound] run scoreboard players add @s Sound_timer 1
+execute as @s[tag=!sound,scores={Sound_timer=500..}] run scoreboard players set in_0 math_rng 10
+execute as @s[tag=!sound,scores={Sound_timer=500..}] run function dinocustom:ai/rng
+execute as @s[tag=!sound,scores={Sound_timer=500..}] run execute store result score @s Should_Sound run scoreboard players get out_0 math_rng
+execute as @s[tag=!sound,scores={Sound_timer=500..}] run scoreboard players set @s Sound_timer 0
+execute as @s[tag=!sound,scores={Should_Sound=..1}] run tag @s add sound
+execute as @s[tag=sound,scores={Should_Sound=..1}] run scoreboard players set @s Should_Sound 10
+execute as @s[tag=sound] run scoreboard players set in_0 math_rng 3
+execute as @s[tag=sound] run function dinocustom:ai/rng
+execute as @s[tag=sound] run execute store result score @s True_Sound run scoreboard players get out_0 math_rng
+execute as @s[tag=sound,scores={True_Sound=1}] run scoreboard players set @s True_Sound 5
+execute as @s[tag=sound,scores={True_Sound=2}] run scoreboard players set @s True_Sound 6
+execute as @s[tag=sound,scores={True_Sound=3}] run scoreboard players set @s True_Sound 7
+execute as @s[tag=sound] run execute store result score @s Play_Sound run scoreboard players get @s True_Sound
+execute as @s[tag=sound] run tag @s remove sound
+
 ## Effects
 # Gravity
 execute as @s run function dinocustom:ai/ai_components/terrestrial/status/gravity

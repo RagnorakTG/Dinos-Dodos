@@ -14,3 +14,7 @@ execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/ne
 execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/needle
 execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/petri_dish
 execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/toy_crafter
+execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/penicillin
+execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/antibiotics
+execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/pill_capsule
+execute as @s at @s run function dinocustom:crafting/stations/zoology_crafter/gelatin
