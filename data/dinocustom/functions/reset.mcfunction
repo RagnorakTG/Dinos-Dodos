@@ -7,6 +7,8 @@ scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add math_sqrt dummy
 scoreboard objectives add Timer dummy
+
+scoreboard objectives add data dummy
 ## Fossil Gen
 scoreboard objectives add Spawn_Fossil dummy
 scoreboard objectives add Dinosaur_fossil dummy
