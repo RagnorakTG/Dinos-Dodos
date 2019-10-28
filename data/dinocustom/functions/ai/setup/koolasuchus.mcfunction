@@ -32,32 +32,32 @@ execute as @s[tag=koolasuchus_egg,tag=hatch] run tag @s remove hatch
 
 ## Replace Item
 # Adult
-execute as @s[tag=koolasuchus,tag=adult,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:49}
-execute as @s[tag=koolasuchus,tag=adult,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:50}
-execute as @s[tag=koolasuchus,tag=adult,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:51}
-execute as @s[tag=koolasuchus,tag=adult,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:52}
-execute as @s[tag=koolasuchus,tag=adult,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:53}
-execute as @s[tag=koolasuchus,tag=adult,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:54}
-execute as @s[tag=koolasuchus,tag=adult,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:55}
-execute as @s[tag=koolasuchus,tag=adult,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:56}
+execute as @s[tag=koolasuchus,tag=adult,tag=corpse] run replaceitem entity @s armor.head podzol{CustomModelData:1}
+execute as @s[tag=koolasuchus,tag=adult,tag=eating] run replaceitem entity @s armor.head podzol{CustomModelData:2}
+execute as @s[tag=koolasuchus,tag=adult,tag=idle] run replaceitem entity @s armor.head podzol{CustomModelData:3}
+execute as @s[tag=koolasuchus,tag=adult,tag=resting] run replaceitem entity @s armor.head podzol{CustomModelData:4}
+execute as @s[tag=koolasuchus,tag=adult,tag=sleeping] run replaceitem entity @s armor.head podzol{CustomModelData:5}
+execute as @s[tag=koolasuchus,tag=adult,tag=swimming] run replaceitem entity @s armor.head podzol{CustomModelData:6}
+execute as @s[tag=koolasuchus,tag=adult,tag=threat] run replaceitem entity @s armor.head podzol{CustomModelData:7}
+execute as @s[tag=koolasuchus,tag=adult,tag=walking] run replaceitem entity @s armor.head podzol{CustomModelData:8}
 # Teen
-execute as @s[tag=koolasuchus,tag=teen,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:57}
-execute as @s[tag=koolasuchus,tag=teen,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:58}
-execute as @s[tag=koolasuchus,tag=teen,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:59}
-execute as @s[tag=koolasuchus,tag=teen,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:60}
-execute as @s[tag=koolasuchus,tag=teen,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:61}
-execute as @s[tag=koolasuchus,tag=teen,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:62}
-execute as @s[tag=koolasuchus,tag=teen,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:63}
-execute as @s[tag=koolasuchus,tag=teen,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:64}
+execute as @s[tag=koolasuchus,tag=teen,tag=corpse] run replaceitem entity @s armor.head podzol{CustomModelData:9}
+execute as @s[tag=koolasuchus,tag=teen,tag=eating] run replaceitem entity @s armor.head podzol{CustomModelData:10}
+execute as @s[tag=koolasuchus,tag=teen,tag=idle] run replaceitem entity @s armor.head podzol{CustomModelData:11}
+execute as @s[tag=koolasuchus,tag=teen,tag=resting] run replaceitem entity @s armor.head podzol{CustomModelData:12}
+execute as @s[tag=koolasuchus,tag=teen,tag=sleeping] run replaceitem entity @s armor.head podzol{CustomModelData:13}
+execute as @s[tag=koolasuchus,tag=teen,tag=swimming] run replaceitem entity @s armor.head podzol{CustomModelData:14}
+execute as @s[tag=koolasuchus,tag=teen,tag=threat] run replaceitem entity @s armor.head podzol{CustomModelData:15}
+execute as @s[tag=koolasuchus,tag=teen,tag=walking] run replaceitem entity @s armor.head podzol{CustomModelData:16}
 # Baby
-execute as @s[tag=koolasuchus,tag=baby,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:65}
-execute as @s[tag=koolasuchus,tag=baby,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:66}
-execute as @s[tag=koolasuchus,tag=baby,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:67}
-execute as @s[tag=koolasuchus,tag=baby,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:68}
-execute as @s[tag=koolasuchus,tag=baby,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:69}
-execute as @s[tag=koolasuchus,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:70}
-execute as @s[tag=koolasuchus,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:71}
-execute as @s[tag=koolasuchus,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:72}
+execute as @s[tag=koolasuchus,tag=baby,tag=corpse] run replaceitem entity @s armor.head podzol{CustomModelData:17}
+execute as @s[tag=koolasuchus,tag=baby,tag=eating] run replaceitem entity @s armor.head podzol{CustomModelData:18}
+execute as @s[tag=koolasuchus,tag=baby,tag=idle] run replaceitem entity @s armor.head podzol{CustomModelData:19}
+execute as @s[tag=koolasuchus,tag=baby,tag=resting] run replaceitem entity @s armor.head podzol{CustomModelData:20}
+execute as @s[tag=koolasuchus,tag=baby,tag=sleeping] run replaceitem entity @s armor.head podzol{CustomModelData:21}
+execute as @s[tag=koolasuchus,tag=baby,tag=swimming] run replaceitem entity @s armor.head podzol{CustomModelData:22}
+execute as @s[tag=koolasuchus,tag=baby,tag=threat] run replaceitem entity @s armor.head podzol{CustomModelData:23}
+execute as @s[tag=koolasuchus,tag=baby,tag=walking] run replaceitem entity @s armor.head podzol{CustomModelData:24}
 
 ## Sounds
 # Adult

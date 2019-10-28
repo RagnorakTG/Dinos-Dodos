@@ -29,32 +29,32 @@ execute as @s[tag=giraffatitan_egg,tag=hatch] run tag @s remove hatch
 
 ## Replace Item
 # Adult
-execute as @s[tag=giraffatitan,tag=adult,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:25}
-execute as @s[tag=giraffatitan,tag=adult,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:26}
-execute as @s[tag=giraffatitan,tag=adult,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:27}
-execute as @s[tag=giraffatitan,tag=adult,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:28}
-execute as @s[tag=giraffatitan,tag=adult,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:29}
-execute as @s[tag=giraffatitan,tag=adult,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:30}
-execute as @s[tag=giraffatitan,tag=adult,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:31}
-execute as @s[tag=giraffatitan,tag=adult,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:32}
+execute as @s[tag=giraffatitan,tag=adult,tag=corpse] run replaceitem entity @s armor.head grass_block{CustomModelData:1}
+execute as @s[tag=giraffatitan,tag=adult,tag=eating] run replaceitem entity @s armor.head grass_block{CustomModelData:2}
+execute as @s[tag=giraffatitan,tag=adult,tag=idle] run replaceitem entity @s armor.head grass_block{CustomModelData:3}
+execute as @s[tag=giraffatitan,tag=adult,tag=resting] run replaceitem entity @s armor.head grass_block{CustomModelData:4}
+execute as @s[tag=giraffatitan,tag=adult,tag=sleeping] run replaceitem entity @s armor.head grass_block{CustomModelData:5}
+execute as @s[tag=giraffatitan,tag=adult,tag=swimming] run replaceitem entity @s armor.head grass_block{CustomModelData:6}
+execute as @s[tag=giraffatitan,tag=adult,tag=threat] run replaceitem entity @s armor.head grass_block{CustomModelData:7}
+execute as @s[tag=giraffatitan,tag=adult,tag=walking] run replaceitem entity @s armor.head grass_block{CustomModelData:8}
 # Teen
-execute as @s[tag=giraffatitan,tag=teen,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:33}
-execute as @s[tag=giraffatitan,tag=teen,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:34}
-execute as @s[tag=giraffatitan,tag=teen,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:35}
-execute as @s[tag=giraffatitan,tag=teen,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:36}
-execute as @s[tag=giraffatitan,tag=teen,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:37}
-execute as @s[tag=giraffatitan,tag=teen,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:38}
-execute as @s[tag=giraffatitan,tag=teen,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:39}
-execute as @s[tag=giraffatitan,tag=teen,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:40}
+execute as @s[tag=giraffatitan,tag=teen,tag=corpse] run replaceitem entity @s armor.head grass_block{CustomModelData:9}
+execute as @s[tag=giraffatitan,tag=teen,tag=eating] run replaceitem entity @s armor.head grass_block{CustomModelData:10}
+execute as @s[tag=giraffatitan,tag=teen,tag=idle] run replaceitem entity @s armor.head grass_block{CustomModelData:11}
+execute as @s[tag=giraffatitan,tag=teen,tag=resting] run replaceitem entity @s armor.head grass_block{CustomModelData:12}
+execute as @s[tag=giraffatitan,tag=teen,tag=sleeping] run replaceitem entity @s armor.head grass_block{CustomModelData:13}
+execute as @s[tag=giraffatitan,tag=teen,tag=swimming] run replaceitem entity @s armor.head grass_block{CustomModelData:14}
+execute as @s[tag=giraffatitan,tag=teen,tag=threat] run replaceitem entity @s armor.head grass_block{CustomModelData:15}
+execute as @s[tag=giraffatitan,tag=teen,tag=walking] run replaceitem entity @s armor.head grass_block{CustomModelData:16}
 # Baby
-execute as @s[tag=giraffatitan,tag=baby,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:41}
-execute as @s[tag=giraffatitan,tag=baby,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:42}
-execute as @s[tag=giraffatitan,tag=baby,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:43}
-execute as @s[tag=giraffatitan,tag=baby,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:44}
-execute as @s[tag=giraffatitan,tag=baby,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:45}
-execute as @s[tag=giraffatitan,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:46}
-execute as @s[tag=giraffatitan,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:47}
-execute as @s[tag=giraffatitan,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:48}
+execute as @s[tag=giraffatitan,tag=baby,tag=corpse] run replaceitem entity @s armor.head grass_block{CustomModelData:17}
+execute as @s[tag=giraffatitan,tag=baby,tag=eating] run replaceitem entity @s armor.head grass_block{CustomModelData:18}
+execute as @s[tag=giraffatitan,tag=baby,tag=idle] run replaceitem entity @s armor.head grass_block{CustomModelData:19}
+execute as @s[tag=giraffatitan,tag=baby,tag=resting] run replaceitem entity @s armor.head grass_block{CustomModelData:20}
+execute as @s[tag=giraffatitan,tag=baby,tag=sleeping] run replaceitem entity @s armor.head grass_block{CustomModelData:21}
+execute as @s[tag=giraffatitan,tag=baby,tag=swimming] run replaceitem entity @s armor.head grass_block{CustomModelData:22}
+execute as @s[tag=giraffatitan,tag=baby,tag=threat] run replaceitem entity @s armor.head grass_block{CustomModelData:23}
+execute as @s[tag=giraffatitan,tag=baby,tag=walking] run replaceitem entity @s armor.head grass_block{CustomModelData:24}
 
 ## Sounds
 # Adult

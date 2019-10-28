@@ -29,32 +29,32 @@ execute as @s[tag=acrocanthosaurus_egg,tag=hatch] run tag @s remove hatch
 
 ## Replace Item
 # Adult
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:97}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:98}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:99}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:100}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:101}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:102}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:103}
-execute as @s[tag=acrocanthosaurus,tag=adult,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:104}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:1}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:2}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:3}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:4}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:5}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:6}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:7}
+execute as @s[tag=acrocanthosaurus,tag=adult,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:8}
 # Teen
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:105}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:106}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:107}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:108}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:109}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:110}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:111}
-execute as @s[tag=acrocanthosaurus,tag=teen,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:112}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:9}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:10}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:11}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:12}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:13}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:14}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:15}
+execute as @s[tag=acrocanthosaurus,tag=teen,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:16}
 # Baby
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:113}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:114}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:115}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:116}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:117}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:118}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:119}
-execute as @s[tag=acrocanthosaurus,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:120}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:17}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:18}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:19}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:20}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:21}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:22}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:23}
+execute as @s[tag=acrocanthosaurus,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:24}
 
 ## Sounds
 # Adult
