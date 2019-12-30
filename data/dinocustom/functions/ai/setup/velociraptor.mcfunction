@@ -29,32 +29,32 @@ execute as @s[tag=velociraptor_egg,tag=hatch] run tag @s remove hatch
 
 ## Replace Item
 # Adult
-execute as @s[tag=velociraptor,tag=adult,tag=corpse] run replaceitem entity @s armor.head granite{CustomModelData:1}
-execute as @s[tag=velociraptor,tag=adult,tag=eating] run replaceitem entity @s armor.head granite{CustomModelData:2}
-execute as @s[tag=velociraptor,tag=adult,tag=idle] run replaceitem entity @s armor.head granite{CustomModelData:3}
-execute as @s[tag=velociraptor,tag=adult,tag=resting] run replaceitem entity @s armor.head granite{CustomModelData:4}
-execute as @s[tag=velociraptor,tag=adult,tag=sleeping] run replaceitem entity @s armor.head granite{CustomModelData:5}
-execute as @s[tag=velociraptor,tag=adult,tag=swimming] run replaceitem entity @s armor.head granite{CustomModelData:6}
-execute as @s[tag=velociraptor,tag=adult,tag=threat] run replaceitem entity @s armor.head granite{CustomModelData:7}
-execute as @s[tag=velociraptor,tag=adult,tag=walking] run replaceitem entity @s armor.head granite{CustomModelData:8}
+execute as @s[tag=velociraptor,tag=adult,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:217}
+execute as @s[tag=velociraptor,tag=adult,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:218}
+execute as @s[tag=velociraptor,tag=adult,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:219}
+execute as @s[tag=velociraptor,tag=adult,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:220}
+execute as @s[tag=velociraptor,tag=adult,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:221}
+execute as @s[tag=velociraptor,tag=adult,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:222}
+execute as @s[tag=velociraptor,tag=adult,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:223}
+execute as @s[tag=velociraptor,tag=adult,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:224}
 # Teen
-execute as @s[tag=velociraptor,tag=teen,tag=corpse] run replaceitem entity @s armor.head granite{CustomModelData:9}
-execute as @s[tag=velociraptor,tag=teen,tag=eating] run replaceitem entity @s armor.head granite{CustomModelData:10}
-execute as @s[tag=velociraptor,tag=teen,tag=idle] run replaceitem entity @s armor.head granite{CustomModelData:11}
-execute as @s[tag=velociraptor,tag=teen,tag=resting] run replaceitem entity @s armor.head granite{CustomModelData:12}
-execute as @s[tag=velociraptor,tag=teen,tag=sleeping] run replaceitem entity @s armor.head granite{CustomModelData:13}
-execute as @s[tag=velociraptor,tag=teen,tag=swimming] run replaceitem entity @s armor.head granite{CustomModelData:14}
-execute as @s[tag=velociraptor,tag=teen,tag=threat] run replaceitem entity @s armor.head granite{CustomModelData:15}
-execute as @s[tag=velociraptor,tag=teen,tag=walking] run replaceitem entity @s armor.head granite{CustomModelData:16}
+execute as @s[tag=velociraptor,tag=teen,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:225}
+execute as @s[tag=velociraptor,tag=teen,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:226}
+execute as @s[tag=velociraptor,tag=teen,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:227}
+execute as @s[tag=velociraptor,tag=teen,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:228}
+execute as @s[tag=velociraptor,tag=teen,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:229}
+execute as @s[tag=velociraptor,tag=teen,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:230}
+execute as @s[tag=velociraptor,tag=teen,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:231}
+execute as @s[tag=velociraptor,tag=teen,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:232}
 # Baby
-execute as @s[tag=velociraptor,tag=baby,tag=corpse] run replaceitem entity @s armor.head granite{CustomModelData:17}
-execute as @s[tag=velociraptor,tag=baby,tag=eating] run replaceitem entity @s armor.head granite{CustomModelData:18}
-execute as @s[tag=velociraptor,tag=baby,tag=idle] run replaceitem entity @s armor.head granite{CustomModelData:19}
-execute as @s[tag=velociraptor,tag=baby,tag=resting] run replaceitem entity @s armor.head granite{CustomModelData:20}
-execute as @s[tag=velociraptor,tag=baby,tag=sleeping] run replaceitem entity @s armor.head granite{CustomModelData:21}
-execute as @s[tag=velociraptor,tag=baby,tag=swimming] run replaceitem entity @s armor.head granite{CustomModelData:22}
-execute as @s[tag=velociraptor,tag=baby,tag=threat] run replaceitem entity @s armor.head granite{CustomModelData:23}
-execute as @s[tag=velociraptor,tag=baby,tag=walking] run replaceitem entity @s armor.head granite{CustomModelData:24}
+execute as @s[tag=velociraptor,tag=baby,tag=corpse] run replaceitem entity @s armor.head stone{CustomModelData:233}
+execute as @s[tag=velociraptor,tag=baby,tag=eating] run replaceitem entity @s armor.head stone{CustomModelData:234}
+execute as @s[tag=velociraptor,tag=baby,tag=idle] run replaceitem entity @s armor.head stone{CustomModelData:235}
+execute as @s[tag=velociraptor,tag=baby,tag=resting] run replaceitem entity @s armor.head stone{CustomModelData:236}
+execute as @s[tag=velociraptor,tag=baby,tag=sleeping] run replaceitem entity @s armor.head stone{CustomModelData:237}
+execute as @s[tag=velociraptor,tag=baby,tag=swimming] run replaceitem entity @s armor.head stone{CustomModelData:238}
+execute as @s[tag=velociraptor,tag=baby,tag=threat] run replaceitem entity @s armor.head stone{CustomModelData:239}
+execute as @s[tag=velociraptor,tag=baby,tag=walking] run replaceitem entity @s armor.head stone{CustomModelData:240}
 
 ## Sounds
 # Adult

@@ -1,8 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dispenser",
-			      "nbt": "{CustomModelData:38}"
+            "item": "minecraft:bone",
+			      "nbt": "{CustomModelData:6}"
         },
         "title": "Revival",
         "description": "Life, um... Finds a way.",

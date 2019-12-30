@@ -12,5 +12,9 @@ execute positioned ~1 ~ ~ run function dinocustom:ai/ai_components/terrestrial/p
 execute positioned ~-1 ~ ~ run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
 execute positioned ~ ~ ~1 run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
 execute positioned ~ ~ ~-1 run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
+execute positioned ~1 ~ ~1 run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
+execute positioned ~-1 ~ ~-1 run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
+execute positioned ~1 ~ ~-1 run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
+execute positioned ~-1 ~ ~1 run function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_1
 
 function dinocustom:ai/ai_components/terrestrial/pathfinding/nexus/step_3

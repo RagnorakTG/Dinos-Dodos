@@ -1,3 +1,25 @@
+### Misc.
+## Install Message
+tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
+tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/qawUwZK"}}
+tellraw @a {"text":"Dev Team:","color":"aqua"}
+tellraw @a {"text":"Ragnorakkr_ [Lead Developer]","color":"red"}
+tellraw @a {"text":"Birdasaur [Manager, Sound Artist]","color":"gold"}
+tellraw @a {"text":"TheNuclearNexus [Coder]","color":"yellow"}
+tellraw @a {"text":"iNkoR_the_2nd [Artist] (Retired)","color":"green"}
+tellraw @a {"text":"JordenEatsCereal [Coder, Artist] (Retired)","color":"blue"}
+tellraw @a {"text":"Seba244c [Coder] (Retired)","color":"dark_purple"}
+tellraw @a {"text":"","color":"aqua"}
+tellraw @a {"text":"Special Thanks:","color":"aqua"}
+tellraw @a {"text":"Thanks to the MCS & DPC Communities for sponsoring our project!","color":"yellow"}
+## Gamerule
+gamerule sendCommandFeedback true
+## Create Formation
+execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
+execute unless score $idGiver Dinosaur_ID matches 1.. run scoreboard players set $idGiver Dinosaur_ID 1
+## Advancements
+advancement grant @a only dinocustom:custom/revival/root
+
 ### Scoreboards
 ## Summoning
 scoreboard objectives add summon_ammount dummy
@@ -7,8 +29,9 @@ scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
 scoreboard objectives add math_rng dummy
 scoreboard objectives add math_sqrt dummy
 scoreboard objectives add Timer dummy
-
+scoreboard objectives add vars dummy
 scoreboard objectives add data dummy
+
 ## Fossil Gen
 scoreboard objectives add Spawn_Fossil dummy
 scoreboard objectives add Dinosaur_fossil dummy
@@ -109,27 +132,3 @@ scoreboard objectives add jeepId dummy
 scoreboard objectives add jeepSeatId dummy
 scoreboard objectives add jeepTrunkId dummy
 scoreboard objectives add jeepHonkId dummy
-
-
-
-### Misc.
-## Install Message
-tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
-tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/qawUwZK"}}
-tellraw @a {"text":"Dev Team:","color":"aqua"}
-tellraw @a {"text":"_Ragnorak_ [Lead Developer]","color":"red"}
-tellraw @a {"text":"Mr_Birdasaur [Manager, Sound Artist]","color":"gold"}
-tellraw @a {"text":"iNkoR_the_2nd [Artist]","color":"yellow"}
-tellraw @a {"text":"TheNuclearNexus [Coder]","color":"gold"}
-tellraw @a {"text":"JordenEatsCereal [Coder, Artist]","color":"red"}
-tellraw @a {"text":"Seba244c [Coder]","color":"gold"}
-tellraw @a {"text":"","color":"aqua"}
-tellraw @a {"text":"Special Thanks:","color":"aqua"}
-tellraw @a {"text":"Thanks to the MCS Community for sponsoring out project!","color":"yellow"}
-## Gamerule
-gamerule sendCommandFeedback true
-## Create Formation
-execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
-execute unless score $idGiver Dinosaur_ID matches 1.. run scoreboard players set $idGiver Dinosaur_ID 1
-## Advancements
-advancement grant @a only dinocustom:custom/revival/root
