@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "item": "minecraft:dispenser",
-			      "nbt": "{CustomModelData:4}"
+			      "nbt": "{CustomModelData:1}"
         },
         "title": "Analogy",
         "description": "Acquire and place a Analyzer."
