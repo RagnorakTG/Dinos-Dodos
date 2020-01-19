@@ -51,7 +51,7 @@ execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ containe
 execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.13 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.15 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.17 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
-execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.18 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:2,RemoveFromInv:1b}
+execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.18 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.20 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.21 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~1 ~ barrel run replaceitem block ~ ~1 ~ container.22 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:1,RemoveFromInv:1b}
