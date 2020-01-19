@@ -6,7 +6,7 @@
         },
         "title": "Revival",
         "description": "Life, um... Finds a way.",
-        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+        "background": "minecraft:textures/block/bone_block_side.png"
     },
     "criteria": {
         "impossible": {
