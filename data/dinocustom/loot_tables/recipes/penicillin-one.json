@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:10,display:{Lore:['{\"text\":\"Weak Strength\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Penicillin Mold\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040010,display:{Lore:['{\"text\":\"Weak Strength\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Penicillin Mold\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"DNA Combinator\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4,dna_combinator:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"{\\\"text\\\":\\\"dna_combinator\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"}}}]}}"
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"DNA Combinator\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4040004,dna_combinator:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"{\\\"text\\\":\\\"dna_combinator\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"}}}]}}"
             }
           ]
         }

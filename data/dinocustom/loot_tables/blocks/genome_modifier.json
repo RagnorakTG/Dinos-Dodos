@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Genome Modifier\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:7,genome_modifier:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"{\\\"text\\\":\\\"genome_modifier\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"}}}]}}"
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Genome Modifier\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4040007,genome_modifier:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"{\\\"text\\\":\\\"genome_modifier\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"}}}]}}"
             }
           ]
         }

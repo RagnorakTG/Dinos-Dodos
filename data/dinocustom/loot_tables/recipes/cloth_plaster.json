@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:clock",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"Cloth Plaster\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040018,display:{Name:'{\"text\":\"Cloth Plaster\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

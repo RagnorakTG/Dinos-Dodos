@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:9,display:{Name:'{\"text\":\"Petri Dish\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040009,display:{Name:'{\"text\":\"Petri Dish\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

@@ -1,2 +1,0 @@
-# Needle Barrel
-execute if block ~ ~ ~ chest{Items:[{Slot:2b,id:"minecraft:iron_ingot",Count:1b},{Slot:10b,id:"minecraft:iron_ingot",Count:1b},{Slot:11b,id:"minecraft:white_stained_glass_pane",Count:1b},{Slot:12b,id:"minecraft:iron_ingot",Count:1b},{Slot:20b,id:"minecraft:iron_ingot",Count:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:15b,id:"minecraft:clock",Count:8b,tag:{CustomModelData:3,display:{Name:'{"text":"Needle Barrel","color":"white","italic":false}'}}}]}

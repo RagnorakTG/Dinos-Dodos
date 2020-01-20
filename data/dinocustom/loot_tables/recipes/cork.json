@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6,display:{Name:'{\"text\":\"Cork\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040006,display:{Name:'{\"text\":\"Cork\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"DNA Extractor\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:7,dna_extractor:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"{\\\"text\\\":\\\"dna_extractor\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"}}}]}}"
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"DNA Extractor\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4040007,dna_extractor:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"{\\\"text\\\":\\\"dna_extractor\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"}}}]}}"
             }
           ]
         }

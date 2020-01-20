@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"Computer Chip\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040001,display:{Name:'{\"text\":\"Computer Chip\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,display:{Lore:['{\"text\":\"Moderate Strength\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Antibiotics\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040002,display:{Lore:['{\"text\":\"Moderate Strength\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Antibiotics\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

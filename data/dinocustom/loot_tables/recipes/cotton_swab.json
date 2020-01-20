@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,display:{Lore:['{\"text\":\"Empty\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Cotton Swab\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040003,display:{Lore:['{\"text\":\"Empty\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Cotton Swab\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

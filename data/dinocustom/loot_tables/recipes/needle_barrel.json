@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,display:{Name:'{\"text\":\"Needle Barrel\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040003,display:{Name:'{\"text\":\"Needle Barrel\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

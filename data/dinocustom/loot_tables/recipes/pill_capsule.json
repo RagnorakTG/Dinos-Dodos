@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:11,display:{Name:'{\"text\":\"Pill Capsule\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040011,display:{Name:'{\"text\":\"Pill Capsule\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

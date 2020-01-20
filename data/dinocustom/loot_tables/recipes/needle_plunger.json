@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,display:{Name:'{\"text\":\"Needle Plunger\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040004,display:{Name:'{\"text\":\"Needle Plunger\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }
