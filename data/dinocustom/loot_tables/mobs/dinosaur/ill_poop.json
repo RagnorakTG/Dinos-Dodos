@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8,display:{Name:'{\"text\":\"Ill Dinosaur Droppings\",\"color\":\"white\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:4040008,display:{Name:'{\"text\":\"Ill Dinosaur Droppings\",\"color\":\"white\",\"italic\":false}'}}"
             }
           ]
         }

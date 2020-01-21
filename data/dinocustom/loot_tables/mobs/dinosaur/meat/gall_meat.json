@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Raw Velociraptor Rib\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4040001}"
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Raw Gallimimus Rib\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"},CustomModelData:4040001}"
             },
             {
               "function": "minecraft:set_count",
