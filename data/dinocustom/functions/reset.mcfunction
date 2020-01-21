@@ -14,15 +14,33 @@ tellraw @a {"text":"Special Thanks:","color":"aqua"}
 tellraw @a {"text":"Thanks to the MCS & DPC Communities for sponsoring our project!","color":"yellow"}
 ## Gamerule
 gamerule sendCommandFeedback true
-## Create Formation
-execute at @a unless entity @e[type=armor_stand,tag=fossil_formation,distance=..100] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["fossil_formation"],DisabledSlots:4144959,CustomName:"{\"text\":\"Fossil Formation\"}"}
-execute unless score $idGiver Dinosaur_ID matches 1.. run scoreboard players set $idGiver Dinosaur_ID 1
 ## Advancements
 advancement grant @a only dinocustom:custom/revival/root
 
 ### Scoreboards
 ## Summoning
 scoreboard objectives add summon_ammount dummy
+## Crafting
+scoreboard objectives add dnd.craft dummy
+scoreboard objectives add dnd.slot.1.item dummy
+scoreboard objectives add dnd.slot.2.item dummy
+scoreboard objectives add dnd.slot.3.item dummy
+scoreboard objectives add dnd.slot.4.item dummy
+scoreboard objectives add dnd.slot.5.item dummy
+scoreboard objectives add dnd.slot.6.item dummy
+scoreboard objectives add dnd.slot.7.item dummy
+scoreboard objectives add dnd.slot.8.item dummy
+scoreboard objectives add dnd.slot.9.item dummy
+scoreboard objectives add dnd.slot.1.amnt dummy
+scoreboard objectives add dnd.slot.2.amnt dummy
+scoreboard objectives add dnd.slot.3.amnt dummy
+scoreboard objectives add dnd.slot.4.amnt dummy
+scoreboard objectives add dnd.slot.5.amnt dummy
+scoreboard objectives add dnd.slot.6.amnt dummy
+scoreboard objectives add dnd.slot.7.amnt dummy
+scoreboard objectives add dnd.slot.8.amnt dummy
+scoreboard objectives add dnd.slot.9.amnt dummy
+scoreboard objectives add dnd.slot.out dummy
 ## Misc.
 scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
@@ -113,6 +131,7 @@ scoreboard objectives add True_Sound dummy
 ## Vehicles
 team add noCollision
 team modify noCollision collisionRule never
+scoreboard objectives add dnd.SelItemSlot dummy
 scoreboard objectives add wsDetect dummy
 scoreboard objectives add wsDetect2 dummy
 scoreboard objectives add vehicleWASD dummy

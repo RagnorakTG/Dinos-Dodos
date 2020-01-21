@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "dinocustom:placing/misc/dinosaur_eggs"
+        "function": "dinocustom:placing/dinosaur_eggs/main"
     }
 }

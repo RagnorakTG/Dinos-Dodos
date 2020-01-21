@@ -21,6 +21,8 @@ execute as @s[tag=zoology_crafter,tag=faced] run tag @s add crafting_station
 execute as @s[tag=zoology_crafter,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot dinocustom:blocks/zoology_crafter
 execute as @s[tag=zoology_crafter,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:barrel",tag:{display:{Name:'{"text":"zoology_crafter"}'}}}}]
+# crafting
+function dinocustom:stations/crafting/zoology_crafter/main
 
 ## GUI
 execute as @s at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:4040003,RemoveFromInv:1b}

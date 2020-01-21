@@ -22,9 +22,6 @@ execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run loot spawn ~ 
 execute as @s[tag=analyzer,tag=faced] at @s if block ~ ~ ~ air run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:barrel",tag:{display:{Name:'{"text":"analyzer"}'}}}}]
 
-## stations
-execute as @s[tag=analyzer,tag=faced] at @s run function dinocustom:crafting/stations/analyzer
-
 ## GUI
 execute as @s[tag=!barMoving] at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.0 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:4040005,RemoveFromInv:1b}
 execute as @s at @s if block ~ ~ ~ barrel run replaceitem block ~ ~ ~ container.1 barrier{display:{Name:"{\"text\":\"\"}"},CustomModelData:4040001,RemoveFromInv:1b}

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4040015,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",tag:{display:{Name:'{\"text\":\"koolasuchus_egg\",\"color\":\"white\",\"italic\":false}'}},Count:1b}],id:\"minecraft:dispenser\"},display:{Name:'{\"text\":\"Gallimimus Egg\",\"color\":\"white\",\"italic\":false}'},dinosaur_egg:1}"
+              "tag": "{CustomModelData:4040015,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",tag:{display:{Name:'{\"text\":\"gallimimus_egg\",\"color\":\"white\",\"italic\":false}'}},Count:1b}],id:\"minecraft:dispenser\"},display:{Name:'{\"text\":\"Gallimimus Egg\",\"color\":\"white\",\"italic\":false}'},dinosaur_egg:1}"
             }
           ]
         }
