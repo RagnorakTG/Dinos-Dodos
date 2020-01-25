@@ -20,6 +20,7 @@ advancement grant @a only dinocustom:custom/revival/root
 ### Scoreboards
 ## Summoning
 scoreboard objectives add summon_ammount dummy
+
 ## Crafting
 scoreboard objectives add dnd.craft dummy
 scoreboard objectives add dnd.slot.1.item dummy
@@ -41,6 +42,7 @@ scoreboard objectives add dnd.slot.7.amnt dummy
 scoreboard objectives add dnd.slot.8.amnt dummy
 scoreboard objectives add dnd.slot.9.amnt dummy
 scoreboard objectives add dnd.slot.out dummy
+
 ## Misc.
 scoreboard objectives add y_rotation dummy
 scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
@@ -51,18 +53,12 @@ scoreboard objectives add vars dummy
 scoreboard objectives add data dummy
 
 ## Fossil Gen
-scoreboard objectives add Spawn_Fossil dummy
-scoreboard objectives add Dinosaur_fossil dummy
-scoreboard objectives add Fossil_damage dummy
-scoreboard objectives add Plaster_chance dummy
-scoreboard objectives add Did_Plaster dummy
-scoreboard objectives add Kill_Fossil dummy
-scoreboard objectives add Player_Walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add Player_Ran minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add Player_Horse minecraft.custom:minecraft.horse_one_cm
-scoreboard objectives add Player_Pig minecraft.custom:minecraft.pig_one_cm
-scoreboard objectives add Player_Jump minecraft.custom:minecraft.jump
-scoreboard objectives add R_Click_Fossil minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add dnd.marker_biome dummy
+scoreboard objectives add dnd.formation dummy
+scoreboard objectives add dnd.fossil_gen dummy
+scoreboard objectives add dnd.fossil_dmg dummy
+scoreboard objectives add dnd.fossil_acry dummy
+
 ## Crafting
 scoreboard objectives add Milk_Supply dummy
 scoreboard objectives add combinatorBar dummy
@@ -70,6 +66,7 @@ scoreboard objectives add analyzerBarTimer dummy
 scoreboard objectives add extractorBar dummy
 scoreboard objectives add cultureBarTop dummy
 scoreboard objectives add cultureBarBottom dummy
+
 ## AI
 scoreboard objectives add Temp_Height dummy
 scoreboard objectives add Temp_Length dummy

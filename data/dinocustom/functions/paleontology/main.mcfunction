@@ -1,11 +1,20 @@
-execute as @s[tag=fossil_formation] run function dinocustom:paleontology/create_formation
-execute as @s[tag=fossil] at @s run function dinocustom:paleontology/spawn_fossil
-execute as @s[tag=fossil] at @s run function dinocustom:paleontology/harm_fossil
-execute as @s[tag=fossil] at @s run function dinocustom:paleontology/plaster_fossil
-execute as @s[tag=fossil] at @s run function dinocustom:paleontology/pickup_fossil
-execute as @s[tag=fossil] at @s run function dinocustom:paleontology/replace_fossil
+#### Fossils
+### Run Functions
+## Fossil Generation
+# Biome Detection
+execute as @e[type=armor_stand,tag=dnd.marker] run function dinocustom:paleontology/biome_detection
+# Spawn Formation
+execute as @e[type=armor_stand,tag=dnd.marker] run function dinocustom:paleontology/spawn_formation
+# Spawn Fossils
 
-execute as @s[tag=fossil,tag=!scored] at @s run scoreboard players set @s Fossil_damage 0
-execute as @s[tag=fossil,tag=!scored] at @s run tag @s add scored
-execute as @s[tag=fossil] run data merge entity @s {ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],Motion:[0.0d,0.0d,0.0d],Invulnerable:1b}
-execute as @s[tag=fossil] run data modify entity @s Offers set value {Offers:{}}
+
+## Paleontology
+
+
+## Chunk Detection
+execute as @e[type=armor_stand,tag=dnd.marker] run function dinocustom:paleontology/chunk-detection/main
+
+
+
+## Schedule
+schedule function dinocustom:paleontology/main 5t
