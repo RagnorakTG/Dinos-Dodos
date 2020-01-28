@@ -1,0 +1,1805 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "badlands"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "badlands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "badlands_plateau"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "badlands_plateau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "bamboo_jungle"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "bamboo_jungle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "bamboo_jungle_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "bamboo_jungle_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "beach"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "beach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "birch_forest"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "birch_forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "birch_forest_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "birch_forest_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "cold_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "cold_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "dark_forest"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "dark_forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "dark_forest_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "dark_forest_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "deep_cold_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "deep_cold_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "deep_frozen_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "deep_frozen_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "deep_lukewarm_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "deep_lukewarm_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "deep_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "deep_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "deep_warm_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "deep_warm_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "desert"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "desert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "desert_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "desert_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "desert_lakes"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "desert_lakes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "end_barrens"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "end_barrens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "end_highlands"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "end_highlands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "end_midlands"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "end_midlands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "eroded_badlands"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "eroded_badlands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "flower_forest"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "flower_forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "forest"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "frozen_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "frozen_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "frozen_river"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "frozen_river"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "giant_spruce_taiga"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "giant_spruce_taiga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "giant_spruce_taiga_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "giant_spruce_taiga_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "giant_tree_taiga"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "giant_tree_taiga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "giant_tree_taiga_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "giant_tree_taiga_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "gravelly_mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "gravelly_mountains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "modified_gravelly_mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "modified_gravelly_mountains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "ice_spikes"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "ice_spikes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "jungle"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "jungle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "jungle_edge"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "jungle_edge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "jungle_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "jungle_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "lukewarm_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "lukewarm_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "modified_badlands_plateau"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "modified_badlands_plateau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "modified_jungle"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "modified_jungle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "modified_jungle_edge"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "modified_jungle_edge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "modified_wooded_badlands_plateau"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "modified_wooded_badlands_plateau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "mountain_edge"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "mountain_edge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "mountains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "mushroom_field_shore"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "mushroom_field_shore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "mushroom_fields"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "mushroom_fields"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "nether"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "nether"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "plains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "plains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "river"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "river"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "savanna"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "savanna"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "savanna_plateau"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "savanna_plateau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "shattered_savanna"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "shattered_savanna"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "shattered_savanna_plateau"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "shattered_savanna_plateau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "small_end_islands"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "small_end_islands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "snowy_beach"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "snowy_beach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "snowy_mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "snowy_mountains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "snowy_taiga"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "snowy_taiga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "snowy_taiga_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "snowy_taiga_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "snowy_taiga_mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "snowy_taiga_mountains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "snowy_tundra"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "snowy_tundra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "stone_shore"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "stone_shore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "sunflower_plains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "sunflower_plains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "swamp"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "swamp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "swamp_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "swamp_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "taiga"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "taiga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "taiga_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "taiga_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "taiga_mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "taiga_mountains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "tall_birch_forest"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "tall_birch_forest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "tall_birch_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "tall_birch_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "the_end"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "the_void"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "the_void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "warm_ocean"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "warm_ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "wooded_badlands_plateau"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "wooded_badlands_plateau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "wooded_hills"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "wooded_hills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "wooded_mountains"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "wooded_mountains"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
