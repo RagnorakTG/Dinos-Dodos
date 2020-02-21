@@ -6,12 +6,12 @@
                 "block": "minecraft:dispenser",
                 "item": {
                     "item": "minecraft:dispenser",
-                    "nbt": "{toy_crafter:1}"
+                    "nbt": "{dnd:{Tags:[\"toy_crafter\"]}}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "dinocustom:placing/crafting_stations/toy_crafter"
+        "function": "dinocustom:custom_blocks/placing/toy_crafter"
     }
 }

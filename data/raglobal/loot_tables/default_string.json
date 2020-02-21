@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:creeper_head",
+                    "functions": [
+                      {
+                         "function":"set_lore",
+                         "lore": [
+                           {"translate":"lore.rag.durability","with":[{"score":{"name":"@s","objective":"rag.math"}},{"score":{"name":"@s","objective":"rag.math2"}}]}
+                         ],
+                         "entity": "this"
+                      }
+                  ]
+              }
+          ]
+      }
+   ]
+}

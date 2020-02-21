@@ -1,6 +1,6 @@
 # Run Functions
-function dinocustom:stations/main
-function dinocustom:timer
+function dinocustom:custom_blocks/main
+function dinocustom:custom_items/main
 execute as @e[type=#minecraft:execute_as] run function dinocustom:run_functions
 
 ## Run Commands

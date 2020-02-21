@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"snot_swab\",\"flu_sample\",\"known\"]},display:{Name:'{\"translate\":\"item.dnd.snot_swab\",\"italic\":false}'},CustomModelData:4040012}"
+            },
+            {
+               "function":"set_lore",
+               "lore": [
+                 {"translate":"lore.dnd.cotton_swab.flu"}
+               ],
+               "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,10 @@ advancement grant @a only dinocustom:custom/revival/root
 
 ### Scoreboards
 ## Summoning
-scoreboard objectives add summon_ammount dummy
+scoreboard objectives add dnd.summon_ammount dummy
+
+## Items
+scoreboard objectives add dnd.durability dummy
 
 ## Crafting
 scoreboard objectives add dnd.craft dummy
@@ -44,13 +47,13 @@ scoreboard objectives add dnd.slot.9.amnt dummy
 scoreboard objectives add dnd.slot.out dummy
 
 ## Misc.
-scoreboard objectives add y_rotation dummy
-scoreboard objectives add Use_Firework minecraft.used:minecraft.firework_rocket
-scoreboard objectives add math_rng dummy
-scoreboard objectives add math_sqrt dummy
-scoreboard objectives add Timer dummy
-scoreboard objectives add vars dummy
-scoreboard objectives add data dummy
+scoreboard objectives add dnd.y_rotation dummy
+scoreboard objectives add dnd.Use_Firework minecraft.used:minecraft.firework_rocket
+scoreboard objectives add dnd.math_rng dummy
+scoreboard objectives add dnd.math_sqrt dummy
+scoreboard objectives add dnd.Timer dummy
+scoreboard objectives add dnd.vars dummy
+scoreboard objectives add dnd.data dummy
 
 ## Fossil Gen
 scoreboard objectives add dnd.marker_biome dummy
@@ -60,91 +63,68 @@ scoreboard objectives add dnd.fossil_dmg dummy
 scoreboard objectives add dnd.fossil_acry dummy
 
 ## Crafting
-scoreboard objectives add Milk_Supply dummy
-scoreboard objectives add combinatorBar dummy
-scoreboard objectives add analyzerBarTimer dummy
-scoreboard objectives add extractorBar dummy
-scoreboard objectives add cultureBarTop dummy
-scoreboard objectives add cultureBarBottom dummy
+scoreboard objectives add dnd.Milk_Supply dummy
+scoreboard objectives add dnd.combinatorBar dummy
+scoreboard objectives add dnd.analyzerBarTimer dummy
+scoreboard objectives add dnd.extractorBar dummy
+scoreboard objectives add dnd.cultureBarTop dummy
+scoreboard objectives add dnd.cultureBarBottom dummy
 
 ## AI
-scoreboard objectives add Temp_Height dummy
-scoreboard objectives add Temp_Length dummy
-scoreboard objectives add Temp_Width dummy
-scoreboard objectives add Weight dummy
-scoreboard objectives add Age dummy
-scoreboard objectives add Immune_System dummy
-scoreboard objectives add Multipliers dummy
-scoreboard objectives add Max_Group dummy
-scoreboard objectives add Current_Group dummy
-scoreboard objectives add Max_Grounds dummy
-scoreboard objectives add Walk dummy
-scoreboard objectives add Walk_time dummy
-scoreboard objectives add Walk_stop
-scoreboard objectives add Should_rotate dummy
-scoreboard objectives add Rotate dummy
-scoreboard objectives add Rotate_ammount dummy
-scoreboard objectives add Hatch_Time dummy
-scoreboard objectives add Egg_Ammount dummy
-scoreboard objectives add Float dummy
-scoreboard objectives add Sink dummy
-scoreboard objectives add Time dummy
-scoreboard objectives add Gain_Happiness dummy
-scoreboard objectives add Current_Happines dummy
-scoreboard objectives add Gain_Boredom dummy
-scoreboard objectives add Current_Boredom dummy
-scoreboard objectives add Max_Age dummy
-scoreboard objectives add Dinosaur_ID dummy
-scoreboard objectives add Active dummy
-scoreboard objectives add Gain_Tired dummy
-scoreboard objectives add Current_Tired dummy
-scoreboard objectives add Gain_Health dummy
-scoreboard objectives add Current_Health dummy
-scoreboard objectives add Should_Fly dummy
-scoreboard objectives add Stop_flying dummy
-scoreboard objectives add Max_Damage dummy
-scoreboard objectives add Damage dummy
-scoreboard objectives add Pathfind_ID dummy
-scoreboard objectives add pathfinding_time dummy
-scoreboard objectives add Speed dummy
-scoreboard objectives add Speed_Calculate dummy
-scoreboard objectives add Current_Rep dummy
-scoreboard objectives add Gain_Rep dummy
-scoreboard objectives add Food_Ammount dummy
-scoreboard objectives add Food_Type dummy
-scoreboard objectives add Poop_Time dummy
-scoreboard objectives add Needs_Poop dummy
-scoreboard objectives add Poop_Size
-scoreboard objectives add Deteriorate dummy
-scoreboard objectives add Become_Ill dummy
-scoreboard objectives add Ill_Chance dummy
-scoreboard objectives add Immune_Change dummy
-scoreboard objectives add Immune_Add dummy
-scoreboard objectives add Fight_Illness dummy
-scoreboard objectives add Play_Sound dummy
-scoreboard objectives add Should_Sound dummy
-scoreboard objectives add Sound_timer dummy
-scoreboard objectives add True_Sound dummy
-## Vehicles
-team add noCollision
-team modify noCollision collisionRule never
-scoreboard objectives add dnd.SelItemSlot dummy
-scoreboard objectives add wsDetect dummy
-scoreboard objectives add wsDetect2 dummy
-scoreboard objectives add vehicleWASD dummy
-scoreboard objectives add vehicleWASD2 dummy
-scoreboard objectives add vehicleIdleSound dummy
-scoreboard objectives add jeepHonk dummy
-scoreboard objectives add vehicleId dummy
-scoreboard objectives add vehicleSeatId dummy
-scoreboard objectives add vehicleTrunkId dummy
-scoreboard objectives add vehicleHonkId dummy
-scoreboard objectives add vehicleModelId dummy
-scoreboard objectives add jeepWASD dummy
-scoreboard objectives add jeepWASD2 dummy
-scoreboard objectives add jeepIdleSound dummy
-scoreboard objectives add jeepHonk dummy
-scoreboard objectives add jeepId dummy
-scoreboard objectives add jeepSeatId dummy
-scoreboard objectives add jeepTrunkId dummy
-scoreboard objectives add jeepHonkId dummy
+scoreboard objectives add dnd.Temp_Height dummy
+scoreboard objectives add dnd.Temp_Length dummy
+scoreboard objectives add dnd.Temp_Width dummy
+scoreboard objectives add dnd.Weight dummy
+scoreboard objectives add dnd.Age dummy
+scoreboard objectives add dnd.Immune_System dummy
+scoreboard objectives add dnd.Multipliers dummy
+scoreboard objectives add dnd.Max_Group dummy
+scoreboard objectives add dnd.Current_Group dummy
+scoreboard objectives add dnd.Max_Grounds dummy
+scoreboard objectives add dnd.Walk dummy
+scoreboard objectives add dnd.Walk_time dummy
+scoreboard objectives add dnd.Walk_stop
+scoreboard objectives add dnd.Should_rotate dummy
+scoreboard objectives add dnd.Rotate dummy
+scoreboard objectives add dnd.Rotate_ammount dummy
+scoreboard objectives add dnd.Hatch_Time dummy
+scoreboard objectives add dnd.Egg_Ammount dummy
+scoreboard objectives add dnd.Float dummy
+scoreboard objectives add dnd.Sink dummy
+scoreboard objectives add dnd.Time dummy
+scoreboard objectives add dnd.Gain_Happiness dummy
+scoreboard objectives add dnd.Current_Happines dummy
+scoreboard objectives add dnd.Gain_Boredom dummy
+scoreboard objectives add dnd.Current_Boredom dummy
+scoreboard objectives add dnd.Max_Age dummy
+scoreboard objectives add dnd.Dinosaur_ID dummy
+scoreboard objectives add dnd.Active dummy
+scoreboard objectives add dnd.Gain_Tired dummy
+scoreboard objectives add dnd.Current_Tired dummy
+scoreboard objectives add dnd.Gain_Health dummy
+scoreboard objectives add dnd.Current_Health dummy
+scoreboard objectives add dnd.Should_Fly dummy
+scoreboard objectives add dnd.Stop_flying dummy
+scoreboard objectives add dnd.Max_Damage dummy
+scoreboard objectives add dnd.Damage dummy
+scoreboard objectives add dnd.Pathfind_ID dummy
+scoreboard objectives add dnd.pathfinding_time dummy
+scoreboard objectives add dnd.Speed dummy
+scoreboard objectives add dnd.Speed_Calculate dummy
+scoreboard objectives add dnd.Current_Rep dummy
+scoreboard objectives add dnd.Gain_Rep dummy
+scoreboard objectives add dnd.Food_Ammount dummy
+scoreboard objectives add dnd.Food_Type dummy
+scoreboard objectives add dnd.Poop_Time dummy
+scoreboard objectives add dnd.Needs_Poop dummy
+scoreboard objectives add dnd.Poop_Size
+scoreboard objectives add dnd.Deteriorate dummy
+scoreboard objectives add dnd.Become_Ill dummy
+scoreboard objectives add dnd.Ill_Chance dummy
+scoreboard objectives add dnd.Immune_Change dummy
+scoreboard objectives add dnd.Immune_add dummy
+scoreboard objectives add dnd.Fight_Illness dummy
+scoreboard objectives add dnd.Play_Sound dummy
+scoreboard objectives add dnd.Should_Sound dummy
+scoreboard objectives add dnd.Sound_timer dummy
+scoreboard objectives add dnd.True_Sound dummy

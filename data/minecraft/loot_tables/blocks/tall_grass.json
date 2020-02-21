@@ -81,7 +81,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:13,display:{Name:'{\"text\":\"Cotton\",\"color\":\"white\",\"italic\":false}'}}"
+                  "tag": "{dnd:{Tags:[\"cotton\"]},display:{Name:'{\"translate\":\"item.dnd.cotton\",\"italic\":false}'},CustomModelData:4040011}"
                 }
               ]
             }

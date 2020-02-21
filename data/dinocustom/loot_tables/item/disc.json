@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"disc\",\"empty\"]},display:{Name:'{\"translate\":\"item.dnd.disc\",\"italic\":false}'},CustomModelData:4040002}"
+            },
+            {
+               "function":"set_lore",
+               "lore": [
+                 {"translate":"lore.dnd.disc.empty"}
+               ],
+               "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
