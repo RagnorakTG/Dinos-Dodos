@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:salmon_spawn_egg"
+        },
+        "title": "The Bigger",
+        "description": "Create and hatch a Allosaurus",
+    "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "dinocustom:custom/revival/the_big",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

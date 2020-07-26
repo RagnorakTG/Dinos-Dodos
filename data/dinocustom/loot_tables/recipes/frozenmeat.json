@@ -1,0 +1,526 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Arctic Squirrel Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Bat Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Chicken Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Cow Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Deodicorus Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Dodo Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Dolphin Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Gastornis Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Meganeura Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Kelenken Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Leptictidium Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Magetherium Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Pig Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Phorusrhacos Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Smilodon Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Sheep Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Turtle Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Titanaboa Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Titanis Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Wolf Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Dire Wolf Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Wooly Mammoth Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Camelops Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Mastodon Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Dire Bear Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Ground Sloth Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Short-faced Bear Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Epigaulus Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Thylacine Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Great Auk Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Homotherium Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Cave Lion Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Quagga Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Toxodon Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Hyaenadon Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Arsinotherium Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Gigantopithecus Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Andrewsarchus Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Megalania Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Daeodon Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Long-Horned Bison Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Titanoboa Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Megaloceros Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Deinotherium Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Neanderthal Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Cubanochoerus Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Frozen Archaeodobenus Meat\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

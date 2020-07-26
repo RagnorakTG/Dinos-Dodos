@@ -1,12 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bone",
-			      "nbt": "{CustomModelData:6}"
+            "item": "minecraft:structure_block"
         },
-        "title": "Revival",
-        "description": "Life, um... Finds a way.",
-        "background": "minecraft:textures/block/bone_block_side.png"
+        "title": "Paleontology",
+        "description": "Reviving dinosaurs hard? I think not!",
+        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
     },
     "criteria": {
         "impossible": {
