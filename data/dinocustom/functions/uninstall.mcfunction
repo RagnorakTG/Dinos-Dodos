@@ -1,6 +1,6 @@
 
-# Instal Message
-tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}
+# Uninstall Message
+tellraw @a {"text":"Dinos & Dodos has been succesfully ininstalled.","color":"aqua"}
 tellraw @a {"text":"[Dinos & Dodos Discord]","color":"yellow","clickEvent":{"action":"open_url","value":"https://discordapp.com/invite/qawUwZK"}}
 tellraw @a {"text":"Dev Team:","color":"aqua"}
 tellraw @a {"text":"_Ragnorak_ [Lead Developer]","color":"red"}

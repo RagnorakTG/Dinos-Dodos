@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dispenser",
+                "item": {
+                    "item": "minecraft:dispenser",
+                    "nbt": "{sifter:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dinocustom:placing/crafting_stations/sifter"
+    }
+}
