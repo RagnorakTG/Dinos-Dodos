@@ -5,7 +5,7 @@
         },
         "title": "Paleontology",
         "description": "Reviving dinosaurs hard? I think not!",
-        "background": "minecraft:textures/gui/advancements/backgrounds/bone_block.png"
+        "background": "minecraft:textures/block/bone_block.png"
     },
     "criteria": {
         "impossible": {
