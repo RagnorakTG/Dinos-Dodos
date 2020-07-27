@@ -1,1 +1,1 @@
-give @s dispenser{CustomModelData:2,sifter:1,display:{Name:'{"translate":"Sifter","italic":false}'},BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:'{"text":"b"}'}}}]}} 1
+give @s dispenser{CustomModelData:400002,sifter:1,display:{Name:'{"translate":"Sifter","italic":false}'},BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:'{"text":"b"}'}}}]}} 1

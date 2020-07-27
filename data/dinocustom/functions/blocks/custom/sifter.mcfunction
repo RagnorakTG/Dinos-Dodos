@@ -5,6 +5,6 @@ execute as @s[tag=dnd.destroy] run kill @s
 execute as @s[tag=!dnd.place] run setblock ~ ~ ~ dispenser[facing=up]{CustomName:'{"translate":"Sifter","italic":false}'}
 execute as @s[tag=!dnd.place] run tag @s add dnd.place
 # Replace Block
-execute as @s[tag=!dnd.model] run replaceitem entity @s armor.head dispenser{CustomModelData:2}
+execute as @s[tag=!dnd.model] run replaceitem entity @s armor.head dispenser{CustomModelData:400002}
 execute as @s[tag=!dnd.model] run tag @s add dnd.model
 # Recipes

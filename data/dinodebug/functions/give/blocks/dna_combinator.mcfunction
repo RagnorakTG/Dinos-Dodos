@@ -1,1 +1,1 @@
-give @s dispenser{CustomModelData:4,dna_combinator:1,display:{Name:'{"translate":"DNA Combinator","italic":false}'},BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:'{"text":"e"}'}}}]}} 1
+give @s dispenser{CustomModelData:400004,dna_combinator:1,display:{Name:'{"translate":"DNA Combinator","italic":false}'},BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:'{"text":"e"}'}}}]}} 1
