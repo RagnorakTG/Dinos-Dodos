@@ -9,5 +9,3 @@ execute as @a store result score @s dnd.SelItemSlot run data get entity @s Selec
 #Tag Food Sources
 execute as @e[type=#minecraft:terrestrial_food] at @s run tag @s add terrestrial_food
 execute as @e[type=#minecraft:aquatic_food] at @s run tag @s add aquatic_food
-# Gamerule
-gamerule sendCommandFeedback true
