@@ -1,3 +1,9 @@
+# Create Scoreboard
+scoreboard objectives add dnd.math1 dummy
+scoreboard objectives add dnd.math2 dummy
+scoreboard objectives add dnd.math3 dummy
+scoreboard objectives add dnd.timer1 dummy
+scoreboard objectives add dnd.timer2 dummy
 
 # Instal Message
 tellraw @a {"text":"Thank you for installing Dinos & Dodos!","color":"aqua"}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"charcharodontosaurus\",\"fossil\",\"custom_item\"]},display:{Name:'{\"translate\":\"Carcharodontosaurus Fossil\",\"italic\":false}'},CustomModelData:400001}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"spinosaurus\",\"fossil\",\"custom_item\"]},display:{Name:'{\"translate\":\"Spinosaurus Fossil\",\"italic\":false}'},CustomModelData:400001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
