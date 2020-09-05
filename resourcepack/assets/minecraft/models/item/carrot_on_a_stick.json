@@ -1,0 +1,73 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:entity/armor/pith_hat"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:item/brush"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:item/cotton_swab"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "dnd:item/antibiotics"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "dnd:item/needle"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "dnd:item/cloth_plaster"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400007
+      },
+      "model": "dnd:item/rock_pick"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400008
+      },
+      "model": "dnd:item/chisel"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 405001
+      },
+      "model": "dnd:item/dillhoffia_flower"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 405002
+      },
+      "model": "dnd:item/trochodendon_flower"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 405003
+      },
+      "model": "dnd:item/valerianella_flower"
+    }
+  ]
+}

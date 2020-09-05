@@ -1,0 +1,188 @@
+{
+	"parent": "item/generated", 
+	"textures": {
+		"layer0": "item/clock_00"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/fractured_fossil1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/fractured_fossil2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/fractured_fossil3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:item/fractured_fossil4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dnd:item/alanqa_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:item/apertotemporalis_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dnd:item/bawitius_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400008
+			},
+			"model": "dnd:item/deltadromeus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:item/kaprosuchus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:item/lurduasaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400011
+			},
+			"model": "dnd:item/majungasaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400012
+			},
+			"model": "dnd:item/mawsonia_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400013
+			},
+			"model": "dnd:item/onchopristis_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400014
+			},
+			"model": "dnd:item/polycotylus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400015
+			},
+			"model": "dnd:item/spinosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400016
+			},
+			"model": "dnd:item/charcharodontosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400017
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400018
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400019
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400020
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405001
+			},
+			"model": "dnd:item/cooksonia_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405002
+			},
+			"model": "dnd:item/dicksonia_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405003
+			},
+			"model": "dnd:item/dillhoffia_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405004
+			},
+			"model": "dnd:item/horsetail_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405005
+			},
+			"model": "dnd:item/trpchodendon_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405006
+			},
+			"model": "dnd:item/valerianella_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405007
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405008
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405009
+			},
+			"model": "dnd:item/blank_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405010
+			},
+			"model": "dnd:item/blank_fossil"
+		}
+	]
+}

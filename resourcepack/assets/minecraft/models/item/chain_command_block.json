@@ -1,0 +1,79 @@
+{
+	"parent": "block/chain_command_block", 
+	"textures": {
+		"layer0": "block/chain_command_block"
+	},
+	"overrides": [		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:entity/ambermancer/ambermancer_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:entity/ambermancer/ambermancer_arms_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:entity/ambermancer/ambermancer_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:entity/ambermancer/ambermancer_arms_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dnd:entity/ambermancer/amber_spike"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:entity/ambermancer/amber_dragonfly_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dnd:entity/ambermancer/amber_dragonfly_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400008
+			},
+			"model": "dnd:entity/ambermancer/amber_mosquito_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:entity/ambermancer/amber_mosquito_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:entity/ambermancer/amber_mammal_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400011
+			},
+			"model": "dnd:entity/ambermancer/amber_mammal_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400012
+			},
+			"model": "dnd:entity/ambermancer/ambermancer_head"
+		}
+	]
+}
