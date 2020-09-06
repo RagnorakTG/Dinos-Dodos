@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 6,
-    "description": "The Dinos & Dodos Resourcepack; Created for the Datapack."
+    "description": [{"text":"Dinos & Dodos","color":"dark_green"},{"text":"\n"},{"text":"FR 2.0.0","color":"#c6fdfe"}]
   }
 }
