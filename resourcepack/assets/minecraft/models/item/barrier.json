@@ -1,0 +1,20 @@
+{
+	"parent": "item/generated", 
+	"textures": {
+		"layer0": "item/clock_00"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/blank"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/check_mark"
+		}
+	]
+}

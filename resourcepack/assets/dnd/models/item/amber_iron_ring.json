@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "tcc:item/ring/gemstone/iron",
+        "layer1": "dnd:item/amber_ring"
+    }
+}

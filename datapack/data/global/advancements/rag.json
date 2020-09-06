@@ -1,18 +1,18 @@
 {
-  "display": {
-    "title": "Ragnorakkr_",
-    "description": "",
-    "icon": {
-   "item": "minecraft:player_head",
-   "nbt": "{SkullOwner:{Name: \"Ragnorakkr_\", Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE1Nzk0ODE2MzUxNjAsInByb2ZpbGVJZCI6ImM2YzE2OTgwMzdkZDQ1M2FhZmZhY2MyMmY2Y2I4YzIxIiwicHJvZmlsZU5hbWUiOiJSYWdub3Jha2tyXyIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYzFiMGE1MTlhMzZkN2Q3YTE5N2E0Y2U1MDAyNzdhZDRhMDkxZjg4ZmNjYzQ5MGU5NzJlZmE2ZjM0M2UzOWM1IiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=\"}]}}}"
- },
-    "show_toast": false,
-    "announce_to_chat": false
-  },
-  "parent": "global:root",
-  "criteria": {
-    "trigger": {
-      "trigger": "minecraft:tick"
+    "display": {
+        "title": "Ragnorakkr_",
+        "description": "",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Ragnorakkr_'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
     }
-  }
 }
