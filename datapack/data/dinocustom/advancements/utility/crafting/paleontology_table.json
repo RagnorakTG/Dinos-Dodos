@@ -1,0 +1,15 @@
+{
+  "parent": "dinocustom:utility/crafting/root",
+  "rewards": {
+    "function":"dinocustom:recipes/paleontology_table",
+    "loot": ["dinocustom:blocks/paleontology_table"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dinocustom:paleontology_table"
+      }
+    }
+  }
+}

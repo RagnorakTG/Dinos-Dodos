@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "LL",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

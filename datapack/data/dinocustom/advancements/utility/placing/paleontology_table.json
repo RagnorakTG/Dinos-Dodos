@@ -6,12 +6,12 @@
                 "block": "minecraft:dispenser",
                 "item": {
                     "item": "minecraft:dispenser",
-                    "nbt": "{zoology_crafter:1}"
+                    "nbt": "{paleontology_table:1}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "dinocustom:placing/crafting_stations/zoology_crafter"
+        "function": "dinocustom:block/placing/paleontology_table"
     }
 }
