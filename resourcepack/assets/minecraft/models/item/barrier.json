@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated", 
 	"textures": {
-		"layer0": "item/clock_00"
+		"layer0": "item/barrier"
 	},
 	"overrides": [
 		{
