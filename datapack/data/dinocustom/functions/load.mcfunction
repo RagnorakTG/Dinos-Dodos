@@ -23,6 +23,10 @@ scoreboard players set eat dnd.config 1
 scoreboard players set disease dnd.config 1
 # Tranquillizers Effect All Mobs - Default 1 - Do you want tranquillizers to affect all mobs, or just DnD mobs.
 scoreboard players set tranq dnd.config 1
+# Mob disrupt - Default 1 - Do you want DnD added mobs to grow upset in bad conditions.
+scoreboard players set anger dnd.config 1
+# Mob hunting - Default 1 - Do you want DnD added mobs to fight and hunt each other.
+scoreboard players set hunt dnd.config 1
 
 # Version
 scoreboard players set a.version dnd.config 200
