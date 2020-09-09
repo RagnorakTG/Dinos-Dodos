@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:400001}"
+      "nbt": "{CustomModelData:400002}"
     },
     "title": {
       "translate": "advancements.dnd.revival.paleontologist.title"

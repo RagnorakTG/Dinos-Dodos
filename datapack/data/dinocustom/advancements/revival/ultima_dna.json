@@ -11,7 +11,7 @@
     "description": {
       "translate": "advancements.dnd.revival.ultima_dna.description"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
