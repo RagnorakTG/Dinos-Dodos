@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "dinocustom:placing/crafting_stations/sifter"
+        "function": "dinocustom:block/placing/sifter"
     }
 }

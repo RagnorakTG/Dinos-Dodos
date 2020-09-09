@@ -6,12 +6,12 @@
                 "block": "minecraft:dispenser",
                 "item": {
                     "item": "minecraft:dispenser",
-                    "nbt": "{culture_vat:1}"
+                    "nbt": "{genome_modifier:1}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "dinocustom:block/placing/culture_vat"
+        "function": "dinocustom:block/placing/genome_modifier"
     }
 }

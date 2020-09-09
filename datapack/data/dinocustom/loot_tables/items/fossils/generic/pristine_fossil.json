@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"fossil\",\"pristine\"]},display:{Name:'{\"translate\":\"item.dnd.cork\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"aqua\",\"italic\":false}']},CustomModelData:400019}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "dinocustom:placing/crafting_stations/dna_extractor"
+        "function": "dinocustom:block/placing/dna_extractor"
     }
 }

@@ -176,6 +176,12 @@
 				"custom_model_data": 400018
 			},
 			"model": "dnd:item/amber_gemstone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400019
+			},
+			"model": "dnd:item/cork"
 		}
 	]
 }
