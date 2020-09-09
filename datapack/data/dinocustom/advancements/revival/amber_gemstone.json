@@ -1,0 +1,24 @@
+{
+  "parent": "dinocustom:revival/amber",
+  "display": {
+    "icon": {
+      "item": "minecraft:clock",
+      "nbt": "{CustomModelData:400018}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.amber_gemstone.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.amber_gemstone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

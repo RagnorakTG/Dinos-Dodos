@@ -1,0 +1,23 @@
+{
+  "parent": "dinocustom:revival/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.illager_structure.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.illager_structure.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

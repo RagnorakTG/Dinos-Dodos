@@ -53,19 +53,37 @@
     },
 	{
       "predicate": {
-        "custom_model_data": 405001
+        "custom_model_data": 400009
+      },
+      "model": "dnd:item/diamond_head_chisel"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400010
+      },
+      "model": "dnd:item/diamond_head_rock_pick"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400011
+      },
+      "model": "dnd:item/amber_staff"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 401001
       },
       "model": "dnd:item/dillhoffia_flower"
     },
 	{
       "predicate": {
-        "custom_model_data": 405002
+        "custom_model_data": 401002
       },
       "model": "dnd:item/trochodendon_flower"
     },
 	{
       "predicate": {
-        "custom_model_data": 405003
+        "custom_model_data": 401003
       },
       "model": "dnd:item/valerianella_flower"
     }

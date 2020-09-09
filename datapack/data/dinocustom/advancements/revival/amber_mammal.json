@@ -1,0 +1,24 @@
+{
+  "parent": "dinocustom:revival/amber_insect",
+  "display": {
+    "icon": {
+      "item": "minecraft:clock",
+      "nbt": "{CustomModelData:400016}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.amber_mammal.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.amber_mammal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

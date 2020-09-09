@@ -1,9 +1,9 @@
 {
-	"parent": "item/generated", 
+	"parent": "item/generated",
 	"textures": {
 		"layer0": "item/clock_00"
 	},
-	"overrides": [        
+	"overrides": [
 	    { "predicate": { "time": 0.0000000 }, "model": "item/clock" },
         { "predicate": { "time": 0.0078125 }, "model": "item/clock_01" },
         { "predicate": { "time": 0.0234375 }, "model": "item/clock_02" },
@@ -146,6 +146,36 @@
 				"custom_model_data": 400013
 			},
 			"model": "dnd:item/pill_capsule"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400014
+			},
+			"model": "dnd:item/mosquito_proboscis"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400015
+			},
+			"model": "dnd:item/compound_eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400016
+			},
+			"model": "dnd:item/mammal_tuft"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400017
+			},
+			"model": "dnd:item/amber"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400018
+			},
+			"model": "dnd:item/amber_gemstone"
 		}
 	]
 }

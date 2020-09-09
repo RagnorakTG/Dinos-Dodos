@@ -1,0 +1,30 @@
+{
+  "parent": "dinocustom:revival/toy_crafter",
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.blue_balls.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.blue_balls.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+          "block": "minecraft:dispenser",
+          "item": {
+              "item": "minecraft:dispenser",
+              "nbt": "{toy_ball:1,color:13,size:1}"
+        }
+      }
+    }
+  }
+}

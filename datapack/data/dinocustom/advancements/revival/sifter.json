@@ -1,0 +1,31 @@
+{
+  "parent": "dinocustom:revival/paleontology_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:dispenser",
+      "nbt": "{CustomModelData:400002}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.sifter.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.sifter.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+          "block": "minecraft:dispenser",
+          "item": {
+              "item": "minecraft:dispenser",
+              "nbt": "{sifter:1}"
+        }
+      }
+    }
+  }
+}

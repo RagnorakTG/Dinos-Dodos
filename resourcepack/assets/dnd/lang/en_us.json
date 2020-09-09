@@ -6,6 +6,7 @@
   "item.dnd.fossil.dinosaur.alanqa": "Alanqa Fossil",
   "item.dnd.fossil.dinosaur.ankylosaurus": "Ankylosaurus Fossil",
   "item.dnd.fossil.dinosaur.apertotemporalis": "Apertotemporalis Fossil",
+  "item.dnd.fossil.dinosaur.charcharodontosaurus": "Carcharodontosaurus Fossil",
   "item.dnd.fossil.dinosaur.deltadromeus": "Deltadromeus Fossil",
   "item.dnd.fossil.dinosaur.dinheirosaurus": "Dinheirosaurus Fossil",
   "item.dnd.fossil.dinosaur.kaprosuchus": "Kaprosuchus Fossil",
@@ -29,10 +30,11 @@
   "item.dnd.fossil.plant.tempskya": "Tempskya Fossil",
   "item.dnd.fossil.plant.trochodendon": "Trochodendon Fossil",
   "item.dnd.fossil.plant.valerianella": "Valerianella Fossil",
-  
+
   "item.dnd.meat.dinosaur.alanqa": "Alanqa Meat",
   "item.dnd.meat.dinosaur.ankylosaurus": "Ankylosaurus Meat",
   "item.dnd.meat.dinosaur.apertotemporalis": "Apertotemporalis Meat",
+  "item.dnd.meat.dinosaur.charcharodontosaurus": "Carcharodontosaurus Meat",
   "item.dnd.meat.dinosaur.deltadromeus": "Deltadromeus Meat",
   "item.dnd.meat.dinosaur.dinheirosaurus": "Dinheirosaurus Meat",
   "item.dnd.meat.dinosaur.kaprosuchus": "Kaprosuchus Meat",
@@ -48,7 +50,7 @@
   "item.dnd.meat.dinosaur.tyrannosaurs": "Tyrannosaurus Meat",
   "item.dnd.meat.dinosaur.utahraptor": "Utahraptor Meat",
   "item.dnd.meat.dinosaur.velociraptor": "Velociraptor Meat",
-  
+
   "item.dnd.aluminum_ingot": "Aluminum Ingot",
   "item.dnd.aluminum_plate": "Aluminum Plate",
   "item.dnd.amber": "Amber",
@@ -80,12 +82,12 @@
   "item.dnd.trochodendon_flower": "Trochodendon Flower",
   "item.dnd.valerianella_flower": "Valerianella Flower",
   "item.dnd.vehicle_battery": "Battery",
-  
+
   "item.dnd.paleontologist_boots": "Paleontologist Boots",
   "item.dnd.paleontologist_leggings": "Paleontologist Pants",
   "item.dnd.paleontologist_chestplate": "Paleontologist Shirt",
   "item.dnd.paleontologist_helmet": "Pith Hat",
-  
+
   "item.dnd.amber_gemstone": "Amber Gemstone",
   "item.dnd.amber_gemstone.pristine": "Pristine Amber Gemstone",
   "item.dnd.amber_ring": "Amber Ring",
@@ -94,19 +96,19 @@
   "item.dnd.gypsum_gemstone.pristine": "Pristine Gypsum Gemstone",
   "item.dnd.gypsum_ring": "Gypsum Ring",
   "item.dnd.gypsum_ring.pristine": "Gypsum Amber Ring",
-  
+
   "item.dnd.cotton_swab.generic": "Cotton Swab",
   "item.dnd.cotton_swab.booger": "Swabbed Snot",
   "item.dnd.cotton_swab.saliva": "Swabbed Saliva",
-  
+
   "item.dnd.disc.blank": "Disc",
   "item.dnd.disc.structure": "Structural Disc",
   "item.dnd.disc.dna": "DNA Disc",
-  
+
   "item.dnd.needle": "Needle",
   "item.dnd.needle_barrel": "Needle Barrel",
   "item.dnd.needle_plunger": "Needle Plunger",
-  
+
   "item.dnd.dart_gun": "Dart Gun",
   "item.dnd.dart.generic": "Dart",
   "item.dnd.dart.tranquilizer": "Tranquilizing Dart",
@@ -114,15 +116,24 @@
   "item.dnd.dart.disease": "Infected Dart",
   "item.dnd.dart.death": "Euthanization Dart",
   "item.dnd.dart.potion": "Potion Dart",
-  
-  
+
+
+  "lore.dnd.cotton_swab.disease.rabies": "Rabies Sample",
+  "lore.dnd.cotton_swab.disease.influenza": "Influenza Sample",
+  "lore.dnd.cotton_swab.disease.bracken_posioning": "Bracken Poisoning Sample",
+  "lore.dnd.cotton_swab.disease.pneumonia": "Pneumonia Sample",
+  "lore.dnd.cotton_swab.disease.mite": "Mite Sample",
+  "lore.dnd.cotton_swab.disease.e_coli": "E. Coli Sample",
+  "lore.dnd.cotton_swab.disease.salmonella": "Salmonella Sample",
+  "lore.dnd.cotton_swab.disease.tuberculosis": "Tuberculosis Sample",
+  "lore.dnd.cotton_swab.disease.creeperitis": "Creeperitis Sample",
+
   "lore.dnd.fossil.pristine": "Pristine Quality",
   "lore.dnd.fossil.scratched": "Scratched Quality",
   "lore.dnd.fossil.cracked": "Cracked Quality",
   "lore.dnd.fossil.fractured": "Fractured Quality",
   "lore.dnd.fossil.accuracy": "┗━Fossil Accuracy: %s%",
-  
-  
+
   "lore.dnd.dart.quality": "┗━Quality: %s",
   "lore.dnd.dart.strength": "┗━Strength: %s",
   "lore.dnd.dart.potion_time": "┗━Potion Time: %s:%s",
@@ -169,8 +180,8 @@
   "lore.dnd.dart.potion.bad_omen": "Bad Omen",
   "lore.dnd.dart.potion.hero_of_the_village": "Village Hero",
   "lore.dnd.dart.potion.turtle_master": "Turtle Master",
-  
-  
+
+
   "block.dnd.analyzer": "Analyzer",
   "block.dnd.aluminium_ore": "Aluminum Ore",
   "block.dnd.amber_block": "Amber Block",
@@ -189,10 +200,11 @@
   "block.dnd.petrified_logs": "Petrified Log",
   "block.dnd.sifter": "Sifter",
   "block.dnd.toy_crafter": "Toy Crafter",
-  
+
   "block.dnd.egg.hard_shell.alanqa": "Alanqa Egg",
   "block.dnd.egg.hard_shell.ankylosaurus": "Ankylosaurus Egg",
   "block.dnd.egg.hard_shell.apertotemporalis": "Apertotemporalis Egg",
+  "block.dnd.egg.hard_shell.charcharodontosaurus": "Charcharodontosaurus Egg",
   "block.dnd.egg.hard_shell.deltadromeus": "Deltadromeus Egg",
   "block.dnd.egg.hard_shell.dinheirosaurus": "Dinheirosaurus Egg",
   "block.dnd.egg.hard_shell.kaprosuchus": "Kaprosuchus Egg",
@@ -208,8 +220,110 @@
   "block.dnd.egg.hard_shell.tyrannosaurs": "Tyrannosaurus Egg",
   "block.dnd.egg.hard_shell.utahraptor": "Utahraptor Egg",
   "block.dnd.egg.hard_shell.velociraptor": "Velociraptor Egg",
-  
+
+
   "subtitles.dnd.block.blank": "blank",
   "subtitles.dnd.item.blank": "blank",
-  "subtitles.dnd.entity.blank": "blank"
+  "subtitles.dnd.entity.blank": "blank",
+
+
+  "advancements.dnd.revival.blank.title": "Blank",
+  "advancements.dnd.revival.blank.description": "Blank",
+
+  "advancements.dnd.revival.root.title": "Revival",
+  "advancements.dnd.revival.root.description": "They didn't ask to be brought back.",
+  "advancements.dnd.revival.paleontology_table.title": "Paleontological Research",
+  "advancements.dnd.revival.paleontology_table.description": "Craft and place a Paleontology Table.",
+  "advancements.dnd.revival.toy_crafter.title": "Toy Crafting",
+  "advancements.dnd.revival.toy_crafter.description": "Craft and place a Toy Crafter.",
+  "advancements.dnd.revival.analyzer.title": "Analyzing Data",
+  "advancements.dnd.revival.analyzer.description": "Craft and place a Analyzer.",
+  "advancements.dnd.revival.sifter.title": "Sifting",
+  "advancements.dnd.revival.sifter.description": "Craft and place a Sifter.",
+  "advancements.dnd.revival.dna_extractor.title": "DNA Extraction",
+  "advancements.dnd.revival.dna_extractor.description": "Craft and place a DNA Extractor.",
+  "advancements.dnd.revival.genome_modifier.title": "Genome Modification",
+  "advancements.dnd.revival.genome_modifier.description": "Craft and place a Genome Modifier.",
+  "advancements.dnd.revival.dna_combinator.title": "DNA Combination",
+  "advancements.dnd.revival.dna_combinator.description": "Craft and place a DNA Combinator.",
+  "advancements.dnd.revival.culture_vat.title": "Cultivation",
+  "advancements.dnd.revival.culture_vat.description": "Craft and place a Culture Vat.",
+  "advancements.dnd.revival.paleontologist.title": "Professor of the Arts",
+  "advancements.dnd.revival.paleontologist.description": "Greet a Paleontologist.",
+  "advancements.dnd.revival.paleontology_attire.title": "Paleontological Attire",
+  "advancements.dnd.revival.paleontology_attire.description": "Buy and wear a full set of Paleontological armor from a Paleontologist.",
+  "advancements.dnd.revival.blue_balls.title": "Blue Balls",
+  "advancements.dnd.revival.blue_balls.description": "Maybe this isnt the most appropriate thing...",
+  "advancements.dnd.revival.big_balls.title": "You've Got Big Balls",
+  "advancements.dnd.revival.big_balls.description": "Quite the big pair you have there...",
+  "advancements.dnd.revival.revival_again.title": "Revival... Again?",
+  "advancements.dnd.revival.revival_again.description": "Bring back your first prehistoric animal.",
+  "advancements.dnd.revival.dna_5.title": "DNA Collector",
+  "advancements.dnd.revival.dna_5.description": "Have 5 unique DNA Samples in your inventory at once.",
+  "advancements.dnd.revival.dna_15.title": "DNA Connoisseur",
+  "advancements.dnd.revival.dna_15.description": "Have 15 unique DNA Samples in your inventory at once.",
+  "advancements.dnd.revival.dna_37.title": "DNA Extraordinaire",
+  "advancements.dnd.revival.dna_37.description": "Fill every slot in your inventory with a unique DNA Sample.",
+  "advancements.dnd.revival.paleontology_tools.title": "Just like the real one!",
+  "advancements.dnd.revival.paleontology_tools.description": "Craft yourself a set of paleontological tools.",
+  "advancements.dnd.revival.diamond_head_tools.title": "Authentic Craft",
+  "advancements.dnd.revival.diamond_head_tools.description": "Buy a set of diamond headed paleontological tools.",
+  "advancements.dnd.revival.paleontology.title": "Ye' r' a Paleontologist!",
+  "advancements.dnd.revival.paleontology.description": "Dig up your first fossil.",
+  "advancements.dnd.revival.paleontology_100.title": "Paleontology Aficionado",
+  "advancements.dnd.revival.paleontology_100.description": "Claim a fossil of 100% accuracy.",
+  "advancements.dnd.revival.paleontology_0.title": "Painleontology",
+  "advancements.dnd.revival.paleontology_0.description": "Break a fossil.",
+  "advancements.dnd.revival.disc.title": "Information Age",
+  "advancements.dnd.revival.disc.description": "Craft a Disc, needed to store information.",
+  "advancements.dnd.revival.sift_fossil.title": "No Tools Required",
+  "advancements.dnd.revival.sift_fossil.description": "With the help of a sifter, sift up a fossil.",
+  "advancements.dnd.revival.illager_structure.title": "Mission: Very Possible!",
+  "advancements.dnd.revival.illager_structure.description": "Discover the illagers scheme to bring back dinosaurs.",
+  "advancements.dnd.revival.ambermancer.title": "Death by Live Mummification",
+  "advancements.dnd.revival.ambermancer.description": "Kill an Ambermancer, a manipulator of powerful amber crystals!",
+  "advancements.dnd.revival.amber_insect.title": "Ancient Prisoner",
+  "advancements.dnd.revival.amber_insect.description": "Free and kill an insect that was trapped in amber.",
+  "advancements.dnd.revival.amber_mammal.title": "Unlikely Encounter",
+  "advancements.dnd.revival.amber_mammal.description": "Free and kill an ancient mammal that managed to trap itself in amber.",
+  "advancements.dnd.revival.amber_structure.title": "Sappy Situation",
+  "advancements.dnd.revival.amber_structure.description": "Use amber to extract the structure of a prehistoric animal.",
+  "advancements.dnd.revival.chronomancer.title": "Death by Time Fluctuation",
+  "advancements.dnd.revival.chronomancer.description": "Kill a Chronomancer, a manipulator of the fabric of space time!",
+  "advancements.dnd.revival.amber_staff.title": "John, is it you?",
+  "advancements.dnd.revival.amber_staff.description": "Wield and use an Amber Staff.",
+  "advancements.dnd.revival.amber_gemstone.title": "Engagment Ring",
+  "advancements.dnd.revival.amber_gemstone.description": "It only works for Paleontologists, sorry.",
+  "advancements.dnd.revival.amber.title": "Brittle Body",
+  "advancements.dnd.revival.amber.description": "Carefully mine up a piece of Amber.",
+  "advancements.dnd.revival.hybrid_dna.title": "Hybridization",
+  "advancements.dnd.revival.hybrid_dna.description": "Hybridize two different animal DNA into a DNA Combinator.",
+  "advancements.dnd.revival.chicken_dna.title": "First Steps",
+  "advancements.dnd.revival.chicken_dna.description": "Extract the DNA from a chicken.",
+  "advancements.dnd.revival.indo_rex_dna.title": "A Hasty Briefing",
+  "advancements.dnd.revival.indo_rex_dna.description": "Create a sample of Indominus Rex DNA.",
+  "advancements.dnd.revival.indo_raptor_dna.title": "An Even Hastier Death",
+  "advancements.dnd.revival.indo_raptor_dna.description": "Create a sample of Indo-Raptor DNA.",
+  "advancements.dnd.revival.ultima_dna.title": "An Even Faster Destruction",
+  "advancements.dnd.revival.ultima_dna.description": "Create a sample of Ultimasaurus DNA.",
+  "advancements.dnd.revival.ultima_egg.title": "The Apex Predator",
+  "advancements.dnd.revival.ultima_egg.description": "Hatch your own demise.",
+  "advancements.dnd.revival.tyranno_egg.title": "Dinosaur King",
+  "advancements.dnd.revival.tyranno_egg.description": "Hatch a Tyrannosaurus Rex.",
+  "advancements.dnd.revival.cultivate_farm.title": "Cultivating Culinary",
+  "advancements.dnd.revival.cultivate_farm.description": "Cultivate the embryo of any farm animal.",
+  "advancements.dnd.revival.cultivate_egg.title": "The Final Step",
+  "advancements.dnd.revival.cultivate_egg.description": "Cultivate and hatch the egg of a dinosaur.",
+  "advancements.dnd.revival.hybrid_egg.title": "An Extra Step",
+  "advancements.dnd.revival.hybrid_egg.description": "Cultivate and hatch a hybridized egg.",
+
+  "advancements.dnd.easter_eggs.main.title": "Easter Eggs",
+  "advancements.dnd.easter_eggs.main.description": "Find a Easter Egg in the pack.",
+  "advancements.dnd.easter_eggs.shia_labeouf.title": "Running for your Life,",
+  "advancements.dnd.easter_eggs.shia_labeouf.description": "from Shia LaBeouf!!!",
+  "advancements.dnd.easter_eggs.bare_necessities.title": "Look for the Bare Necessities!",
+  "advancements.dnd.easter_eggs.bare_necessities.description": "The simple bare necessities!",
+
+  "advancements.dnd.the_past.root.title": "The Past",
+  "advancements.dnd.the_past.root.description": "When life gives you a time machine, you make time-nade."
 }

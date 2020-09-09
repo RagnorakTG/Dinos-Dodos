@@ -1,0 +1,24 @@
+{
+  "parent": "dinocustom:revival/paleontology",
+  "display": {
+    "icon": {
+      "item": "minecraft:bone",
+      "nbt": "{CustomModelData:400004}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.paleontology_100.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.paleontology_100.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "dinocustom:revival/paleontologist",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:400002}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.paleontology_attire.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.paleontology_attire.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

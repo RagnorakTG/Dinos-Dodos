@@ -1,5 +1,5 @@
 {
-	"parent": "block/dispenser", 
+	"parent": "block/dispenser",
 	"textures": {
 		"layer0": "block/dispenser"
 	},
@@ -59,6 +59,24 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:block/amber_block"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400011
+			},
+			"model": "dnd:block/gypsum_ore"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400012
+			},
+			"model": "dnd:block/aluminum_ore"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 401001
 			},
 			"model": "dnd:item/petri_dish"
@@ -80,6 +98,18 @@
 				"custom_model_data": 401004
 			},
 			"model": "dnd:block/dinosaur_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401005
+			},
+			"model": "dnd:item/hybrid_dinosaur_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401006
+			},
+			"model": "dnd:block/hybrid_dinosaur_egg"
 		}
 	]
 }

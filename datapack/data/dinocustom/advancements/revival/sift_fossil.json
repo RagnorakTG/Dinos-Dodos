@@ -1,0 +1,23 @@
+{
+  "parent": "dinocustom:revival/sifter",
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.sift_fossil.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.sift_fossil.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

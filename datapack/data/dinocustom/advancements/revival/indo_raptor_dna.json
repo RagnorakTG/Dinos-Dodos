@@ -1,0 +1,24 @@
+{
+  "parent": "dinocustom:revival/indo_rex_dna",
+  "display": {
+    "icon": {
+      "item": "minecraft:clock",
+      "nbt": "{CustomModelData:400006}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.indo_raptor_dna.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.indo_raptor_dna.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
