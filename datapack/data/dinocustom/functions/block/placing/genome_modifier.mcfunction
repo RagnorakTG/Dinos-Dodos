@@ -3,10 +3,14 @@
 execute store result score @s dnd.facing.ext run data get entity @s Rotation[0]
 # Direction (1 = North, 2 = East, 3 = South, 4 = West)
 execute as @s if score @s dnd.facing.ext matches -225..-136 run scoreboard players set @s dnd.facing.dir 1
+execute as @s if score @s dnd.facing.ext matches 135..224 run scoreboard players set @s dnd.facing.dir 1
 execute as @s if score @s dnd.facing.ext matches -135..-46 run scoreboard players set @s dnd.facing.dir 2
-execute as @s if score @s dnd.facing.ext matches -45..0 run scoreboard players set @s dnd.facing.dir 3
+execute as @s if score @s dnd.facing.ext matches 225..314 run scoreboard players set @s dnd.facing.dir 2
+execute as @s if score @s dnd.facing.ext matches -45..44 run scoreboard players set @s dnd.facing.dir 3
 execute as @s if score @s dnd.facing.ext matches -360..-316 run scoreboard players set @s dnd.facing.dir 3
+execute as @s if score @s dnd.facing.ext matches 315..360 run scoreboard players set @s dnd.facing.dir 3
 execute as @s if score @s dnd.facing.ext matches -315..-226 run scoreboard players set @s dnd.facing.dir 4
+execute as @s if score @s dnd.facing.ext matches 45..134 run scoreboard players set @s dnd.facing.dir 4
 # Revoke Advancement
 advancement revoke @s only dinocustom:utility/placing/genome_modifier
 # Fill Table

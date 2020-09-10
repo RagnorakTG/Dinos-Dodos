@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_pickaxe"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dinocustom:block/breaking/main"
+    }
+}
