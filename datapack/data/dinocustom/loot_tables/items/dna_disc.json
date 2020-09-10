@@ -17,7 +17,7 @@
           "lore": [{
               "translate": "lore.dnd.disc.accuracy",
               "with": [50],
-              "color": "white",
+              "color": "gray",
               "italic": false
             },
             {
