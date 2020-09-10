@@ -10,6 +10,8 @@ scoreboard objectives add dnd.config dummy
 # Player
 scoreboard objectives add dnd.facing.ext dummy
 scoreboard objectives add dnd.facing.dir dummy
+# Information
+scoreboard objectives add dnd.disk.item dummy
 
 ### Config - Mainly for servers, feel free to change stuff off and on. Everything must be a value of 1 or 0.
 ## 1 = true

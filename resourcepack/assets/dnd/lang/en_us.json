@@ -107,9 +107,9 @@
   "item.dnd.cotton_swab.booger": "Swabbed Snot",
   "item.dnd.cotton_swab.saliva": "Swabbed Saliva",
 
-  "item.dnd.disc.blank": "Disc",
-  "item.dnd.disc.structure": "Structural Disc",
-  "item.dnd.disc.dna": "DNA Disc",
+  "item.dnd.disc.blank": "Disk",
+  "item.dnd.disc.structure": "Structural Disk",
+  "item.dnd.disc.dna": "DNA Disk",
 
   "item.dnd.needle": "Needle",
   "item.dnd.needle_barrel": "Needle Barrel",
@@ -402,7 +402,7 @@
   "advancements.dnd.revival.paleontology_0.title": "Painleontology",
   "advancements.dnd.revival.paleontology_0.description": "Break a fossil.",
   "advancements.dnd.revival.disc.title": "Information Age",
-  "advancements.dnd.revival.disc.description": "Craft a Disc, needed to store information.",
+  "advancements.dnd.revival.disc.description": "Craft a Disk, needed to store information.",
   "advancements.dnd.revival.sift_fossil.title": "No Tools Required",
   "advancements.dnd.revival.sift_fossil.description": "With the help of a sifter, sift up a fossil.",
   "advancements.dnd.revival.illager_structure.title": "Mission: Very Possible!",
