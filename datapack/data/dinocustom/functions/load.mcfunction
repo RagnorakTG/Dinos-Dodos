@@ -7,6 +7,9 @@ scoreboard objectives add dnd.timer1 dummy
 scoreboard objectives add dnd.timer2 dummy
 # Config
 scoreboard objectives add dnd.config dummy
+# Player
+scoreboard objectives add dnd.facing.ext dummy
+scoreboard objectives add dnd.facing.dir dummy
 
 ### Config - Mainly for servers, feel free to change stuff off and on. Everything must be a value of 1 or 0.
 ## 1 = true

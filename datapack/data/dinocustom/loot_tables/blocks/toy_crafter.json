@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{toy_crafter:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"toy_crafter\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.toy_crafter\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"aqua\",\"italic\":false}']},CustomModelData:400009}"
+              "tag": "{toy_crafter:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"toy_crafter\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.toy_crafter\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:400009}"
             }
           ]
         }

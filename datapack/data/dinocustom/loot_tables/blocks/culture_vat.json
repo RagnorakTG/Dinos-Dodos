@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{culture_vat:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"culture_vat\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.culture_vat\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"aqua\",\"italic\":false}']},CustomModelData:400005}"
+              "tag": "{culture_vat:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"culture_vat\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.culture_vat\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:400005}"
             }
           ]
         }
