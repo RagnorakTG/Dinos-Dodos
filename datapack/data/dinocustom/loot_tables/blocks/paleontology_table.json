@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{paleontology_table:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"paleontology_table\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.paleontology_table\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:400001}"
+              "tag": "{paleontology_table:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"paleontology_table\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.paleontology_table\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400001}"
             }
           ]
         }
