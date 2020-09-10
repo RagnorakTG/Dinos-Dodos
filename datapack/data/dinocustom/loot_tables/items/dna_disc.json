@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnd:{Tags:[\"disc\",\"empty\"]},display:{Name:'{\"translate\":\"item.dnd.disc.dna\",\"italic\":false}',Lore:['{\"translate\":\"lore.dnd.disc.structure.dinosaur.spinosaurus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:400006}"
+              "tag": "{dnd:{Tags:[\"disc\",\"empty\"]},display:{Name:'{\"translate\":\"item.dnd.disc.dna\",\"italic\":false}',Lore:['{\"translate\":\"lore.dnd.disc.dna.dinosaur.spinosaurus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:400006}"
             },
             {
           "function": "set_lore",
