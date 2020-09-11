@@ -71,6 +71,18 @@
     },
 	{
       "predicate": {
+        "custom_model_data": 400012
+      },
+      "model": "dnd:item/dart_gun"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 400012
+      },
+      "model": "dnd:item/jar"
+    },
+	{
+      "predicate": {
         "custom_model_data": 401001
       },
       "model": "dnd:item/dillhoffia_flower"
