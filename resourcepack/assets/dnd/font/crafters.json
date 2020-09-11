@@ -10,6 +10,15 @@
     },
     {
       "type": "bitmap",
+      "file": "dnd:gui/toy_crafter.png",
+      "ascent": 14,
+      "height": 176.0,
+      "chars": [
+        "t"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "dnd:gui/negative_space.png",
       "ascent": -32768,
       "height": -3,

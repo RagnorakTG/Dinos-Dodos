@@ -129,6 +129,10 @@
   "item.dnd.dart.potion": "Potion Dart",
 
 
+  "gui.dnd.block.paleontology_table": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000p",
+  "gui.dnd.block.toy_crafter": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000t",
+
+
   "block.dnd.analyzer": "Analyzer",
   "block.dnd.aluminium_ore": "Aluminum Ore",
   "block.dnd.amber_block": "Amber Block",
@@ -144,7 +148,6 @@
   "block.dnd.genome_modifier": "Genome Modifier",
   "block.dnd.gypsum_block": "Gypsum Block",
   "block.dnd.paleontology_table": "Paleontology Table",
-  "block.dnd.paleontology_table.gui": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000p",
 
   "block.dnd.petrified_logs": "Petrified Log",
   "block.dnd.sifter": "Sifter",
