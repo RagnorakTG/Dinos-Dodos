@@ -1,9 +1,9 @@
 {
-	"parent": "block/spawner", 
+	"parent": "block/spawner",
 	"textures": {
 		"layer0": "block/spawner"
 	},
-	"overrides": [		
+	"overrides": [
 		{
 			"predicate": {
 				"custom_model_data": 400001

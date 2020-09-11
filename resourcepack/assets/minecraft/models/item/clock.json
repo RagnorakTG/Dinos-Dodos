@@ -182,6 +182,18 @@
 				"custom_model_data": 400019
 			},
 			"model": "dnd:item/cork"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400020
+			},
+			"model": "dnd:item/upgrade_cartridge"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400021
+			},
+			"model": "dnd:item/dart"
 		}
 	]
 }
