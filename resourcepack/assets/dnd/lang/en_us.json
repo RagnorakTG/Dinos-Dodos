@@ -207,7 +207,7 @@
   "lore.dnd.fossil.scratched": "Scratched Quality",
   "lore.dnd.fossil.cracked": "Cracked Quality",
   "lore.dnd.fossil.fractured": "Fractured Quality",
-  "lore.dnd.fossil.accuracy": "┗━ Fossil Accuracy: %s%",
+  "lore.dnd.fossil.accuracy": "┗━ Accuracy: %s%",
 
   "lore.dnd.disc.scratched": "Scratched",
   "lore.dnd.disc.empty": "Blank",
