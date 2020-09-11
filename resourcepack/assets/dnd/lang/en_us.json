@@ -144,6 +144,8 @@
   "block.dnd.genome_modifier": "Genome Modifier",
   "block.dnd.gypsum_block": "Gypsum Block",
   "block.dnd.paleontology_table": "Paleontology Table",
+  "block.dnd.paleontology_table.gui": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000p",
+
   "block.dnd.petrified_logs": "Petrified Log",
   "block.dnd.sifter": "Sifter",
   "block.dnd.toy_crafter": "Toy Crafter",
