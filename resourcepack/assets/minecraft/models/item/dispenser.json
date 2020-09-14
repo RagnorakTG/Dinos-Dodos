@@ -77,6 +77,30 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 400013
+			},
+			"model": "dnd:block/server_block"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400014
+			},
+			"model": "dnd:item/crate"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400015
+			},
+			"model": "dnd:block/crate"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400016
+			},
+			"model": "dnd:block/vaccinator"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 401001
 			},
 			"model": "dnd:item/petri_dish"

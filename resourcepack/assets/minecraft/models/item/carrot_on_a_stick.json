@@ -98,6 +98,12 @@
         "custom_model_data": 401003
       },
       "model": "dnd:item/valerianella_flower"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 401003
+      },
+      "model": "dnd:item/tanacetum_flower"
     }
   ]
 }

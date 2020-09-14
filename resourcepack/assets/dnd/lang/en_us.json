@@ -129,8 +129,16 @@
   "item.dnd.dart.potion": "Potion Dart",
 
 
-  "gui.dnd.block.paleontology_table": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000p",
-  "gui.dnd.block.toy_crafter": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000t",
+  "gui.dnd.block.analyzer": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000a",
+  "gui.dnd.block.culture_vat": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000b",
+  "gui.dnd.block.dna_combinator": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000c",
+  "gui.dnd.block.dna_extractor": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000d",
+  "gui.dnd.block.genome_modifier": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000e",
+  "gui.dnd.block.paleontology_table": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000f",
+  "gui.dnd.block.server_block": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000g",
+  "gui.dnd.block.sifter": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000h",
+  "gui.dnd.block.toy_crafter": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000i",
+  "gui.dnd.block.vaccinator": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000j",
 
 
   "block.dnd.analyzer": "Analyzer",
@@ -148,12 +156,12 @@
   "block.dnd.genome_modifier": "Genome Modifier",
   "block.dnd.gypsum_block": "Gypsum Block",
   "block.dnd.paleontology_table": "Paleontology Table",
-
   "block.dnd.petrified_logs": "Petrified Log",
   "block.dnd.sifter": "Sifter",
   "block.dnd.toy_crafter": "Toy Crafter",
   "block.dnd.vaccinator": "Vaccinator",
-  "block.dnd.vaccinator": "Server Block",
+  "block.dnd.server_block": "Server Block",
+  "block.dnd.crate": "Crate",
 
   "block.dnd.egg.hard_shell.alanqa": "Alanqa Egg",
   "block.dnd.egg.hard_shell.ankylosaurus": "Ankylosaurus Egg",
@@ -178,6 +186,8 @@
 
   "lore.dnd.upgrade_cartridge.speed": "Speed Upgrade",
   "lore.dnd.upgrade_cartridge.efficiency": "Efficiency Upgrade",
+  "lore.dnd.upgrade_cartridge.genome_modifier": "Genome Modifier Upgrade",
+  "lore.dnd.upgrade_cartridge.dna_combinator": "DNA Combinator Upgrade",
 
   "lore.dnd.penicillin.quality.weak": "Weak Quality",
   "lore.dnd.penicillin.quality.moderate": "Moderate Quality",
