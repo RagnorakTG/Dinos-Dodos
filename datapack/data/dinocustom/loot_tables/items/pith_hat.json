@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"armor\",\"helmet\",\"pith_hat\"]},display:{Name:'{\"translate\":\"item.dnd.paleontologist_helmet\",\"italic\":false}',Lore:['{\"translate\":\"lore.dnd.armor.paleontology_armor\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"\",\"color\":\"blue\",\"italic\":true}','{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

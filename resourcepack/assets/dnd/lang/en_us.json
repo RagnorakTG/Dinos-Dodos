@@ -74,8 +74,10 @@
   "item.dnd.diamond_head_rock_pick": "Diamond Headed Rock Pick",
   "item.dnd.dillhoffia_flower": "Dillhoffia Flower",
   "item.dnd.gelatin": "Gelatin",
-  "item.dnd.gypsum_crystal": "Gypsum Crystal",
+  "item.dnd.gypsum": "Gypsum Crystal",
+  "item.dnd.gypsum_gemstone": "Gypsum Gemstone",
   "item.dnd.gypsum_powder": "Gypsum Powder",
+  "item.dnd.mammal_tuft": "Tuft",
   "item.dnd.mosquito_proboscis": "Proboscis",
   "item.dnd.nail": "Nail",
   "item.dnd.penicillin": "Penicillin",
@@ -94,7 +96,7 @@
   "item.dnd.paleontologist_boots": "Paleontologist Boots",
   "item.dnd.paleontologist_leggings": "Paleontologist Pants",
   "item.dnd.paleontologist_chestplate": "Paleontologist Shirt",
-  "item.dnd.paleontologist_helmet": "Pith Hat",
+  "item.dnd.paleontologist_helmet": "Paleontologist Headware",
 
   "item.dnd.amber_gemstone": "Amber Gemstone",
   "item.dnd.amber_gemstone.pristine": "Pristine Amber Gemstone",
@@ -183,6 +185,8 @@
   "block.dnd.egg.hard_shell.utahraptor": "Utahraptor Egg",
   "block.dnd.egg.hard_shell.velociraptor": "Velociraptor Egg",
 
+
+  "lore.dnd.armor.paleontology_armor": "Gives a minor bonus to your paleontology",
 
   "lore.dnd.upgrade_cartridge.speed": "Speed Upgrade",
   "lore.dnd.upgrade_cartridge.efficiency": "Efficiency Upgrade",

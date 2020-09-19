@@ -194,6 +194,24 @@
 				"custom_model_data": 400021
 			},
 			"model": "dnd:item/dart"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400022
+			},
+			"model": "dnd:item/gypsum"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400023
+			},
+			"model": "dnd:item/gypsum_gemstone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400024
+			},
+			"model": "dnd:item/gypsum_powder"
 		}
 	]
 }
