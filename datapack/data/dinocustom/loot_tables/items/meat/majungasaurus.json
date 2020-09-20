@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beef",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{Tags:[\"majungasaurus\",\"meat\"]},display:{Name:'{\"translate\":\"item.dnd.meat.dinosaur.majungasaurus\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
