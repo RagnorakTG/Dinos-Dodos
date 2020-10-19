@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 4,
-    "description": "Made by Ragnorak!"
+    "pack_format": 6,
+    "description": [{"text":"Dinos & Dodos","color":"dark_green"},{"text":"\n"},{"text":"FR 1.1.0","color":"#6eea6e"}]
   }
 }
