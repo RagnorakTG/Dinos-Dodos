@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+			"nbt": "{Damage:20}"
+        },
+        "title": "Archaeologist!",
+        "description": "Create a Archaeology Workbench"
+    },
+    "parent": "dinocustom:custom/archaeology/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible" 
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"Akhenaton's Fish\",Lore:[Held by the Great Pharaoh, Akhenaton!]},ench:[{id:34,lvl:5},{id:62,lvl:10},{id:70,lvl:5}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 2,
+                    "quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,display:{Name:\"Akhenaton's Fury\",Lore:[Held by the Great Pharaoh, Akhenaton! , . , Deads Dehemption I- , Undead mobs take much more damage]},ench:[{id:16,lvl:7},{id:17,lvl:10},{id:19,lvl:2},{id:21,lvl:2},{id:22,lvl:5}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 2,
+                    "quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"Akhenaton's Streath \",Lore:[Held by the Great Pharaoh, Akhenaton! , . , Blaze I- , Arrows Shot from this bow are flaming]},ench:[{id:34,lvl:5},{id:49,lvl:2},{id:50,lvl:1}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

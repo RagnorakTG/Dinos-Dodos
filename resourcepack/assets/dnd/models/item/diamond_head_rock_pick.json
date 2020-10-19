@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld_rod",
-    "textures": {
-        "layer0": "dnd:item/diamond_head_rock_pick"
-    }
-}

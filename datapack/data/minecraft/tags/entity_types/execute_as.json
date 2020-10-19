@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:drowned",
-    "minecraft:villager",
-    "minecraft:armor_stand",
-    "minecraft:player"
-  ]
-}

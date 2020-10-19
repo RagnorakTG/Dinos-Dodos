@@ -1,0 +1,823 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dragon Blood Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acacia Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oak Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Birch Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dark Oak Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Jungle Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Spruce Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Monkey Puzzle Pine Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Black Willow Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Wheat Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Melon Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pumpkin Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Beetroot Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acrocanthosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Allosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Amargosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Amurosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Ankylosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Apatosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Archaeopteryx DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Argentinosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Balaur DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Bambiraptor DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Baryonyx DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Brachiosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carnotaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carcharodontosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Ceratosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Compsognathus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Confuciusornis DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Concavenator DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Corythosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Deinontchus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Diceratops DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dilophosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Diplodocus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dimorphodon DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dracorex DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dryosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Elaphrosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gallimimus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gargoyleosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gastonia DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gigantosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Giraffatitan DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gorgosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gryposaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Hadrosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Herrerasaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Koolasuchus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Nigersaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oviraptor DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pachycephalosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pachyrhinosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Parasaurolophus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Procompsognathus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Protoceratops DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pteranodon DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Quetzalcoatlus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sarchosuchus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Segisaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sinraptor DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Spinosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Stegosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Stygimoloch DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Suchomimus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tapejara DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Therizinosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Titanopteryx DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Triceratops DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tsintaosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tyrannosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Utahraptor DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Velociraptor DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
