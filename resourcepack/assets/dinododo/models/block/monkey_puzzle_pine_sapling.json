@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "dinododo:block/monkey_puzzle_pine_sapling"
+    }
+}
