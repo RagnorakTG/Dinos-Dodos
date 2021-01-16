@@ -27,12 +27,6 @@ effect give @e[type=zombie,tag=acrocanthosaur] minecraft:invisibility 1000000 1 
 # - Carcharodontosaurus
 # - Ceratosaurus
 # - Compsognathus
-replaceitem entity @e[type=zombie_pigman,tag=compsognathus] armor.head diamond_hoe{Damage:16}
-execute as @e[type=zombie_pigman,tag=compsognathus] unless entity @s[type=zombie_pigman,tag=compsognathus,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombie_pigman,tag=compsognathus] armor.head diamond_hoe{Damage:17}
-effect give @e[type=zombie_pigman,tag=compsognathus] minecraft:invisibility 1000000 1 true
-replaceitem entity @e[type=zombie,tag=agro_compsognathus] armor.head diamond_hoe{Damage:16}
-execute as @e[type=zombie,tag=agro_compsognathus] unless entity @s[type=zombie,tag=agro_compsognathus,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombie,tag=agro_compsognathus] armor.head diamond_hoe{Damage:17}
-effect give @e[type=zombie,tag=agro_compsognathus] minecraft:invisibility 1000000 1 true
 # - Concavenator
 replaceitem entity @e[type=zombie,tag=concavenator] armor.head diamond_hoe{Damage:18}
 execute as @e[type=zombie,tag=concavenator] unless entity @s[type=zombie,tag=concavenator,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombie,tag=concavenator] armor.head diamond_hoe{Damage:19}
@@ -151,8 +145,8 @@ effect give @e[type=zombie,tag=tyrannosaurus] minecraft:invisibility 1000000 1 t
    # Hybrids #
    #         #
    ###########
-   
+
 # - Acroythosaurus
-replaceitem entity @e[type=zombie_pigman,tag=acroythosaurus] armor.head diamond_hoe{Damage:36}
-execute as @e[type=zombie_pigman,tag=acroythosaurus] unless entity @s[type=zombie_pigman,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombie_pigman,tag=acroythosaurus] armor.head diamond_hoe{Damage:37}
-effect give @e[type=zombie_pigman,tag=acroythosaurus] minecraft:invisibility 1000000 1 true
+replaceitem entity @e[type=zombified_piglin,tag=acroythosaurus] armor.head diamond_hoe{Damage:36}
+execute as @e[type=zombified_piglin,tag=acroythosaurus] unless entity @s[type=zombified_piglin,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombified_piglin,tag=acroythosaurus] armor.head diamond_hoe{Damage:37}
+effect give @e[type=zombified_piglin,tag=acroythosaurus] minecraft:invisibility 1000000 1 true

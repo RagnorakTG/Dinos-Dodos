@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/empty_egg"
+        "layer0": "dinododo:item/empty_egg"
     }
 }

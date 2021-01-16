@@ -18,10 +18,9 @@ execute at @e[type=armor_stand] if block ~ ~-1 ~ dispenser[facing=up]{Items: [{S
 execute at @e[type=armor_stand] if block ~ ~-1 ~ dispenser[facing=up]{Items: [{Slot: 4b, id: "minecraft:skeleton_spawn_egg", Count: 1b, tag: {display: {Name: "{\"translate\":\"Incubator\",\"italic\":false}"}, EntityTag: {NoGravity: 1b, CustomName: "{\"text\":\"spawn_incubator\"}", Size: 0, Silent: 1b, CanPickUpLoot: 0b, Invulnerable: 1b, DeathLootTable: "none", PersistenceRequired: 1b, NoAI: 1b, CustomNameVisible: 1b}}}], id: "minecraft:dispenser", Lock: ""} run advancement grant @a[distance=..5] only dinocustom:custom/revival/incubation
 # - Baby Steps
 execute at @e[tag=acrocanthosaur] run advancement grant @a[distance=..5] only dinocustom:custom/revival/baby_steps
-execute at @e[tag=compsognathus] run advancement grant @a[distance=..5] only dinocustom:custom/revival/baby_steps
 execute at @e[tag=corythosaurus] run advancement grant @a[distance=..5] only dinocustom:custom/revival/baby_steps
 # - The Tiny
-execute at @e[type=zombie_pigman,tag=compsognathus] run advancement grant @a[distance=..5] only dinocustom:custom/revival/the_tiny
+
 # - The Medium
 
 # - The Big

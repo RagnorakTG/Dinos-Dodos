@@ -1,6 +1,37 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/dinosaur_bone"
+  "parent": "block/structure_block",
+  "textures": {
+    "layer0": "block/structure_block"
+  },
+  "overrides": [{
+      "predicate": {
+          "custom_model_data": 400001
+      },
+      "model": "dinododo:item/amber"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400002
+        },
+      "model": "dinododo:item/battery"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400003
+        },
+      "model": "dinododo:item/plant_fossil"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400004
+        },
+      "model": "dinododo:item/empty_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400005
+        },
+      "model": "dinododo:item/dinosaur_bone"
     }
+  ]
 }

@@ -84,10 +84,10 @@ execute as @e[type=husk,name="spawn_acro_egg"] run kill @s
 
 
 # - Compsognathus
-execute at @e[type=pufferfish,name="spawn_compsognathus"] run summon zombie_pigman ~ ~ ~ {Silent:1b,DeathLootTable:"dinocustom:dinos/compsognathus",PersistenceRequired:1b,CanPickUpLoot:0b,Health:8f,IsBaby:1b,CanBreakDoors:0b,CareerLevel:1,Age:1000000,Tags:["compsognathus"],CustomName:"{\"text\":\"Compsognathus\"}",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:100000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:8},{Name:generic.movementSpeed,Base:0.2}]}
-execute as @e[type=pufferfish,name="spawn_compsognathus"] run kill @s
-execute at @e[type=pufferfish,name="spawn_compy_egg"] run summon zombie ~ ~ ~ {Silent:1b,CustomNameVisible:1b,DeathLootTable:"dinocustom:dinofail/compy_fail",PersistenceRequired:1b,NoAI:1b,Health:1f,IsBaby:0b,CanBreakDoors:0b,Tags:["failed_compy"],CustomName:"{\"text\":\"Failed Compsognathus Embryo\",\"color\":\"dark_red\",\"italic\":false}",ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1b,Damage:11}}],ArmorDropChances:[0.85F,0.85F,0.85F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
-execute as @e[type=pufferfish,name="spawn_compy_egg"] run kill @s
+
+
+
+
 # - Confuciusornis
 
 
@@ -444,11 +444,11 @@ execute as @e[type=donkey,name="spawn_tyrano_egg"] run kill @s
    # Hybrids #
    #         #
    ###########
-   
+
 # - Acroythosaurus
-execute at @e[type=parrot,name="spawn_acroythosaurus"] run summon zombie_pigman ~ ~ ~ {Silent:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Health:80f,IsBaby:0b,DeathLootTable:"dinocustom:dinos/acroythosaurus",Tags:["acroythosaurus"],CustomName:"{\"text\":\"Acroythosaurus\"}",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:80}]}
+execute at @e[type=parrot,name="spawn_acroythosaurus"] run summon zombified_piglin ~ ~ ~ {Silent:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Health:80f,IsBaby:0b,DeathLootTable:"dinocustom:dinos/acroythosaurus",Tags:["acroythosaurus"],CustomName:"{\"text\":\"Acroythosaurus\"}",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:80}]}
 execute as @e[type=parrot,name="spawn_acroythosaurus"] run kill @s
-execute at @e[type=parrot,name="spawn_acroy_egg"] run summon zombie_pigman ~ ~ ~ {Silent:1b,CustomNameVisible:1b,DeathLootTable:"dinocustom:dinofail/acroy_fail",PersistenceRequired:1b,NoAI:1b,Health:1f,IsBaby:0b,CanBreakDoors:0b,Tags:["failed_acroy"],CustomName:"{\"text\":\"Failed Acroythosaurus Embryo\",\"color\":\"dark_red\",\"italic\":false}",ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1b,Damage:11}}],ArmorDropChances:[0.85F,0.85F,0.85F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
+execute at @e[type=parrot,name="spawn_acroy_egg"] run summon zombified_piglin ~ ~ ~ {Silent:1b,CustomNameVisible:1b,DeathLootTable:"dinocustom:dinofail/acroy_fail",PersistenceRequired:1b,NoAI:1b,Health:1f,IsBaby:0b,CanBreakDoors:0b,Tags:["failed_acroy"],CustomName:"{\"text\":\"Failed Acroythosaurus Embryo\",\"color\":\"dark_red\",\"italic\":false}",ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1b,Damage:11}}],ArmorDropChances:[0.85F,0.85F,0.85F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
 execute as @e[type=parrot,name="spawn_acroy_egg"] run kill @s
 
    ##########
@@ -456,7 +456,7 @@ execute as @e[type=parrot,name="spawn_acroy_egg"] run kill @s
    # Plants #
    #        #
    ##########
-   
+
 # - Dragon Blood Tree
 execute at @e[type=item,nbt={Item:{id:"minecraft:golden_pickaxe",Count:1b,tag:{display:{Name:"{\"translate\":\"Dragon Blood Sapling\",\"color\":\"white\",\"italic\":false}"},HideFlags:4,Unbreakable:1b,Damage:3}}}] if block ~ ~-1 ~ grass_block run setblock ~-8 ~ ~-9 minecraft:structure_block[mode=load]{name:"minecraft:dragon_blood_tree",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace
 execute at @e[type=item,nbt={Item:{id:"minecraft:golden_pickaxe",Count:1b,tag:{display:{Name:"{\"translate\":\"Dragon Blood Sapling\",\"color\":\"white\",\"italic\":false}"},HideFlags:4,Unbreakable:1b,Damage:3}}}] if block ~ ~-1 ~ grass_block run function dinocustom:saplings/kill_blood_sapling

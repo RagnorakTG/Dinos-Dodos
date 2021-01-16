@@ -1,6 +1,127 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/battery"
+  "parent": "block/command_block",
+  "textures": {
+    "layer0": "block/command_block"
+  },
+  "overrides": [{
+      "predicate": {
+          "custom_model_data": 400001
+      },
+      "model": "dinododo:entity/failed_embryo"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400002
+        },
+      "model": "dinododo:entity/acrocanthosaurus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400003
+        },
+      "model": "dinododo:entity/acrocanthosaurus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400004
+        },
+      "model": "dinododo:entity/corythosaurus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400005
+        },
+      "model": "dinododo:entity/corythosaurus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400006
+        },
+      "model": "dinododo:entity/compsognathus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dinododo:entity/compsognathus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400008
+        },
+      "model": "dinododo:entity/concavenator_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400009
+        },
+      "model": "dinododo:entity/concavenator_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dinododo:entity/tyrannosaurus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400011
+        },
+      "model": "dinododo:entity/tyrannosaurus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400012
+        },
+      "model": "dinododo:entity/gallimimus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400013
+        },
+      "model": "dinododo:entity/gallimimus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400014
+        },
+      "model": "dinododo:entity/parasaurolophus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400015
+        },
+      "model": "dinododo:entity/parasaurolophus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400016
+        },
+      "model": "dinododo:entity/therizinosaurus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400017
+        },
+      "model": "dinododo:entity/therizinosaurus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400018
+        },
+      "model": "dinododo:entity/acroythosaurus_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400019
+        },
+      "model": "dinododo:entity/acroythosaurus_still"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400020
+        },
+      "model": "dinododo:entity/"
     }
+  ]
 }

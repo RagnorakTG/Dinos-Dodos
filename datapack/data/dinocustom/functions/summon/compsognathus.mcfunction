@@ -1,1 +1,0 @@
-summon pufferfish ~ ~ ~ {CustomName:"{\"text\":\"spawn_compsognathus\"}"}

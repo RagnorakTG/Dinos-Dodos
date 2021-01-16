@@ -21,7 +21,7 @@ scoreboard objectives remove Gallimimus
 scoreboard objectives remove Tyrannosaurus
 scoreboard objectives remove compy_agro
 scoreboard objectives remove compy_more_agro
-scoreboard objectives remove Acroythosaurus dummy
+scoreboard objectives remove Acroythosaurus
 advancement revoke @a from dinocustom:custom/revival/root
 advancement revoke @a from dinocustom:custom/archaeology/root
 tellraw @p ["",{"text":"Uninstallation of ","color":"aqua"},{"text":"Dino's & Dodo's ","color":"gold"},{"text":"has been complete!!! Have Fun!!!","color":"aqua"}]

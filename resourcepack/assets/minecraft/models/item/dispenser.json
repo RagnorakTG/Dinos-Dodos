@@ -1,0 +1,67 @@
+{
+  "parent": "block/dispenser",
+  "textures": {
+    "layer0": "block/dispenser"
+  },
+  "overrides": [{
+      "predicate": {
+          "custom_model_data": 400001
+      },
+      "model": "dinododo:block/machine_crafter"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400002
+        },
+      "model": "dinododo:block/bone_sifter"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400003
+        },
+      "model": "dinododo:block/dna_extractor"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400004
+        },
+      "model": "dinododo:block/culture_vat"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400005
+        },
+      "model": "dinododo:block/dna_combiner"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400006
+        },
+      "model": "dinododo:block/incubator_empty"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dinododo:block/incubator_full"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400008
+        },
+      "model": "dinododo:block/archaeology_workbench"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400009
+        },
+      "model": "dinododo:block/bone_quarry"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dinododo:block/blank"
+    }
+  ]
+}
