@@ -1,8 +1,6 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/tyrannosarus_texture_map",
-		"particle": "block/tyrannosarus_texture_map"
+		"0": "dinododo:entity/tyrannosarus_texture_map"
 	},
 	"elements": [
 		{

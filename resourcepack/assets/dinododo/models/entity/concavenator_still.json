@@ -1,8 +1,6 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/concavenator_texture",
-		"particle": "block/concavenator_texture"
+		"0": "dinododo:entity/concavenator_texture"
 	},
 	"elements": [
 		{
