@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Dinos & Dodos",
+        "description": "\"Life, um, finds a way.\" - Ian Malcolm",
+        "icon": {
+            "item": "minecraft:barrier",
+			"nbt": "{CustomModelData:400002}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:rag",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
