@@ -25,6 +25,6 @@ replaceitem entity @e[type=villager,tag=gallimimus] armor.head command_block{Cus
 execute as @e[type=villager,tag=gallimimus] unless entity @s[type=villager,tag=gallimimus,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=villager,tag=gallimimus] armor.head command_block{CustomModelData:400012}
 effect give @e[type=villager,tag=gallimimus] minecraft:invisibility 1000000 1 true
 # - Tyrannosaurus
-replaceitem entity @e[type=zombie,tag=tyrannosaurus] armor.head command_block{CustomModelData:400012}
-execute as @e[type=zombie,tag=tyrannosaurus] unless entity @s[type=zombie,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombie,tag=tyrannosaurus] armor.head command_block{CustomModelData:400011}
+replaceitem entity @e[type=zombie,tag=tyrannosaurus] armor.head command_block{CustomModelData:400011}
+execute as @e[type=zombie,tag=tyrannosaurus] unless entity @s[type=zombie,nbt={Motion:[0.0,0.0,0.0]}] run replaceitem entity @s[type=zombie,tag=tyrannosaurus] armor.head command_block{CustomModelData:400010}
 effect give @e[type=zombie,tag=tyrannosaurus] minecraft:invisibility 1000000 1 true
