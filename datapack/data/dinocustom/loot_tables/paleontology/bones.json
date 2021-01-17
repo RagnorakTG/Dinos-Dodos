@@ -6,7 +6,7 @@
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 1,
+          "weight": 4,
           "functions": [
             {
               "function": "set_nbt",
@@ -17,7 +17,7 @@
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "set_nbt",
@@ -28,7 +28,7 @@
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 1,
+          "weight": 8,
           "functions": [
             {
               "function": "set_nbt",
@@ -39,7 +39,7 @@
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 1,
+          "weight": 10,
           "functions": [
             {
               "function": "set_nbt",
@@ -50,7 +50,7 @@
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "set_nbt",
@@ -61,7 +61,7 @@
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 5,
+          "weight": 15,
           "functions": [
             {
               "function": "set_nbt",
