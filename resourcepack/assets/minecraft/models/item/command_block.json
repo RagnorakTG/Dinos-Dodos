@@ -80,48 +80,6 @@
           "custom_model_data": 400013
         },
       "model": "dinododo:entity/gallimimus_still"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400014
-        },
-      "model": "dinododo:entity/parasaurolophus_walk"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400015
-        },
-      "model": "dinododo:entity/parasaurolophus_still"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400016
-        },
-      "model": "dinododo:entity/therizinosaurus_walk"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400017
-        },
-      "model": "dinododo:entity/therizinosaurus_still"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400018
-        },
-      "model": "dinododo:entity/acroythosaurus_walk"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400019
-        },
-      "model": "dinododo:entity/acroythosaurus_still"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400020
-        },
-      "model": "dinododo:entity/"
     }
   ]
 }
