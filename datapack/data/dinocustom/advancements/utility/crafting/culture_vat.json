@@ -2,7 +2,7 @@
   "parent": "dinocustom:utility/crafting/root",
   "rewards": {
     "function":"dinocustom:recipes/culture_vat",
-    "loot": ["dinocustom:recipes/culture_vat"]
+    "loot": ["dinocustom:blocks/culture_vat"]
   },
   "criteria": {
     "has_the_recipe": {

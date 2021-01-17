@@ -2,7 +2,7 @@
   "parent": "dinocustom:utility/crafting/root",
   "rewards": {
     "function":"dinocustom:recipes/sifter",
-    "loot": ["dinocustom:recipes/sifter"]
+    "loot": ["dinocustom:blocks/sifter"]
   },
   "criteria": {
     "has_the_recipe": {
