@@ -36,12 +36,6 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400007
-        },
-      "model": "dinododo:block/none"
-    },
-    {
-        "predicate": {
           "custom_model_data": 400008
         },
       "model": "dinododo:block/paleontology_workbench"
@@ -51,12 +45,6 @@
           "custom_model_data": 400009
         },
       "model": "dinododo:block/quarry"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400010
-        },
-      "model": "dinododo:block/blank"
     }
   ]
 }
