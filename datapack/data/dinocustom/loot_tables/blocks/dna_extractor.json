@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"DNA Extractor\\\",\\\"italic\\\":false}\"},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,DeathLootTable:\"none\",PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,IsBaby:0b,CustomName:\"{\\\"text\\\":\\\"spawn_dna_extractor\\\"}\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

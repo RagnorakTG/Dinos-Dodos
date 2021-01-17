@@ -3,17 +3,12 @@
   "textures": {
     "layer0": "block/dispenser"
   },
-  "overrides": [{
-      "predicate": {
-          "custom_model_data": 400001
-      },
-      "model": "dinododo:block/machine_crafter"
-    },
+  "overrides": [
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dinododo:block/bone_sifter"
+      "model": "dinododo:block/sifter"
     },
     {
         "predicate": {
@@ -37,25 +32,25 @@
         "predicate": {
           "custom_model_data": 400006
         },
-      "model": "dinododo:block/incubator_empty"
+      "model": "dinododo:block/incubator"
     },
     {
         "predicate": {
           "custom_model_data": 400007
         },
-      "model": "dinododo:block/incubator_full"
+      "model": "dinododo:block/none"
     },
     {
         "predicate": {
           "custom_model_data": 400008
         },
-      "model": "dinododo:block/archaeology_workbench"
+      "model": "dinododo:block/paleontology_workbench"
     },
     {
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dinododo:block/bone_quarry"
+      "model": "dinododo:block/quarry"
     },
     {
         "predicate": {

@@ -1,0 +1,15 @@
+{
+  "parent": "dinocustom:utility/crafting/root",
+  "rewards": {
+    "function":"dinocustom:recipes/culture_vat",
+    "loot": ["dinocustom:recipes/culture_vat"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dinocustom:culture_vat"
+      }
+    }
+  }
+}

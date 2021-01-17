@@ -1,0 +1,614 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acacia Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oak Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Birch Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dark Oak Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Jungle Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Spruce Tree DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Wheat Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Melon Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pumpkin Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Beetroot Seed DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Carrot DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Potato DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sweet Berry DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Apple DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Kelp DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sea Grass DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Grass DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Fern DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Cocoa Bean DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Poppy DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Dandelion DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Blue Orchid DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Allium DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Azure Bluet DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Red Tulip DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Orange Tulip DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"White Tulip DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Pink Tulip DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Oxeye Daisy DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Lily of the Valley DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Cornflower DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Wither Rose DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Brown Mushroom DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Red Mushroom DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Crimson Fungus DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Warped Fungus DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Bamboo DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Cactus DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Vine DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Lily Pad DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sunflower DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Rose Bush DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Peony DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Lilac DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tube Coral DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Brain Coral DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Fire Coral DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Horn Coral DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Bubble Coral DNA\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acrocanthosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Compsognathus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Concavenator DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Corythosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gallimimus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tyrannosaurus DNA\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

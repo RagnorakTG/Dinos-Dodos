@@ -1,0 +1,15 @@
+{
+  "parent": "dinocustom:utility/crafting/root",
+  "rewards": {
+    "function":"dinocustom:recipes/dna_extractor",
+    "loot": ["dinocustom:recipes/dna_extractor"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dinocustom:dna_extractor"
+      }
+    }
+  }
+}
