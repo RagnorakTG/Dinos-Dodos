@@ -61,13 +61,13 @@
         "predicate": {
           "custom_model_data": 400010
         },
-      "model": "dinododo:entity/tyrannosaurus_walk"
+      "model": "dinododo:entity/tyrannosaurus_walking"
     },
     {
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dinododo:entity/tyrannosaurus_still"
+      "model": "dinododo:entity/tyrannosaurus_idle"
     },
     {
         "predicate": {
