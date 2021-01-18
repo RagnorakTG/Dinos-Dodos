@@ -34,7 +34,7 @@
   "item.dnd.empty_egg": "Ou gol",
   "item.dnd.amber": "Chihlimbar",
 
-  "block.dnd.egg.ankylosaurus": "Ou de Acrocantozaur",
+  "block.dnd.egg.acrocanthosaurus": "Ou de Acrocantozaur",
   "block.dnd.egg.compsognathus": "Ou de Compsognatus",
   "block.dnd.egg.concavenator": "Ou de Concavenator",
   "block.dnd.egg.corythosaurus": "Ou de Coritozaur",
@@ -42,7 +42,6 @@
   "block.dnd.egg.tyrannosaurus": "Ou de Tiranozaur",
   "block.dnd.analyzer": "Analizor",
   "block.dnd.culture_vat": "Cultivator",
-  "block.dnd.incubator": "Incubator",
   "block.dnd.dna_combinator": "Combinator de ADN",
   "block.dnd.dna_extractor": "Extractor de ADN",
   "block.dnd.paleontology_table": "Masa de Paleontologie",

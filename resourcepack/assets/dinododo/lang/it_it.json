@@ -35,7 +35,7 @@
   "item.dnd.amber": "Ambra",
   "item.dnd.amber": "DNA",
 
-  "block.dnd.egg.ankylosaurus": "Uovo Di Acrocanthosaurus",
+  "block.dnd.egg.acrocanthosaurus": "Uovo Di Acrocanthosaurus",
   "block.dnd.egg.compsognathus": "Uovo Di Compsognathus",
   "block.dnd.egg.concavenator": "Uovo Di Concavenator",
   "block.dnd.egg.corythosaurus": "Uovo Di Corythosaurus",
@@ -43,7 +43,6 @@
   "block.dnd.egg.tyrannosaurus": "Uovo Di Tirannosauro",
   "block.dnd.analyzer": "Analizzatore",
   "block.dnd.culture_vat": "Tino Di Cultura",
-  "block.dnd.incubator": "Incubatrice",
   "block.dnd.dna_combinator": "Combinatore Di DNA",
   "block.dnd.dna_extractor": "Estrattore Di DNA",
   "block.dnd.paleontology_table": "Tavolo Paleontologico",

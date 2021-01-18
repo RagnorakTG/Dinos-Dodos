@@ -27,6 +27,8 @@
   "item.dnd.embryo.corythosaurus": "Corythosaurus Embryo",
   "item.dnd.embryo.gallimimus": "Gallimimus Embryo",
   "item.dnd.embryo.tyrannosaurus": "Tyrannosaurus Embryo",
+  "item.dnd.embryo.chicken": "Chicken Embryo",
+  "item.dnd.embryo.turtle": "Turtle Embryo",
   "item.dnd.fossil.plant": "Plant Fossil",
   "item.dnd.blank": "Blank",
   "item.dnd.battery": "Battery",
@@ -34,7 +36,7 @@
   "item.dnd.empty_egg": "Empty Egg",
   "item.dnd.amber": "Amber",
 
-  "block.dnd.egg.ankylosaurus": "Acrocanthosaurus Egg",
+  "block.dnd.egg.acrocanthosaurus": "Acrocanthosaurus Egg",
   "block.dnd.egg.compsognathus": "Compsognathus Egg",
   "block.dnd.egg.concavenator": "Concavenator Egg",
   "block.dnd.egg.corythosaurus": "Corythosaurus Egg",
@@ -42,7 +44,6 @@
   "block.dnd.egg.tyrannosaurus": "Tyrannosaurus Egg",
   "block.dnd.analyzer": "Analyzer",
   "block.dnd.culture_vat": "Culture Vat",
-  "block.dnd.incubator": "Incubator",
   "block.dnd.dna_combinator": "DNA Combinator",
   "block.dnd.dna_extractor": "DNA Extractor",
   "block.dnd.paleontology_table": "Paleontology Table",
@@ -54,7 +55,7 @@
   "entity.dnd.corythosaurus": "Corythosaurus",
   "entity.dnd.gallimimus": "Gallimimus",
   "entity.dnd.tyrannosaurus": "Tyrannosaurus",
-  
+
   "advancements.dnd.revival.root.title": "Revival",
   "advancements.dnd.revival.root.description": "They didn't ask to be brought back.",
   "advancements.dnd.revival.paleontology_table.title": "Paleontological Research",
