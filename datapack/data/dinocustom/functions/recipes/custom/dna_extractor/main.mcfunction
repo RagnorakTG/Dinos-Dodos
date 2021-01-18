@@ -1,7 +1,4 @@
 ### DNA Extractor Recipes
-## Plant DNA
-# Plant Fossil
-execute at @s if block ~ ~-1 ~ dispenser{Items:[{Slot:4b,id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:400003,display:{Name:'{"translate":"Plant Fossil","italic":false}'}}}]} run loot replace block ~ ~-1 ~ container.4 loot dinocustom:paleontology/plant_dna
 ## Animal DNA
 # Acrocanthosaurus Fossil
 execute at @s if block ~ ~-1 ~ dispenser{Items:[{Slot:4b,id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:400005,display:{Name:'{"translate":"Acrocanthosaurus Fossil","italic":false}'}}}]} run loot replace block ~ ~-1 ~ container.4 loot dinocustom:items/acrocanthosaurus_dna
