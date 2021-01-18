@@ -1,2 +1,2 @@
-execute as @s at @s if block ~ ~1 ~ #dinocustom:siftables run loot insert ~ ~ ~ loot dinocustom:paleontology/bones
-execute as @s at @s if block ~ ~1 ~ #dinocustom:siftables run setblock ~ ~1 ~ air
+execute at @s if block ~ ~ ~ #dinocustom:siftables run loot insert ~ ~-1 ~ loot dinocustom:paleontology/bones
+execute at @s if block ~ ~ ~ #dinocustom:siftables run setblock ~ ~ ~ air
