@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acrocanthosaurus Embryo\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.embryo.acrocanthosaurus\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']}}"
             }
           ]
         }

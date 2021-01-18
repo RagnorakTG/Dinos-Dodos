@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acrocanthosaurus Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400005}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.acrocanthosaurus\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
             }
           ]
         }
