@@ -10,18 +10,18 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Acrocanthosaurus Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400005}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.acrocanthosaurus\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 5,
+          "weight": 6,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Concavenator Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400005}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.concavenator\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Corythosaurus Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400005}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.corythosaurus\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
             }
           ]
         },
@@ -43,18 +43,18 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Gallimimus Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400005}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.gallimimus\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:structure_block",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Tyrannosaurus Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400005}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.tyrannosaurus\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Plant Fossil\\\",\\\"italic\\\":false}\"},CustomModelData:400003}"
+              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.plant\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400003}"
             }
           ]
         },
