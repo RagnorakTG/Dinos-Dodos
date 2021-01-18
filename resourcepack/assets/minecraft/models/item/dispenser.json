@@ -26,13 +26,7 @@
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dinododo:block/dna_combiner"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400006
-        },
-      "model": "dinododo:block/incubator"
+      "model": "dinododo:block/dna_combinator"
     },
     {
         "predicate": {

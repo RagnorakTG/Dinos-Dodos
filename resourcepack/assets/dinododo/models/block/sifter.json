@@ -1,11 +1,11 @@
 {
 	"textures": {
-		"0": "dinododo:block/bone_sifter",
-		"1": "dinododo:block/bone_sifter_top"
+		"0": "dinododo:block/sifter_side",
+		"1": "dinododo:block/sifter_top",
+		"2": "dinododo:block/sifter_bottom"
 	},
 	"elements": [
 		{
-			"name": "Cube",
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
@@ -14,7 +14,7 @@
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
 			}
 		}
 	],
@@ -46,8 +46,8 @@
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"head": {
-			"translation": [0, -30.5, 0],
-			"scale": [1.62, 1.62, 1.62]
+			"translation": [0, -51.34, 0],
+			"scale": [2.3, 2.3, 2.3]
 		},
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]

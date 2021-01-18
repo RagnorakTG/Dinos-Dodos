@@ -42,11 +42,3 @@ execute at @e[type=skeleton,name=spawn_dna_combiner] if entity @p[distance=..5,s
 execute at @e[type=skeleton,name=spawn_dna_combiner] if entity @p[distance=..5,scores={Facing=4..4}] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Pose:{Head:[0f,-90f,0f]},Tags:["dna_combiner","west"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:dispenser",Count:1b,tag:{CustomModelData:400005}}]}
 tp @e[type=skeleton,name=spawn_dna_combiner] ~ -600 ~
 execute as @e[type=armor_stand,tag=dna_combiner] at @s run function dinocustom:recipes/custom/dna_combiner/main
-# Incubator
-execute at @e[type=armor_stand,tag=incubator] if block ~ ~ ~ air run kill @e[type=item,distance=..0.9]
-execute at @e[type=armor_stand,tag=incubator] if block ~ ~ ~ air run summon item ~ ~ ~ {Item:{id:"minecraft:skeleton_spawn_egg",Count:1b,tag:{display:{Name:"{\"translate\":\"Incubator\",\"italic\":false}"},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,DeathLootTable:"none",PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Size:0,CustomName:"{\"text\":\"spawn_incubator\"}"}}}}
-execute at @e[type=armor_stand,tag=incubator] if block ~ ~ ~ air run kill @e[type=armor_stand,tag=incubator,distance=..0.5]
-execute at @e[type=skeleton,name=spawn_incubator] run setblock ~ ~ ~ dispenser[facing=up]{CustomName:"{\"text\":\"Incubator\"}"}
-execute at @e[type=skeleton,name=spawn_incubator] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["incubator"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:dispenser",Count:1b,tag:{CustomModelData:400006}}]}
-tp @e[type=skeleton,name=spawn_incubator] ~ -600 ~
-execute as @e[type=armor_stand,tag=incubator] at @s run function dinocustom:recipes/custom/incubator/main

@@ -1,10 +1,10 @@
 {
     "display": {
-        "title": "Ragnorakkr_",
+        "title": "Ragtime_Gal_",
         "description": "",
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: 'Ragnorakkr_'}"
+            "nbt": "{SkullOwner: 'Ragtime_Gal_'}"
         },
         "show_toast": false,
         "announce_to_chat": false

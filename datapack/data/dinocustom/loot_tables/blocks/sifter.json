@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blaze_spawn_egg",
+          "name": "minecraft:dispenser",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Sifter\\\",\\\"italic\\\":false}\"},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,DeathLootTable:\"none\",PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,IsBaby:0b,CustomName:\"{\\\"text\\\":\\\"spawn_bone_sifter\\\"}\"}}"
+              "tag": "{sifter:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"sifter\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.sifter\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400002}"
             }
           ]
         }

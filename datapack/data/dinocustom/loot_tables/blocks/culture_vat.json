@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_spawn_egg",
+          "name": "minecraft:dispenser",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"Culture Vat\\\",\\\"italic\\\":false}\"},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,DeathLootTable:\"none\",PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Size:0,CustomName:\"{\\\"text\\\":\\\"spawn_culture_vat\\\"}\"}}"
+              "tag": "{culture_vat:1,BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:'{\"text\":\"a\"}'}}}]},dnd:{Tags:[\"culture_vat\",\"custom_block\"]},display:{Name:'{\"translate\":\"block.dnd.culture_vat\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400004}"
             }
           ]
         }

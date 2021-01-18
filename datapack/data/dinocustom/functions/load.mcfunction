@@ -1,27 +1,4 @@
-scoreboard objectives add Incubator dummy
-scoreboard objectives add DinoHunger dummy
-scoreboard objectives add compy_agro dummy
-scoreboard objectives add Achievments dummy
-scoreboard objectives add RClick minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add Battery dummy
-scoreboard objectives add GenerateBone dummy
-scoreboard objectives add GenerateShard dummy
-scoreboard objectives add GenerateAmber dummy
-scoreboard objectives add Facing dummy
-scoreboard objectives add Age dummy
-scoreboard objectives add Dropped minecraft.dropped:minecraft.diamond_hoe
-scoreboard objectives add smallDungeon dummy
-scoreboard objectives add largeDungeon dummy
-advancement grant @a only dinocustom:custom/revival/root
-advancement grant @a only dinocustom:custom/archaeology/root
-scoreboard objectives add Run minecraft.killed:minecraft.villager
-scoreboard objectives add Acrocanthosaurus dummy
-scoreboard objectives add Compsognathus dummy
-scoreboard objectives add Concavenator dummy
-scoreboard objectives add Corythosaurus dummy
-scoreboard objectives add Gallimimus dummy
-scoreboard objectives add Tyrannosaurus dummy
-scoreboard objectives add compy_agro dummy
-scoreboard objectives add compy_more_agro dummy
-scoreboard objectives add Acroythosaurus dummy
+scoreboard objectives add dnd.facing.dir dummy
+advancement grant @a only dinocustom:revival/root
+gamerule commandBlockOutput false
 tellraw @p ["",{"text":"Instillation of ","color":"aqua"},{"text":"Dino's & Dodo's ","color":"gold"},{"text":"has been complete!!! Enjoy playing!!!","color":"aqua"}]
