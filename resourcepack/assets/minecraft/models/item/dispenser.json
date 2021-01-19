@@ -38,7 +38,37 @@
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dinododo:block/quarry"
+      "model": "dinododo:block/dinosaur_egg_1"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dinododo:block/dinosaur_egg_2"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400011
+        },
+      "model": "dinododo:block/dinosaur_egg_3"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400012
+        },
+      "model": "dinododo:block/dinosaur_egg_4"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400013
+        },
+      "model": "dinododo:block/dinosaur_egg_5"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400014
+        },
+      "model": "dinododo:block/dinosaur_egg_6"
     }
   ]
 }

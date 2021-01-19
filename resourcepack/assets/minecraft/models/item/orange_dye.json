@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/orange_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dinododo:item/embryo"
+		}
+	]
+}

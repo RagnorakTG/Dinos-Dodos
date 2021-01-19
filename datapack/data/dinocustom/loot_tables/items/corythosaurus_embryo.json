@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.dnd.embryo.corythosaurus\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']}}"
+              "tag": "{CustomModelData:400001,display:{Name:'{\"translate\":\"item.dnd.embryo.corythosaurus\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']}}"
             }
           ]
         }
