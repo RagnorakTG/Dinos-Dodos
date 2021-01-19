@@ -30,6 +30,12 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dinododo:item/dinosaur_egg"
+    },
+    {
+        "predicate": {
           "custom_model_data": 400008
         },
       "model": "dinododo:block/paleontology_workbench"

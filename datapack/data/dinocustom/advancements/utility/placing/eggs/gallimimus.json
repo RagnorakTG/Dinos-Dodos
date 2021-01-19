@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dispenser",
+                "item": {
+                    "item": "minecraft:dispenser",
+                    "nbt": "{gallimimus:1,custom_egg:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dinocustom:block/placing/eggs/gallimimus"
+    }
+}
