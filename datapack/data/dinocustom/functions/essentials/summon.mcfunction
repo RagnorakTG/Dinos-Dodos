@@ -1,12 +1,6 @@
-   ####################
-   #                  #
-   #                  #
-   #                  #
-   # Made by Ragnorak #
-   #                  #
-   #                  #
-   #                  #
-   ####################
+####################
+# Antique Function
+####################
 
 # - Acrocanthosaurus
 execute at @e[type=husk,name="spawn_acrocanthosaurus"] run summon zombie ~ ~ ~ {Silent:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Health:50f,IsBaby:0b,DeathLootTable:"dinocustom:entities/dinos/acrocanthosaurus",Tags:["acrocanthosaur"],CustomName:"{\"text\":\"Acrocanthosaur\"}",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:50}]}

@@ -1,3 +1,7 @@
+####################
+# Layer
+####################
+
 execute positioned ~-6 ~ ~-6 if block ~ ~ ~ #dinocustom:block_placement{Items:[{tag:{dinocustom:{placed_block:1b}}}]} run function #dinocustom:block_placement_checks
 execute positioned ~-6 ~ ~-5 if block ~ ~ ~ #dinocustom:block_placement{Items:[{tag:{dinocustom:{placed_block:1b}}}]} run function #dinocustom:block_placement_checks
 execute positioned ~-6 ~ ~-4 if block ~ ~ ~ #dinocustom:block_placement{Items:[{tag:{dinocustom:{placed_block:1b}}}]} run function #dinocustom:block_placement_checks

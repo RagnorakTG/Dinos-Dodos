@@ -1,12 +1,6 @@
-   ####################
-   #                  #
-   #                  #
-   #                  #
-   # Made by Ragnorak #
-   #                  #
-   #                  #
-   #                  #
-   ####################
+####################
+# Antique Function
+####################
 
 execute at @e[type=skeleton,name=spawn_bone_quarry] run setblock ~ ~ ~ minecraft:dropper[facing=up]{CustomName:"{\"text\":\"Battery Dispensery\"}"}
 execute at @e[type=skeleton,name=spawn_bone_quarry] run setblock ~ ~1 ~ minecraft:chest[facing=north]{CustomName:"{\"text\":\"Recourse Collector\"}"}
@@ -24,7 +18,7 @@ execute at @e[type=minecraft:armor_stand,tag=bone_quarry] if block ~ ~0 ~ air ru
 execute at @e[type=armor_stand,tag=bone_quarry] if block ~ ~ ~ air run kill @e[type=armor_stand,tag=bone_quarry,distance=..0.5]
 execute as @e[type=armor_stand,tag=bone_quarry] at @e[type=armor_stand,tag=bone_quarry] if block ~ ~ ~ dropper[facing=up]{CustomName: "{\"text\":\"Battery Dispensery\"}", Items: [{Slot: 0b, id: "minecraft:command_block", Count: 1b, tag: {display: {Name: "{\"translate\":\"Battery\",\"color\":\"aqua\",\"italic\":\"false\"}"}}}], id: "minecraft:dropper", Lock: ""} run scoreboard players add @s Battery 12000
 execute as @e[type=armor_stand,tag=bone_quarry] at @e[type=armor_stand,tag=bone_quarry] if block ~ ~ ~ dropper[facing=up]{CustomName: "{\"text\":\"Battery Dispensery\"}", Items: [{Slot: 0b, id: "minecraft:command_block", Count: 1b, tag: {display: {Name: "{\"translate\":\"Battery\",\"color\":\"aqua\",\"italic\":\"false\"}"}}}], id: "minecraft:dropper", Lock: ""} run setblock ~ ~ ~ dropper[facing=up]{CustomName: "{\"text\":\"Battery Dispensery\"}", Items: [], id: "minecraft:dropper", Lock: ""}
-execute as @e[type=minecraft:armor_stand,tag=bone_quarry] at @e[type=armor_stand,tag=bone_quarry] if block ~ ~ ~ dropper[facing=up]{CustomName: "{\"text\":\"Battery Dispensery\"}", Items: [{Slot: 4b, id: "minecraft:book", Count: 1b}], id: "minecraft:dropper", Lock: ""} run tellraw @a[distance=..5] ["",{"text":"Quarry Power at: "},{"score":{"name":"@s","objective":"Battery"}}] 
+execute as @e[type=minecraft:armor_stand,tag=bone_quarry] at @e[type=armor_stand,tag=bone_quarry] if block ~ ~ ~ dropper[facing=up]{CustomName: "{\"text\":\"Battery Dispensery\"}", Items: [{Slot: 4b, id: "minecraft:book", Count: 1b}], id: "minecraft:dropper", Lock: ""} run tellraw @a[distance=..5] ["",{"text":"Quarry Power at: "},{"score":{"name":"@s","objective":"Battery"}}]
 execute as @e[type=minecraft:armor_stand,tag=bone_quarry] if score @s Battery matches 1.. run scoreboard players remove @s Battery 1
 execute as @e[type=minecraft:armor_stand,tag=bone_quarry] if score @s Battery matches 1.. run scoreboard players add @s GenerateBone 1
 execute as @e[type=minecraft:armor_stand,tag=bone_quarry] if score @s Battery matches 1.. run scoreboard players add @s GenerateAmber 1

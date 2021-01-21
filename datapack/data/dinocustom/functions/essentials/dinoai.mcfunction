@@ -1,12 +1,6 @@
-   ####################
-   #                  #
-   #                  #
-   #                  #
-   # Made by Ragnorak #
-   #                  #
-   #                  #
-   #                  #
-   ####################
+####################
+# Antique Function
+####################
 
 # - Drowned Stopping
 execute as @e[tag=acrocanthosaur] at @e[tag=acrocanthosaur] if block ~ ~ ~ water run data merge entity @s {DrownedConversionTime:1000000}

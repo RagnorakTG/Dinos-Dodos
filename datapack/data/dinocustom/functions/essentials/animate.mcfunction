@@ -1,12 +1,6 @@
-   ####################
-   #                  #
-   #                  #
-   #                  #
-   # Made by Ragnorak #
-   #                  #
-   #                  #
-   #                  #
-   ####################
+####################
+# Antique Function
+####################
 
 # - Acrocanthosaurus
 replaceitem entity @e[type=zombie,tag=acrocanthosaur] armor.head command_block{CustomModelData:400003}

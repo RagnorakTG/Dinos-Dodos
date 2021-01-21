@@ -7,7 +7,9 @@
   "install.dnd.thanks": "Thank you for installing Dinos & Dodos!",
   "install.dnd.discord": "[Dinos & Dodos Discord]",
   "install.dnd.config": "Dinos & Dodos has config which you can change in the 'config' function to make the pack more accesible! - Just change whats needed and run the /reload command again!",
-  "updatepack.dnd.update": "Dinos & Dodos detects you have updated from an older version. You can run the update function to update some things in your world!",
+  "uninstall.dnd.finish": "Dinos & Dodos has been successfully uninstalled.",
+  "updatepack.dnd.update": "Dinos & Dodos detects you have updated this world from an older version of the pack.",
+  "updatepack.dnd.click": "Click this message to allow the pack to attempt to update whatever it can from the older version.",
 
   "item.dnd.fossil.acrocanthosaurus": "Acrocanthosaurus Fossil",
   "item.dnd.fossil.compsognathus": "Compsognathus Fossil",

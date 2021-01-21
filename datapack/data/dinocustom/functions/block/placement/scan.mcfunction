@@ -1,3 +1,7 @@
+####################
+# Scan
+####################
+
 advancement revoke @s only dinocustom:utility/block/block_placement
 
 execute align xyz positioned ~0.5 ~-6.5 ~0.5 run function dinocustom:block/placement/layer
