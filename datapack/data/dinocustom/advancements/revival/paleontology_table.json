@@ -2,7 +2,7 @@
   "parent": "dinocustom:revival/root",
   "display": {
     "icon": {
-      "item": "minecraft:dispenser",
+      "item": "minecraft:furnace",
       "nbt": "{CustomModelData:400008}"
     },
     "title": {
@@ -20,10 +20,8 @@
     "killed_ghast": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-          "block": "minecraft:dispenser",
           "item": {
-              "item": "minecraft:dispenser",
-              "nbt": "{paleontology_table:1}"
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dinocustom:{block:\"paleontology_table\"}}}]}}"
         }
       }
     }

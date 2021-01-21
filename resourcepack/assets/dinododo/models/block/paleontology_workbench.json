@@ -7,5 +7,12 @@
     "west": "dinododo:block/paleontology_workbench_front",
     "up": "dinododo:block/paleontology_workbench_top",
     "down": "dinododo:block/paleontology_workbench_bottom"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
   }
 }

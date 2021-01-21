@@ -1,9 +1,12 @@
 {
-	"parent": "minecraft:block/template_piston",
+	"parent": "minecraft:block/cube",
   "textures": {
-    "platform": "dinododo:block/sifter_top",
-    "bottom": "dinododo:block/sifter_bottom",
-    "side": "dinododo:block/sifter_side"
+    "north": "dinododo:block/sifter_side",
+    "south": "dinododo:block/sifter_side",
+    "east": "dinododo:block/sifter_side",
+    "west": "dinododo:block/sifter_side",
+    "up": "dinododo:block/sifter_top",
+    "down": "dinododo:block/sifter_bottom"
   },
   "display": {
     "head": {

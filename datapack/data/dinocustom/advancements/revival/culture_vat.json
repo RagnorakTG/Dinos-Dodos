@@ -2,7 +2,7 @@
   "parent": "dinocustom:revival/dna_combinator",
   "display": {
     "icon": {
-      "item": "minecraft:dispenser",
+      "item": "minecraft:furnace",
       "nbt": "{CustomModelData:400004}"
     },
     "title": {
@@ -17,13 +17,11 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
+    "place_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-          "block": "minecraft:dispenser",
           "item": {
-              "item": "minecraft:dispenser",
-              "nbt": "{culture_vat:1}"
+            "nbt": "{BlockEntityTag:{Items:[{tag:{dinocustom:{block:\"culture_vat\"}}}]}}"
         }
       }
     }
