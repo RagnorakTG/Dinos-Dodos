@@ -1,7 +1,7 @@
 {
-  "parent": "block/dispenser",
+  "parent": "block/furnace",
   "textures": {
-    "layer0": "block/dispenser"
+    "layer0": "block/furnace"
   },
   "overrides": [
     {

@@ -1,8 +1,7 @@
 ### Load
 ## Add Scoreboards
 # Misc.
-scoreboard objectives add dnd.facing.ext dummy
-scoreboard objectives add dnd.facing.dir dummy
+scoreboard objectives add dnd.dummy dummy
 # Config
 scoreboard objectives add dnd.config dummy
 
