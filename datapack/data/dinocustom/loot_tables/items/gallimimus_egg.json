@@ -1,20 +1,30 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:furnace",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dinocustom:{placed_block:1b,block:\"gallimimus_egg\"}}}]},CustomModelData:400006,dinocustom:{id:\"gallimimus_egg\"}}"
+        },
         {
-          "type": "item",
-          "name": "minecraft:horse_spawn_egg",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{NoGravity:0b,CustomName:'{\"text\":\"spawn_gallimimus\"}',IsBaby:0b,Silent:1b,Invulnerable:0b,PersistenceRequired:1b,NoAI:1b,ActiveEffects:[{Duration:1000000,Id:14b,Amplifier:1b,ShowParticles:0b}]},display:{Name:'{\"translate\":\"block.dnd.egg.gallimimus\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']}}"
-            }
-          ]
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "block.dnd.egg.gallimimus",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "config.dnd.name",
+            "color": "#63E2FF",
+            "italic": true
+          }]
         }
       ]
-    }
-  ]
+    }]
+  }]
 }

@@ -1,16 +1,32 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:structure_block",
+          "name": "minecraft:bone",
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.dnd.fossil.corythosaurus\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400005}"
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dinocustom:{id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
             }
           ]
         }

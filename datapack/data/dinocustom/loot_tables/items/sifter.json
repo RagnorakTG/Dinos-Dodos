@@ -3,6 +3,7 @@
     "rolls": 1,
     "entries": [{
       "type": "minecraft:item",
+      "name": "minecraft:furnace",
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
@@ -23,8 +24,7 @@
             "italic": true
           }]
         }
-      ],
-      "name": "minecraft:furnace"
+      ]
     }]
   }]
 }

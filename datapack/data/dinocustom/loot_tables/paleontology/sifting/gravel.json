@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dinocustom:items/acrocanthosaurus_fossil",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dinocustom:items/concavenator_fossil",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dinocustom:items/corythosaurus_fossil",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dinocustom:items/gallimimus_fossil",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dinocustom:items/tyrannosaurus_fossil",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dinocustom:items/plant_fossil",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 45
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coarse_dirt",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}

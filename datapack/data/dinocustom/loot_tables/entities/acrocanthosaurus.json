@@ -6,17 +6,17 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:beef",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dinocustom:{id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400006,dinocustom:{id:\"custom_meat\",entity:{id:\"acrocanthosaurus\"}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.meat.acrocanthosaurus",
                 "italic": false
                       }
             },
@@ -27,6 +27,21 @@
                 "color": "#63E2FF",
                 "italic": true
                       }]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              }
             }
           ]
         }

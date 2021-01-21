@@ -1,16 +1,32 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:light_gray_dye",
+          "name": "minecraft:structure_block",
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:400001,display:{Name:'{\"translate\":\"item.dnd.dna.acrocanthosaurus\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']}}"
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400004,dinocustom:{id:\"dna\",entity:{id:\"acrocanthosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna.acrocanthosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
             }
           ]
         }

@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
@@ -9,8 +10,23 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.dnd.empty_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"config.dnd.name\",\"color\":\"blue\",\"italic\":true}']},CustomModelData:400004}"
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400003,dinocustom:{id:\"empty_egg\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.empty_egg",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
             }
           ]
         }
