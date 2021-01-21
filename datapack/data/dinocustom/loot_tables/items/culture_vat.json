@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dinocustom:{placed_block:1b,block:\"culture_vat\"}}}]},CustomModelData:400004,dinocustom:{id:\"culture_vat\"}}"
+          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dinocustom:{placed_block:1b,block:\"culture_vat\"}}}]},CustomModelData:400006,dinocustom:{id:\"culture_vat\"}}"
         },
         {
           "function": "minecraft:set_name",

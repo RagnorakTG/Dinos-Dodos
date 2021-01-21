@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400004}"
+      "nbt": "{CustomModelData:400006}"
     },
     "title": {
       "translate": "advancements.dnd.revival.culture_vat.title"

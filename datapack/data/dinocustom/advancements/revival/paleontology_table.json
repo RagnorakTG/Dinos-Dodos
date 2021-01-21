@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400008}"
+      "nbt": "{CustomModelData:400001}"
     },
     "title": {
       "translate": "advancements.dnd.revival.paleontology_table.title"
