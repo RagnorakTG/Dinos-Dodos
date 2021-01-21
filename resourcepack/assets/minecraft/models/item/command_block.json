@@ -7,79 +7,79 @@
       "predicate": {
           "custom_model_data": 400001
       },
-      "model": "dinododo:entity/failed_embryo"
+      "model": "dinocustom:entity/failed_embryo"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dinododo:entity/acrocanthosaurus_walk"
+      "model": "dinocustom:entity/acrocanthosaurus_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dinododo:entity/acrocanthosaurus_still"
+      "model": "dinocustom:entity/acrocanthosaurus_still"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dinododo:entity/corythosaurus_walk"
+      "model": "dinocustom:entity/corythosaurus_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dinododo:entity/corythosaurus_still"
+      "model": "dinocustom:entity/corythosaurus_still"
     },
     {
         "predicate": {
           "custom_model_data": 400006
         },
-      "model": "dinododo:entity/compsognathus_walk"
+      "model": "dinocustom:entity/compsognathus_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400007
         },
-      "model": "dinododo:entity/compsognathus_still"
+      "model": "dinocustom:entity/compsognathus_still"
     },
     {
         "predicate": {
           "custom_model_data": 400008
         },
-      "model": "dinododo:entity/concavenator_walk"
+      "model": "dinocustom:entity/concavenator_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dinododo:entity/concavenator_still"
+      "model": "dinocustom:entity/concavenator_still"
     },
     {
         "predicate": {
           "custom_model_data": 400010
         },
-      "model": "dinododo:entity/tyrannosaurus_walking"
+      "model": "dinocustom:entity/tyrannosaurus_walking"
     },
     {
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dinododo:entity/tyrannosaurus_idle"
+      "model": "dinocustom:entity/tyrannosaurus_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400012
         },
-      "model": "dinododo:entity/gallimimus_walk"
+      "model": "dinocustom:entity/gallimimus_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400013
         },
-      "model": "dinododo:entity/gallimimus_still"
+      "model": "dinocustom:entity/gallimimus_still"
     }
   ]
 }

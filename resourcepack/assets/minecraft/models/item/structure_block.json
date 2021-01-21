@@ -7,31 +7,31 @@
       "predicate": {
           "custom_model_data": 400001
       },
-      "model": "dinododo:item/amber"
+      "model": "dinocustom:item/amber"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dinododo:item/battery"
+      "model": "dinocustom:item/battery"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dinododo:item/plant_fossil"
+      "model": "dinocustom:item/empty_egg"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dinododo:item/empty_egg"
+      "model": "dinocustom:item/dna"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dinododo:item/dinosaur_bone"
+      "model": "dinocustom:item/embryo"
     }
   ]
 }

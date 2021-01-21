@@ -8,73 +8,73 @@
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dinododo:block/sifter"
+      "model": "dinocustom:block/sifter"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dinododo:block/dna_extractor"
+      "model": "dinocustom:block/dna_extractor"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dinododo:block/culture_vat"
+      "model": "dinocustom:block/culture_vat"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dinododo:block/dna_combinator"
+      "model": "dinocustom:block/dna_combinator"
     },
     {
         "predicate": {
           "custom_model_data": 400007
         },
-      "model": "dinododo:item/dinosaur_egg"
+      "model": "dinocustom:item/dinosaur_egg"
     },
     {
         "predicate": {
           "custom_model_data": 400008
         },
-      "model": "dinododo:block/paleontology_workbench"
+      "model": "dinocustom:block/paleontology_workbench"
     },
     {
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dinododo:block/dinosaur_egg_1"
+      "model": "dinocustom:block/dinosaur_egg_1"
     },
     {
         "predicate": {
           "custom_model_data": 400010
         },
-      "model": "dinododo:block/dinosaur_egg_2"
+      "model": "dinocustom:block/dinosaur_egg_2"
     },
     {
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dinododo:block/dinosaur_egg_3"
+      "model": "dinocustom:block/dinosaur_egg_3"
     },
     {
         "predicate": {
           "custom_model_data": 400012
         },
-      "model": "dinododo:block/dinosaur_egg_4"
+      "model": "dinocustom:block/dinosaur_egg_4"
     },
     {
         "predicate": {
           "custom_model_data": 400013
         },
-      "model": "dinododo:block/dinosaur_egg_5"
+      "model": "dinocustom:block/dinosaur_egg_5"
     },
     {
         "predicate": {
           "custom_model_data": 400014
         },
-      "model": "dinododo:block/dinosaur_egg_6"
+      "model": "dinocustom:block/dinosaur_egg_6"
     }
   ]
 }

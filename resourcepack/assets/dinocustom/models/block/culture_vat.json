@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "dinocustom:block/station_top",
+    "front": "dinocustom:block/culture_vat",
+    "side": "dinocustom:block/station_side"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}

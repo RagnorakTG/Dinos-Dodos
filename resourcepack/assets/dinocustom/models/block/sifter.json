@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:block/cube",
+  "textures": {
+    "north": "dinocustom:block/sifter_side",
+    "south": "dinocustom:block/sifter_side",
+    "east": "dinocustom:block/sifter_side",
+    "west": "dinocustom:block/sifter_side",
+    "up": "dinocustom:block/sifter_top",
+    "down": "dinocustom:block/sifter_bottom"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}

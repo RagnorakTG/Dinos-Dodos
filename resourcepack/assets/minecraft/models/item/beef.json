@@ -8,7 +8,7 @@
 			"predicate": {
 				"custom_model_data": 400001
 			},
-			"model": "dinododo:item/raw_dinosaur_steak"
+			"model": "dinocustom:item/raw_dinosaur_steak"
 		}
 	]
 }

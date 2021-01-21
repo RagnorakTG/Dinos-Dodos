@@ -1,0 +1,50 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/bone"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dinocustom:item/dinosaur_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dinocustom:item/plant_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dinocustom:item/acrocanthosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dinocustom:item/concavenator_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dinocustom:item/corythosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dinocustom:item/gallimimus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dinocustom:item/tyrannosaurus_fossil"
+		}
+	]
+}
