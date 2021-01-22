@@ -232,6 +232,10 @@
 		}
 	],
 	"display": {
+		"ground": {
+			"rotation": [-157.5, 0, -180],
+			"translation": [0, -5.75, 0]
+		},
 		"head": {
 			"rotation": [-22.5, 0, 0],
 			"translation": [22.75, -26, -3.25],

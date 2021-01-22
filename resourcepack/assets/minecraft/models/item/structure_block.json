@@ -11,12 +11,6 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400002
-        },
-      "model": "dinocustom:item/battery"
-    },
-    {
-        "predicate": {
           "custom_model_data": 400003
         },
       "model": "dinocustom:item/empty_egg"
