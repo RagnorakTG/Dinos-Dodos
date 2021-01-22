@@ -2,8 +2,9 @@
 	"parent": "minecraft:block/orientable",
   "textures": {
     "top": "dinocustom:block/station_top",
-    "front": "dinocustom:block/culture_vat",
-    "side": "dinocustom:block/station_side"
+    "front": "dinocustom:block/cultivator",
+    "side": "dinocustom:block/station_side",
+    "particle": "dinocustom:block/cultivator"
   },
   "display": {
     "head": {

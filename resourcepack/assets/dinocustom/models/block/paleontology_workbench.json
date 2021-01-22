@@ -6,7 +6,8 @@
     "east": "dinocustom:block/paleontology_workbench_side",
     "west": "dinocustom:block/paleontology_workbench_front",
     "up": "dinocustom:block/paleontology_workbench_top",
-    "down": "dinocustom:block/paleontology_workbench_bottom"
+    "down": "dinocustom:block/paleontology_workbench_bottom",
+    "particle": "dinocustom:block/paleontology_workbench_side"
   },
   "display": {
     "head": {

@@ -38,7 +38,7 @@
         "predicate": {
           "custom_model_data": 400006
         },
-      "model": "dinocustom:block/culture_vat"
+      "model": "dinocustom:block/cultivator"
     },
     {
         "predicate": {

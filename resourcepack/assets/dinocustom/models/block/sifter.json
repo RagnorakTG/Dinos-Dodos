@@ -6,7 +6,8 @@
     "east": "dinocustom:block/sifter_side",
     "west": "dinocustom:block/sifter_side",
     "up": "dinocustom:block/sifter_top",
-    "down": "dinocustom:block/sifter_bottom"
+    "down": "dinocustom:block/sifter_bottom",
+    "particle": "dinocustom:block/sifter_side"
   },
   "display": {
     "head": {

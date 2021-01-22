@@ -3,7 +3,8 @@
   "textures": {
     "top": "dinocustom:block/station_top",
     "front": "dinocustom:block/dna_combinator",
-    "side": "dinocustom:block/station_side"
+    "side": "dinocustom:block/station_side",
+    "particle": "dinocustom:block/dna_combinator"
   },
   "display": {
     "head": {

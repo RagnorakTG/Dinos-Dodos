@@ -3,10 +3,7 @@
 ####################
 
 ## Run Functions
-
-## Run Commands
-execute as @e[tag=dnd.dinosaur_egg,tag=!dnd.disable_hatch] at @s run scoreboard players add @s dnd.hatch_time 1
-execute as @e[tag=dnd.disable_hatch] at @s run scoreboard players reset @s dnd.hatch_time
+execute as @e[tag=dnd.dinosaur_egg] at @s run function dinocustom:block/dinosaur_egg/ten_second_clock
 
 ## Reschedule
 schedule function dinocustom:technical/ten_second_clock 10s replace
