@@ -1,7 +1,7 @@
 ####################
 # 10 Tick Clock
 ####################
-say hi
+
 ## Run Functions
 
 ## Reschedule

@@ -30,7 +30,7 @@
         },
         {
           "type": "loot_table",
-          "name": "dinocustom:items/fossil/dnd/mobs/plant_fossil",
+          "name": "dinocustom:items/fossil/dnd/plants/plant_fossil",
           "weight": 15
         },
         {
