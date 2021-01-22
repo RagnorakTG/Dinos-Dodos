@@ -5,9 +5,13 @@
 ## Add Scoreboards
 scoreboard objectives add dnd.dummy dummy
 scoreboard objectives add dnd.config dummy
+scoreboard objectives add dnd.egg_size dummy
 
 ## Gamerules
 gamerule commandBlockOutput false
+
+## Schedule
+schedule function dinocustom:technical/10tclock 10t append
 
 ## Set Config
 execute unless score version dnd.config matches 103 run function dinocustom:technical/update_message

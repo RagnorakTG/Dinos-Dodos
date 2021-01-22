@@ -4,6 +4,7 @@
     "dinocustom:block/dna_combinator/placement_check",
     "dinocustom:block/dna_extractor/placement_check",
     "dinocustom:block/paleontology_table/placement_check",
-    "dinocustom:block/sifter/placement_check"
+    "dinocustom:block/sifter/placement_check",
+    "dinocustom:block/dinosaur_egg/placement_check"
   ]
 }

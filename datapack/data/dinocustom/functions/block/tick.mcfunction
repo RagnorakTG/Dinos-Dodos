@@ -16,3 +16,5 @@ execute if entity @s[type=armor_stand,tag=dnd.dna_extractor] run function dinocu
 execute if entity @s[type=armor_stand,tag=dnd.paleontology_table] run function dinocustom:block/paleontology_table/tick
 # Sifter
 execute if entity @s[type=armor_stand,tag=dnd.sifter] run function dinocustom:block/sifter/tick
+# Dinosaur Egg
+execute if entity @s[type=armor_stand,tag=dnd.dinosaur_egg] run function dinocustom:block/dinosaur_egg/tick
