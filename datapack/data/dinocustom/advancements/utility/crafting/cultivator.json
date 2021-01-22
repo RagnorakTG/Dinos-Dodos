@@ -1,14 +1,14 @@
 {
   "parent": "dinocustom:utility/crafting/root",
   "rewards": {
-    "function":"dinocustom:recipes/culture_vat",
-    "loot": ["dinocustom:blocks/culture_vat"]
+    "function":"dinocustom:recipes/cultivator",
+    "loot": ["dinocustom:blocks/cultivator"]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "dinocustom:culture_vat"
+        "recipe": "dinocustom:cultivator"
       }
     }
   }
