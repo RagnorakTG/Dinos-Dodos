@@ -12,7 +12,7 @@ scoreboard objectives add dnd.hatch_time dummy
 gamerule commandBlockOutput false
 
 ## Schedule
-schedule function dinocustom:technical/10sclock 10s replace
+schedule function dinocustom:technical/ten_second_clock 10s replace
 schedule function dinocustom:technical/second_clock 1s replace
 
 ## Set Config
