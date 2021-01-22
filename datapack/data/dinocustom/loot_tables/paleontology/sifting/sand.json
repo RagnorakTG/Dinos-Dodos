@@ -5,32 +5,32 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dinocustom:items/acrocanthosaurus_fossil",
+          "name": "dinocustom:items/fossil/dnd/mobs/acrocanthosaurus_fossil",
           "weight": 4
         },
         {
           "type": "loot_table",
-          "name": "dinocustom:items/concavenator_fossil",
+          "name": "dinocustom:items/fossil/dnd/mobs/concavenator_fossil",
           "weight": 6
         },
         {
           "type": "loot_table",
-          "name": "dinocustom:items/corythosaurus_fossil",
+          "name": "dinocustom:items/fossil/dnd/mobs/corythosaurus_fossil",
           "weight": 8
         },
         {
           "type": "loot_table",
-          "name": "dinocustom:items/gallimimus_fossil",
+          "name": "dinocustom:items/fossil/dnd/mobs/gallimimus_fossil",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "dinocustom:items/tyrannosaurus_fossil",
+          "name": "dinocustom:items/fossil/dnd/mobs/tyrannosaurus_fossil",
           "weight": 2
         },
         {
           "type": "loot_table",
-          "name": "dinocustom:items/plant_fossil",
+          "name": "dinocustom:items/fossil/dnd/mobs/plant_fossil",
           "weight": 15
         },
         {
