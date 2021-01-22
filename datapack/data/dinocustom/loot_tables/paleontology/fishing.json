@@ -31,7 +31,7 @@
         {
           "type": "loot_table",
           "name": "dinocustom:items/plant_fossil",
-          "weight": 15
+          "weight": 35
         }
       ]
     }

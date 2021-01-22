@@ -17,7 +17,8 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna.gallimimus",
-                "italic": false
+                "italic": false,
+                "color": "white"
                       }
             },
             {
