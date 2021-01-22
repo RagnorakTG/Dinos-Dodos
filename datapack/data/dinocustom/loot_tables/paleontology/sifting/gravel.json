@@ -55,6 +55,11 @@
         },
         {
           "type": "item",
+          "name": "minecraft:flint",
+          "weight": 25
+        },
+        {
+          "type": "item",
           "name": "minecraft:lapis_lazuli",
           "weight": 15
         },
