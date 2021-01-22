@@ -1,7 +1,5 @@
 {
   "values": [
-    "minecraft:dropper",
-    "minecraft:hopper",
     "minecraft:furnace"
   ]
 }
