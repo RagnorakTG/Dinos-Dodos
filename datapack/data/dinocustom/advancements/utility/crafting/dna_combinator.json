@@ -2,7 +2,7 @@
   "parent": "dinocustom:utility/crafting/root",
   "rewards": {
     "function":"dinocustom:recipes/dna_combinator",
-    "loot": ["dinocustom:blocks/dna_combinator"]
+    "loot": ["dinocustom:items/dna_combinator"]
   },
   "criteria": {
     "has_the_recipe": {

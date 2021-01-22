@@ -2,7 +2,7 @@
   "parent": "dinocustom:utility/crafting/root",
   "rewards": {
     "function":"dinocustom:recipes/dna_extractor",
-    "loot": ["dinocustom:blocks/dna_extractor"]
+    "loot": ["dinocustom:items/dna_extractor"]
   },
   "criteria": {
     "has_the_recipe": {
