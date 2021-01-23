@@ -1,5 +1,5 @@
 {
-  "parent": "dinocustom:utility/crafting/root",
+  "parent": "dinocustom:utility/root",
   "rewards": {
     "function":"dinocustom:recipes/dna_extractor",
     "loot": ["dinocustom:items/dna_extractor"]

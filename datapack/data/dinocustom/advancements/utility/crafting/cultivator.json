@@ -1,5 +1,5 @@
 {
-  "parent": "dinocustom:utility/crafting/root",
+  "parent": "dinocustom:utility/root",
   "rewards": {
     "function":"dinocustom:recipes/cultivator",
     "loot": ["dinocustom:items/cultivator"]

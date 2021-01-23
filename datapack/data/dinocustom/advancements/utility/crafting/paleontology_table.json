@@ -1,5 +1,5 @@
 {
-  "parent": "dinocustom:utility/crafting/root",
+  "parent": "dinocustom:utility/root",
   "rewards": {
     "function":"dinocustom:recipes/paleontology_table",
     "loot": ["dinocustom:items/paleontology_table"]

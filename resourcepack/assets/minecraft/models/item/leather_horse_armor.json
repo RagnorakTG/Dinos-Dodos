@@ -123,6 +123,12 @@
           "custom_model_data": 400020
         },
       "model": "dinocustom:entity/baby_tyrannosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 409999
+        },
+      "model": "dinocustom:item/blank"
     }
   ]
 }
