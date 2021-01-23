@@ -7,25 +7,25 @@
       "predicate": {
           "custom_model_data": 400001
       },
-      "model": "dinocustom:item/amber"
+      "model": "dnd:item/amber"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dinocustom:item/empty_egg"
+      "model": "dnd:item/empty_egg"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dinocustom:item/dna"
+      "model": "dnd:item/dna"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dinocustom:item/embryo"
+      "model": "dnd:item/embryo"
     }
   ]
 }

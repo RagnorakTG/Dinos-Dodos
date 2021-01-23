@@ -1,0 +1,15 @@
+{
+  "parent": "dnd:utility/root",
+  "rewards": {
+    "function":"dnd:recipes/cultivator",
+    "loot": ["dnd:items/cultivator"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnd:cultivator"
+      }
+    }
+  }
+}

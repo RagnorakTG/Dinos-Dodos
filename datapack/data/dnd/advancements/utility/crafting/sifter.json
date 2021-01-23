@@ -1,0 +1,15 @@
+{
+  "parent": "dnd:utility/root",
+  "rewards": {
+    "function":"dnd:recipes/sifter",
+    "loot": ["dnd:items/sifter"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnd:sifter"
+      }
+    }
+  }
+}

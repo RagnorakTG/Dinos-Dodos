@@ -8,79 +8,79 @@
         "predicate": {
           "custom_model_data": 400001
         },
-      "model": "dinocustom:block/paleontology_workbench"
+      "model": "dnd:block/paleontology_workbench"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dinocustom:block/sifter"
+      "model": "dnd:block/sifter"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dinocustom:block/analyzer"
+      "model": "dnd:block/analyzer"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dinocustom:block/dna_extractor"
+      "model": "dnd:block/dna_extractor"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dinocustom:block/dna_combinator"
+      "model": "dnd:block/dna_combinator"
     },
     {
         "predicate": {
           "custom_model_data": 400006
         },
-      "model": "dinocustom:block/cultivator"
+      "model": "dnd:block/cultivator"
     },
     {
         "predicate": {
           "custom_model_data": 400007
         },
-      "model": "dinocustom:item/dinosaur_egg"
+      "model": "dnd:item/dinosaur_egg"
     },
     {
         "predicate": {
           "custom_model_data": 400008
         },
-      "model": "dinocustom:block/dinosaur_egg_1"
+      "model": "dnd:block/dinosaur_egg_1"
     },
     {
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dinocustom:block/dinosaur_egg_2"
+      "model": "dnd:block/dinosaur_egg_2"
     },
     {
         "predicate": {
           "custom_model_data": 400010
         },
-      "model": "dinocustom:block/dinosaur_egg_3"
+      "model": "dnd:block/dinosaur_egg_3"
     },
     {
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dinocustom:block/dinosaur_egg_4"
+      "model": "dnd:block/dinosaur_egg_4"
     },
     {
         "predicate": {
           "custom_model_data": 400012
         },
-      "model": "dinocustom:block/dinosaur_egg_5"
+      "model": "dnd:block/dinosaur_egg_5"
     },
     {
         "predicate": {
           "custom_model_data": 400013
         },
-      "model": "dinocustom:block/dinosaur_egg_6"
+      "model": "dnd:block/dinosaur_egg_6"
     }
   ]
 }

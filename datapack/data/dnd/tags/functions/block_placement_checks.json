@@ -1,0 +1,10 @@
+{
+  "values": [
+    "dnd:block/cultivator/placement_check",
+    "dnd:block/dna_combinator/placement_check",
+    "dnd:block/dna_extractor/placement_check",
+    "dnd:block/paleontology_table/placement_check",
+    "dnd:block/sifter/placement_check",
+    "dnd:block/dinosaur_egg/placement_check"
+  ]
+}

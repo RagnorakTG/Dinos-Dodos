@@ -65,7 +65,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dinocustom:paleontology/fishing"
+          "name": "dnd:paleontology/fishing"
         }
       ]
     }

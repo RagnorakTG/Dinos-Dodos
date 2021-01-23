@@ -7,7 +7,7 @@
       "predicate": {
         "custom_model_data": 400001
       },
-      "model": "dinocustom:item/needle"
+      "model": "dnd:item/needle"
     }
   ]
 }
