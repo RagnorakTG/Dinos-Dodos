@@ -5,5 +5,5 @@
 ####################
 
 ## Send Reload Message
-## Off by default
+## 0 by default
 scoreboard players set reload dnd.config 0
