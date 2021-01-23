@@ -1,3 +1,7 @@
+####################
+# Reduce Growth Time
+####################
+
 scoreboard players set temp.0 dnd.age 10
 execute store result score temp.1 dnd.age run scoreboard players get @s dnd.age
 scoreboard players operation temp.1 dnd.age /= temp.0 dnd.age
