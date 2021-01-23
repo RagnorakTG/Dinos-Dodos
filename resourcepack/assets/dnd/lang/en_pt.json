@@ -40,7 +40,7 @@
   "block.dnd.egg.gallimimus": "Fowl Mimic Cackle Fruit",
   "block.dnd.egg.tyrannosaurus": "Tyrant Lizard King Cackle Fruit",
   "block.dnd.analyzer": "Analyzer",
-  "block.dnd.culture_vat": "Cultivator",
+  "block.dnd.cultivator": "Cultivator",
   "block.dnd.dna_combinator": "Combinator o' DNA",
   "block.dnd.dna_extractor": "Extractor o' DNA",
   "block.dnd.paleontology_table": "Table o' Ancient Study",
@@ -63,6 +63,6 @@
   "advancements.dnd.revival.dna_extractor.description": "Craft and place yer Extractor o' DNA.",
   "advancements.dnd.revival.dna_combinator.title": "Combinin' DNA",
   "advancements.dnd.revival.dna_combinator.description": "Craft and place yer Combinator o' DNA.",
-  "advancements.dnd.revival.culture_vat.title": "Cultivatin'",
-  "advancements.dnd.revival.culture_vat.description": "Craft and place yer Cultivator."
+  "advancements.dnd.revival.cultivator.title": "Cultivatin'",
+  "advancements.dnd.revival.cultivator.description": "Craft and place yer Cultivator."
 }

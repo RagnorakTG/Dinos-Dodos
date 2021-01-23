@@ -22,7 +22,6 @@ schedule function dnd:technical/ten_second_clock 10s replace
 schedule function dnd:technical/second_clock 1s replace
 
 ## Set Config
-execute unless score version dnd.config matches 103 run function dnd:technical/update_message
 function dnd:technical/config
 scoreboard players set version dnd.config 103
 

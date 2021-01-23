@@ -6,10 +6,10 @@
       "nbt": "{CustomModelData:400006}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.culture_vat.title"
+      "translate": "advancements.dnd.revival.cultivator.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.culture_vat.description"
+      "translate": "advancements.dnd.revival.cultivator.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
           "item": {
-            "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"culture_vat\"}}}]}}"
+            "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"cultivator\"}}}]}}"
         }
       }
     }
