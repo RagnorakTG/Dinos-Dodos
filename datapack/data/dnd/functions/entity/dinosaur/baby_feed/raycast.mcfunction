@@ -4,4 +4,3 @@ execute if entity @s[scores={dnd.dummy=..499}] positioned ~-0.01 ~-0.99 ~-0.01 a
 execute if entity @s[scores={dnd.dummy=..499},tag=!dnd.tag] positioned ^ ^ ^0.01 run function dnd:entity/dinosaur/baby_feed/raycast
 execute if entity @s[scores={dnd.dummy=..499},tag=dnd.tag] run function dnd:entity/dinosaur/baby_feed/feed_player
 tag @s remove dnd.feed_raycaster
-say hi
