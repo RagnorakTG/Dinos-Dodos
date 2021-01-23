@@ -8,6 +8,11 @@ scoreboard objectives add dnd.config dummy
 scoreboard objectives add dnd.egg_size dummy
 scoreboard objectives add dnd.hatch_time dummy
 
+## Antivillager
+team add dnd.antivillager
+team modify dnd.antivillager friendlyFire false
+team modify dnd.antivillager seeFriendlyInvisibles false
+
 ## Gamerules
 gamerule commandBlockOutput false
 

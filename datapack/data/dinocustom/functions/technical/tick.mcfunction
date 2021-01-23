@@ -4,6 +4,7 @@
 
 ## Enity Functions
 execute as @e[sort=arbitrary,tag=dnd.entity] at @s run function dinocustom:entity/tick
+execute as @e[sort=arbitrary,type=#dinocustom:antivillager] at @s run function dinocustom:entity/tick
 
 ## Antique
 ## Leave this alone, do not touch these unless otherwise authorized, looking at you, *Mr. Magnet.*
