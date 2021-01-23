@@ -1,7 +1,7 @@
 {
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "dnd:entity/tyrannosaurus_idle"
+		"0": "dnd:entity/tyrannosaurus"
 	},
 	"elements": [
 		{
