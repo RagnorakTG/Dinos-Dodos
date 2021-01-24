@@ -102,7 +102,7 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400016
+          "custom_model_data": 400017
         },
       "model": "dnd:block/amber_block"
     }
