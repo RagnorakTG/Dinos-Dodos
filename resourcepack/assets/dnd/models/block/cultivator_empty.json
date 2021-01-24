@@ -2,9 +2,9 @@
 	"parent": "minecraft:block/orientable",
   "textures": {
     "top": "dnd:block/station_top",
-    "front": "dnd:block/cultivator",
+    "front": "dnd:block/cultivator_empty",
     "side": "dnd:block/station_side",
-    "particle": "dnd:block/cultivator"
+    "particle": "dnd:block/cultivator_empty"
   },
   "display": {
     "head": {
