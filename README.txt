@@ -1,4 +1,4 @@
-  Thank you for installing Dinos & Dodos FR V 1.0.3!
+  Thank you for installing Dinos & Dodos FR V 1.0.4!
   Bellow you will find a tutorial on how to install the datapack!
 
 How to Install into a existing world:
