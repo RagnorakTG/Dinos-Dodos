@@ -6,4 +6,4 @@
 
 ## Send Reload Message
 ## 0 by default
-scoreboard players set reload dnd.config 0
+scoreboard players set reload dnd.config 1

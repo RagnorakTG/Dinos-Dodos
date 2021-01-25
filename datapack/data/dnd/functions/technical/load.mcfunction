@@ -27,5 +27,5 @@ function dnd:technical/config
 scoreboard players set version dnd.config 104
 
 ## Send Chat Messages
-execute if score install dnd.config matches 1 if score dev dnd.config matches 1 run function dnd:technical/reload_message
+execute if score install dnd.config matches 1 if score reload dnd.config matches 1 run function dnd:technical/reload_message
 execute unless score install dnd.config matches 1 run function dnd:technical/install_message
