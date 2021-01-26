@@ -1,0 +1,13 @@
+{
+  "name": "dnd:amber_cavern/base_plates",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "dnd:amber_cavern/base_plate",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}
