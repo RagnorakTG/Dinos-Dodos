@@ -128,7 +128,7 @@
         "predicate": {
           "custom_model_data": 409999
         },
-      "model": "dnd:item/blank"
+      "model": "dnd:item/nothing"
     }
   ]
 }

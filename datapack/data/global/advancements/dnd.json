@@ -4,7 +4,7 @@
         "description": "\"Life, um, finds a way.\" - Ian Malcolm",
         "icon": {
             "item": "minecraft:barrier",
-			"nbt": "{CustomModelData:400002}"
+			"nbt": "{CustomModelData:400001}"
         },
         "announce_to_chat": false,
         "show_toast": false

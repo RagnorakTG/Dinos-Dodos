@@ -1,0 +1,20 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/barrier"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:item/nothing"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/check_mark"
+		}
+	]
+}
