@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/dna_extractor",
+  "parent": "dnd:revival/genome_modifier",
   "display": {
     "icon": {
       "item": "minecraft:furnace",

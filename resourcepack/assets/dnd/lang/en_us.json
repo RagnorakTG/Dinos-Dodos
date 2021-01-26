@@ -359,8 +359,6 @@
 
   "advancements.dnd.revival.root.title": "Revival",
   "advancements.dnd.revival.root.description": "They didn't ask to be brought back.",
-  "advancements.dnd.revival.paleontology_table.title": "Paleontological Research",
-  "advancements.dnd.revival.paleontology_table.description": "Craft and place a Paleontology Table.",
   "advancements.dnd.revival.sifter.title": "Sifting",
   "advancements.dnd.revival.sifter.description": "Craft and place a Sifter.",
   "advancements.dnd.revival.analyzer.title": "Analyzing",
@@ -383,6 +381,8 @@
   "advancements.dnd.revival.modification.description": "Modify the genome of a organism.",
   "advancements.dnd.revival.nether_egg.title": "One Hell of a Time",
   "advancements.dnd.revival.nether_egg.description": "Hatch an egg in the Nether.",
+  "advancements.dnd.revival.paleontologist.title": "Paleontology",
+  "advancements.dnd.revival.paleontologist.description": "Craft and wear a full set of Paleontologist armor!",
 
 
 

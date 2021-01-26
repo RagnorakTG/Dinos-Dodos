@@ -1,15 +1,15 @@
 {
-  "parent": "dnd:revival/root",
+  "parent": "dnd:revival/dna_extractor",
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400001}"
+      "nbt": "{CustomModelData:400016}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.paleontology_table.title"
+      "translate": "advancements.dnd.revival.genome_modifier.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.paleontology_table.description"
+      "translate": "advancements.dnd.revival.genome_modifier.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
           "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"paleontology_table\"}}}]}}"
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"genome_modifier\"}}}]}}"
         }
       }
     }
