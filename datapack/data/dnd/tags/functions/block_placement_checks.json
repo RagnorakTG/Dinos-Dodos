@@ -3,7 +3,6 @@
     "dnd:block/cultivator/placement_check",
     "dnd:block/dna_combinator/placement_check",
     "dnd:block/dna_extractor/placement_check",
-    "dnd:block/paleontology_table/placement_check",
     "dnd:block/sifter/placement_check",
     "dnd:block/analyzer/placement_check",
     "dnd:block/genome_modifier/placement_check",

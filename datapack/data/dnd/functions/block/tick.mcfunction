@@ -16,8 +16,6 @@ execute if entity @s[type=armor_stand,tag=dnd.dna_combinator] run function dnd:b
 execute if entity @s[type=armor_stand,tag=dnd.dna_extractor] run function dnd:block/dna_extractor/tick
 # Genome Modifier
 execute if entity @s[type=armor_stand,tag=dnd.genome_modifier] run function dnd:block/genome_modifier/tick
-# Paleontology Table
-execute if entity @s[type=armor_stand,tag=dnd.paleontology_table] run function dnd:block/paleontology_table/tick
 # Sifter
 execute if entity @s[type=armor_stand,tag=dnd.sifter] run function dnd:block/sifter/tick
 # Dinosaur Egg

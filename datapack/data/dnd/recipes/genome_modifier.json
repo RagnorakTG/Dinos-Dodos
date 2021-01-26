@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "#H#",
+        "iRi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "H": {
+            "item": "minecraft:comparator"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "#": {
+            "tag": "dnd:glass_blocks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iRi",
+        "ROR",
+        "iHi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "H": {
+            "item": "minecraft:redstone_torch"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "O": {
+            "item": "minecraft:observer"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

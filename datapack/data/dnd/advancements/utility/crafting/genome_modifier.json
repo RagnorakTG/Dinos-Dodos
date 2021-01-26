@@ -1,14 +1,14 @@
 {
   "parent": "dnd:utility/root",
   "rewards": {
-    "function":"dnd:recipes/paleontology_table",
-    "loot": ["dnd:items/paleontology_table"]
+    "function":"dnd:recipes/genome_modifier",
+    "loot": ["dnd:items/genome_modifier"]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "dnd:paleontology_table"
+        "recipe": "dnd:genome_modifier"
       }
     }
   }
