@@ -1,0 +1,19 @@
+{
+  "parent": "dnd:revival/egg",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:400007}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.nether_egg.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.nether_egg.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}

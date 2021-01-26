@@ -375,14 +375,17 @@
   "advancements.dnd.revival.dna.description": "Extract a strain of DNA from a fossil.",
   "advancements.dnd.revival.embryo.title": "Embryonics",
   "advancements.dnd.revival.embryo.description": "Modify the DNA of a living embryo.",
-  "advancements.dnd.revival.egg.title": "First Steps",
-  "advancements.dnd.revival.egg.description": "Hatch an egg or impregnate a mammal.",
+  "advancements.dnd.revival.egg.title": "Blast From the Past",
+  "advancements.dnd.revival.egg.description": "Place a prehistoric egg.",
   "advancements.dnd.revival.modification.title": "Upgrades, People!",
   "advancements.dnd.revival.modification.description": "Modify the genome of a organism.",
   "advancements.dnd.revival.nether_egg.title": "One Hell of a Time",
-  "advancements.dnd.revival.nether_egg.description": "Hatch an egg in the Nether.",
+  "advancements.dnd.revival.nether_egg.description": "Place an egg in the Nether.",
   "advancements.dnd.revival.paleontologist.title": "Paleontology",
   "advancements.dnd.revival.paleontologist.description": "Craft and wear a full set of Paleontologist armor!",
+
+  "advancements.dnd.the_past.root.title": "The Past",
+  "advancements.dnd.the_past.root.description": "Travel back in time.",
 
 
 

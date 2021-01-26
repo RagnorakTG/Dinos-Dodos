@@ -1,0 +1,19 @@
+{
+  "parent": "dnd:revival/dna_extractor",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400004}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.dna.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.dna.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}
