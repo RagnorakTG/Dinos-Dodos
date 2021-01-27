@@ -17,13 +17,8 @@
     "hidden": false
   },
   "criteria": {
-    "helmet": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-          "item": {
-            "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"dinosaur_egg\"}}}]}}"
-        }
-      }
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
     }
   }
 }

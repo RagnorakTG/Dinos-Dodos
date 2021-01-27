@@ -15,5 +15,10 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }
