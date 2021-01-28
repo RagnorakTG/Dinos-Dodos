@@ -15,5 +15,15 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "criteria": {
+    "place_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+          "item": {
+            "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"dinosaur_egg\"}}}]}}"
+        }
+      }
+    }
   }
 }

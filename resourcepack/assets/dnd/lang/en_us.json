@@ -282,7 +282,7 @@
   "item.dnd.meat.tyrannosaurus": "Raw Tyrannosaurus Steak",
 
   "lore.dnd.item.paleontology_armor": "Gives a minor bonus to your paleontology",
-  "lore.dnd.item.accuracy": "┗━ Accuracy: %s%",
+  "lore.dnd.item.accuracy": "┗━ Accuracy: %s",
 
   "block.dnd.egg.acrocanthosaurus": "Acrocanthosaurus Egg",
   "block.dnd.egg.compsognathus": "Compsognathus Egg",

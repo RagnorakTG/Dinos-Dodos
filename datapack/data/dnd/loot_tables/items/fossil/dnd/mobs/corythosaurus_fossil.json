@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:100,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -23,6 +23,300 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [100]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:90,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [90]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:80,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [80]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:70,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [70]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:60,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [60]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:50,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [50]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:40,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [40]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:30,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [30]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:20,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [20]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{accuracy:10,id:\"fossil\",entity:{id:\"corythosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [10]
+                      },
+                      {
                 "translate": "config.dnd.name",
                 "color": "#63E2FF",
                 "italic": true
