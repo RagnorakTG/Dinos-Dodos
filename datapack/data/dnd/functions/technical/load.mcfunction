@@ -3,11 +3,10 @@
 ####################
 
 ## Add Scoreboards
-scoreboard objectives add dnd.dummy dummy
 scoreboard objectives add dnd.config dummy
+scoreboard objectives add dnd.dummy dummy
+scoreboard objectives add dnd.timer dummy
 scoreboard objectives add dnd.bundle dummy
-scoreboard objectives add dnd.hatch dummy
-scoreboard objectives add dnd.age dummy
 
 ## Antivillager
 team add dnd.antivillager

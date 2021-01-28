@@ -11,12 +11,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:100,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:100,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -43,12 +43,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:90,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:90,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -75,12 +75,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:80,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:80,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -107,12 +107,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:70,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:70,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -139,12 +139,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:60,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:60,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -171,12 +171,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:50,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:50,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -203,12 +203,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:40,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:40,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -235,12 +235,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:30,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:30,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -267,12 +267,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:20,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:20,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },
@@ -299,12 +299,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:10,id:\"fossil\",entity:{id:\"acrocanthosaurus\"}}}"
+              "tag": "{CustomModelData:400001,dnd:{accuracy:10,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "translate": "item.dnd.fossil.tyrannosaurus",
                 "italic": false
                       }
             },

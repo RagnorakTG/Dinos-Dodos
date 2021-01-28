@@ -12,6 +12,7 @@
   "updatepack.dnd.click": "Click this message to allow the pack to attempt to update whatever it can from the older version.",
 
   "item.dnd.nothing": "",
+  "item.dnd.structural_note": "Structural Note",
   "item.dnd.blank": "Blank",
   "item.dnd.battery": "Battery",
   "item.dnd.needle": "Needle",
@@ -283,6 +284,12 @@
 
   "lore.dnd.item.paleontology_armor": "Gives a minor bonus to your paleontology",
   "lore.dnd.item.accuracy": "┗━ Accuracy: %s",
+  "lore.dnd.structure.acrocanthosaurus": "┗━ Acrocanthosaurus Structure",
+  "lore.dnd.structure.compsognathus": "┗━ Compsognathus Structure",
+  "lore.dnd.structure.concavenator": "┗━ Concavenator Structure",
+  "lore.dnd.structure.corythosaurus": "┗━ Corythosaurus Structure",
+  "lore.dnd.structure.gallimimus": "┗━ Gallimimus Structure",
+  "lore.dnd.structure.tyrannosaurus": "┗━ Tyrannosaurus Structure",
 
   "block.dnd.egg.acrocanthosaurus": "Acrocanthosaurus Egg",
   "block.dnd.egg.compsognathus": "Compsognathus Egg",

@@ -1,5 +1,5 @@
 ####################
-# Cultivator Break
+# Analyzer Break
 ####################
 
 execute store success score dnd.temp_0 dnd.dummy run kill @e[tag=!global.ignore,limit=1,type=item,distance=..2,nbt={PickupDelay:10s,Item:{id:"minecraft:barrel"}}]

@@ -3,11 +3,10 @@
 ####################
 
 ## Remove Scoreboards
-scoreboard objectives remove dnd.dummy
 scoreboard objectives remove dnd.config
+scoreboard objectives remove dnd.dummy
+scoreboard objectives remove dnd.timer
 scoreboard objectives remove dnd.bundle
-scoreboard objectives remove dnd.hatch
-scoreboard objectives remove dnd.age
 
 ## Team
 team remove dnd.antivillager

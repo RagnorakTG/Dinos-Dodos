@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400000,dnd:{accuracy:100,id:\"structural_note\",entity:{id:\"tyrannosaurus\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.structural_note",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.tyrannosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [100]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

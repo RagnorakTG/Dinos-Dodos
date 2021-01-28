@@ -3,7 +3,7 @@
 ####################
 
 ## Remove Age
-scoreboard players reset @s dnd.age
+scoreboard players reset @s dnd.timer
 
 ## Fix CMD
 # Idle

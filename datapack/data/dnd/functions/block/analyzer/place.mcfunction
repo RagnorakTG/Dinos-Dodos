@@ -1,5 +1,5 @@
 ####################
-# Cultivator Place
+# Analyzer Place
 ####################
 
 execute if block ~ ~ ~ furnace[facing=north] run summon armor_stand ~ ~ ~ {Rotation:[180F,0F],ArmorItems:[{},{},{},{id:"minecraft:furnace",Count:1b,tag:{CustomModelData:400003}}],Tags:["global.ignore","dnd.block","dnd.entity","dnd.block_placing","dnd.analyzer","dnd.analyzer.north","dnd.gui","dnd.ignore.slot2","dnd.ignore.slot20"],NoGravity:1b,Invisible:1b,Marker:1b}
