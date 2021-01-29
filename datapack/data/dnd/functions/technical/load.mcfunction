@@ -5,6 +5,11 @@
 ## Add Scoreboards
 scoreboard objectives add dnd.config dummy
 scoreboard objectives add dnd.dummy dummy
+scoreboard objectives add dnd.dummy2 dummy
+scoreboard objectives add dnd.dummy3 dummy
+scoreboard objectives add dnd.dummy4 dummy
+scoreboard objectives add dnd.dummy5 dummy
+scoreboard objectives add dnd.dummy6 dummy
 scoreboard objectives add dnd.timer dummy
 scoreboard objectives add dnd.bundle dummy
 
