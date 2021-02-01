@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"remove\"}}"
+              "tag": "{CustomModelData:400000,dnd:{id:\"remove\",ignore:1b}}"
             },
             {
               "function": "minecraft:set_name",
