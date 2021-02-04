@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{accuracy:0,id:\"dna\",entity:{id:\"generic\"}}}"
+              "tag": "{CustomModelData:400004,dnd:{accuracy:100,id:\"dna\",entity:{id:\"generic\"}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -27,7 +27,7 @@
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
-                "with": [0]
+                "with": [100]
                       },
                       {
                 "translate": "config.dnd.name",
