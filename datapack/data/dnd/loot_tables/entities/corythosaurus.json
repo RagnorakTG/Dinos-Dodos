@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400006,dnd:{id:\"custom_meat\",entity:{id:\"corythosaurus\"}}}"
+              "tag": "{ignore:1b,CustomModelData:400006,dnd:{extractable:1b,id:\"custom_meat\",entity:{id:\"corythosaurus\"}}}"
             },
             {
               "function": "minecraft:set_name",
