@@ -1,0 +1,40 @@
+{
+  "name": "dnd:amber_mine/rooms",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 5,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_1",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 5,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_2",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 5,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_3",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 5,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_4",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}
