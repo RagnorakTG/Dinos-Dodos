@@ -1,10 +1,10 @@
 {
-  "name": "tcc:tundra_keep/mobs/vindicator",
+  "name": "dnd:amber_mine/entrance",
   "fallback": "minecraft:empty",
   "elements": [{
-    "weight": 1,
+    "weight": 2,
     "element": {
-      "location": "tcc:tundra_keep/mobs/vindicator",
+      "location": "dnd:amber_mine/hallway/entrance",
       "processors": "minecraft:empty",
       "projection": "rigid",
       "element_type": "minecraft:single_pool_element"

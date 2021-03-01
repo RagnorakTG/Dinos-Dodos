@@ -36,5 +36,32 @@
       "projection": "rigid",
       "element_type": "minecraft:single_pool_element"
     }
+  },
+  {
+    "weight": 3,
+    "element": {
+      "location": "dnd:amber_mine/rooms/medium_room_1",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 3,
+    "element": {
+      "location": "dnd:amber_mine/rooms/medium_room_2",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 3,
+    "element": {
+      "location": "dnd:amber_mine/rooms/medium_room_3",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
   }]
 }

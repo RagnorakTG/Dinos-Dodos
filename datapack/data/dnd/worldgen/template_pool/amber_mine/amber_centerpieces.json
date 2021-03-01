@@ -1,0 +1,32 @@
+{
+  "name": "dnd:amber_mine/amber_centerpieces",
+  "fallback": "minecraft:empty",
+  "elements": [{
+      "weight": 1,
+      "element": {
+        "location": "dnd:amber_mine/rooms/centerpiece/amber/amber_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dnd:amber_mine/rooms/centerpiece/amber/amber_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dnd:amber_mine/rooms/centerpiece/amber/amber_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

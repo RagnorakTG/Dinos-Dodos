@@ -1,55 +1,10 @@
 {
-  "name": "dnd:amber_mine/outsides",
+  "name": "dnd:amber_mine/hallways",
   "fallback": "minecraft:empty",
   "elements": [{
       "weight": 5,
       "element": {
-        "location": "dnd:amber_mine/outside/barrels",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "location": "dnd:amber_mine/outside/camp",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "location": "dnd:amber_mine/outside/cart",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "location": "dnd:amber_mine/outside/golem",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "location": "dnd:amber_mine/outside/path",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "location": "dnd:amber_mine/outside/stable",
+        "location": "dnd:amber_mine/hallway/straight",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -58,7 +13,34 @@
     {
       "weight": 2,
       "element": {
-        "location": "dnd:amber_mine/outside/tent",
+        "location": "dnd:amber_mine/hallway/turn_left",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dnd:amber_mine/hallway/turn_right",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dnd:amber_mine/hallway/two_way",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dnd:amber_mine/hallway/staircase",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

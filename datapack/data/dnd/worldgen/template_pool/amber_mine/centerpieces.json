@@ -1,19 +1,10 @@
 {
-  "name": "dnd:amber_mine/outsides",
+  "name": "dnd:amber_mine/centerpieces",
   "fallback": "minecraft:empty",
   "elements": [{
       "weight": 5,
       "element": {
-        "location": "dnd:amber_mine/outside/barrels",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "location": "dnd:amber_mine/outside/camp",
+        "location": "dnd:amber_mine/rooms/centerpiece/barrels",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -22,7 +13,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "dnd:amber_mine/outside/cart",
+        "location": "dnd:amber_mine/rooms/centerpiece/blast_furnace",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -31,16 +22,16 @@
     {
       "weight": 3,
       "element": {
-        "location": "dnd:amber_mine/outside/golem",
+        "location": "dnd:amber_mine/rooms/centerpiece/generate_amber",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 3,
+      "weight": 5,
       "element": {
-        "location": "dnd:amber_mine/outside/path",
+        "location": "dnd:amber_mine/rooms/centerpiece/table",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -49,16 +40,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "dnd:amber_mine/outside/stable",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 2,
-      "element": {
-        "location": "dnd:amber_mine/outside/tent",
+        "location": "dnd:amber_mine/rooms/centerpiece/time_machine",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
