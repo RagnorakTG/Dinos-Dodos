@@ -1,0 +1,13 @@
+{
+  "name": "dnd:amber_mine/caverns",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 5,
+    "element": {
+      "location": "dnd:amber_mine/caverns/cracked_cavern_1",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}
