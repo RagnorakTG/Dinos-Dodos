@@ -6,6 +6,8 @@
     "dnd:block/sifter/placement_check",
     "dnd:block/analyzer/placement_check",
     "dnd:block/genome_modifier/placement_check",
-    "dnd:block/dinosaur_egg/placement_check"
+    "dnd:block/dinosaur_egg/placement_check",
+    "dnd:block/amber_block/placement_check",
+    "dnd:block/budding_amber/placement_check"
   ]
 }
