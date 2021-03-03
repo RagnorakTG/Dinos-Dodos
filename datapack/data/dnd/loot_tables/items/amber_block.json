@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:furnace",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"amber_block\"}}}]},CustomModelData:400017,dnd:{id:\"amber_block\"}}"
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "translate": "block.dnd.amber_block",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [{
+                            "translate": "config.dnd.name",
+                            "color": "#63E2FF",
+                            "italic": true
+                          }]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

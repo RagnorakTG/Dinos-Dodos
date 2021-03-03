@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dnd:block/check_spawner_item/tool/enchantment/silk_touch"
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:alternative",
+                "terms": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "dnd:block/check_spawner_item/block/amber_block"
+                    }
+                ]
+            }
+        },
+        {
+            "condition": "minecraft:alternative",
+            "terms": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Item:{tag:{dnd:{spawner:{item:'amber_block'}}}}}"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

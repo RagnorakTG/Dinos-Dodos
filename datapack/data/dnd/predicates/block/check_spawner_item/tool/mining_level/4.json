@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dnd:block/check_spawner_item/tool/diamond_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dnd:block/check_spawner_item/tool/netherite_pickaxe"
+        }
+    ]
+}

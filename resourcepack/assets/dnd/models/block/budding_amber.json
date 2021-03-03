@@ -1,6 +1,6 @@
 {
     "parent": "dnd:block/cube_spawner_all",
     "textures": {
-        "all": "dnd:block/amber_block"
+        "all": "dnd:block/budding_amber"
     }
 }

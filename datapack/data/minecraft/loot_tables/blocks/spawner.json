@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnd:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dnd:{spawner:{id:''}}}"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": "block_entity",
+                            "ops": [
+                                {
+                                    "source": "SpawnData.ArmorItems[3].tag.dnd",
+                                    "target": "dnd.spawner",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": "this",
+                            "ops": [
+                                {
+                                    "source": "SelectedItem",
+                                    "target": "dnd.spawner.tool",
+                                    "op": "replace"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

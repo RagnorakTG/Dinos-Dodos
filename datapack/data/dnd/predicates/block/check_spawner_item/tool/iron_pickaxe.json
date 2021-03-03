@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Item:{tag:{dnd:{spawner:{tool:{id:\"minecraft:iron_pickaxe\"}}}}}}"
+    }
+}

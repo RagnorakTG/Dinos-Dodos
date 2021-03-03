@@ -105,6 +105,12 @@
           "custom_model_data": 400017
         },
       "model": "dnd:block/amber_block"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400018
+        },
+      "model": "dnd:block/budding_amber"
     }
   ]
 }
