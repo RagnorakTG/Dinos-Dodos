@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "dnd:item/blank",
+        "down": "minecraft:block/spawner",
+        "up": "minecraft:block/spawner",
+        "north": "minecraft:block/spawner",
+        "east": "minecraft:block/spawner",
+        "south": "minecraft:block/spawner",
+        "west": "minecraft:block/spawner"
+    }
+}

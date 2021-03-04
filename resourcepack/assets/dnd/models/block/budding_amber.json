@@ -1,6 +1,11 @@
 {
     "parent": "dnd:block/cube_spawner_all",
     "textures": {
-        "all": "dnd:block/budding_amber"
+      "top": "dnd:block/budding_amber",
+      "bottom": "dnd:block/budding_amber",
+      "north": "dnd:block/amber_block",
+      "south": "dnd:block/amber_block",
+      "east": "dnd:block/amber_block",
+      "west": "dnd:block/amber_block"
     }
 }
