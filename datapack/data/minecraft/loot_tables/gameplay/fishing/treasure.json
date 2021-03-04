@@ -66,6 +66,10 @@
         {
           "type": "minecraft:loot_table",
           "name": "dnd:paleontology/fishing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/amber"
         }
       ]
     }
