@@ -9,5 +9,14 @@
       "projection": "rigid",
       "element_type": "minecraft:single_pool_element"
     }
+  },
+  {
+    "weight": 2,
+    "element": {
+      "location": "dnd:amber_mine/caverns/sphere_cavern_1",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
   }]
 }
