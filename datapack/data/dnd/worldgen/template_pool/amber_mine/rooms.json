@@ -38,6 +38,60 @@
     }
   },
   {
+    "weight": 5,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_5",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 4,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_6",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 4,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_7",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 4,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_8",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 4,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_9",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 4,
+    "element": {
+      "location": "dnd:amber_mine/rooms/small_room_10",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
     "weight": 3,
     "element": {
       "location": "dnd:amber_mine/rooms/medium_room_1",
@@ -59,6 +113,15 @@
     "weight": 3,
     "element": {
       "location": "dnd:amber_mine/rooms/medium_room_3",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 2,
+    "element": {
+      "location": "dnd:amber_mine/rooms/medium_room_4",
       "processors": "minecraft:empty",
       "projection": "rigid",
       "element_type": "minecraft:single_pool_element"
