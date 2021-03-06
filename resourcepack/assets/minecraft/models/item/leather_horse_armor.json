@@ -128,79 +128,79 @@
         "predicate": {
           "custom_model_data": 409001
         },
-      "model": "dnd:item/ambermancer_head"
+      "model": "dnd:entity/ambermancer/ambermancer_head"
     },
     {
         "predicate": {
           "custom_model_data": 409002
         },
-      "model": "dnd:item/ambermancer_idle"
+      "model": "dnd:entity/ambermancer/ambermancer_idle"
     },
     {
         "predicate": {
           "custom_model_data": 409003
         },
-      "model": "dnd:item/ambermancer_walking"
+      "model": "dnd:entity/ambermancer/ambermancer_walking"
     },
     {
         "predicate": {
           "custom_model_data": 409004
         },
-      "model": "dnd:item/ambermancer_arms_idle"
+      "model": "dnd:entity/ambermancer/ambermancer_arms_idle"
     },
     {
         "predicate": {
           "custom_model_data": 409005
         },
-      "model": "dnd:item/ambermancer_arms_walking"
+      "model": "dnd:entity/ambermancer/ambermancer_arms_walking"
     },
     {
         "predicate": {
           "custom_model_data": 409006
         },
-      "model": "dnd:item/amber_spike"
+      "model": "dnd:entity/ambermancer/amber_spike"
     },
     {
         "predicate": {
           "custom_model_data": 409007
         },
-      "model": "dnd:item/amber_dragonfly_idle"
+      "model": "dnd:entity/ambermancer/amber_dragonfly_idle"
     },
     {
         "predicate": {
           "custom_model_data": 409008
         },
-      "model": "dnd:item/amber_dragonfly_walking"
+      "model": "dnd:entity/ambermancer/amber_dragonfly_walking"
     },
     {
         "predicate": {
           "custom_model_data": 409009
         },
-      "model": "dnd:item/amber_mammal_idle"
+      "model": "dnd:entity/ambermancer/amber_mammal_idle"
     },
     {
         "predicate": {
           "custom_model_data": 409010
         },
-      "model": "dnd:item/amber_mammal_walking"
+      "model": "dnd:entity/ambermancer/amber_mammal_walking"
     },
     {
         "predicate": {
           "custom_model_data": 409011
         },
-      "model": "dnd:item/amber_mosquito_idle"
+      "model": "dnd:entity/ambermancer/amber_mosquito_idle"
     },
     {
         "predicate": {
           "custom_model_data": 409012
         },
-      "model": "dnd:item/amber_mosquito_walking"
+      "model": "dnd:entity/ambermancer/amber_mosquito_walking"
     },
     {
         "predicate": {
           "custom_model_data": 409999
         },
-      "model": "dnd:item/nothing"
+      "model": "dnd:entity/ambermancer/nothing"
     }
   ]
 }
