@@ -2,7 +2,7 @@
   "name": "dnd:amber_mine/amber_spike",
   "fallback": "minecraft:empty",
   "elements": [{
-    "weight": 3,
+    "weight": 10,
     "element": {
       "location": "dnd:amber_mine/caverns/amber/vertical_down_1block",
       "processors": "minecraft:empty",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "weight": 1,
+    "weight": 5,
     "element": {
       "location": "dnd:amber_mine/caverns/amber/vertical_down_2block",
       "processors": "minecraft:empty",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "weight": 3,
+    "weight": 10,
     "element": {
       "location": "dnd:amber_mine/caverns/amber/vertical_up_1block",
       "processors": "minecraft:empty",
@@ -29,9 +29,27 @@
     }
   },
   {
-    "weight": 1,
+    "weight": 5,
     "element": {
       "location": "dnd:amber_mine/caverns/amber/vertical_up_2block",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 1,
+    "element": {
+      "location": "dnd:amber_mine/caverns/amber/budding_up",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {
+    "weight": 1,
+    "element": {
+      "location": "dnd:amber_mine/caverns/amber/budding_down",
       "processors": "minecraft:empty",
       "projection": "rigid",
       "element_type": "minecraft:single_pool_element"

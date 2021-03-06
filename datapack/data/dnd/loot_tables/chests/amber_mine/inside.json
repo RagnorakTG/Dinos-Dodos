@@ -111,6 +111,21 @@
           "type": "minecraft:loot_table",
           "weight": 20,
           "name": "dnd:items/sifter"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 110,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "dnd:items/empty_egg"
         }
       ]
     },
@@ -290,21 +305,6 @@
             }
           ],
           "name": "minecraft:cobweb"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "dnd:items/empty_egg"
         }
       ]
     }
