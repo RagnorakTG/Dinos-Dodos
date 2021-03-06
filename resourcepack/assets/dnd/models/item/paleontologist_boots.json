@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dnd:gui/negative_space",
+    "layer1": "dnd:item/paleontologist_boots"
+  }
+}

@@ -26,6 +26,24 @@
           "custom_model_data": 400005
         },
       "model": "dnd:item/embryo"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400006
+        },
+      "model": "dnd:item/compound_eyes"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dnd:item/proboscis"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400008
+        },
+      "model": "dnd:item/tuft"
     }
   ]
 }

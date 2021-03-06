@@ -1,0 +1,47 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{display:{color:12889983},AttributeModifiers:[],HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"paleontologist_leggings\"},CustomModelData:400001}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.dnd.paleontology_leggings",
+            "color": "white",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "lore.dnd.item.paleontology_armor",
+            "color": "gray",
+            "italic": false
+          }]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "config.dnd.nonoperational",
+            "color": "#FF0000",
+            "italic": false
+          }]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "config.dnd.name",
+            "color": "#63E2FF",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:leather_leggings"
+    }]
+  }]
+}

@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:entity",
+  "pools": [{
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:loot_table",
+        "functions": [{
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 0.0,
+              "max": 2.0,
+              "type": "minecraft:uniform"
+            }
+          },
+          {
+            "function": "minecraft:looting_enchant",
+            "count": {
+              "min": 0.0,
+              "max": 3.0
+            }
+          }
+        ],
+        "name": "dnd:items/amber"
+      }]
+    },
+    {
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:loot_table",
+        "name": "dnd:items/amber_staff"
+      }]
+    },
+    {
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:loot_table",
+        "name": "dnd:items/paleontologist_boots"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "name": "dnd:items/paleontologist_leggings"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "name": "dnd:items/paleontologist_chestplate"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "name": "dnd:items/pith_hat"
+      }]
+    },
+    {
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:item",
+        "name": "minecraft:barrier",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{dnd:{id:\"death_item\",entity:\"ambermancer\",clear:1b},CustomModelData:400000}"
+        }],
+        "conditions": [{
+          "condition": "minecraft:killed_by_player"
+        }]
+      }]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400006,dnd:{accuracy:50,id:\"compound_eyes\",entity:{id:\"dragon_fly\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.compound_eyes",
+                "italic": false,
+                "color": "white"
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [50]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400006,dnd:{accuracy:40,id:\"compound_eyes\",entity:{id:\"dragon_fly\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.compound_eyes",
+                "italic": false,
+                "color": "white"
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [40]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400006,dnd:{accuracy:30,id:\"compound_eyes\",entity:{id:\"dragon_fly\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.compound_eyes",
+                "italic": false,
+                "color": "white"
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [30]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400006,dnd:{accuracy:20,id:\"compound_eyes\",entity:{id:\"dragon_fly\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.compound_eyes",
+                "italic": false,
+                "color": "white"
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [20]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400006,dnd:{accuracy:10,id:\"compound_eyes\",entity:{id:\"dragon_fly\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.compound_eyes",
+                "italic": false,
+                "color": "white"
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [10]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
