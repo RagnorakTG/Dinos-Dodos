@@ -1,7 +1,6 @@
-############################################################
-# Description: Finishes the spell
-# Creator: CreeperMagnet_
-############################################################
+####################
+# Spell Completion
+####################
 
 say hostile sound
 say cast spell

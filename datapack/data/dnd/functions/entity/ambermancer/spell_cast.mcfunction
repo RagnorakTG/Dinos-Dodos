@@ -1,7 +1,6 @@
-############################################################
-# Description: Makes animations and such for a spell-casting cycle
-# Creator: CreeperMagnet_
-############################################################
+####################
+# Begin to Cast Spell
+####################
 
 scoreboard players add @s dnd.dummy2 0
 execute if entity @s[scores={dnd.dummy2=0..2}] run function dnd:entity/ambermancer/line_of_sight/start
