@@ -8,7 +8,7 @@ execute at @s unless block ~ ~ ~ air run data merge entity @s {Fire:2s}
 ## Specific Block Functions
 # Analyzer
 execute if entity @s[type=armor_stand,tag=dnd.analyzer] run function dnd:block/analyzer/tick
-# Culture Vat
+# Cultivator
 execute if entity @s[type=armor_stand,tag=dnd.cultivator] run function dnd:block/cultivator/tick
 # DNA Combinator
 execute if entity @s[type=armor_stand,tag=dnd.dna_combinator] run function dnd:block/dna_combinator/tick
@@ -22,3 +22,5 @@ execute if entity @s[type=armor_stand,tag=dnd.sifter] run function dnd:block/sif
 execute if entity @s[type=armor_stand,tag=dnd.dinosaur_egg] run function dnd:block/dinosaur_egg/tick
 # Budding Amber
 execute if entity @s[type=minecraft:area_effect_cloud,tag=dnd.budding_amber] run function dnd:block/budding_amber/tick
+# Projector
+execute if entity @s[type=armor_stand,tag=dnd.projector] run function dnd:block/projector/tick

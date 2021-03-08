@@ -198,9 +198,15 @@
     },
     {
         "predicate": {
+          "custom_model_data": 409998
+        },
+      "model": "dnd:entity/matrix"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409999
         },
-      "model": "dnd:entity/ambermancer/nothing"
+      "model": "dnd:item/nothing"
     }
   ]
 }

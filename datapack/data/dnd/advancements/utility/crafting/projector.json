@@ -1,0 +1,15 @@
+{
+  "parent": "dnd:utility/root",
+  "rewards": {
+    "function":"dnd:recipes/projector",
+    "loot": ["dnd:items/projector"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnd:projector"
+      }
+    }
+  }
+}

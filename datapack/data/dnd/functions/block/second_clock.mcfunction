@@ -11,6 +11,8 @@ execute if entity @s[tag=dnd.dna_extractor] run function dnd:block/dna_extractor
 execute if entity @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/second_clock
 
 ## Misc
+# Projector
+execute if entity @s[tag=dnd.projector] run function dnd:block/projector/second_clock
 # Generate Amber Block
 execute if entity @s[tag=dnd.amber_block] run function dnd:block/amber_block/second_clock
 # Generate Budding Amber

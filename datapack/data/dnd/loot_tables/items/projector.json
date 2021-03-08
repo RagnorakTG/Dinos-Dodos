@@ -7,12 +7,12 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"cultivator\"}}}]},CustomModelData:400006,dnd:{id:\"cultivator\"}}"
+          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"projector\"}}}]},CustomModelData:400019,dnd:{id:\"projector\"}}"
         },
         {
           "function": "minecraft:set_name",
           "name": {
-            "translate": "block.dnd.cultivator",
+            "translate": "block.dnd.projector",
             "italic": false
           }
         },

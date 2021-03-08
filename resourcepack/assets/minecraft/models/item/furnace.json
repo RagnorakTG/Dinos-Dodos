@@ -111,6 +111,12 @@
           "custom_model_data": 400018
         },
       "model": "dnd:block/budding_amber"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400019
+        },
+      "model": "dnd:block/projector"
     }
   ]
 }
