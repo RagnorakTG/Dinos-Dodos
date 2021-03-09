@@ -11,5 +11,3 @@ execute if entity @s[type=#dnd:antivillager,tag=!global.ignore] run team join dn
 execute if entity @s[type=wandering_trader,tag=dnd.entity] run team join dnd.antivillager @s
 
 ## Entities
-# Projection
-execute if entity @s[type=wandering_trader,tag=dnd.entity,tag=dnd.projection] run function dnd:entity/projection/tick

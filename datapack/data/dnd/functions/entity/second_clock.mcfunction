@@ -6,7 +6,7 @@
 execute if entity @s[type=wandering_trader,tag=dnd.entity,tag=dnd.projection] run function dnd:entity/projection/second_clock
 
 ## Trader Entity Functions
-execute if entity @s[type=wandering_trader,tag=dnd.entity,tag=!dnd.trader_ignore] run function dnd:entity/global/second_clock
+execute if entity @s[type=wandering_trader,tag=dnd.entity] run function dnd:entity/global/second_clock
 
 ## Blocks
 execute if entity @s[tag=dnd.block] run function dnd:block/second_clock
