@@ -11,18 +11,23 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:100,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.pristine_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -39,22 +44,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:90,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:90,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.pristine_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -71,22 +81,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:80,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:80,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.pristine_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -103,22 +118,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:70,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400003,dnd:{analyzable:1,accuracy:70,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.cracked_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -135,22 +155,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:60,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400003,dnd:{analyzable:1,accuracy:60,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.cracked_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -167,22 +192,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:50,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:50,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.fractured_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -199,22 +229,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:40,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:40,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.fractured_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -231,22 +266,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:30,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:30,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.fractured_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -263,22 +303,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:20,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:20,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.shattered_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -295,22 +340,27 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{accuracy:10,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:10,id:\"fossil\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.fossil.gallimimus",
+                "translate": "item.dnd.shattered_fossil",
                 "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.gallimimus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,

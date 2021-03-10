@@ -12,7 +12,7 @@
           "function": "minecraft:set_name",
           "name": {
             "translate": "item.dnd.amber_staff",
-            "color": "white",
+            "color": "yellow",
             "italic": false
           }
         },

@@ -6,45 +6,33 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 400001
-			},
-			"model": "dnd:item/dinosaur_fossil"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 400002
+				"custom_model_data": 400000
 			},
 			"model": "dnd:item/plant_fossil"
 		},
 		{
 			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/shattered_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/fractured_fossil"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 400003
 			},
-			"model": "dnd:item/acrocanthosaurus_fossil"
+			"model": "dnd:item/cracked_fossil"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 400004
 			},
-			"model": "dnd:item/concavenator_fossil"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 400005
-			},
-			"model": "dnd:item/corythosaurus_fossil"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 400006
-			},
-			"model": "dnd:item/gallimimus_fossil"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 400007
-			},
-			"model": "dnd:item/tyrannosaurus_fossil"
+			"model": "dnd:item/pristine_fossil"
 		}
 	]
 }
