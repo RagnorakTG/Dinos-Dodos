@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:100,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -43,12 +43,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:90,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:90,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -80,12 +80,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:80,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:80,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -117,12 +117,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:70,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:70,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -154,12 +154,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:60,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:60,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -191,12 +191,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:50,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:50,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -228,12 +228,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:40,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:40,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -265,12 +265,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:30,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:30,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -302,12 +302,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:20,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:20,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -339,12 +339,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bone",
+          "name": "minecraft:paper",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:10,id:\"fossil\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:10,id:\"structural_note\",entity:{id:\"tyrannosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400017,walking:400018},babymodels:{idle:400019,walking:400020}}}}"
             },
             {
               "function": "minecraft:set_name",
