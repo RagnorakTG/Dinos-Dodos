@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -48,7 +48,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:90,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:90,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -85,7 +85,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:80,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400004,dnd:{analyzable:1,accuracy:80,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -122,7 +122,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400003,dnd:{analyzable:1,accuracy:70,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400003,dnd:{analyzable:1,accuracy:70,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -159,7 +159,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400003,dnd:{analyzable:1,accuracy:60,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400003,dnd:{analyzable:1,accuracy:60,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -196,7 +196,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:50,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:50,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -233,7 +233,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:40,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:40,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -270,7 +270,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:30,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:30,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -307,7 +307,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:20,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:20,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -344,7 +344,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:10,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:10,id:\"fossil\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",

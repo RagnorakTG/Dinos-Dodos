@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:100,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:100,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -23,6 +23,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -39,11 +44,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:90,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:90,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -55,6 +60,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -71,11 +81,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:80,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:80,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -87,6 +97,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -103,11 +118,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:70,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:70,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -119,6 +134,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -135,11 +155,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:60,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:60,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -151,6 +171,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -167,11 +192,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:50,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:50,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -183,6 +208,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -199,11 +229,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:40,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:40,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -215,6 +245,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -231,11 +266,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:30,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:30,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -247,6 +282,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -263,11 +303,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:20,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:20,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -279,6 +319,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
@@ -295,11 +340,11 @@
         {
           "type": "item",
           "name": "minecraft:paper",
-          "weight": 1,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{analyzable:1,accuracy:10,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:10,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -311,6 +356,11 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
