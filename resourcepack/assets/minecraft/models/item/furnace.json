@@ -117,6 +117,12 @@
           "custom_model_data": 400019
         },
       "model": "dnd:block/projector"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400020
+        },
+      "model": "dnd:block/petrified_log"
     }
   ]
 }

@@ -310,6 +310,7 @@
   "block.dnd.sifter": "Sifter",
   "block.dnd.amber_block": "Amber Block",
   "block.dnd.budding_amber": "Budding Amber",
+  "block.dnd.petrified_log": "Petrified Log",
 
   "gui.dnd.block.analyzer": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000a%s",
   "gui.dnd.block.cultivator": "\uF000\uF000\uF000\uF000\uF000\uF000\uF000\uF000b%s",

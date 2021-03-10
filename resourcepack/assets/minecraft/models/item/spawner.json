@@ -15,6 +15,12 @@
 				"custom_model_data": 400002
 			},
 			"model": "dnd:block/budding_amber"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:block/petrified_log"
 		}
 	]
 }

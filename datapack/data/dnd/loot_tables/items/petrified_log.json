@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:furnace",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"petrified_log\"}}}]},CustomModelData:400020,dnd:{id:\"petrified_log\"}}"
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "translate": "block.dnd.petrified_log",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [{
+                            "translate": "config.dnd.name",
+                            "color": "#63E2FF",
+                            "italic": true
+                          }]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

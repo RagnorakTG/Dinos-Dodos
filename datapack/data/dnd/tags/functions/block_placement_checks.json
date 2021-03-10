@@ -9,6 +9,7 @@
     "dnd:block/dinosaur_egg/placement_check",
     "dnd:block/amber_block/placement_check",
     "dnd:block/budding_amber/placement_check",
-    "dnd:block/projector/placement_check"
+    "dnd:block/projector/placement_check",
+    "dnd:block/petrified_log/placement_check"
   ]
 }
