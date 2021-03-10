@@ -11,12 +11,6 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400003
-        },
-      "model": "dnd:item/empty_egg"
-    },
-    {
-        "predicate": {
           "custom_model_data": 400004
         },
       "model": "dnd:item/dna"
