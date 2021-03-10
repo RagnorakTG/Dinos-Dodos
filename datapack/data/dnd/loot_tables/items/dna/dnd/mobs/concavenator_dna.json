@@ -11,19 +11,362 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{id:\"dna\",entity:{id:\"concavenator\"}}}"
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:100,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.dna.concavenator",
-                "italic": false,
-                "color": "white"
+                "translate": "item.dnd.dna_vial",
+                "italic": false
                       }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [100]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:90,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [90]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:80,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [80]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:70,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [70]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:60,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [60]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:50,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [50]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:40,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [40]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:30,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [30]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:20,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [20]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:10,id:\"dna\",entity:{id:\"concavenator\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400005,walking:400006},babymodels:{idle:400007,walking:400008}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.dna_vial",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.concavenator",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [10]
+                      },
+                      {
                 "translate": "config.dnd.name",
                 "color": "#63E2FF",
                 "italic": true

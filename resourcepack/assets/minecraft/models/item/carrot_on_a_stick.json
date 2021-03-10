@@ -15,6 +15,12 @@
 				"custom_model_data": 400002
 			},
 			"model": "dnd:item/amber_staff"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/needle"
 		}
 	]
 }

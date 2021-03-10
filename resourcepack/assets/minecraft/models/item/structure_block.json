@@ -11,15 +11,9 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400004
+          "custom_model_data": 400002
         },
-      "model": "dnd:item/dna"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400005
-        },
-      "model": "dnd:item/embryo"
+      "model": "dnd:item/dna_vial"
     },
     {
         "predicate": {
