@@ -13,4 +13,4 @@ data modify entity @s[predicate=dnd:entity/wandering_trader_night,nbt=!{DeathTim
 data modify entity @s[predicate=!dnd:entity/wandering_trader_night,nbt=!{DeathTime:19s}] DeathTime set value
 ## Functions
 function dnd:entity/projection/update_model
-function dnd:entity/projection/update_direction
+execute if entity @s[tag=dnd.rotate] run function dnd:entity/projection/update_direction

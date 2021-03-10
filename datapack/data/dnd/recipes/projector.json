@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "H#H",
-        "iRi",
-        "RiR"
+        "RDR",
+        "iii"
     ],
     "key": {
         "#": {
@@ -17,6 +17,9 @@
         },
         "R": {
             "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {
