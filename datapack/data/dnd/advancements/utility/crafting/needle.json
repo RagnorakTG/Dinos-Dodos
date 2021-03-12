@@ -1,0 +1,15 @@
+{
+  "parent": "dnd:utility/root",
+  "rewards": {
+    "function":"dnd:recipes/needle",
+    "loot": ["dnd:items/needle"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dnd:needle"
+      }
+    }
+  }
+}
