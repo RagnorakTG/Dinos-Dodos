@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:bone",
-      "nbt": "{CustomModelData:400001}"
+      "nbt": "{CustomModelData:400004}"
     },
     "title": {
       "translate": "advancements.dnd.revival.root.title"
