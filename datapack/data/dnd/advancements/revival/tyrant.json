@@ -1,0 +1,23 @@
+{
+  "parent": "dnd:revival/egg",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.tyrant.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.tyrant.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "place_block": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
