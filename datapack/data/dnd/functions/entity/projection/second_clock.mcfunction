@@ -2,8 +2,6 @@
 # Projection Second Clock
 ####################
 
-## Die
-execute if block ~ ~-1 ~ #dnd:air run tp @s ~ -666 ~
 ## Basic
 effect give @s invisibility 100 0 true
 data remove entity @s Offers.Recipes
