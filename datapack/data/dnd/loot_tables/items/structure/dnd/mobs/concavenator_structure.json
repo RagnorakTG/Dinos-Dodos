@@ -17,6 +17,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.structural_note",
+                "color": "yellow",
                 "italic": false
                       }
             },
