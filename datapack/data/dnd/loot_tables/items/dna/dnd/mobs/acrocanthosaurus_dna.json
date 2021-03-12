@@ -17,6 +17,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -54,6 +55,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -91,6 +93,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -128,6 +131,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -165,6 +169,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -202,6 +207,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -239,6 +245,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -276,6 +283,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -313,6 +321,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -350,6 +359,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.dna_vial",
+                "color": "white",
                 "italic": false
                       }
             },
