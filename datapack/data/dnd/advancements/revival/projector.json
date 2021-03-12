@@ -1,0 +1,29 @@
+{
+  "parent": "dnd:revival/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:400019}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.projector.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.projector.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+          "item": {
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"projector\"}}}]}}"
+        }
+      }
+    }
+  }
+}
