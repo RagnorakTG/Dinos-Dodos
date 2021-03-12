@@ -44,6 +44,7 @@
   "lore.dnd.item.paleontology_armor": "Gives a minor bonus to your paleontology",
   "lore.dnd.item.accuracy": "┗━ Accuracy: %s",
   "lore.dnd.structure.empty": "┗━ Empty",
+  "lore.dnd.structure.unknown": "┗━ Unknown Structure",
   "lore.dnd.structure.acrocanthosaurus": "┗━ Acrocanthosaurus Structure",
   "lore.dnd.structure.compsognathus": "┗━ Compsognathus Structure",
   "lore.dnd.structure.concavenator": "┗━ Concavenator Structure",
