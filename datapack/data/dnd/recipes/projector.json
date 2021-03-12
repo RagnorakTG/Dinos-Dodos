@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "dnd:glass_blocks"
+            "tag": "dnd:glass"
         },
         "i": {
             "item": "minecraft:iron_ingot"

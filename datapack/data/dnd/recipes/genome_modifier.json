@@ -16,7 +16,7 @@
             "item": "minecraft:redstone"
         },
         "#": {
-            "tag": "dnd:glass_blocks"
+            "tag": "dnd:glass"
         }
     },
     "result": {

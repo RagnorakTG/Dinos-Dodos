@@ -4,6 +4,7 @@
 
 ## Functions
 execute as @e[tag=dnd.sifter] at @s run function dnd:block/sifter/five_second_clock
+execute as @e[type=wandering_trader,tag=dnd.entity,tag=dnd.projection] at @s run function dnd:entity/projection/second_clock
 
 ## Reschedule
 schedule function dnd:technical/five_second_clock 5s replace
