@@ -11,12 +11,13 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{accuracy:0,id:\"structural_note\",entity:{id:\"generic\"}}}"
+              "tag": "{CustomModelData:400000,dnd:{analyzable:1,accuracy:100,id:\"structural_note\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.structural_note",
+                "color": "white",
                 "italic": false
                       }
             },
@@ -31,7 +32,7 @@
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
-                "with": [0]
+                "with": [100]
                       },
                       {
                 "translate": "config.dnd.name",
