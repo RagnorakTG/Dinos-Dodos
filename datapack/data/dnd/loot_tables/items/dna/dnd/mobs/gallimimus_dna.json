@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{analyzable:1,accuracy:100,id:\"dna\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{accuracy:100,id:\"dna\",entity:{id:\"gallimimus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
