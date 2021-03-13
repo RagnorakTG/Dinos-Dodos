@@ -1,11 +1,11 @@
 ####################
-# Analyzer Craft Paramaters
+# DNA Extractor Craft Paramaters
 ####################
 
-## Store NBT from 2nd slot into storage
-execute if entity @s[tag=dnd.craft] run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:2b}].tag.dnd.entity
-## Store success of copying NBT from 15th slot into storage
-execute if entity @s[tag=dnd.craft] store success score similar.temp dnd.dummy run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:15b}].tag.dnd.entity
+## Store NBT from output slot into storage
+data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:15b}].tag.dnd.entity
+## Store success of copying NBT from extractor storage into temp storage
+execute store success score similar.temp dnd.dummy run data modify storage dnd:storage root.temp set from storage dnd:storage root.extractor
 ## Grab count from output
 execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:15b}].Count
 ## If theyre the same then add to output

@@ -231,8 +231,8 @@ execute if block ~ ~ ~ barrel{Items:[{Slot:11b,id:"minecraft:mutton"}]} run tag 
 ## Shulker
 # Spawn Egg
 execute if block ~ ~ ~ barrel{Items:[{Slot:11b,id:"minecraft:shulker_spawn_egg"}]} run tag @s add dnd.craft
-# Shulker Shell
-execute if block ~ ~ ~ barrel{Items:[{Slot:11b,id:"minecraft:shulker_shell"}]} run tag @s add dnd.craft
+# Shulker Szell
+execute if block ~ ~ ~ barrel{Items:[{Slot:11b,id:"minecraft:shulker_szell"}]} run tag @s add dnd.craft
 
 ## Silverfish
 # Spawn Egg
