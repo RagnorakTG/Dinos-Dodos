@@ -7,8 +7,8 @@ tag @s remove dnd.ignore.slot15
 tag @s remove dnd.structure_dna
 tag @s remove dnd.dna_dna
 tag @s remove dnd.craft
-execute if block ~ ~ ~ barrel{Items:[{Slot:2b,id:"minecraft:paper",tag:{dnd:{id:"structural_note"}}},{Slot:20b,id:"minecraft:structure_block",tag:{dnd:{id:"dna"}}}]} run tag @s add dnd.structure_dna
-execute if block ~ ~ ~ barrel{Items:[{Slot:2b,id:"minecraft:structure_block",tag:{dnd:{id:"dna"}}},{Slot:20b,id:"minecraft:structure_block",tag:{dnd:{id:"dna"}}}]} run tag @s add dnd.dna_dna
+execute if block ~ ~ ~ dispenser{Items:[{Slot:2b,id:"minecraft:paper",tag:{dnd:{id:"structural_note"}}},{Slot:20b,id:"minecraft:structure_block",tag:{dnd:{id:"dna"}}}]} run tag @s add dnd.structure_dna
+execute if block ~ ~ ~ dispenser{Items:[{Slot:2b,id:"minecraft:structure_block",tag:{dnd:{id:"dna"}}},{Slot:20b,id:"minecraft:structure_block",tag:{dnd:{id:"dna"}}}]} run tag @s add dnd.dna_dna
 execute as @s[tag=dnd.structure_dna] run tag @s add dnd.craft
 execute as @s[tag=dnd.dna_dna] run tag @s add dnd.craft
 ## Tick up

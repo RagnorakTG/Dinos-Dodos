@@ -17,6 +17,3 @@ execute if entity @s[tag=dnd.projector] run function dnd:block/projector/second_
 execute if entity @s[tag=dnd.amber_block] run function dnd:block/amber_block/second_clock
 # Generate Budding Amber
 execute if entity @s[tag=dnd.gen_budding_amber] run function dnd:block/budding_amber/second_clock
-
-## GUI
-execute as @s[tag=dnd.gui] run function dnd:block/gui_global/second_clock
