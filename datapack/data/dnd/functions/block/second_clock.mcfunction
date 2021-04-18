@@ -5,6 +5,8 @@
 ## Crafting Stations
 # Analyzer
 execute if entity @s[tag=dnd.analyzer] run function dnd:block/analyzer/second_clock
+# DNA Combinator
+execute if entity @s[tag=dnd.dna_combinator] run function dnd:block/dna_combinator/second_clock
 # DNA Extractor
 execute if entity @s[tag=dnd.dna_extractor] run function dnd:block/dna_extractor/second_clock
 # Genome Modifier

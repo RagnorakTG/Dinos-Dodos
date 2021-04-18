@@ -32,7 +32,14 @@
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
-                "with": [100]
+                "with": [
+                    {
+                      "score": {
+                        "name": "accuracy1",
+                        "objective": "dnd.dummy"
+                      }
+                    }
+                  ]
                       },
                       {
                 "translate": "config.dnd.name",
