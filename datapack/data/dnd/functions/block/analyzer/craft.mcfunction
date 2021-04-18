@@ -1,15 +1,14 @@
 ####################
-# Analyzer Craft Paramaters
+# Analyzer Crafting
 ####################
 
-## Store NBT from 2nd slot into storage
-execute if entity @s[tag=dnd.craft] run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:2b}].tag.dnd.entity
-## Store success of copying NBT from 15th slot into storage
-execute if entity @s[tag=dnd.craft] store success score similar.temp dnd.dummy run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:15b}].tag.dnd.entity
-## Grab count from output
-execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:15b}].Count
-## If theyre the same then add to output
-execute if score similar.temp dnd.dummy matches 0 unless score @s dnd.dummy matches 64.. run function dnd:block/analyzer/crafting/add_item
-## If theyre not the same then add an output
-execute if score similar.temp dnd.dummy matches 1 if data block ~ ~ ~ Items[{Slot:15b}].tag.dnd.ignore run tag @s add dnd.ignore.slot15
-execute if score similar.temp dnd.dummy matches 1 if data block ~ ~ ~ Items[{Slot:15b}].tag.dnd.ignore run function dnd:block/analyzer/crafting/new_item
+## Run Commands
+loot replace block ~ ~ ~ container.5 loot dnd:items/structure/dnd/generic
+data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd
+data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.id set value "structural_note"
+data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore set from block ~ ~ ~ Items[{Slot:0b}].tag.display.Lore
+## Yellow Name
+execute store result score @s dnd.dummy2 run data get block ~ ~ ~ Items[{Slot:0b}].tag.dnd.accuracy
+execute if score @s dnd.dummy2 matches 100.. run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Name set value '{"italic":false,"color":"yellow","translate":"item.dnd.structural_note"}'
+## Subtract from slots
+function dnd:block/global/subtract_slots
