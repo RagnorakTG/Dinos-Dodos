@@ -55,15 +55,14 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:grass"
 execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:grass",generation:60}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.grass"}}
-## ferns
+## fern
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
-execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:ferns"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:ferns",generation:60}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.ferns"}}
+execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:fern"
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:fern",generation:60}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.fern"}}
 ## seagrass
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:seagrass"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set from storage dnd:storage root.extractor
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:sea_grass",generation:60}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.sea_grass"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:seagrass",generation:60}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.seagrass"}}
 ## sea_pickle
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:sea_pickle"
