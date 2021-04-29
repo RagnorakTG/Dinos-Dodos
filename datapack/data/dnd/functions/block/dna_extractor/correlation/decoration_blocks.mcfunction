@@ -226,43 +226,43 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## tube_coral
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:tube_coral"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:tube_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.tube_coral"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:tube_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.tube_coral"}}
 ## brain_coral
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:brain_coral"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:brain_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.brain_coral"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:brain_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.brain_coral"}}
 ## bubble_coral
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:bubble_coral"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:bubble_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.bubble_coral"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:bubble_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.bubble_coral"}}
 ## fire_coral
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:fire_coral"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:fire_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.fire_coral"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:fire_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.fire_coral"}}
 ## horn_coral
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:horn_coral"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:horn_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.horn_coral"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:horn_coral",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.horn_coral"}}
 ## tube_coral_fan
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:tube_coral_fan"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:tube_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.tube_coral_fan"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:tube_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.tube_coral_fan"}}
 ## brain_coral_fan
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:brain_coral_fan"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:brain_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.brain_coral_fan"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:brain_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.brain_coral_fan"}}
 ## bubble_coral_fan
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:bubble_coral_fan"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:bubble_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.bubble_coral_fan"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:bubble_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.bubble_coral_fan"}}
 ## fire_coral_fan
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:fire_coral_fan"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:fire_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.fire_coral_fan"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:fire_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.fire_coral_fan"}}
 ## horn_coral_fan
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:horn_coral_fan"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:horn_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.horn_coral_fan"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:horn_coral_fan",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.horn_coral_fan"}}
 ## skeleton_skull
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:skeleton_skull"

@@ -29,7 +29,7 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## melon_slice
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:melon_slice"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:melon_seeds",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.melon_seeds"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:melon_seeds",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.melon_seeds"}}
 ## beef
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:beef"
@@ -45,11 +45,11 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## carrot
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:carrot"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:carrot",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.carrot"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:carrot",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.carrot"}}
 ## potato
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:potato"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:potato",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.potato"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:potato",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.potato"}}
 ## rabbit
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:rabbit"
@@ -61,8 +61,8 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## beetroot
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:beetroot"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:beetroot_seeds",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.beetroot_seeds"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:beetroot_seeds",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.beetroot_seeds"}}
 ## sweet_berries
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:sweet_berries"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:sweet_berries",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.sweet_berries"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:sweet_berries",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.sweet_berries"}}
