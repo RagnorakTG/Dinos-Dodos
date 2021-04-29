@@ -29,11 +29,11 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## crimson_stem
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:crimson_stem"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:crimson_fungus",generation:600}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.crimson_fungus"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:crimson_fungus",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.crimson_fungus"}}
 ## warped_stem
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:warped_stem"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:warped_fungus",generation:600}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.warped_fungus"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:warped_fungus",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.warped_fungus"}}
 ## sponge
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:sponge"
