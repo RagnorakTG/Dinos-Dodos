@@ -1,0 +1,11 @@
+{
+  "values": [
+    "dnd:block/dna_extractor/correlation/brewing",
+    "dnd:block/dna_extractor/correlation/building_blocks",
+    "dnd:block/dna_extractor/correlation/combat",
+    "dnd:block/dna_extractor/correlation/decoration_blocks",
+    "dnd:block/dna_extractor/correlation/foodstuffs",
+    "dnd:block/dna_extractor/correlation/miscellaneous",
+    "dnd:block/dna_extractor/correlation/vanilla_spawn_eggs"
+  ]
+}
