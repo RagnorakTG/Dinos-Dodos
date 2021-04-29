@@ -69,4 +69,4 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## horn_coral_block
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:horn_coral_block"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:horn_coral_block",generation:24},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.horn_coral_block"}}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted.id set value {id:{accuracy:100,id:"dna",plant:{id:"minecraft:horn_coral_block",generation:120}},lore:{"italic":false,"color":"gray","translate":"lore.dnd.structure.horn_coral_block"}}
