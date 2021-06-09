@@ -52,8 +52,8 @@ execute as @e[tag=dnd.dinosaur_egg,tag=dnd.temp] run tag @s remove dnd.temp
 execute at @e[tag=dnd.dinosaur_egg] if block ~ ~ ~ furnace run setblock ~ ~ ~ air
 
 ## CustomModelData
-execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=2}] run replaceitem entity @s armor.head minecraft:furnace{CustomModelData:400009}
-execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=3}] run replaceitem entity @s armor.head minecraft:furnace{CustomModelData:400010}
-execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=4}] run replaceitem entity @s armor.head minecraft:furnace{CustomModelData:400011}
-execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=5}] run replaceitem entity @s armor.head minecraft:furnace{CustomModelData:400012}
-execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=6}] run replaceitem entity @s armor.head minecraft:furnace{CustomModelData:400013}
+execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=2}] run item replace entity @s armor.head with minecraft:furnace{CustomModelData:400009}
+execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=3}] run item replace entity @s armor.head with minecraft:furnace{CustomModelData:400010}
+execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=4}] run item replace entity @s armor.head with minecraft:furnace{CustomModelData:400011}
+execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=5}] run item replace entity @s armor.head with minecraft:furnace{CustomModelData:400012}
+execute as @e[tag=dnd.dinosaur_egg,scores={dnd.bundle=6}] run item replace entity @s armor.head with minecraft:furnace{CustomModelData:400013}
