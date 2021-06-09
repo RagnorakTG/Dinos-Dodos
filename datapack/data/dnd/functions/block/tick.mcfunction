@@ -21,6 +21,6 @@ execute if entity @s[type=armor_stand,tag=dnd.sifter] run function dnd:block/sif
 # Dinosaur Egg
 execute if entity @s[type=armor_stand,tag=dnd.dinosaur_egg] run function dnd:block/dinosaur_egg/tick
 # Budding Amber
-execute if entity @s[type=minecraft:area_effect_cloud,tag=dnd.budding_amber] run function dnd:block/budding_amber/tick
+execute if entity @s[type=minecraft:marker,tag=dnd.budding_amber] run function dnd:block/budding_amber/tick
 # Projector
 execute if entity @s[type=armor_stand,tag=dnd.projector] run function dnd:block/projector/tick
