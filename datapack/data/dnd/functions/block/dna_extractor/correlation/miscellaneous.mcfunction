@@ -94,3 +94,7 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:shulker_shell"
 execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",entity:{id:"minecraft:shulker",genome:{follow_range:16.0,max_health:30.0,movement_speed:0.7},RegenRate:6000,produce:{Primary:{id:"shulker_shell",Count:1b},Secondary:{id:"blank",Count:0b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.shulker"}']}
+## dragon_egg
+data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
+execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:dragon_egg"
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",entity:{id:"minecraft:ender_dragon",genome:{follow_range:16.0,max_health:200.0,movement_speed:6.9},RegenRate:6000,produce:{Primary:{id:"dragon_head",Count:1b},Secondary:{id:"dragon_egg",Count:1b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.ender_dragon"}']}
