@@ -6,7 +6,6 @@
     "dnd:block/dna_extractor/correlation/decoration_blocks",
     "dnd:block/dna_extractor/correlation/foodstuffs",
     "dnd:block/dna_extractor/correlation/miscellaneous",
-    "dnd:block/dna_extractor/correlation/vanilla_spawn_eggs",
-    "dnd:block/dna_extractor/correlation/custom_item"
+    "dnd:block/dna_extractor/correlation/vanilla_spawn_eggs"
   ]
 }
