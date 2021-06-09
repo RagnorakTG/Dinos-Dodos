@@ -3,7 +3,7 @@
 ####################
 
 ## Run Commands
-loot replace block ~ ~ ~ container.5 loot dnd:items/dna/generic_entity
+loot replace block ~ ~ ~ container.5 loot dnd:items/dna/generic
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore[0] set from storage dnd:storage root.extracted.structure_lore[]
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore[1] set from storage dnd:storage root.extracted.accuracy_lore[]
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd set from storage dnd:storage root.extracted.id

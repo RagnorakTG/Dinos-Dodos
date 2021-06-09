@@ -3,7 +3,7 @@
 ####################
 
 ## Run Commands
-loot replace block ~ ~ ~ container.5 loot dnd:items/structure/dnd/generic
+loot replace block ~ ~ ~ container.5 loot dnd:items/structure/generic
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.id set value "structural_note"
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore set from block ~ ~ ~ Items[{Slot:0b}].tag.display.Lore
