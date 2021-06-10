@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400004,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -49,7 +49,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:90,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400004,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:90,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -86,7 +86,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:80,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400004,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:80,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -123,7 +123,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400003,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:70,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400003,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:70,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -160,7 +160,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400003,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:60,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400003,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:60,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -197,7 +197,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:50,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:50,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -234,7 +234,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:40,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:40,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -271,7 +271,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:30,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400002,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:30,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -308,7 +308,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:20,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400001,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:20,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -345,7 +345,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{req_dna:\"minecraft:dinosaur\",analyzable:1,accuracy:10,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
+              "tag": "{CustomModelData:400001,dnd:{identifier:\"minecraft:bird\",analyzable:1,accuracy:10,id:\"fossil\",entity:{id:\"gallimimus\",genome:{follow_range:32.0,max_health:40.0,movement_speed:0.7},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400013,walking:400014},babymodels:{idle:400015,walking:400016}}}}"
             },
             {
               "function": "minecraft:set_name",

@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{req_dna:\"minecraft:dinosaur\",extractable:1,accuracy:100,id:\"dinosaur_steak\",entity:{id:\"tyrannosaurus\",genome:{follow_range:32.0,max_health:80.0,movement_speed:0.55},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400001,dnd:{identifier:\"minecraft:bird\",extractable:1,accuracy:100,id:\"dinosaur_steak\",entity:{id:\"tyrannosaurus\",genome:{follow_range:32.0,max_health:80.0,movement_speed:0.55},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
             },
             {
               "function": "minecraft:set_name",
