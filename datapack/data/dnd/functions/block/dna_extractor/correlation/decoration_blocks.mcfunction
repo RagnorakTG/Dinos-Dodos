@@ -142,19 +142,19 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## brown_mushroom
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:brown_mushroom"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:fungus",accuracy:100,id:"dna",plant:{id:"minecraft:brown_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.brown_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:plant",accuracy:100,id:"dna",plant:{id:"minecraft:brown_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.brown_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
 ## red_mushroom
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:red_mushroom"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:fungus",accuracy:100,id:"dna",plant:{id:"minecraft:red_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.red_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
-## crimson_fungus
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:plant",accuracy:100,id:"dna",plant:{id:"minecraft:red_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.red_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
+## crimson_plant
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
-execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:crimson_fungus"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:fungus",accuracy:100,id:"dna",plant:{id:"minecraft:crimson_fungus",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.crimson_fungus"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
-## warped_fungus
+execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:crimson_plant"
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:plant",accuracy:100,id:"dna",plant:{id:"minecraft:crimson_plant",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.crimson_plant"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
+## warped_plant
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
-execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:warped_fungus"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:fungus",accuracy:100,id:"dna",plant:{id:"minecraft:warped_fungus",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.warped_fungus"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
+execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:warped_plant"
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:plant",accuracy:100,id:"dna",plant:{id:"minecraft:warped_plant",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.warped_plant"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
 ## crimson_roots
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:crimson_roots"
@@ -222,11 +222,11 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## brown_mushroom_block
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:brown_mushroom_block"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:fungus",accuracy:100,id:"dna",plant:{id:"minecraft:brown_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.brown_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:plant",accuracy:100,id:"dna",plant:{id:"minecraft:brown_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.brown_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
 ## red_mushroom_block
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:red_mushroom_block"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:fungus",accuracy:100,id:"dna",plant:{id:"minecraft:red_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.red_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:plant",accuracy:100,id:"dna",plant:{id:"minecraft:red_mushroom",RegenRate:120}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.red_mushroom"}'],accuracy_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.item.accuracy","with":[100]}']}
 ## vine
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:vine"

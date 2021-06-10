@@ -37,6 +37,16 @@
           "type": "minecraft:loot_table",
           "name": "dnd:items/amber",
           "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/amber_block",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/budding_amber",
+          "weight": 5
         }
       ]
     }
