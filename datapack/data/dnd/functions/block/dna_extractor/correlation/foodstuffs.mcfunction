@@ -37,7 +37,7 @@ execute if score correlation dnd.dummy matches 0 run data modify storage dnd:sto
 ## chicken
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:chicken"
-execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{accuracy:100,id:"dna",entity:{id:"minecraft:chicken",genome:{follow_range:16.0,max_health:4.0,movement_speed:0.25},RegenRate:600,produce:{Primary:{id:"feather",Count:1b},Secondary:{id:"chicken",Count:1b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.chicken"}']}
+execute if score correlation dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{comp_dna:"minecraft:dinosaur",accuracy:100,id:"dna",entity:{id:"minecraft:chicken",genome:{follow_range:16.0,max_health:4.0,movement_speed:0.25},RegenRate:600,produce:{Primary:{id:"feather",Count:1b},Secondary:{id:"chicken",Count:1b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.chicken"}']}
 ## carrot
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score correlation dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:carrot"
