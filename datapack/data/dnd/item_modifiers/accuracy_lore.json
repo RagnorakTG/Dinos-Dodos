@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "dnd:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.lore",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [{
+      "translate": "lore.dnd.item.accuracy",
+      "color": "gray",
+      "italic": false,
+      "with": [
+                {
+                  "nbt": "root.temp.accuracy",
+                  "storage": "dnd:storage"
+                }
+              ]
+            }],
+    "replace": false
+  }
+]
