@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"budding_amber\"}}}]},CustomModelData:400018,dnd:{id:\"budding_amber\"}}"
+                            "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"budding_amber\"}}}]},CustomModelData:400009,dnd:{id:\"budding_amber\"}}"
                         },
                         {
                           "function": "minecraft:set_name",

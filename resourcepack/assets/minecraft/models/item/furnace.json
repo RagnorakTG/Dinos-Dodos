@@ -8,31 +8,31 @@
         "predicate": {
           "custom_model_data": 400001
         },
-      "model": "dnd:block/paleontology_workbench"
+      "model": "dnd:block/sifter"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dnd:block/sifter"
+      "model": "dnd:block/analyzer"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dnd:block/analyzer"
+      "model": "dnd:block/dna_extractor"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dnd:block/dna_extractor"
+      "model": "dnd:block/dna_combinator"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dnd:block/dna_combinator"
+      "model": "dnd:block/genome_modifier"
     },
     {
         "predicate": {
@@ -44,85 +44,67 @@
         "predicate": {
           "custom_model_data": 400007
         },
-      "model": "dnd:item/dinosaur_egg"
+      "model": "dnd:block/cultivator_full"
     },
     {
         "predicate": {
           "custom_model_data": 400008
         },
-      "model": "dnd:block/dinosaur_egg_1"
+      "model": "dnd:block/projector"
     },
     {
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dnd:block/dinosaur_egg_2"
+      "model": "dnd:block/amber_block"
     },
     {
         "predicate": {
           "custom_model_data": 400010
         },
-      "model": "dnd:block/dinosaur_egg_3"
+      "model": "dnd:block/budding_amber"
     },
     {
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dnd:block/dinosaur_egg_4"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400012
-        },
-      "model": "dnd:block/dinosaur_egg_5"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400013
-        },
-      "model": "dnd:block/dinosaur_egg_6"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400014
-        },
-      "model": "dnd:block/cultivator_full"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400015
-        },
-      "model": "dnd:block/analyzer"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400016
-        },
-      "model": "dnd:block/genome_modifier"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400017
-        },
-      "model": "dnd:block/amber_block"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400018
-        },
-      "model": "dnd:block/budding_amber"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400019
-        },
-      "model": "dnd:block/projector"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400020
-        },
       "model": "dnd:block/petrified_log"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400100
+        },
+      "model": "dnd:item/small_avian_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400101
+        },
+      "model": "dnd:item/medium_avian_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400102
+        },
+      "model": "dnd:item/large_avian_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400103
+        },
+      "model": "dnd:block/small_avian_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400104
+        },
+      "model": "dnd:block/medium_avian_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400105
+        },
+      "model": "dnd:block/large_avian_egg"
     }
   ]
 }
