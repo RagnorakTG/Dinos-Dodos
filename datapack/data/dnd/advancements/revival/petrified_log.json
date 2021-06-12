@@ -1,9 +1,9 @@
 {
-  "parent": "dnd:revival/amber_mines",
+  "parent": "dnd:revival/amber",
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400020}"
+      "nbt": "{CustomModelData:400011}"
     },
     "title": {
       "translate": "advancements.dnd.revival.petrified_log.title"

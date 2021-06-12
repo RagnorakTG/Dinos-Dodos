@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/amber_mines",
+  "parent": "dnd:revival/root",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",

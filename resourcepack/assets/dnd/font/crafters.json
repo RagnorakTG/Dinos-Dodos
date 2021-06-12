@@ -1,7 +1,7 @@
 {
   "providers": [{
       "type": "bitmap",
-      "file": "dnd:gui/analyzer.png",
+      "file": "dnd:gui/analyzer/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
@@ -10,7 +10,7 @@
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/cultivator.png",
+      "file": "dnd:gui/cultivator/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
@@ -19,7 +19,7 @@
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/dna_combinator.png",
+      "file": "dnd:gui/dna_combinator/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
@@ -28,7 +28,7 @@
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/dna_extractor.png",
+      "file": "dnd:gui/dna_extractor/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
@@ -37,7 +37,7 @@
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/genome_modifier.png",
+      "file": "dnd:gui/genome_modifier/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
@@ -46,7 +46,7 @@
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/projector/projector.png",
+      "file": "dnd:gui/projector/projector/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
@@ -55,7 +55,7 @@
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/server_block.png",
+      "file": "dnd:gui/server_block/main.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [

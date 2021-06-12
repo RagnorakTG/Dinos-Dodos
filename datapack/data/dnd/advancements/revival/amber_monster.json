@@ -1,15 +1,15 @@
 {
-  "parent": "dnd:revival/amber_mines",
+  "parent": "dnd:revival/amber",
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:400002}"
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:400009}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.ambermancer.title"
+      "translate": "advancements.dnd.revival.amber_monster.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.ambermancer.description"
+      "translate": "advancements.dnd.revival.amber_monster.description"
     },
     "frame": "task",
     "show_toast": true,

@@ -14,7 +14,7 @@
 			"predicate": {
 				"custom_model_data": 400001
 			},
-			"model": "dnd:item/check_mark"
+			"model": "dnd:item/dnd_icon"
 		}
 	]
 }
