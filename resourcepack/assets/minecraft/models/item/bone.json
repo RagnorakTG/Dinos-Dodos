@@ -33,6 +33,42 @@
 				"custom_model_data": 400004
 			},
 			"model": "dnd:item/pristine_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401000
+			},
+			"model": "dnd:item/plant_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402000
+			},
+			"model": "dnd:item/acrocanthosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402001
+			},
+			"model": "dnd:item/concavenator_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402002
+			},
+			"model": "dnd:item/corythosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402003
+			},
+			"model": "dnd:item/gallimimus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402004
+			},
+			"model": "dnd:item/tyrannosaurus_fossil"
 		}
 	]
 }
