@@ -4,6 +4,18 @@
 # 0 = False
 ####################
 
-## Send Reload Message
+## doReloadMessage
 ## 0 by default
-scoreboard players set reload dnd.config 1
+scoreboard players set doReloadMessage dnd.config 1
+
+## doFossilAccuracy
+## 1 by default
+scoreboard players set doFossilAccuracy dnd.config 1
+
+## doGeneticMods
+## 1 by default
+scoreboard players set doGeneticMods dnd.config 1
+
+## doHybridization
+## 1 by default
+scoreboard players set doHybridization dnd.config 1
