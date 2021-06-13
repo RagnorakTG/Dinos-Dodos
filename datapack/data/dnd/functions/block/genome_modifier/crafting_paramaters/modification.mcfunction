@@ -13,6 +13,6 @@ execute run scoreboard players set modifier.top dnd.dummy 0
 execute if data block ~ ~ ~ Items[{Slot:6b}].tag.dnd.modified run scoreboard players set modifier.top dnd.dummy 1
 execute if data block ~ ~ ~ Items[{Slot:0b}].tag.dnd.modified run scoreboard players set modifier.top dnd.dummy 1
 ## Plant
-execute if score temp dnd.dummy matches 0 unless score modifier.top dnd.dummy matches 1 run say plant
+execute if score temp dnd.dummy matches 0 unless score modifier.top dnd.dummy matches 1 run function dnd:block/genome_modifier/plant_modify
 ## Entity
-execute if score temp dnd.dummy matches 1 unless score modifier.top dnd.dummy matches 1 run say entity
+execute if score temp dnd.dummy matches 1 unless score modifier.top dnd.dummy matches 1 run function dnd:block/genome_modifier/entity_modify

@@ -13,6 +13,6 @@ execute if score temp dnd.dummy matches 0 if block ~ ~ ~ dispenser{Items:[{Slot:
 execute if score temp dnd.dummy matches 0 if block ~ ~ ~ dispenser{Items:[{Slot:0b,id:"minecraft:paper",tag:{dnd:{id:"structural_note"}}},{Slot:6b,id:"minecraft:structure_block",tag:{dnd:{accuracy:100,id:"dna"}}}]} run scoreboard players set temp dnd.dummy 2
 execute if score temp dnd.dummy matches 0 if block ~ ~ ~ dispenser{Items:[{Slot:6b,id:"minecraft:paper",tag:{dnd:{id:"structural_note"}}},{Slot:0b,id:"minecraft:structure_block",tag:{dnd:{accuracy:100,id:"dna"}}}]} run scoreboard players set temp dnd.dummy 2
 ### Two DNA
-execute if score temp dnd.dummy matches 1 unless score temp dnd.dummy matches -1 run function dnd:block/genome_modifier/crafting_paramaters/modification
+execute if score temp dnd.dummy matches 1 unless score temp dnd.dummy matches -1 if score doGeneticMods dnd.config matches 1 run function dnd:block/genome_modifier/crafting_paramaters/modification
 ### DNA + Structural Note
 execute if score temp dnd.dummy matches 2 unless score temp dnd.dummy matches -1 run function dnd:block/genome_modifier/crafting_paramaters/structure
