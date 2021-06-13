@@ -259,21 +259,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "dnd:items/empty_egg"
-        },
-        {
-          "type": "minecraft:loot_table",
           "weight": 1,
           "functions": [
             {
