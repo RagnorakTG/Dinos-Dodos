@@ -1,15 +1,15 @@
 {
 	"parent": "item/generated",
 	"textures": {
-    "layer0": "item/leather_leggings",
-    "layer1": "item/leather_leggings_overlay"
+    "layer0": "item/leather_helmet",
+    "layer1": "item/leather_helmet_overlay"
 	},
 	"overrides": [
 		{
 			"predicate": {
 				"custom_model_data": 400000
 			},
-			"model": "dnd:item/paleontologist_leggings"
+			"model": "dnd:item/paleontologist_helmet"
 		}
 	]
 }
