@@ -141,11 +141,11 @@ execute if score temp dnd.dummy matches 0 run data modify storage dnd:storage ro
 ## piglin_spawn_egg
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score temp dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:piglin_spawn_egg"
-execute if score temp dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:primate",accuracy:100,id:"dna",entity:{id:"minecraft:piglin",genome:{attack_damage:5.0,follow_range:16.0,max_health:16.0,movement_speed:3.4},RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.piglin"}']}
+execute if score temp dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:mystery",accuracy:100,id:"dna",entity:{id:"minecraft:piglin",genome:{attack_damage:5.0,follow_range:16.0,max_health:16.0,movement_speed:3.4},RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.piglin"}']}
 ## piglin_brute_spawn_egg
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score temp dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:piglin_brute_spawn_egg"
-execute if score temp dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:primate",accuracy:100,id:"dna",entity:{id:"minecraft:piglin_brute",genome:{attack_damage:7.0,follow_range:16.0,max_health:50.0,movement_speed:3.4},RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.piglin_brute"}']}
+execute if score temp dnd.dummy matches 0 run data modify storage dnd:storage root.extracted set value {id:{identifier:"minecraft:mystery",accuracy:100,id:"dna",entity:{id:"minecraft:piglin_brute",genome:{attack_damage:7.0,follow_range:16.0,max_health:50.0,movement_speed:3.4},RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}}},structure_lore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.piglin_brute"}']}
 ## pillager_spawn_egg
 data modify storage dnd:storage root.extractor set from block ~ ~ ~ Items[{Slot:3b}]
 execute store success score temp dnd.dummy run data modify storage dnd:storage root.extractor.id set value "minecraft:pillager_spawn_egg"
