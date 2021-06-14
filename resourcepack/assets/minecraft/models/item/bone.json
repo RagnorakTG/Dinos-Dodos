@@ -6,12 +6,6 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 400000
-			},
-			"model": "dnd:item/plant_fossil"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 400001
 			},
 			"model": "dnd:item/shattered_fossil"

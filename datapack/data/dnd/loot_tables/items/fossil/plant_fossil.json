@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"fossil\",plant:{id:\"random\"}}}"
+              "tag": "{CustomModelData:401000,dnd:{id:\"fossil\",plant:{id:\"random\"}}}"
             },
             {
               "function": "minecraft:set_name",
