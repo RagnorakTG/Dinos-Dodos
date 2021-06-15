@@ -3,7 +3,7 @@
 ####################
 
 ## Run Commands
-loot replace block ~ ~ ~ container.5 loot dnd:items/structure/generic
+loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/structural_note
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd set from block ~ ~ ~ Items[{Slot:6b}].tag.dnd
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore set from block ~ ~ ~ Items[{Slot:6b}].tag.display.Lore
 data remove block ~ ~ ~ Items[{Slot:5b}].tag.dnd.analyzable

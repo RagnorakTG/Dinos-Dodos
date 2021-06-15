@@ -4,7 +4,7 @@
 
 ## Run Commands
 # Put DNA into output
-loot replace block ~ ~ ~ container.5 loot dnd:items/dna/generic
+loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/dna
 # Modify output data to match slot 0
 data modify block ~ ~ ~ Items[{Slot:5b}].tag set from block ~ ~ ~ Items[{Slot:0b}].tag
 # Grab both input accuracy and add them together

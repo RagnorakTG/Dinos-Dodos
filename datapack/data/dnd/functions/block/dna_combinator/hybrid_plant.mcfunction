@@ -3,7 +3,7 @@
 ####################
 
 #### Hybridize Entities
-loot replace block ~ ~ ~ container.5 loot dnd:items/dna/generic
+loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/dna
 ## Basic Item Stats
 # Copy over stats of bottom DNA
 data modify block ~ ~ ~ Items[{Slot:5b}].tag set from block ~ ~ ~ Items[{Slot:6b}].tag

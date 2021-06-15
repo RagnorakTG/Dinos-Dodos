@@ -4,7 +4,7 @@
 
 ### Create Output
 # Place generic DNA into output slot
-loot replace block ~ ~ ~ container.5 loot dnd:items/dna/generic
+loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/dna
 ## If DNA on bottom
 execute if score temp dnd.dummy matches 1 run data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd
 execute if score temp dnd.dummy matches 1 run data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.id set value "dna"
