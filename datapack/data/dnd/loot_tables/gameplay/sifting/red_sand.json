@@ -5,32 +5,32 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:items/fossil/acrocanthosaurus_fossil",
+          "name": "dnd:items/acrocanthosaurus_fossil",
           "weight": 6
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/fossil/concavenator_fossil",
+          "name": "dnd:items/concavenator_fossil",
           "weight": 8
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/fossil/corythosaurus_fossil",
+          "name": "dnd:items/corythosaurus_fossil",
           "weight": 6
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/fossil/gallimimus_fossil",
+          "name": "dnd:items/gallimimus_fossil",
           "weight": 8
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/fossil/tyrannosaurus_fossil",
+          "name": "dnd:items/tyrannosaurus_fossil",
           "weight": 4
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/fossil/plant_fossil",
+          "name": "dnd:items/plant_fossil",
           "weight": 15
         },
         {

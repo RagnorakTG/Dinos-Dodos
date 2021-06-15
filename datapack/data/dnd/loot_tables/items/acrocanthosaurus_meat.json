@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{identifier:\"minecraft:bird\",extractable:1,accuracy:100,id:\"dinosaur_steak\",entity:{id:\"acrocanthosaurus\",genome:{follow_range:32.0,max_health:60.0,movement_speed:0.6},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.acrocanthosaurus_meat",
+                "color": "white",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
