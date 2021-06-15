@@ -16,7 +16,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.meat.tyrannosaurus",
+                "translate": "item.dnd.tyrannosaurus_meat",
                 "color": "white",
                 "italic": false
                       }

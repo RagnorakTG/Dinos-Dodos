@@ -16,7 +16,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.meat.gallimimus",
+                "translate": "item.dnd.gallimimus_meat",
                 "color": "white",
                 "italic": false
                       }

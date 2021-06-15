@@ -69,42 +69,6 @@
           "custom_model_data": 400011
         },
       "model": "dnd:block/petrified_log"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400100
-        },
-      "model": "dnd:item/small_avian_egg"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400101
-        },
-      "model": "dnd:item/medium_avian_egg"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400102
-        },
-      "model": "dnd:item/large_avian_egg"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400103
-        },
-      "model": "dnd:block/small_avian_egg"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400104
-        },
-      "model": "dnd:block/medium_avian_egg"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400105
-        },
-      "model": "dnd:block/large_avian_egg"
     }
   ]
 }

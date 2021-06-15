@@ -4,12 +4,6 @@
 		"layer0": "item/carrot_on_a_stick"
 	},
 	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 400001
-			},
-			"model": "dnd:entity/armor/pith_hat"
-		},
     {
 			"predicate": {
 				"custom_model_data": 400002
@@ -24,9 +18,147 @@
 		},
     {
 			"predicate": {
-				"custom_model_data": 400004
+				"custom_model_data": 401000
 			},
-			"model": "dnd:item/needle_full"
+			"model": "dnd:item/bird_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 401001
+			},
+			"model": "dnd:item/parrot_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402000
+			},
+			"model": "dnd:item/ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402001
+			},
+			"model": "dnd:item/bee_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402002
+			},
+			"model": "dnd:item/spider_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402003
+			},
+			"model": "dnd:item/cave_spider_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402004
+			},
+			"model": "dnd:item/silverfish_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402005
+			},
+			"model": "dnd:item/endermite_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 403000
+			},
+			"model": "dnd:item/amphibian_eggs"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 403001
+			},
+			"model": "dnd:item/axolotl_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404000
+			},
+			"model": "dnd:item/roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404001
+			},
+			"model": "dnd:item/cod_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404002
+			},
+			"model": "dnd:item/salmon_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404003
+			},
+			"model": "dnd:item/tropical_fish_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404004
+			},
+			"model": "dnd:item/pufferfish_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404005
+			},
+			"model": "dnd:item/squid_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404005
+			},
+			"model": "dnd:item/glow_squid_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404006
+			},
+			"model": "dnd:item/shulker_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405000
+			},
+			"model": "dnd:item/dinosaur_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405001
+			},
+			"model": "dnd:item/acrocanthosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405002
+			},
+			"model": "dnd:item/concavenator_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405003
+			},
+			"model": "dnd:item/corythosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405004
+			},
+			"model": "dnd:item/gallimimus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405005
+			},
+			"model": "dnd:item/tyrannosaurus_egg"
 		}
 	]
 }
