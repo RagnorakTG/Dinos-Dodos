@@ -4,17 +4,23 @@
 		"layer0": "item/carrot_on_a_stick"
 	},
 	"overrides": [
-    {
+		{
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:item/needle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/embryo_needle"
+		}
+		{
 			"predicate": {
 				"custom_model_data": 400002
 			},
 			"model": "dnd:item/amber_staff"
-		},
-    {
-			"predicate": {
-				"custom_model_data": 400003
-			},
-			"model": "dnd:item/needle"
 		},
     {
 			"predicate": {

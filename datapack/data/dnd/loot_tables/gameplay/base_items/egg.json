@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:carrot_on_a_stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:405001,dnd:{id:\"egg\",entity:{id:\"acrocanthosaurus\",genome:{follow_range:32.0,max_health:60.0,movement_speed:0.6},DeathLootTable:\"dnd:entities/acrocanthosaurus\",Tag:\"dnd.acrocanthosurus\",HatchAge:-24000,FeedItem:\"minecraft:meat\"}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.acrocanthosaurus_egg",
+                "color": "white",
+                "italic": false
+                      }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
