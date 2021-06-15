@@ -1,0 +1,87 @@
+FR 1.0.4
+
+Features
++ Added the Analyzer
++ Added the Genome Modifier
++ Added the DNA Combinator
++ Added the Projector
++ Added Petrified Logs
++ Added Amber, Amber Blocks, and Budding Amber
++ Added new config options
+~ Updated fossils
+~ Updated functionality of the Sifter, DNA Extractor, DNA Combinator, and Cultivator
+~ Updated lots of textures
+- Removed the Paleontology Table
+
+Fossils
+  • Fossils now have varying accuracy that goes by multiples of 10, with 10 being the minimum and 100 being the maximum.
+  • Fossils with 100 accuracy have custom textures that correspond to their dinosaur
+  • Fossils can uncommonly be fished up.
+
+Sifter
+  • The sifter now sifts up lots of new items
+
+Analyzer
+  • A new vital machine in the process of bringing back dinosaurs.
+  • Input a fossil and a piece of paper and it outputs a structural note.
+        ○ Structural notes function identically to paper and thus can be used as input in the Analyzer again.
+
+DNA Extractor
+  • Used to extract DNA from any organic material.
+  • Any and all organic material that is dropped from a single mob can now be input into the DNA Extractor for the mobs DNA.
+
+Genome Modifier
+  • Used to modify the genomes of entities.
+  • Inputting a structural note alongside similar enough DNA and it will modify the DNA to match the structure on the note.
+  • Input two similar DNA and it will modify the genomes of the DNA on the bottom slot.
+        ○ The genome of a entity is identical to its attributes.
+        ○ The Genome Modifier halves the genome of the top DNA and adds it to the genome of the bottom DNA.
+
+DNA Combinator
+  • Used to combine two pieces of DNA.
+  • Inputting two of the same DNA with different accuracy will add their accuracy together.
+        ○ Accuracies must be below 100 in order for them to be added. If the two accuracies create a accuracy of more than 100 it will still output a DNA with 100 accuracy.
+  • Inputting two DNA with similar identifiers and 100 accuracy will create a hybrid.
+        ○ No hybrids exist as of this update and thus inserting the DNA will output a incompatible hybrid.
+
+Cultivator
+  • Used to cultivate DNA into embryos.
+  • Input a DNA into the top slot and a bucket of nutritious milk for the egg or embryo of a mob.
+        ○ Different mobs output different types of eggs and embryos.
+
+Projector
+  • Used to create a holographic display of any custom entities.
+  • Inputting the genetic material of any [custom] entity into the Projector will create a holographic display of the entity.
+  • Certain blocks placed below the projector affect it differently.
+        ○ Placing a glass below the Projector will remove the blue tint from the Projection.
+        ○ Placing a concrete below the Projector will animate the Projection with a walking cycle.
+        ○ Placing a wool below the Projector will change the Projection to a baby model. (If the projection has a baby model.)
+        ○ Placing a glazed terracotta below the Projector will change the direction the Projection is facing.
+
+Petrified Log
+  • A new decorative block dropped through sifting and fishing.
+  • Will eventually be used to extract the structure of ancient trees.
+
+Amber
+  • A new item dropped through sifting and fishing.
+  • Can be used to extract the structure of insects.
+
+Amber Blocks
+  • A new decorative block dropped through fishing.
+  • When broken it drops a varying amount of Amber.
+        ○ If broken with silk touch it drops itself.
+
+Budding Amber
+  • A new block dropped very rarely through fishing.
+  • When broken it shatters, dropping a piece of Amber.
+  • Budding Amber may grow an Amber Block every so often on its top or bottom.
+
+Config Options
+  • doFossilAccuracy
+        ○ Determines if fossils outputted in the Sifter should have accuracy.
+  • doGeneticMods
+        ○ Determines whether the Genome Modifier can alter mob genetics.
+  • doHybridization
+        ○ Determines whether the DNA Combinator can create hybrids.
+  • doBossDNA
+        ○ Determines whether the DNA of the Ender Dragon and Wither can be extracted using the DNA Extractor.
