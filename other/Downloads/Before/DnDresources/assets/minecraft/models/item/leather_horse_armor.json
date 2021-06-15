@@ -1,0 +1,134 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {
+        "predicate": {
+          "custom_model_data": 400001
+        },
+      "model": "dnd:entity/adult_acrocanthosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400002
+        },
+      "model": "dnd:entity/adult_acrocanthosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400003
+        },
+      "model": "dnd:entity/baby_acrocanthosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400004
+        },
+      "model": "dnd:entity/baby_acrocanthosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400005
+        },
+      "model": "dnd:entity/adult_concavenator_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400006
+        },
+      "model": "dnd:entity/adult_concavenator_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dnd:entity/baby_concavenator_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400008
+        },
+      "model": "dnd:entity/baby_concavenator_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400009
+        },
+      "model": "dnd:entity/adult_corythosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dnd:entity/adult_corythosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400011
+        },
+      "model": "dnd:entity/baby_corythosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400012
+        },
+      "model": "dnd:entity/baby_corythosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400013
+        },
+      "model": "dnd:entity/adult_gallimimus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400014
+        },
+      "model": "dnd:entity/adult_gallimimus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400015
+        },
+      "model": "dnd:entity/baby_gallimimus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400016
+        },
+      "model": "dnd:entity/baby_gallimimus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400017
+        },
+      "model": "dnd:entity/adult_tyrannosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400018
+        },
+      "model": "dnd:entity/adult_tyrannosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400019
+        },
+      "model": "dnd:entity/baby_tyrannosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400020
+        },
+      "model": "dnd:entity/baby_tyrannosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 409999
+        },
+      "model": "dnd:item/blank"
+    }
+  ]
+}

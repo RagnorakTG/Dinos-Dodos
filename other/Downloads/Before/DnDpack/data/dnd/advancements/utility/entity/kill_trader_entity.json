@@ -1,0 +1,16 @@
+{
+  "parent": "dnd:utility/root",
+  "rewards": {
+    "function": "dnd:entity/global/death/schedule"
+  },
+  "criteria": {
+    "kill_trader_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"dnd.trader_entity\"]}"
+        }
+      }
+    }
+  }
+}

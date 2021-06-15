@@ -1,0 +1,29 @@
+{
+  "parent": "dnd:revival/dna_extractor",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:400005}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.dna_combinator.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.dna_combinator.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+          "item": {
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"dna_combinator\"}}}]}}"
+        }
+      }
+    }
+  }
+}

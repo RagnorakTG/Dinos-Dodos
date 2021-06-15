@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/beef"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/raw_dinosaur_steak"
+		}
+	]
+}
