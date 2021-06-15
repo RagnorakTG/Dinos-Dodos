@@ -9,6 +9,7 @@ Features
 + Added Amber, Amber Blocks, and Budding Amber
 + Added new config options
 ~ Updated fossils
+~ Updated the food needed to quicken the growth of baby dinosaurs.
 ~ Updated functionality of the Sifter, DNA Extractor, DNA Combinator, and Cultivator
 ~ Updated lots of textures
 - Removed the Paleontology Table
