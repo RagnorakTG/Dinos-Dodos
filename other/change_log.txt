@@ -75,13 +75,3 @@ Budding Amber
   • A new block dropped very rarely through fishing.
   • When broken it shatters, dropping a piece of Amber.
   • Budding Amber may grow an Amber Block every so often on its top or bottom.
-
-Config Options
-  • doFossilAccuracy
-        ○ Determines if fossils outputted in the Sifter should have accuracy.
-  • doGeneticMods
-        ○ Determines whether the Genome Modifier can alter mob genetics.
-  • doHybridization
-        ○ Determines whether the DNA Combinator can create hybrids.
-  • doBossDNA
-        ○ Determines whether the DNA of the Ender Dragon and Wither can be extracted using the DNA Extractor.
