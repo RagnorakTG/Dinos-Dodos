@@ -1,0 +1,6 @@
+{
+  "parent": "dnd:block/dinosaur_egg",
+  "textures": {
+	"base": "dnd:block/concavenator_egg"
+  }
+}
