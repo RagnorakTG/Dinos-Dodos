@@ -11,6 +11,8 @@ execute if entity @s[tag=dnd.dna_combinator] run function dnd:block/dna_combinat
 execute if entity @s[tag=dnd.dna_extractor] run function dnd:block/dna_extractor/second_clock
 # Genome Modifier
 execute if entity @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/second_clock
+# Cultivator
+execute if entity @s[tag=dnd.cultivator] run function dnd:block/cultivator/second_clock
 
 ## Misc
 # Projector

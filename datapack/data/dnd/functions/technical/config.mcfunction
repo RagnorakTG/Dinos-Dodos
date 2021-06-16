@@ -6,7 +6,7 @@
 
 ## doReloadMessage
 ## 0 by default
-scoreboard players set doReloadMessage dnd.config 1
+scoreboard players set doReloadMessage dnd.config 0
 
 ## doFossilAccuracy
 ## 1 by default

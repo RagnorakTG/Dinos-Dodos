@@ -77,3 +77,11 @@ Budding Amber
   • A new block dropped very rarely through fishing.
   • When broken it shatters, dropping a piece of Amber.
   • Budding Amber may grow an Amber Block every so often on its top or bottom.
+
+Config
+  • doFossilAccuracy
+        ○ Determines if fossils have accuracy or should always have 100 accuracy.
+  • doGeneticMods
+        ○ Determines if the Genome Modifier can modify genomes.
+  • doHybridization
+        ○ Determines if the DNA Combinator can create hybrids.

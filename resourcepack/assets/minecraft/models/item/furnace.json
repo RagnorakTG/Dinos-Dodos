@@ -69,6 +69,36 @@
           "custom_model_data": 400011
         },
       "model": "dnd:block/petrified_log"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401001
+        },
+      "model": "dnd:block/acrocanthosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401002
+        },
+      "model": "dnd:block/concavenator_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401003
+        },
+      "model": "dnd:block/corythosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401004
+        },
+      "model": "dnd:block/gallimimus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401005
+        },
+      "model": "dnd:block/tyrannosaurus_egg"
     }
   ]
 }
