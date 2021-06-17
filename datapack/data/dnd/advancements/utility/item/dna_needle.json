@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "shot_trident": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"dna_needle\"}}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:item/dna_needle/item"
+  },
+  "parent": "dnd:utility/root"
+}

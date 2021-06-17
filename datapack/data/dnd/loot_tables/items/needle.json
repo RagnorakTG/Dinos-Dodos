@@ -4,9 +4,10 @@
     "entries": [{
       "type": "minecraft:item",
       "weight": 1,
-      "functions": [{
+      "functions": [
+        {
           "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"needle\"},CustomModelData:400003}"
+          "tag": "{CustomModelData:400000,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"needle\"}}"
         },
         {
           "function": "minecraft:set_name",

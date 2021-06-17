@@ -11,6 +11,7 @@ scoreboard objectives add dnd.timer dummy
 scoreboard objectives add dnd.bundle dummy
 scoreboard objectives add dnd.storage1 dummy
 scoreboard objectives add dnd.storage2 dummy
+scoreboard objectives add dnd.carrotstick minecraft.used:carrot_on_a_stick
 
 ## Antivillager
 team add dnd.antivillager

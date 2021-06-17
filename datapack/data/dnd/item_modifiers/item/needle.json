@@ -1,0 +1,53 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "dnd:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.id",
+        "target": "dnd",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "f"
+      },
+      {
+        "translate": "lore.dnd.item.accuracy",
+        "with": [
+          100
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "config.dnd.name",
+        "color": "#63E2FF",
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "dnd:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.structureLore[]",
+        "target": "display.Lore[0]",
+        "op": "replace"
+      }
+    ]
+  }
+]
