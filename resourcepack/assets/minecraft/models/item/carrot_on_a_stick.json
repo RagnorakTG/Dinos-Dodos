@@ -120,13 +120,13 @@
 		},
     {
 			"predicate": {
-				"custom_model_data": 404005
+				"custom_model_data": 404006
 			},
 			"model": "dnd:item/glow_squid_roe"
 		},
     {
 			"predicate": {
-				"custom_model_data": 404006
+				"custom_model_data": 404007
 			},
 			"model": "dnd:item/shulker_roe"
 		},

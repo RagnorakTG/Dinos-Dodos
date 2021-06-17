@@ -24,6 +24,7 @@
     "minecraft:zoglin",
     "minecraft:zombie",
     "minecraft:zombie_villager",
-    "minecraft:zombified_piglin"
+    "minecraft:zombified_piglin",
+    "minecraft:snow_golem"
   ]
 }

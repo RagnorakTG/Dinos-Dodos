@@ -3,4 +3,6 @@
 ####################
 
 # Modify the Needle
-item modify entity @s weapon.mainhand dnd:item/needle
+execute if entity @e[distance=..5,nbt={HurtTime:10s}] if score temp dnd.dummy matches 1 run item modify entity @s weapon.mainhand dnd:item/needle
+# Scoreboard
+execute as @e[distance=..5,nbt={HurtTime:10s}] run scoreboard players reset temp dnd.dummy

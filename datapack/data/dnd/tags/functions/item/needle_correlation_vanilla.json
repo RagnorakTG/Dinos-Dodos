@@ -1,0 +1,14 @@
+{
+  "values": [
+    "dnd:item/needle/correlation/amphibian",
+    "dnd:item/needle/correlation/bird",
+    "dnd:item/needle/correlation/cetacea",
+    "dnd:item/needle/correlation/fish",
+    "dnd:item/needle/correlation/insect",
+    "dnd:item/needle/correlation/mammal",
+    "dnd:item/needle/correlation/mollusk",
+    "dnd:item/needle/correlation/mystery",
+    "dnd:item/needle/correlation/primate",
+    "dnd:item/needle/correlation/reptile"
+  ]
+}

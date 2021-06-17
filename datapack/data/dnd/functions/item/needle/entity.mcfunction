@@ -6,16 +6,8 @@
 # Set to Base Data
 data modify storage dnd:storage root.temp.id set value {id:"dna_needle",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}},entity:{id:"minecraft:unknown",identifier:"minecraft:mystery",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}
 # Find Identifier
-execute if entity @s[type=#dnd:identifier/amphibian] run function dnd:item/needle/correlation/amphibian
-execute if entity @s[type=#dnd:identifier/bird] run function dnd:item/needle/correlation/bird
-execute if entity @s[type=#dnd:identifier/cetacea] run function dnd:item/needle/correlation/cetacea
-execute if entity @s[type=#dnd:identifier/fish] run function dnd:item/needle/correlation/fish
-execute if entity @s[type=#dnd:identifier/insect] run function dnd:item/needle/correlation/insect
-execute if entity @s[type=#dnd:identifier/mammal] run function dnd:item/needle/correlation/mammal
-execute if entity @s[type=#dnd:identifier/mollusk] run function dnd:item/needle/correlation/mollusk
-execute if entity @s[type=#dnd:identifier/mystery] run function dnd:item/needle/correlation/mystery
-execute if entity @s[type=#dnd:identifier/primate] run function dnd:item/needle/correlation/primate
-execute if entity @s[type=#dnd:identifier/reptile] run function dnd:item/needle/correlation/reptile
+execute if entity @s[tag=!global.ignore] run function #dnd:item/needle_correlation_vanilla
+execute if entity @s[tag=!global.ignore] run function #dnd:item/needle_correlation_custom
 # Grab Genome
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor double 1 run attribute @s minecraft:generic.armor get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{armor:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.armor
@@ -45,3 +37,5 @@ execute store result storage dnd:storage root.temp.id.storage.entity.genome.zomb
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{zombie_reinforcements:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.zombie_reinforcements
 # add UniqueData
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData set from entity @s
+# Scoreboard
+scoreboard players set temp dnd.dummy 1
