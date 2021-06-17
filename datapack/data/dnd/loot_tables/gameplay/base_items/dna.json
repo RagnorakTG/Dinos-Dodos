@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{accuracy:100,id:\"dna\",entity:{id:\"acrocanthosaurus\",genome:{immune_system:1,lightness:1,vision:1,defense:1,fattiness:1,latch:1,strength:1},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004}}}}"
+              "tag": "{CustomModelData:400002,dnd:{id:\"dna\",storage:{accuracy:0,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"minecraft:mystery\",identifier:\"minecraft:mystery\",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -24,7 +24,7 @@
             {
               "function": "minecraft:set_lore",
               "lore": [{
-                "translate": "lore.dnd.structure.acrocanthosaurus",
+                "translate": "lore.dnd.structure.unknown",
                 "color": "gray",
                 "italic": false
                       },
@@ -32,7 +32,7 @@
                 "translate": "lore.dnd.item.accuracy",
                 "color": "gray",
                 "italic": false,
-                "with": [100]
+                "with": [0]
                       },
                       {
                 "translate": "config.dnd.name",
