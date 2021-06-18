@@ -37,5 +37,16 @@ execute store result storage dnd:storage root.temp.id.storage.entity.genome.zomb
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{zombie_reinforcements:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.zombie_reinforcements
 # add UniqueData
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData set from entity @s
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.UUID
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.Health
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.HurtByTimestamp
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.ArmorItems
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.HandItems
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.DeathTime
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.HurtTime
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.Attributes
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.Motion
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.Pos
+data remove storage dnd:storage root.temp.id.storage.entity.UniqueData.Brain
 # Scoreboard
 scoreboard players set temp dnd.dummy 1

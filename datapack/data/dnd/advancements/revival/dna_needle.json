@@ -1,0 +1,24 @@
+{
+  "parent": "dnd:revival/needle",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:400000}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.dna_needle.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.dna_needle.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

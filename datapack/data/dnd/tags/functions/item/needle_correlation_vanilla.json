@@ -1,14 +1,14 @@
 {
   "values": [
-    "dnd:item/needle/correlation/amphibian",
-    "dnd:item/needle/correlation/bird",
-    "dnd:item/needle/correlation/cetacea",
-    "dnd:item/needle/correlation/fish",
-    "dnd:item/needle/correlation/insect",
-    "dnd:item/needle/correlation/mammal",
-    "dnd:item/needle/correlation/mollusk",
-    "dnd:item/needle/correlation/mystery",
-    "dnd:item/needle/correlation/primate",
-    "dnd:item/needle/correlation/reptile"
+    "dnd:item/needle/correlate/amphibian",
+    "dnd:item/needle/correlate/bird",
+    "dnd:item/needle/correlate/cetacea",
+    "dnd:item/needle/correlate/fish",
+    "dnd:item/needle/correlate/insect",
+    "dnd:item/needle/correlate/mammal",
+    "dnd:item/needle/correlate/mollusk",
+    "dnd:item/needle/correlate/mystery",
+    "dnd:item/needle/correlate/primate",
+    "dnd:item/needle/correlate/reptile"
   ]
 }

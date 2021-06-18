@@ -8,3 +8,5 @@ execute as @e[distance=..5,nbt={HurtTime:10s}] run function dnd:item/dna_needle/
 loot replace entity @s weapon.mainhand loot dnd:items/needle
 # Revoke Advancement
 advancement revoke @s only dnd:utility/item/dna_needle
+# Advancement
+advancement grant @s only dnd:revival/dna_needle

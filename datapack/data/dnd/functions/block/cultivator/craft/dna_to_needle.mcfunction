@@ -4,7 +4,7 @@
 
 ### Commands
 # Generic Egg
-loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/egg
+loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/embryo_needle
 # Copy Data
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.entity
 # Replace Data

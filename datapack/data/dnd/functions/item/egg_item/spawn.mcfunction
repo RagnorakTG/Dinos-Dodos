@@ -2,8 +2,16 @@
 # Summons the egg mob
 ####################
 
+# Summon Entity
+function #dnd:item/egg_item_correlation_vanilla
+function #dnd:item/egg_item_correlation_custom
+function dnd:item/egg_item/copy_uniquedata
+function dnd:item/egg_item/copy_genome
+# Make Baby if Applicable
+execute as @e[tag=dnd.modify] run data modify entity @s Age set value -24000
+# Finish
+execute as @e[tag=dnd.modify] run tag @s remove dnd.modify
 # Remove Item
-item replace entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{dnd:{id:"egg_block"}}}]},nbt=!{SelectedItem:{tag:{dnd:{id:"egg_block"}}}}] weapon.offhand with air
-item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{dnd:{id:"egg_block"}}}}] weapon.mainhand with air
+item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{dnd:{id:"egg_item"}}}}] weapon.mainhand with air
 # Reset Scoreboard
 scoreboard players reset @s dnd.dummy

@@ -351,6 +351,10 @@
   "advancements.dnd.revival.paleontologist.description": "Craft and wear a full set of Paleontologist armor!",
   "advancements.dnd.revival.tyrant.title": "Avenger",
   "advancements.dnd.revival.tyrant.description": "Slay a Tyrant.",
+  "advancements.dnd.revival.needle.title": "Trypanophobia",
+  "advancements.dnd.revival.needle.description": "Craft a Needle and extract a mobs DNA.",
+  "advancements.dnd.revival.dna_needle.title": "Unsanitary",
+  "advancements.dnd.revival.dna_needle.description": "Attempt to use a Needle that already has DNA in it.",
 
   "lore.dnd.compat.tcc.structure.enchanter": "┗━ Enchanter Structure",
   "lore.dnd.compat.tcc.structure.iceologer": "┗━ Iceologer Structure",

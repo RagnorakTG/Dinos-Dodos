@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:405001,dnd:{id:\"egg\",entity:{id:\"acrocanthosaurus\",genome:{follow_range:32.0,max_health:60.0,movement_speed:0.6},DeathLootTable:\"dnd:entities/acrocanthosaurus\",Tag:\"dnd.acrocanthosurus\",HatchAge:-24000,FeedItem:\"minecraft:meat\"}}}"
+              "tag": "{CustomModelData:401001,dnd:{id:\"egg_item\",storage:{dna:{id:\"minecraft:mystery\",identifier:\"minecraft:mystery\",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -20,6 +20,15 @@
                 "color": "white",
                 "italic": false
                       }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
             }
           ]
         }
