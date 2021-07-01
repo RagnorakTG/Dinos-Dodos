@@ -2,7 +2,7 @@
 # Player used Embryo Needle
 ####################
 
-# Run Entity Function
-execute as @e[distance=..5,nbt={HurtTime:10s}] run function dnd:item/embryo_needle/entity
+# Spawn
+execute at @e[distance=..5,nbt={HurtTime:10s},limit=1] run function dnd:item/embryo_needle/spawn
 # Revoke Advancement
 advancement revoke @s only dnd:utility/item/embryo_needle

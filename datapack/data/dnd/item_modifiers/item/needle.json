@@ -49,5 +49,9 @@
         "op": "replace"
       }
     ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:400001}"
   }
 ]
