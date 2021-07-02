@@ -22,7 +22,7 @@
       "italic": false,
       "with": [
                 {
-                  "nbt": "root.temp.accuracy",
+                  "nbt": "root.temp",
                   "storage": "dnd:storage"
                 }
               ]
