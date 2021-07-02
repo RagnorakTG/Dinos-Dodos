@@ -6,8 +6,8 @@
 # Set to Base Data
 data modify storage dnd:storage root.temp.id set value {id:"dna_needle",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}},entity:{id:"minecraft:unknown",identifier:"minecraft:mystery",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}
 # Find Identifier
-execute if entity @s[tag=!global.ignore] run function #dnd:item/needle_correlation_vanilla
-execute if entity @s[tag=!global.ignore] run function #dnd:item/needle_correlation_custom
+execute if entity @s[tag=!global.ignore,tag=!dnd.extractable] run function #dnd:item/needle_correlation_vanilla
+execute if entity @s[tag=!global.ignore,tag=dnd.extractable] run function #dnd:item/needle_correlation_custom
 # Grab Genome
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor double 1 run attribute @s minecraft:generic.armor get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{armor:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.armor

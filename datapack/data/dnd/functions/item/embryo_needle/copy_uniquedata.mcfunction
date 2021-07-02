@@ -46,3 +46,6 @@ data modify entity @e[limit=1,tag=dnd.modify,sort=nearest] MainGene set from ent
 data modify entity @e[limit=1,tag=dnd.modify,sort=nearest] HiddenGene set from entity @s SelectedItem.tag.dnd.storage.UniqueData.HiddenGene
 # Goat
 data modify entity @e[limit=1,tag=dnd.modify,sort=nearest] IsScreamingGoat set from entity @s SelectedItem.tag.dnd.storage.UniqueData.IsScreamingGoat
+# Make Baby if Applicable
+data modify entity @e[limit=1,tag=dnd.modify,sort=nearest] Age set from entity @s SelectedItem.tag.dnd.storage.entity.eggData.Age
+data modify entity @e[limit=1,tag=dnd.modify,sort=nearest] IsBaby set from entity @s SelectedItem.tag.dnd.storage.entity.eggData.IsBaby

@@ -3,13 +3,10 @@
 ####################
 
 # Summon Entity
-function #dnd:item/embryo_correlation_vanilla
-function #dnd:item/embryo_correlation_custom
+execute unless entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] function #dnd:item/embryo_correlation_vanilla
+execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] function #dnd:item/embryo_correlation_custom
 function dnd:item/embryo_needle/copy_uniquedata
 function dnd:item/embryo_needle/copy_genome
-# Make Baby if Applicable
-execute as @e[tag=dnd.modify] run data modify entity @s Age set value -24000
-execute as @e[tag=dnd.modify] run data modify entity @s IsBaby set value 1b
 # Remove Item
 execute if entity @e[tag=dnd.modify] run item replace entity @s weapon.mainhand with air
 # Particles

@@ -7,8 +7,6 @@ function #dnd:item/egg_item_correlation_vanilla
 function #dnd:item/egg_item_correlation_custom
 function dnd:item/egg_item/copy_uniquedata
 function dnd:item/egg_item/copy_genome
-# Make Baby if Applicable
-execute as @e[tag=dnd.modify] run data modify entity @s Age set value -24000
 # Finish
 execute as @e[tag=dnd.modify] run tag @s remove dnd.modify
 # Remove Item
