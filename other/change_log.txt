@@ -6,22 +6,27 @@ Features
 + Added the DNA Combinator
 + Added the Projector
 + Added Petrified Logs
++ Added Needles
 + Added Amber, Amber Blocks, and Budding Amber
 + Added new config options
 ~ Updated fossils
 ~ Updated functionality of the Sifter, DNA Extractor, DNA Combinator, and Cultivator
 ~ Updated the food needed to quicken the growth of baby dinosaurs.
-~ Updated the advancements
+~ Updated advancements
 ~ Updated lots of textures
 - Removed the Paleontology Table
 
+Needle
+  • Can be crafted and then used to extract the DNA of any mobs.
+  • Hitting a mob with a needle will extract its DNA, copying over any special NBT like names, attributes, and drop chances.
+
 Fossils
   • Fossils now have varying accuracy that goes by multiples of 10, with 10 being the minimum and 100 being the maximum.
-  • Fossils with 100 accuracy have custom textures that correspond to their dinosaur
+  • Fossils with 100 accuracy have custom textures that correspond to their dinosaur.
   • Fossils can uncommonly be fished up.
 
 Sifter
-  • The sifter now sifts up lots of new items
+  • The sifter now outputs lots of new items.
 
 Analyzer
   • A new vital machine in the process of bringing back dinosaurs.
@@ -29,8 +34,9 @@ Analyzer
         ○ Structural notes function identically to paper and thus can be used as input in the Analyzer again.
 
 DNA Extractor
-  • Used to extract DNA from any organic material.
-  • Any and all organic material that is dropped from a single mob can now be input into the DNA Extractor for the mobs DNA.
+  • Used to extract DNA from any organic plant material or from any needle.
+  • Any and all organic plant material can be input into the DNA Extractor for the plants DNA.
+  • Any needle with DNA inside of it can be input into the DNA Extractor for the needles DNA.
 
 Genome Modifier
   • Used to modify the genomes of entities.
