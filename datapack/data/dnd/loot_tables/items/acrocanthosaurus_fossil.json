@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:402000,dnd:{hasEgg:1b,identifier:\"minecraft:bird\",analyzable:1,accuracy:100,id:\"fossil\",entity:{id:\"acrocanthosaurus\",genome:{follow_range:32.0,max_health:60.0,movement_speed:0.6},RegenRate:0,produce:{Primary:{id:\"dinosaur_steak\",Count:1b},Secondary:{id:\"dinosaur_steak\",Count:1b}},adultmodels:{idle:400001,walking:400002},babymodels:{idle:400003,walking:400004},DeathLootTable:\"dnd:entities/acrocanthosaurus\",Tags:\"dnd.acrocanthosaurus\",EggType:\"egg_block\",EggBlockCMD:401001,HatchAge:-24000,FeedItem:\"dnd:plant\",EggCMD:405001,EggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.acrocanthosaurus_egg\"}']}}}"
+              "tag": "{CustomModelData:402000,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:acrocanthosaurus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:60.0d,follow_range:16},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,id:\"egg_block\",CustomModelData:405001,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.acrocanthosaurus_egg\"}']}}}}}"
             },
             {
               "function": "minecraft:set_name",
