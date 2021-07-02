@@ -11,4 +11,3 @@ execute store result score temp dnd.dummy run data get block ~ ~ ~ Items[{Slot:6
 execute if score temp dnd.dummy matches 100.. run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Name set value '{"italic":false,"color":"yellow","translate":"item.dnd.genetic_note"}'
 ## Subtract from slots
 function dnd:block/global/subtract_slots
-say test
