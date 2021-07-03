@@ -3,8 +3,8 @@
 ####################
 
 # Summon Entity
-execute unless entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] function #dnd:item/embryo_correlation_vanilla
-execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] function #dnd:item/embryo_correlation_custom
+execute unless entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] run function #dnd:item/embryo_correlation_vanilla
+execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] run function #dnd:item/embryo_correlation_custom
 function dnd:item/embryo_needle/copy_uniquedata
 function dnd:item/embryo_needle/copy_genome
 # Remove Item

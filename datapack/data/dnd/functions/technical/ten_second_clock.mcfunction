@@ -3,7 +3,7 @@
 ####################
 
 ## Run Functions
-execute as @e[tag=dnd.dinosaur_egg] at @s run function dnd:block/dinosaur_egg/ten_second_clock
+execute as @e[tag=dnd.egg_block] at @s run function dnd:block/egg_block/ten_second_clock
 execute as @e[tag=dnd.budding_amber] at @s run function dnd:block/budding_amber/ten_second_clock
 execute as @e[tag=dnd.dinosaur,tag=dnd.entity.baby] at @s run function dnd:entity/dinosaur/ten_second_clock
 

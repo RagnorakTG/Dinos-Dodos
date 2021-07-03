@@ -72,6 +72,12 @@
     },
     {
         "predicate": {
+          "custom_model_data": 401000
+        },
+      "model": "dnd:block/dinosaur_egg"
+    },
+    {
+        "predicate": {
           "custom_model_data": 401001
         },
       "model": "dnd:block/acrocanthosaurus_egg"

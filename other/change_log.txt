@@ -10,6 +10,8 @@ Features
 + Added Amber, Amber Blocks, and Budding Amber
 + Added new config options
 ~ Updated fossils
+~ Updated dinosaur eggs
+~ Updated baby dinosaurs
 ~ Updated functionality of the Sifter, DNA Extractor, DNA Combinator, and Cultivator
 ~ Updated the food needed to quicken the growth of baby dinosaurs.
 ~ Updated advancements
@@ -58,13 +60,24 @@ Cultivator
         ○ Different mobs output different types of eggs and embryos.
 
 Projector
-  • Used to create a holographic display of any custom entities.
+  • Used to create a holographic display of custom entities.
   • Inputting the genetic material of any [custom] entity into the Projector will create a holographic display of the entity.
   • Certain blocks placed below the projector affect it differently.
         ○ Placing a glass below the Projector will remove the blue tint from the Projection.
         ○ Placing a concrete below the Projector will animate the Projection with a walking cycle.
         ○ Placing a wool below the Projector will change the Projection to a baby model. (If the projection has a baby model.)
         ○ Placing a glazed terracotta below the Projector will change the direction the Projection is facing.
+  • Eggs can also be inserted into a projector, creating a projection of them.
+        ○ This functionality is temporary and will be replaced next update with a new block.
+
+Dinosaur Eggs
+  • Complete revamp to the way dinosaur eggs work.
+        ○ Different dinosaur eggs hatch at different times of the day.
+        ○ 'Warm' blocks may be placed around dinosaur eggs to speed up their hatching.
+        ○ Hay Bales may also be placed beneath eggs to speed up their hatching.
+
+Baby Dinosaurs
+  • Different baby dinosaurs now eat different items to speed up their growth, not just honey.
 
 Petrified Log
   • A new decorative block dropped through sifting and fishing.

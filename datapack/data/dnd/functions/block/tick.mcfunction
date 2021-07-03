@@ -24,3 +24,5 @@ execute if entity @s[type=armor_stand,tag=dnd.dinosaur_egg] run function dnd:blo
 execute if entity @s[type=minecraft:marker,tag=dnd.budding_amber] run function dnd:block/budding_amber/tick
 # Projector
 execute if entity @s[type=armor_stand,tag=dnd.projector] run function dnd:block/projector/tick
+# Egg Block
+execute if entity @s[type=armor_stand,tag=dnd.egg_block] run function dnd:block/egg_block/tick
