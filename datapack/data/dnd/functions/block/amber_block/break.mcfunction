@@ -7,5 +7,4 @@ execute as @e[type=armor_stand,tag=dnd.spawner_drop,distance=...1,limit=1] run l
 ## Summon Entity
 execute at @s if predicate dnd:chance/eight_hundredths run summon vex ~ ~ ~
 ## Play Particles
-particle block orange_terracotta ~ ~ ~ .25 .25 .25 0 64 normal @a
-particle block orange_concrete ~ ~ ~ .25 .25 .25 0 32 normal @a
+particle minecraft:item minecraft:furnace{CustomModelData:400009} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal @a

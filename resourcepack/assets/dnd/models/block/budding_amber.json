@@ -6,6 +6,7 @@
       "north": "dnd:block/budding_amber_side",
       "south": "dnd:block/budding_amber_side",
       "east": "dnd:block/budding_amber_side",
-      "west": "dnd:block/budding_amber_side"
+      "west": "dnd:block/budding_amber_side",
+      "particle": "dnd:block/budding_amber_top"
     }
 }

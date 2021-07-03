@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"base": "dnd:block/dinosaur_egg"
+		"base": "dnd:block/dinosaur_egg",
+    "particle": "dnd:block/dinosaur_egg"
 	},
 	"elements": [
 		{

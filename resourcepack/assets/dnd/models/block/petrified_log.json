@@ -6,6 +6,7 @@
       "north": "dnd:block/petrified_log_side",
       "south": "dnd:block/petrified_log_side",
       "east": "dnd:block/petrified_log_side",
-      "west": "dnd:block/petrified_log_side"
+      "west": "dnd:block/petrified_log_side",
+      "particle": "dnd:block/petrified_log_side"
     }
 }

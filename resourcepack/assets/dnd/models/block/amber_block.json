@@ -6,6 +6,7 @@
       "north": "dnd:block/amber_block",
       "south": "dnd:block/amber_block",
       "east": "dnd:block/amber_block",
-      "west": "dnd:block/amber_block"
+      "west": "dnd:block/amber_block",
+      "particle": "dnd:block/amber_block"
     }
 }

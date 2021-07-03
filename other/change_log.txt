@@ -67,8 +67,7 @@ Projector
         ○ Placing a concrete below the Projector will animate the Projection with a walking cycle.
         ○ Placing a wool below the Projector will change the Projection to a baby model. (If the projection has a baby model.)
         ○ Placing a glazed terracotta below the Projector will change the direction the Projection is facing.
-  • Eggs can also be inserted into a projector, creating a projection of them.
-        ○ This functionality is temporary and will be replaced next update with a new block.
+  • Eggs can also be inserted into a projector, creating a projection of them. (This may be changed in a later update.)
 
 Dinosaur Eggs
   • Complete revamp to the way dinosaur eggs hatch.
@@ -76,7 +75,7 @@ Dinosaur Eggs
         ○ 'Warm' blocks can be placed around dinosaur eggs to speed up their hatching.
         ○ Hay Bales can also be placed beneath eggs to speed up their hatching.
   • Only one egg can be in a single block at any time now.
-  • Breaking an egg will not drop its item, for various reasons. This may be changed in 1.0.5.
+  • Breaking an egg will not drop its item. (This may be changed in a later update.)
 
 Baby Dinosaurs
   • Different baby dinosaurs now eat different items to speed up their growth, not just honey.
