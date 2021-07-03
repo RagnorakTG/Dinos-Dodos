@@ -6,11 +6,11 @@
 
 ## doReloadMessage
 ## 0 by default
-scoreboard players set doReloadMessage dnd.config 0
+scoreboard players set doReloadMessage dnd.config 1
 
 ## doFossilAccuracy
 ## 1 by default
-scoreboard players set doFossilAccuracy dnd.config 1
+scoreboard players set doFossilAccuracy dnd.config 0
 
 ## doGeneticMods
 ## 1 by default
