@@ -2,4 +2,4 @@
 # Egg Block Tick
 ####################
 
-execute if block ~ ~ ~ #dnd:air run function dnd:block/egg_block/break
+execute unless block ~ ~ ~ minecraft:structure_void run function dnd:block/egg_block/break
