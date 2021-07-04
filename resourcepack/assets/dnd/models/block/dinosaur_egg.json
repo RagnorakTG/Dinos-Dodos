@@ -19,6 +19,9 @@
 		}
 	],
   "display": {
+		"ground": {
+			"translation": [0, -9.51, -6]
+		},
     "head": {
       "rotation": [0, 0, 0],
       "translation": [0, -43.23, 0],

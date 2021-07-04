@@ -1,0 +1,16 @@
+{
+  "parent": "dnd:utility/root",
+  "criteria": {
+    "right_click_projection": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"dnd.unlocked\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:entity/projection/raycast_start"
+  }
+}
