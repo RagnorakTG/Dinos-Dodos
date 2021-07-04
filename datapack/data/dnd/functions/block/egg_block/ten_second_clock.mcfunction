@@ -13,4 +13,3 @@ execute if predicate dnd:chance/three_fourth if data entity @s ArmorItems[3].tag
 execute store result entity @s ArmorItems[3].tag.dnd.storage.HatchLevel byte 1 run scoreboard players get temp_0 dnd.dummy
 # Run function if ready to hatch
 execute if score temp_0 dnd.dummy matches 120.. run function dnd:block/egg_block/hatch
-say hatch
