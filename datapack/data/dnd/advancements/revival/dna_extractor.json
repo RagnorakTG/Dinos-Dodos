@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400004}"
+      "nbt": "{CustomModelData:400003}"
     },
     "title": {
       "translate": "advancements.dnd.revival.dna_extractor.title"

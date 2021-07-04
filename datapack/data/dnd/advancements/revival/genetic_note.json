@@ -1,0 +1,24 @@
+{
+  "parent": "dnd:revival/analyzer",
+  "display": {
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:400000}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.genetic_note.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.genetic_note.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

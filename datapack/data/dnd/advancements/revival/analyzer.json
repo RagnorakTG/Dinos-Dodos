@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400003}"
+      "nbt": "{CustomModelData:400002}"
     },
     "title": {
       "translate": "advancements.dnd.revival.analyzer.title"

@@ -1,9 +1,8 @@
 {
-  "parent": "dnd:revival/egg",
+  "parent": "dnd:revival/egg_block",
   "display": {
     "icon": {
-      "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400007}"
+      "item": "minecraft:magma_block"
     },
     "title": {
       "translate": "advancements.dnd.revival.nether_egg.title"
@@ -11,10 +10,10 @@
     "description": {
       "translate": "advancements.dnd.revival.nether_egg.description"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "killed_ghast": {

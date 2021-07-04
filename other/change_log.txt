@@ -24,16 +24,17 @@ Needle
 
 Fossils
   • Fossils now have varying accuracy that goes by multiples of 10, with 10 being the minimum and 100 being the maximum.
-  • Fossils with 100 accuracy have custom textures that correspond to their dinosaur.
+  • Fossils with 100 accuracy have custom textures that correspond to their animal.
   • Fossils can uncommonly be fished up.
 
 Sifter
-  • The sifter now outputs lots of new items.
+  • The Sifter now outputs lots of new items.
+        ○ Among these new items are Petrified Logs and Amber.
 
 Analyzer
   • A new vital machine in the process of bringing back dinosaurs.
-  • Input a fossil and a piece of paper and it outputs a structural note.
-        ○ Structural notes function identically to paper and thus can be used as input in the Analyzer again.
+  • Input a fossil and a piece of paper and it outputs a Genetic Note.
+        ○ Genetic Notes function identically to paper and thus can be used as input in the Analyzer again.
 
 DNA Extractor
   • Used to extract DNA from any organic plant material or from any needle.

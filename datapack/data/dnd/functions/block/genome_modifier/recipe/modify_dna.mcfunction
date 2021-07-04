@@ -3,7 +3,7 @@
 ####################
 
 # Place generic DNA into output slot
-execute if score temp dnd.dummy matches 0 run loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/dna
+execute if score temp_0 dnd.dummy matches 0 run loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/dna
 ## Basic Item Stats
 # Copy over stats of bottom DNA
 data modify block ~ ~ ~ Items[{Slot:5b}].tag set from block ~ ~ ~ Items[{Slot:6b}].tag
@@ -60,9 +60,8 @@ scoreboard players operation bot_rate dnd.math += top_rate dnd.math
 # Apply this to the new DNA
 execute store result block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.dna.RegenRate int 1 run scoreboard players get bot_rate dnd.math
 ## Yellow Name
-execute store result score @s dnd.dummy2 run data get block ~ ~ ~ Items[{Slot:5b}].tag.dnd.accuracy
-execute if score @s dnd.dummy2 matches 100.. run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Name set value '{"italic":false,"color":"yellow","translate":"item.dnd.dna_vial"}'
-execute if score @s dnd.dummy2 matches ..99 run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Name set value '{"italic":false,"color":"white","translate":"item.dnd.dna_vial"}'
+execute store result score temp_0 dnd.dummy run data get block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.accuracy
+execute if score temp_0 dnd.dummy matches 100.. run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Name set value '{"italic":false,"color":"yellow","translate":"item.dnd.dna_vial"}'
 ## Finish
 # Clear the slots
 function dnd:block/global/subtract_slots

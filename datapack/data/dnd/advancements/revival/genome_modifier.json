@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400016}"
+      "nbt": "{CustomModelData:400005}"
     },
     "title": {
       "translate": "advancements.dnd.revival.genome_modifier.title"
