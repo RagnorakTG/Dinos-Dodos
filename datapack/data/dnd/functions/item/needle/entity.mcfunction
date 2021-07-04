@@ -81,4 +81,4 @@ data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.HiddenGen
 # Goat
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.IsScreamingGoat set from entity @s IsScreamingGoat
 # Scoreboard
-scoreboard players set temp dnd.dummy 1
+scoreboard players set temp_0 dnd.dummy 1

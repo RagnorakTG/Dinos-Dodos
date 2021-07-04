@@ -9,8 +9,8 @@ loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/dna
 data modify block ~ ~ ~ Items[{Slot:5b}].tag set from block ~ ~ ~ Items[{Slot:0b}].tag
 # Grab both input accuracy and add them together
 execute store result score temp_0 dnd.dummy run data get block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.accuracy
-execute store result score temp_1 dnd.dummy run data get block ~ ~ ~ Items[{Slot:6b}].tag.dnd.storage.accuracy
-scoreboard players operation temp_0 dnd.dummy += temp_1 dnd.dummy
+execute store result score temp_2 dnd.dummy run data get block ~ ~ ~ Items[{Slot:6b}].tag.dnd.storage.accuracy
+scoreboard players operation temp_0 dnd.dummy += temp_2 dnd.dummy
 execute if score temp_0 dnd.dummy matches 101.. run scoreboard players set temp_0 dnd.dummy 100
 execute store result block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.accuracy int 1 run scoreboard players get temp_0 dnd.dummy
 # Replace Accuracy Lore with new Lore

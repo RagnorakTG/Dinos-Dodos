@@ -3,8 +3,8 @@
 ####################
 
 # Detect if both DNA and paper have the same identifier
-scoreboard players set temp2 dnd.dummy 1
+scoreboard players set temp_2 dnd.dummy 1
 data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.entity.identifier
-execute store success score temp dnd.dummy run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:6b}].tag.dnd.storage.entity.identifier
+execute store success score temp_0 dnd.dummy run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:6b}].tag.dnd.storage.entity.identifier
 # Run Recipe
-execute if score temp dnd.dummy matches 0 run function dnd:block/genome_modifier/recipe/modify_dna
+execute if score temp_0 dnd.dummy matches 0 run function dnd:block/genome_modifier/recipe/modify_dna
