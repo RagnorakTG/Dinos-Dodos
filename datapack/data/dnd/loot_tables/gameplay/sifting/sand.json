@@ -36,12 +36,12 @@
         {
           "type": "loot_table",
           "name": "dnd:items/amber",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "loot_table",
           "name": "dnd:items/petrified_log",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "item",
