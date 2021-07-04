@@ -8,31 +8,44 @@ data modify storage dnd:storage root.temp.id set value {id:"dna_needle",storage:
 # Find Identifier
 execute if entity @s[tag=!global.ignore,tag=!dnd.extractable] run function #dnd:item/needle_correlation_vanilla
 execute if entity @s[tag=!global.ignore,tag=dnd.extractable] run function #dnd:item/needle_correlation_custom
-# Grab Genome
+## Grab Genome
+# Armor
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor double 1 run attribute @s minecraft:generic.armor get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{armor:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.armor
+# Armor Toughness
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor_toughness double 1 run attribute @s minecraft:generic.armor_toughness get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{armor_toughness:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.armor_toughness
+# Attack Damage
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.attack_damage double 1 run attribute @s minecraft:generic.attack_damage get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{attack_damage:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.attack_damage
+# Attack Knockback
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.attack_knockback double 1 run attribute @s minecraft:generic.attack_knockback get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{attack_knockback:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.attack_knockback
+# Attack Speed
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.attack_speed double 1 run attribute @s minecraft:generic.attack_speed get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{attack_speed:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.attack_speed
+# Flying Speed
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.flying_speed double 1 run attribute @s minecraft:generic.flying_speed get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{flying_speed:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.flying_speed
+# Follow Range
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.follow_range double 1 run attribute @s minecraft:generic.follow_range get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{follow_range:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.follow_range
+# Knockback Resistance
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.knockback_resistance double 1 run attribute @s minecraft:generic.knockback_resistance get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{knockback_resistance:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.knockback_resistance
+# Luck
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.luck double 1 run attribute @s minecraft:generic.luck get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{luck:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.luck
+# Max Health
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.max_health double 1 run attribute @s minecraft:generic.max_health get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{max_health:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.max_health
+# Movement Speed
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.movement_speed double 1 run attribute @s minecraft:generic.movement_speed get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{movement_speed:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.movement_speed
+# Horse Jump
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.horse_jump double 1 run attribute @s minecraft:horse.jump_strength get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{horse_jump:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.horse_jump
+# Zombie Reinforcements
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.zombie_reinforcements double 1 run attribute @s minecraft:zombie.spawn_reinforcements get
 execute if data storage dnd:storage root.temp.id.storage.entity.genome{zombie_reinforcements:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.zombie_reinforcements
 ## add UniqueData

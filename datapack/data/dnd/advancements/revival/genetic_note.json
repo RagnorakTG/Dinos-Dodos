@@ -17,8 +17,18 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
-      "trigger": "minecraft:impossible"
+    "inventory change": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ],
+            "nbt": "{dnd:{id:\"genetic_note\"}}"
+          }
+        ]
+      }
     }
   }
 }

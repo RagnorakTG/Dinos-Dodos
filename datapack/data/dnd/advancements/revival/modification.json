@@ -17,8 +17,18 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
-      "trigger": "minecraft:impossible"
+    "inventory change": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:structure_block"
+            ],
+            "nbt": "{dnd:{storage:{modified:1}}}"
+          }
+        ]
+      }
     }
   }
 }

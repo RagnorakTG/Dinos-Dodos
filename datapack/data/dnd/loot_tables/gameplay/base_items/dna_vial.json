@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{id:\"dna\",storage:{accuracy:0,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"minecraft:mystery\",identifier:\"minecraft:mystery\",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}}"
+              "tag": "{CustomModelData:400002,dnd:{id:\"dna_vial\",storage:{accuracy:0,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"minecraft:mystery\",identifier:\"minecraft:mystery\",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}}"
             },
             {
               "function": "minecraft:set_name",
