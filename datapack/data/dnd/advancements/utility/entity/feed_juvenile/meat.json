@@ -5,15 +5,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:honeycomb"
+          "tag": "dnd:meat"
         },
         "entity": {
-          "nbt": "{Tags:[\"dnd.baby\",\"dnd.dinosaur\"]}"
+          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{storage:{BabyFeedItem:\"dnd:meat\"}}}}]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "dnd:entity/dinosaur/baby_feed/raycast_start"
+    "function": "dnd:entity/global/baby_feed/raycast_start"
   }
 }

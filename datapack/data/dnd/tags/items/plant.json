@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:apple",
+    "minecraft:melon_slice",
+    "minecraft:dried_kelp",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:beetroot",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:wheat",
+    "#minecraft:small_flowers",
+    "#minecraft:tall_flowers"
+  ]
+}

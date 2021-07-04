@@ -8,6 +8,8 @@ data modify entity @e[tag=dnd.temp,limit=1] ArmorItems[3].tag.dnd.storage set fr
 data modify entity @e[tag=dnd.temp,limit=1] ArmorItems[3].tag.dnd.storage.temp set from entity @s ArmorItems[3].tag.dnd.storage
 # Copy Over Important Data
 execute as @e[tag=dnd.temp] run function dnd:block/egg_block/copy_data
+# Set Age
+execute as @e[tag=dnd.temp,tag=dnd.baby] run data modify entity @s ArmorItems[3].tag.dnd.storage.Age set value -12000
 # Remove Temp Tag
 tag @e[tag=dnd.temp] remove dnd.temp
 ## Hatch Egg

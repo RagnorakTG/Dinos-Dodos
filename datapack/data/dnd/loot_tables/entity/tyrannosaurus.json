@@ -22,20 +22,6 @@
         ],
         "name": "dnd:items/tyrannosaurus_meat"
       }]
-    },
-    {
-      "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "name": "minecraft:barrier",
-        "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{dnd:{id:\"death_item\",entity:\"tyrannosaurus\",clear:1b},CustomModelData:400000}"
-        }],
-        "conditions": [{
-          "condition": "minecraft:killed_by_player"
-        }]
-      }]
     }
   ]
 }

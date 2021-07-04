@@ -1,0 +1,19 @@
+{
+  "parent": "dnd:utility/root",
+  "criteria": {
+    "feed_baby": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "dnd:plant"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{storage:{BabyFeedItem:\"dnd:plant\"}}}}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:entity/global/baby_feed/raycast_start"
+  }
+}

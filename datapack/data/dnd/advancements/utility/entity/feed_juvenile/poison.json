@@ -1,0 +1,19 @@
+{
+  "parent": "dnd:utility/root",
+  "criteria": {
+    "feed_baby": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "dnd:poison"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"dnd.baby\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:entity/global/baby_feed/raycast_start"
+  }
+}
