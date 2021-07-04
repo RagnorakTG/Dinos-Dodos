@@ -2,7 +2,7 @@
 # Prepare for Spell Completion
 ####################
 
-scoreboard players reset @s dnd.dummy2
+scoreboard players reset @s dnd.dummy
 tag @s remove dnd.trader_entity.still
 tag @s remove dnd.ambermancer.casting
 attribute @s minecraft:generic.movement_speed modifier remove 0-2-0-3-3

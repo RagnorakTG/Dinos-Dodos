@@ -5,12 +5,9 @@
 ## Remove Scoreboards
 scoreboard objectives remove dnd.config
 scoreboard objectives remove dnd.dummy
-scoreboard objectives remove dnd.dummy2
 scoreboard objectives remove dnd.math
 scoreboard objectives remove dnd.timer
-scoreboard objectives remove dnd.bundle
-scoreboard objectives remove dnd.storage1
-scoreboard objectives remove dnd.storage2
+scoreboard objectives remove dnd.carrotstick
 
 ## Team
 team remove dnd.antivillager
