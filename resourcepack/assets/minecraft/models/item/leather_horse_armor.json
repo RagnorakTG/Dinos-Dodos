@@ -156,12 +156,6 @@
     },
     {
         "predicate": {
-          "custom_model_data": 409006
-        },
-      "model": "dnd:entity/ambermancer/amber_spike"
-    },
-    {
-        "predicate": {
           "custom_model_data": 409007
         },
       "model": "dnd:entity/ambermancer/amber_dragonfly_idle"

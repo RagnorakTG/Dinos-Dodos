@@ -30,21 +30,9 @@
 		},
     {
 			"predicate": {
-				"custom_model_data": 401000
-			},
-			"model": "dnd:item/bird_egg"
-		},
-    {
-			"predicate": {
 				"custom_model_data": 401001
 			},
 			"model": "dnd:item/parrot_egg"
-		},
-    {
-			"predicate": {
-				"custom_model_data": 402000
-			},
-			"model": "dnd:item/ootheca"
 		},
     {
 			"predicate": {
@@ -78,21 +66,9 @@
 		},
     {
 			"predicate": {
-				"custom_model_data": 403000
-			},
-			"model": "dnd:item/amphibian_eggs"
-		},
-    {
-			"predicate": {
 				"custom_model_data": 403001
 			},
 			"model": "dnd:item/axolotl_egg"
-		},
-    {
-			"predicate": {
-				"custom_model_data": 404000
-			},
-			"model": "dnd:item/roe"
 		},
     {
 			"predicate": {
