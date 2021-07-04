@@ -18,4 +18,4 @@ execute store result entity @s ArmorItems[3].tag.dnd.storage.model_items[1].tag.
 scoreboard players reset @s dnd.dummy
 
 ## Fix Tags
-tag @s remove dnd.entity.baby
+tag @s remove dnd.baby

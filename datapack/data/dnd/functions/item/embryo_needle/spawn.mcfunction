@@ -8,8 +8,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:
 function dnd:item/embryo_needle/copy_uniquedata
 function dnd:item/embryo_needle/copy_genome
 # Remove Item
-execute if entity @e[tag=dnd.modify] run item replace entity @s weapon.mainhand with air
+execute if entity @e[tag=dnd.temp] run item replace entity @s weapon.mainhand with air
 # Particles
-execute if entity @e[tag=dnd.modify] at @e[distance=..5,nbt={HurtTime:10s},limit=1] run particle minecraft:heart ~ ~ ~ 0.5 0.5 0.5 1 20 normal
+execute if entity @e[tag=dnd.temp] at @e[distance=..5,nbt={HurtTime:10s},limit=1] run particle minecraft:heart ~ ~ ~ 0.5 0.5 0.5 1 20 normal
 # Finish
-execute as @e[tag=dnd.modify] run tag @s remove dnd.modify
+execute as @e[tag=dnd.temp] run tag @s remove dnd.temp

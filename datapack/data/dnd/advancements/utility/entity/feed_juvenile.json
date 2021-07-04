@@ -8,7 +8,7 @@
           "item": "minecraft:honeycomb"
         },
         "entity": {
-          "nbt": "{Tags:[\"dnd.entity.baby\",\"dnd.dinosaur\"]}"
+          "nbt": "{Tags:[\"dnd.baby\",\"dnd.dinosaur\"]}"
         }
       }
     }

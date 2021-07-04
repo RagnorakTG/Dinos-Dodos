@@ -3,4 +3,4 @@
 ####################
 
 # Parrot
-execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{id:"minecraft:parrot"}}}}}] run summon parrot ~ ~0.1 ~ {Tags:["dnd.modify","dnd.modified"]}
+execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{id:"minecraft:parrot"}}}}}] run summon parrot ~ ~0.1 ~ {Tags:["dnd.temp","dnd.modified"]}
