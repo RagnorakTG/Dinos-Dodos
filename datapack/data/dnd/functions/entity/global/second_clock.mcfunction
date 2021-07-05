@@ -10,5 +10,5 @@ execute if entity @s[predicate=dnd:chance/three_twentieths] run function dnd:ent
 data modify entity @s[predicate=dnd:entity/wandering_trader_night,nbt=!{DeathTime:0s}] DeathTime set value 0s
 data modify entity @s[predicate=!dnd:entity/wandering_trader_night,nbt=!{DeathTime:19s}] DeathTime set value 19s
 
-## Baby Aging
-execute if entity @s[tag=dnd.baby] run function dnd:entity/global/baby
+## Baby Stuff
+execute if entity @s[tag=dnd.baby,tag=!dnd.projection] run function dnd:entity/global/baby/second_clock
