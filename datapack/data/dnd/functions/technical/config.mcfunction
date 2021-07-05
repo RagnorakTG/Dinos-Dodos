@@ -16,6 +16,11 @@ scoreboard players set doFossilAccuracy dnd.config 1
 ## 1 by default
 scoreboard players set doGeneticMods dnd.config 1
 
+## hatchTime
+## 120 by default
+## Note: Every 2 is 10 seconds. 120 means eggs take on average 10 minutes to hatch.
+scoreboard players set hatchTime dnd.config 120
+
 ## doHybridization
 ## 1 by default
 ## Note that Hybridization is yet to be added.
