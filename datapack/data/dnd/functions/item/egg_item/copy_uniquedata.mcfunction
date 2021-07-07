@@ -54,5 +54,6 @@ data modify entity @s IsScreamingGoat set from storage dnd:storage root.temp.ite
 # Copy genomes into storage
 function dnd:item/egg_item/copy_genome
 # Copy storage of genomes into entity
-data modify storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.Attributes set from storage dnd:storage root.temp.Attributes
+data modify entity @s Attributes set from storage dnd:storage root.temp.Attributes
+data modify entity @s Health set from storage dnd:storage root.temp.item.tag.dnd.storage.genome.max_health
 data remove storage dnd:storage root.temp.Attributes

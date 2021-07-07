@@ -32,7 +32,6 @@ execute if data storage dnd:storage root.temp.item.tag.dnd.storage.genome.luck r
 # Max Health
 execute if data storage dnd:storage root.temp.item.tag.dnd.storage.genome.max_health run data modify storage dnd:storage root.temp.Attributes prepend value {Name:"minecraft:generic.max_health",Base:0.0}
 execute if data storage dnd:storage root.temp.item.tag.dnd.storage.genome.max_health run data modify storage dnd:storage root.temp.Attributes[{Name:"minecraft:generic.max_health"}].Base set from storage dnd:storage root.temp.item.tag.dnd.storage.genome.max_health
-execute if data storage dnd:storage root.temp.item.tag.dnd.storage.genome.max_health run data modify storage dnd:storage root.temp.Health set from storage dnd:storage root.temp.item.tag.dnd.storage.genome.max_health
 # Movement Speed
 execute if data storage dnd:storage root.temp.item.tag.dnd.storage.genome.movement_speed run data modify storage dnd:storage root.temp.Attributes prepend value {Name:"minecraft:generic.movement_speed",Base:0.0}
 execute if data storage dnd:storage root.temp.item.tag.dnd.storage.genome.movement_speed run data modify storage dnd:storage root.temp.Attributes[{Name:"minecraft:generic.movement_speed"}].Base set from storage dnd:storage root.temp.item.tag.dnd.storage.genome.movement_speed
