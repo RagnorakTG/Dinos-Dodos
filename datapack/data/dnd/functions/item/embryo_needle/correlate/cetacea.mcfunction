@@ -3,4 +3,4 @@
 ####################
 
 # Dolphin
-execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{id:"minecraft:dolphin"}}}}}] at @e[distance=..5,nbt={HurtTime:10s},limit=1,type=#dnd:identifier/cetacea,tag=!global.ignore] run summon dolphin ~ ~ ~ {Tags:["dnd.temp","dnd.modified"]}
+execute if data storage dnd:storage root.temp.item.tag.dnd.storage{id:"minecraft:dolphin"} if entity @s[type=#dnd:identifier/cetacea] run summon dolphin ~ ~ ~ {Tags:["dnd.temp","dnd.modified"]}
