@@ -14,4 +14,4 @@ data modify entity @s WanderTarget.Y set from entity @e[tag=dnd.temp,limit=1,sor
 # Store Z
 data modify entity @s WanderTarget.Z set from entity @e[tag=dnd.temp,limit=1,sort=nearest] Pos[2]
 ## Remove Tag
-tag @e[tag=dnd.temp] remove dnd.temp
+tag @e remove dnd.temp

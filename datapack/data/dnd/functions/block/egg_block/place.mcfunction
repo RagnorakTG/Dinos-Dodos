@@ -12,7 +12,7 @@ execute at @e[tag=dnd.temp] run playsound minecraft:block.metal.place block @a[d
 # Remove Item
 execute if entity @e[tag=dnd.temp] run item replace entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{dnd:{id:"egg_block"}}}]},nbt=!{SelectedItem:{tag:{dnd:{id:"egg_block"}}}}] weapon.offhand with air
 execute if entity @e[tag=dnd.temp] run item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{dnd:{id:"egg_block"}}}}] weapon.mainhand with air
-tag @e[tag=dnd.temp] remove dnd.temp
+tag @e remove dnd.temp
 # Advancement
 advancement grant @s only dnd:revival/egg_block
 # Reset Scoreboard

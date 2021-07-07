@@ -11,7 +11,7 @@ execute as @e[tag=dnd.temp] run function dnd:block/egg_block/copy_data
 # Set Age
 execute as @e[tag=dnd.temp,tag=dnd.baby] run data modify entity @s ArmorItems[3].tag.dnd.storage.Age set value -12000
 # Remove Temp Tag
-tag @e[tag=dnd.temp] remove dnd.temp
+tag @e remove dnd.temp
 ## Hatch Egg
 playsound minecraft:entity.turtle.egg_hatch block @a[distance=..16] ~ ~ ~ 1 1
 particle minecraft:item minecraft:furnace{CustomModelData:401000} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal
