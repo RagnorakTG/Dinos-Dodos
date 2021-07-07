@@ -1,5 +1,5 @@
   Thank you for installing Dinos & Dodos FR V 1.0.4!
-  Bellow you will find a tutorial on how to install the datapack!
+  Below you will find a tutorial on how to install the datapack!
 
 How to Install into a existing world:
 Disclaimer: if you have a previous version installed just replace the files with the new ones. While you'll have to replace everything broken in the world yourself the new version will be installed.
