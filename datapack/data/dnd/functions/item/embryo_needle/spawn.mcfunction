@@ -5,8 +5,8 @@
 # Summon Entity
 execute unless entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] run function #dnd:item/embryo_correlation_vanilla
 execute if entity @s[nbt={SelectedItem:{tag:{dnd:{storage:{entity:{CustomEntity:1}}}}}}] run function #dnd:item/embryo_correlation_custom
-function dnd:item/embryo_needle/copy_uniquedata
-function dnd:item/embryo_needle/copy_genome
+data modify storage dnd:storage root.temp.item set from entity @s SelectedItem
+execute as @e[tag=dnd.temp] run function dnd:item/embryo_needle/copy_uniquedata
 # Remove Item
 execute if entity @e[tag=dnd.temp] unless entity @s[gamemode=creative] run item replace entity @s weapon.mainhand with air
 # Particles
