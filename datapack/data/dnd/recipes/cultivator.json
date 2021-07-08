@@ -1,22 +1,25 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "i#i",
+        "QQQ",
         "#H#",
-        "iRi"
+        "RDR"
     ],
     "key": {
         "#": {
             "tag": "dnd:glass"
         },
-        "i": {
-            "item": "minecraft:iron_ingot"
+        "Q": {
+            "item": "minecraft:smooth_quartz"
         },
         "H": {
             "item": "minecraft:water_bucket"
         },
         "R": {
             "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {

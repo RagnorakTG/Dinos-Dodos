@@ -1,19 +1,28 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "iii",
-        "HRH",
-        "RiR"
+        "QQQ",
+        "CH#",
+        "RDR"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
+        "#": {
+            "tag": "dnd:glass"
+        },
+        "Q": {
+            "item": "minecraft:smooth_quartz"
         },
         "H": {
             "item": "minecraft:piston"
         },
+        "C": {
+            "item": "minecraft:hopper"
+        },
         "R": {
             "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {

@@ -1,19 +1,29 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "LL",
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sandstone"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "QHQ",
+        "RDR"
+    ],
+    "key": {
+        "Q": {
+            "item": "minecraft:smooth_quartz"
+        },
+        "H": {
+            "item": "minecraft:hopper"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "S": {
+            "item": "minecraft:string"
+        }
     },
-    "L": {
-      "item": "minecraft:string"
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

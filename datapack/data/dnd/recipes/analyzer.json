@@ -1,22 +1,28 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "iRi",
-        "ROR",
-        "iHi"
+        "QQQ",
+        "CH#",
+        "RDR"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
+        "#": {
+            "tag": "dnd:glass"
+        },
+        "Q": {
+            "item": "minecraft:smooth_quartz"
         },
         "H": {
-            "item": "minecraft:redstone_torch"
+            "item": "minecraft:observer"
+        },
+        "C": {
+            "item": "minecraft:comparator"
         },
         "R": {
             "item": "minecraft:redstone"
         },
-        "O": {
-            "item": "minecraft:observer"
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {

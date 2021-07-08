@@ -1,18 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "H#H",
-        "RDR",
-        "iii"
+        "L#L",
+        "RCR",
+        "QDQ"
     ],
     "key": {
         "#": {
             "tag": "dnd:glass"
         },
-        "i": {
-            "item": "minecraft:iron_ingot"
+        "Q": {
+            "item": "minecraft:smooth_quartz"
         },
-        "H": {
+        "L": {
             "item": "minecraft:redstone_lamp"
         },
         "R": {
@@ -20,6 +20,9 @@
         },
         "D": {
             "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "minecraft:comparator"
         }
     },
     "result": {
