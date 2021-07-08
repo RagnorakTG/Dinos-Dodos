@@ -8,6 +8,8 @@ data modify storage dnd:storage root.temp.id set value {id:"dna_needle",storage:
 # Find Identifier
 execute if entity @s[tag=!global.ignore,tag=!dnd.extractable] run function #dnd:item/needle_correlation_vanilla
 execute if entity @s[tag=!global.ignore,tag=dnd.extractable] run function #dnd:item/needle_correlation_custom
+# Test if entity already modified
+execute if entity @s[tag=dnd.modified] run data modify storage dnd:storage root.temp.id.storage.modified set value 1
 ## Grab Genome
 # Armor
 execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor double 1 run attribute @s minecraft:generic.armor get
