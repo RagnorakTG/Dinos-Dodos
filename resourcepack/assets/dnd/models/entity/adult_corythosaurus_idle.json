@@ -31,9 +31,9 @@
 			}
 		},
 		{
-			"from": [2.18182, 7.48651, -3.76509],
-			"to": [10.18182, 17.48651, 21.23491],
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [6.18182, -146.10463, 4.49943]},
+			"from": [4, 7.48651, -3.76509],
+			"to": [12, 17.48651, 21.23491],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, -146.10463, 4.49943]},
 			"faces": {
 				"north": {"uv": [6.5625, 1.5625, 7.0625, 2.1875], "texture": "#0", "tintindex": 0},
 				"east": {"uv": [5, 1.5625, 6.5625, 2.1875], "texture": "#0", "tintindex": 0},
@@ -165,24 +165,29 @@
 		{
 			"name": "Entire",
 			"origin": [0, 2, -19],
+			"color": 0,
 			"children": [
 				{
 					"name": "Body",
 					"origin": [0, 2, -19],
+					"color": 0,
 					"children": [0, 1, 2]
 				},
 				{
 					"name": "Head",
 					"origin": [0, 2, 17],
+					"color": 0,
 					"children": [3, 4, 5, 6]
 				},
 				{
 					"name": "Limbs",
 					"origin": [0, 2, -19],
+					"color": 0,
 					"children": [
 						{
 							"name": "Legs1",
 							"origin": [8.18182, 14.90693, 18.44536],
+							"color": 0,
 							"children": [7, 8, 9, 10]
 						}
 					]
