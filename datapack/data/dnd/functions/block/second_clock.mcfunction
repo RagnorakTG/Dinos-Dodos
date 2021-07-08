@@ -17,7 +17,5 @@ execute if entity @s[tag=dnd.cultivator] run function dnd:block/cultivator/secon
 ## Misc
 # Projector
 execute if entity @s[tag=dnd.projector] run function dnd:block/projector/second_clock
-# Generate Amber Block
-execute if entity @s[tag=dnd.amber_block] run function dnd:block/amber_block/second_clock
 # Generate Budding Amber
-execute if entity @s[tag=dnd.gen_budding_amber] run function dnd:block/budding_amber/second_clock
+execute if entity @s[tag=dnd.budding_amber] run function dnd:block/budding_amber/second_clock
