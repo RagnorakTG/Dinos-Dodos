@@ -3,10 +3,10 @@
 ####################
 
 # Summon Entity
+data modify storage dnd:storage root.temp.item set from entity @s SelectedItem
 function #dnd:item/egg_item_correlation_vanilla
 function #dnd:item/egg_item_correlation_custom
 # Copy UniqueData & Genome
-data modify storage dnd:storage root.temp.item set from entity @s SelectedItem
 execute as @e[tag=dnd.temp] run function dnd:item/egg_item/copy_uniquedata
 # Finish
 tag @e remove dnd.temp

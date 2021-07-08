@@ -9,6 +9,7 @@ loot replace block ~ ~ ~ container.5 loot dnd:gameplay/base_items/egg_block
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.entity
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.genome set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.genome
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.UniqueData set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.UniqueData
+data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.modified set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.modified
 # Replace Data
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.dnd.id set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.entity.eggData.id
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.CustomModelData set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.entity.eggData.CustomModelData
