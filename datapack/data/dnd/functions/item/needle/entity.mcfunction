@@ -61,7 +61,6 @@ data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.LeftHande
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.FallFlying set from entity @s FallFlying
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.PersistenceRequired set from entity @s PersistenceRequired
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CanPickUpLoot set from entity @s CanPickUpLoot
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Tags set from entity @s Tags
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CustomName set from entity @s CustomName
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Owner set from entity @s Owner
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.DeathLootTable set from entity @s DeathLootTable
