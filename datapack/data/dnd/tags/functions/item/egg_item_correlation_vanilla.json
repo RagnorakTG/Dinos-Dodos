@@ -4,6 +4,7 @@
     "dnd:item/egg_item/correlate/bird",
     "dnd:item/egg_item/correlate/fish",
     "dnd:item/egg_item/correlate/insect",
-    "dnd:item/egg_item/correlate/mollusk"
+    "dnd:item/egg_item/correlate/mollusk",
+    "dnd:item/egg_item/correlate/mystery"
   ]
 }

@@ -25,6 +25,7 @@
     "minecraft:zombie",
     "minecraft:zombie_villager",
     "minecraft:zombified_piglin",
+    "minecraft:zombie_horse",
     "minecraft:snow_golem"
   ]
 }
