@@ -38,13 +38,7 @@
         "predicate": {
           "custom_model_data": 400006
         },
-      "model": "dnd:block/cultivator_empty"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400007
-        },
-      "model": "dnd:block/cultivator_full"
+      "model": "dnd:block/cultivator"
     },
     {
         "predicate": {

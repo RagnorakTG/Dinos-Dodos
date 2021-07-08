@@ -1,10 +1,13 @@
 {
-	"parent": "minecraft:block/orientable",
+	"parent": "dnd:block/crafting_station",
   "textures": {
-    "top": "dnd:block/projector_top",
-    "front": "dnd:block/projector",
-    "side": "dnd:block/projector_side",
-    "particle": "dnd:block/projector"
+		"back": "dnd:block/projector_side",
+		"left": "dnd:block/projector_side",
+		"right": "dnd:block/projector_side",
+		"bottom": "dnd:block/projector_bottom",
+		"top": "dnd:block/projector_top",
+		"front": "dnd:block/projector",
+		"particle": "dnd:block/projector_top"
   },
   "display": {
     "head": {

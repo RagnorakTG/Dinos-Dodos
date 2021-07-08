@@ -1,13 +1,13 @@
 {
-	"parent": "minecraft:block/cube",
+	"parent": "dnd:block/crafting_station",
   "textures": {
-    "north": "dnd:block/sifter_side",
-    "south": "dnd:block/sifter_side",
-    "east": "dnd:block/sifter_side",
-    "west": "dnd:block/sifter_side",
-    "up": "dnd:block/sifter_top",
-    "down": "dnd:block/sifter_bottom",
-    "particle": "dnd:block/sifter_side"
+		"back": "dnd:block/sifter_side",
+		"left": "dnd:block/sifter_side",
+		"right": "dnd:block/sifter_side",
+		"bottom": "dnd:block/sifter_bottom",
+		"top": "dnd:block/sifter_top",
+		"front": "dnd:block/sifter_side",
+		"particle": "dnd:block/sifter_top"
   },
   "display": {
     "head": {

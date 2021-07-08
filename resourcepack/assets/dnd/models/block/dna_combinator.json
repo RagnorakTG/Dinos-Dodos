@@ -1,10 +1,13 @@
 {
-	"parent": "minecraft:block/orientable",
+	"parent": "dnd:block/crafting_station",
   "textures": {
-    "top": "dnd:block/station_top",
-    "front": "dnd:block/dna_combinator",
-    "side": "dnd:block/station_side",
-    "particle": "dnd:block/dna_combinator"
+		"back": "dnd:block/crafting_station_back",
+		"left": "dnd:block/crafting_station_left",
+		"right": "dnd:block/crafting_station_right",
+		"bottom": "dnd:block/crafting_station_bottom",
+		"top": "dnd:block/crafting_station_top",
+		"front": "dnd:block/dna_combinator",
+		"particle": "dnd:block/dna_combinator"
   },
   "display": {
     "head": {

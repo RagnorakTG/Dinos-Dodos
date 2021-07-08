@@ -1,0 +1,19 @@
+{
+	"parent": "dnd:block/crafting_station",
+  "textures": {
+		"back": "dnd:block/cultivator",
+		"left": "dnd:block/cultivator",
+		"right": "dnd:block/cultivator",
+		"bottom": "dnd:block/cultivator_bottom",
+		"top": "dnd:block/crafting_station_top",
+		"front": "dnd:block/cultivator",
+		"particle": "dnd:block/cultivator"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}
