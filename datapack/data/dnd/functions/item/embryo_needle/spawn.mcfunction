@@ -4,8 +4,9 @@
 
 # Summon Entity
 data modify storage dnd:storage root.temp.item set from entity @s SelectedItem
-execute unless data storage dnd:storage root.temp.item.tag.dnd.storage.entity{CustomEntity:1} as @e[distance=..5,nbt={HurtTime:10s},tag=!global.ignore] at @s run function #dnd:item/embryo_correlation_vanilla
-execute if data storage dnd:storage root.temp.item.tag.dnd.storage.entity{CustomEntity:1} as @e[distance=..5,nbt={HurtTime:10s},tag=!global.ignore] at @s run function #dnd:item/embryo_correlation_custom
+execute store result score temp_0 dnd.dummy run data get entity @e[distance=..5,nbt={HurtTime:10s},tag=!global.ignore,limit=1,sort=nearest] Age
+execute unless data storage dnd:storage root.temp.item.tag.dnd.storage.entity{CustomEntity:1} as @e[distance=..5,nbt={HurtTime:10s},tag=!global.ignore] at @s if score temp_0 dnd.dummy matches 0 run function #dnd:item/embryo_correlation_vanilla
+execute if data storage dnd:storage root.temp.item.tag.dnd.storage.entity{CustomEntity:1} as @e[distance=..5,nbt={HurtTime:10s},tag=!global.ignore] at @s if score temp_0 dnd.dummy matches 0 run function #dnd:item/embryo_correlation_custom
 execute as @e[tag=dnd.temp] run function dnd:item/embryo_needle/copy_uniquedata
 # Remove Item
 execute if entity @e[tag=dnd.temp] unless entity @s[gamemode=creative] run item replace entity @s weapon.mainhand with air
