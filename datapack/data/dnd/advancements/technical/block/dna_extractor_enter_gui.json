@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click_dna_extractor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:dna_extractor\",\"translate\":\"gui.dnd.block.dna_extractor\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.dna_extractor\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/dna_extractor/enter_gui"
+  },
+  "parent": "dnd:technical/root"
+}

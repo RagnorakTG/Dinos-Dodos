@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click_genome_modifier": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:genome_modifier\",\"translate\":\"gui.dnd.block.genome_modifier\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.genome_modifier\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/genome_modifier/enter_gui"
+  },
+  "parent": "dnd:technical/root"
+}

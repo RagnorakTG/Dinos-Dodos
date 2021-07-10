@@ -1,14 +1,14 @@
 {
   "criteria": {
-    "click_jewelry_table": {
+    "click_analyzer": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": {
           "block": {
             "blocks": [
-              "minecraft:hopper"
+              "minecraft:dispenser"
             ],
-            "nbt": "{CustomName:'{\"translate\":\"gui.dnd.block.analyzer\",\"font\":\"dnd:analyzer\",\"color\":\"white\",\"with\":[{\"translate\":\"block.dnd.analyzer\",\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\"}]}'}"
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:analyzer\",\"translate\":\"gui.dnd.block.analyzer\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.analyzer\"}]}'}"
           }
         }
       }

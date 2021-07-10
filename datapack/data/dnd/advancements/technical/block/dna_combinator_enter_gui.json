@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click_dna_combinator": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:dna_combinator\",\"translate\":\"gui.dnd.block.dna_combinator\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.dna_combinator\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/dna_combinator/enter_gui"
+  },
+  "parent": "dnd:technical/root"
+}

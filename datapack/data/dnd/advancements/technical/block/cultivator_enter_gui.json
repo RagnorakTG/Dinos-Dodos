@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click_cultivator": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:cultivator\",\"translate\":\"gui.dnd.block.cultivator\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.cultivator\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/cultivator/enter_gui"
+  },
+  "parent": "dnd:technical/root"
+}
