@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "rewards": {
     "function":"dnd:recipes/genome_modifier",
     "loot": ["dnd:items/genome_modifier"]

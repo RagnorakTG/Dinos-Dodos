@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click_jewelry_table": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:hopper"
+            ],
+            "nbt": "{CustomName:'{\"translate\":\"gui.dnd.block.analyzer\",\"font\":\"dnd:analyzer\",\"color\":\"white\",\"with\":[{\"translate\":\"block.dnd.analyzer\",\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/analyzer/enter_gui"
+  },
+  "parent": "dnd:technical/root"
+}

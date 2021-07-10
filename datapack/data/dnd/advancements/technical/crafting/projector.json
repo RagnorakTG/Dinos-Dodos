@@ -1,14 +1,14 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "rewards": {
-    "function":"dnd:recipes/analyzer",
-    "loot": ["dnd:items/analyzer"]
+    "function":"dnd:recipes/projector",
+    "loot": ["dnd:items/projector"]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "dnd:analyzer"
+        "recipe": "dnd:projector"
       }
     }
   }

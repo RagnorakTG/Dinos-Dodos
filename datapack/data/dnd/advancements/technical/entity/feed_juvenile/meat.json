@@ -1,14 +1,14 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "criteria": {
     "feed_baby": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "tag": "dnd:poison"
+          "tag": "dnd:meat"
         },
         "entity": {
-          "nbt": "{Tags:[\"dnd.baby\"]}"
+          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{storage:{BabyFeedItem:\"dnd:meat\"}}}}]}"
         }
       }
     }

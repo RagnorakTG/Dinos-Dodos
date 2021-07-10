@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "criteria": {
     "right_click_projection": {
       "trigger": "minecraft:player_interacted_with_entity",

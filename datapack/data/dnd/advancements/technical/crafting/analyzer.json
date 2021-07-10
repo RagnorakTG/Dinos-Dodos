@@ -1,14 +1,14 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "rewards": {
-    "function":"dnd:recipes/cultivator",
-    "loot": ["dnd:items/cultivator"]
+    "function":"dnd:recipes/analyzer",
+    "loot": ["dnd:items/analyzer"]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "dnd:cultivator"
+        "recipe": "dnd:analyzer"
       }
     }
   }

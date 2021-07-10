@@ -1,14 +1,14 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "rewards": {
-    "function":"dnd:recipes/sifter",
-    "loot": ["dnd:items/sifter"]
+    "function":"dnd:recipes/cultivator",
+    "loot": ["dnd:items/cultivator"]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "dnd:sifter"
+        "recipe": "dnd:cultivator"
       }
     }
   }

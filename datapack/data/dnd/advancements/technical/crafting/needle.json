@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:utility/root",
+  "parent": "dnd:technical/root",
   "rewards": {
     "function":"dnd:recipes/needle",
     "loot": ["dnd:items/needle"]

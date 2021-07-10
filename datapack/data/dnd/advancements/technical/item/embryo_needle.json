@@ -8,19 +8,19 @@
             "equipment": {
               "mainhand": {
                 "item": "minecraft:carrot_on_a_stick",
-                "nbt": "{dnd:{id:\"needle\"}}"
+                "nbt": "{dnd:{id:\"embryo_needle\"}}"
               }
             }
           }
         }
       },
         "entity": {
-          "type": "#dnd:has_dna"
+          "type": "#dnd:identifier/mammal"
         }
     }
   },
   "rewards": {
-    "function": "dnd:item/needle/item"
+    "function": "dnd:item/embryo_needle/item"
   },
-  "parent": "dnd:utility/root"
+  "parent": "dnd:technical/root"
 }

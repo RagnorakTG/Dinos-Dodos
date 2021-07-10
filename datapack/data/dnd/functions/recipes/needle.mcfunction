@@ -2,6 +2,6 @@
 # Cultivator Recipe
 ####################
 
-advancement revoke @s only dnd:utility/crafting/needle
+advancement revoke @s only dnd:technical/crafting/needle
 clear @s knowledge_book
 recipe take @s dnd:needle
