@@ -8,4 +8,4 @@ summon item ~ ~0.5 ~ {Tags:["dnd.temp"],Item:{id:"minecraft:stone",Count:1b}}
 data modify storage dnd:storage root.temp.id set from storage dnd:storage root.temp.item[{Slot:1b}]
 execute as @e[tag=dnd.temp] run function dnd:block/global/gui/empty_slot/copy_data
 # empty slot
-item replace block ~ ~ ~ container.0 with air
+item replace block ~ ~ ~ container.1 with air
