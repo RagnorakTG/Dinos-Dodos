@@ -2,20 +2,11 @@
 # Block Second Clock
 ####################
 
-## Crafting Stations
-# Analyzer
-execute if entity @s[tag=dnd.analyzer] run function dnd:block/analyzer/second_clock
-# DNA Combinator
-execute if entity @s[tag=dnd.dna_combinator] run function dnd:block/dna_combinator/second_clock
-# DNA Extractor
-execute if entity @s[tag=dnd.dna_extractor] run function dnd:block/dna_extractor/second_clock
-# Genome Modifier
-execute if entity @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/second_clock
-# Cultivator
-execute if entity @s[tag=dnd.cultivator] run function dnd:block/cultivator/second_clock
-
 ## Misc
 # Projector
 execute if entity @s[tag=dnd.projector] run function dnd:block/projector/second_clock
 # Generate Budding Amber
 execute if entity @s[tag=dnd.budding_amber] run function dnd:block/budding_amber/second_clock
+
+## Remove dnd.inside_custom_gui
+execute if entity @s[tag=dnd.gui] unless entity @a[tag=dnd.inside_custom_gui,distance=..10] as @a[tag=dnd.inside_custom_gui,distance=10..] at @s unless entity @e[tag=dnd.gui,distance=..10] run tag @s remove dnd.inside_custom_gui

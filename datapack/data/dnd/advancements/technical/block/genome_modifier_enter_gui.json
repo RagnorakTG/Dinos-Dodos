@@ -15,7 +15,7 @@
     }
   },
   "rewards": {
-    "function": "dnd:block/genome_modifier/enter_gui"
+    "function": "dnd:block/global/gui/enter_gui"
   },
   "parent": "dnd:technical/root"
 }

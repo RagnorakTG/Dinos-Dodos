@@ -15,7 +15,7 @@
     }
   },
   "rewards": {
-    "function": "dnd:block/dna_combinator/enter_gui"
+    "function": "dnd:block/global/gui/enter_gui"
   },
   "parent": "dnd:technical/root"
 }
