@@ -1,0 +1,454 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:402005,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.pristine_fossil",
+                "color": "yellow",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [100]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "doFossilAccuracy"
+            },
+            "score": "dnd.config",
+            "scale": 1
+          },
+          "range": 0
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:402005,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.pristine_fossil",
+                "color": "yellow",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [100]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:90,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.pristine_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [90]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:80,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.pristine_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [80]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:70,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.cracked_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [70]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:60,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.cracked_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [60]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:50,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fractured_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [50]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:40,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fractured_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [40]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:30,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fractured_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [30]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:20,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.shattered_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [20]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:10,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:compsognathus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.65d,max_health:15.0d,follow_range:32},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405006,Block_CMD:401006,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.compsognathus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.compsognathus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/compsognathus\",EntityID:\"dnd:compsognathus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400021,walking:400022},baby:{idle:400023,walking:400024}}}}}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.shattered_fossil",
+                "italic": false
+                      }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                "translate": "lore.dnd.structure.compsognathus",
+                "color": "gray",
+                "italic": false
+                      },
+                      {
+                "translate": "lore.dnd.item.accuracy",
+                "color": "gray",
+                "italic": false,
+                "with": [10]
+                      },
+                      {
+                "translate": "config.dnd.name",
+                "color": "#63E2FF",
+                "italic": true
+                      }]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "doFossilAccuracy"
+            },
+            "score": "dnd.config",
+            "scale": 1
+          },
+          "range": 1
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,11 @@
         },
         {
           "type": "loot_table",
+          "name": "dnd:items/compsognathus_fossil",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
           "name": "dnd:items/concavenator_fossil",
           "weight": 6
         },

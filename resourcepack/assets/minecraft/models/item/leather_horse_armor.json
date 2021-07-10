@@ -126,6 +126,30 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400021
+        },
+      "model": "dnd:entity/adult_compsognathus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400022
+        },
+      "model": "dnd:entity/adult_compsognathus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400023
+        },
+      "model": "dnd:entity/baby_compsognathus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400024
+        },
+      "model": "dnd:entity/baby_compsognathus_walking"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409001
         },
       "model": "dnd:entity/ambermancer/ambermancer_head"

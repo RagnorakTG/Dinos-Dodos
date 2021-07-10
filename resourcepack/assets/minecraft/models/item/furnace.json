@@ -99,6 +99,12 @@
           "custom_model_data": 401005
         },
       "model": "dnd:block/tyrannosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401005
+        },
+      "model": "dnd:block/compsognathus_egg"
     }
   ]
 }

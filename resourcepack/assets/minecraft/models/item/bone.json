@@ -63,6 +63,12 @@
 				"custom_model_data": 402004
 			},
 			"model": "dnd:item/tyrannosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402005
+			},
+			"model": "dnd:item/compsognathus_fossil"
 		}
 	]
 }
