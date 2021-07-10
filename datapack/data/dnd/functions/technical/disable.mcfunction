@@ -10,7 +10,7 @@ scoreboard objectives remove dnd.timer
 scoreboard objectives remove dnd.carrotstick
 
 ## Team
-team remove dnd.antivillager
+team remove global.antivil
 
 ## Uninstall Message
 execute unless score install dnd.config matches 1 run function dnd:technical/uninstall_message
