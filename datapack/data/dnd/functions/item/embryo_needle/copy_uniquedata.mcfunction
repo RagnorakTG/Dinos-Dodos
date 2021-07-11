@@ -36,9 +36,6 @@ data modify entity @s CanBreakDoors set from storage dnd:storage root.temp.item.
 # Creeper
 data modify entity @s Fuse set from storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.Fuse
 data modify entity @s ExplosionRadius set from storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.ExplosionRadius
-# Villagers
-data modify entity @s Offers set from storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.Offers
-data modify entity @s VillagerData set from storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.VillagerData
 # Hoglin/Piglin
 data modify entity @s CannotBeHunted set from storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.CannotBeHunted
 data modify entity @s IsImmuneToZombification set from storage dnd:storage root.temp.item.tag.dnd.storage.UniqueData.IsImmuneToZombification

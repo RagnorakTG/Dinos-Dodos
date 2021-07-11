@@ -1,6 +1,7 @@
 FR 1.0.4
 
 Features
++ Added the Compsognathus
 + Added the Analyzer
 + Added the Genome Modifier
 + Added the DNA Combinator
@@ -38,34 +39,34 @@ Analyzer
 
 DNA Extractor
   • Used to extract DNA from any organic plant material or from any needle.
-  • Any and all organic plant material can be input into the DNA Extractor for the plants DNA.
-  • Any needle with DNA inside of it can be input into the DNA Extractor for the needles DNA.
+  • Any and all organic plant material can be input into the DNA Extractor for the plant's DNA.
+  • Any needle with DNA inside of it can be input into the DNA Extractor for the needle's DNA.
 
 Genome Modifier
   • Used to modify the genomes of entities.
   • Inputting a structural note alongside similar enough DNA and it will modify the DNA to match the structure on the note.
   • Input two similar DNA and it will modify the genomes of the DNA on the bottom slot.
-        ○ The genome of a entity is identical to its attributes.
+        ○ The genome of an entity is identical to its attributes.
         ○ The Genome Modifier halves the genome of the top DNA and adds it to the genome of the bottom DNA.
 
 DNA Combinator
   • Used to combine two pieces of DNA.
   • Inputting two of the same DNA with different accuracy will add their accuracy together.
-        ○ Accuracies must be below 100 in order for them to be added. If the two accuracies create a accuracy of more than 100 it will still output a DNA with 100 accuracy.
+        ○ Accuracies must be below 100 in order for them to be added. If the two accuracies create an accuracy of more than 100 it will still output a DNA with 100 accuracy.
   • Inputting two DNA with similar identifiers and 100 accuracy will create a hybrid.
-        ○ No hybrids exist as of this update and thus inserting the DNA will output a incompatible hybrid.
+        ○ No hybrids exist as of this update and thus inserting the DNA will output an incompatible hybrid.
 
 Cultivator
   • Used to cultivate DNA into embryos.
-  • Input a DNA into the top slot and a bucket of nutritious milk for the egg or embryo of a mob.
+  • Input DNA into the top slot and a bucket of nutritious milk for the egg or embryo of a mob.
         ○ Different mobs output different types of eggs and embryos.
 
 Projector
   • Used to create a holographic display of custom entities.
   • Inputting the genetic material of a [custom] entity into the Projector will create a holographic display of the entity.
   • Certain blocks placed below the projector affect it differently.
-        ○ Placing a concrete below the Projector will animate the Projection with a walking cycle.
-        ○ Placing a wool below the Projector will change the Projection to a baby model. (If the projection has a baby model.)
+        ○ Placing concrete below the Projector will animate the Projection with a walking cycle.
+        ○ Placing wool below the Projector will change the Projection to a baby model. (If the projection has a baby model.)
   • Eggs can also be inserted into a projector, creating a projection of them. (This may be changed in a later update.)
 
 Dinosaur Eggs

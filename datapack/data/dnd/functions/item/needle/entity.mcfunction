@@ -80,9 +80,6 @@ data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CanBreakD
 # Creeper
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Fuse set from entity @s Fuse
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.ExplosionRadius set from entity @s ExplosionRadius
-# Villagers
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Offers set from entity @s Offers
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.VillagerData set from entity @s VillagerData
 # Hoglin/Piglin
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CannotBeHunted set from entity @s CannotBeHunted
 data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.IsImmuneToZombification set from entity @s IsImmuneToZombification
