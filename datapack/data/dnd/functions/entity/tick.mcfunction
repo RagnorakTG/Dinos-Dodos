@@ -9,5 +9,5 @@ execute if entity @s[tag=dnd.block] if entity @p[distance=..8] run function dnd:
 ## Fire
 execute at @s[tag=!dnd.egg_block,tag=dnd.block] unless block ~ ~ ~ air run data merge entity @s {Fire:2s}
 ## Anti-villager fix
-execute if entity @s[type=#dnd:antivillager,tag=!global.ignore] run team join dnd.antivillager @s
-execute if entity @s[type=wandering_trader,tag=dnd.entity] run team join dnd.antivillager @s
+execute if entity @s[type=#dnd:antivillager,tag=!global.ignore] run team join global.antivil @s
+execute if entity @s[type=wandering_trader,tag=dnd.entity] run team join global.antivil @s

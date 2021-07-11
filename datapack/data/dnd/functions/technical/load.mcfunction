@@ -10,9 +10,7 @@ scoreboard objectives add dnd.timer dummy
 scoreboard objectives add dnd.carrotstick minecraft.used:carrot_on_a_stick
 
 ## Antivillager
-team add dnd.antivillager
-team modify dnd.antivillager friendlyFire false
-team modify dnd.antivillager seeFriendlyInvisibles false
+team add global.antivil
 
 ## Schedule
 schedule function dnd:technical/ten_second_clock 10s replace
