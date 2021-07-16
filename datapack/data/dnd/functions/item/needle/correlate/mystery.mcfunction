@@ -55,8 +55,3 @@ execute if entity @s[type=zombified_piglin] run data modify storage dnd:storage 
 execute if entity @s[type=snow_golem] run data modify storage dnd:storage root.temp set value {id:{id:"dna_needle",storage:{accuracy:100,dna:{RegenRate:150,produce:{Primary:{id:"minecraft:snow_ball",Count:2b},Secondary:{id:"minecraft:snow_block",Count:1b}}},entity:{id:"minecraft:snow_golem",identifier:"minecraft:mystery",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,id:"egg_item",CustomModelData:400003,eggName:['{"italic":false,"color":"white","translate":"item.dnd.snow_golem_vat"}']}}}},structureLore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.snow_golem"}']}
 # Zombie Horse
 execute if entity @s[type=zombie_horse] run data modify storage dnd:storage root.temp set value {id:{id:"dna_needle",storage:{accuracy:100,dna:{RegenRate:150,produce:{Primary:{id:"minecraft:rotten_flesh",Count:2b},Secondary:{id:"blank",Count:0b}}},entity:{id:"minecraft:zombie_horse",identifier:"minecraft:mystery",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,id:"egg_item",CustomModelData:400003,eggName:['{"italic":false,"color":"white","translate":"item.dnd.zombie_horse_vat"}']}}}},structureLore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.zombie_horse"}']}
-
-
-
-## Set Identifier
-execute if entity @s[type=#dnd:identifier/mystery] run data modify storage dnd:storage root.temp.id.storage.entity.identifier set value "minecraft:mystery"

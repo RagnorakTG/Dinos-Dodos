@@ -41,7 +41,3 @@ execute if entity @s[type=goat] run data modify storage dnd:storage root.temp se
 execute if entity @s[type=hoglin] run data modify storage dnd:storage root.temp set value {id:{id:"dna_needle",storage:{accuracy:100,dna:{RegenRate:300,produce:{Primary:{id:"minecraft:porkchop",Count:1b},Secondary:{id:"minecraft:leather",Count:2b}}},entity:{id:"minecraft:hoglin",identifier:"minecraft:mammal",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,id:"embryo_needle",Age:-24000,eggName:['{"italic":false,"color":"white","translate":"item.dnd.hoglin_embryo"}']}}}},structureLore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.hoglin"}']}
 # Trader Llama
 execute if entity @s[type=trader_llama] run data modify storage dnd:storage root.temp set value {id:{id:"dna_needle",storage:{accuracy:100,dna:{RegenRate:300,produce:{Primary:{id:"minecraft:leather",Count:1b},Secondary:{id:"blank",Count:0b}}},entity:{id:"minecraft:trader_llama",identifier:"minecraft:mammal",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,id:"embryo_needle",Age:-24000,eggName:['{"italic":false,"color":"white","translate":"item.dnd.trader_llama_embryo"}']}}}},structureLore:['{"italic":false,"color":"gray","translate":"lore.dnd.structure.trader_llama"}']}
-
-
-## Set Identifier
-execute if entity @s[type=#dnd:identifier/mammal] run data modify storage dnd:storage root.temp.id.storage.entity.identifier set value "minecraft:mammal"
