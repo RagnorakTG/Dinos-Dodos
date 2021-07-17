@@ -102,7 +102,7 @@
     },
     {
         "predicate": {
-          "custom_model_data": 401005
+          "custom_model_data": 401006
         },
       "model": "dnd:block/compsognathus_egg"
     }
